@@ -102,7 +102,7 @@ describe("CSV import", () => {
     expect(skipPreview.summary.warnings).toBe(1);
   });
 
-  it("deletes questions and related study data from an import job", async () => {
+  it("archives imported questions without deleting study history", async () => {
     const csv = [
       "question_id,year,number,stem,choices,correct_answers,answer_mode,status,explanation_source,explanation,tags",
       'Q-DEL,2026,1,"削除用の架空問題","A. A案 || B. B案 || C. C案 || D. D案","A",single,active,manual,"架空解説","架空"'
@@ -136,10 +136,10 @@ describe("CSV import", () => {
 
     await expect(deleteImportJobQuestions(job)).resolves.toBe(1);
 
-    await expect(db.questions.get("Q-DEL")).resolves.toBeUndefined();
-    await expect(db.questionStates.get("Q-DEL")).resolves.toBeUndefined();
-    await expect(db.attempts.get("attempt-delete")).resolves.toBeUndefined();
-    await expect(db.assets.get("asset-delete")).resolves.toBeUndefined();
-    await expect(db.importJobs.get(job.id)).resolves.toBeUndefined();
+    await expect(db.questions.get("Q-DEL")).resolves.toMatchObject({ status: "deleted" });
+    await expect(db.questionStates.get("Q-DEL")).resolves.toMatchObject({ questionId: "Q-DEL", wrongCount: 1 });
+    await expect(db.attempts.get("attempt-delete")).resolves.toMatchObject({ questionId: "Q-DEL" });
+    await expect(db.assets.get("asset-delete")).resolves.toMatchObject({ questionId: "Q-DEL" });
+    await expect(db.importJobs.get(job.id)).resolves.toMatchObject({ id: job.id, questionIds: ["Q-DEL"] });
   });
 });

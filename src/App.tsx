@@ -293,8 +293,37 @@ function useDailyPubMedAutoRun() {
   }, []);
 }
 
+function useLongTermStudyStorage() {
+  useEffect(() => {
+    let cancelled = false;
+
+    const persist = async () => {
+      try {
+        const lastCheckedAt = await getSetting<string | undefined>("lastPersistenceCheckAt", undefined);
+        const lastCheckedTime = lastCheckedAt ? Date.parse(lastCheckedAt) : 0;
+        if (Number.isFinite(lastCheckedTime) && Date.now() - lastCheckedTime < 7 * 24 * 60 * 60 * 1000) return;
+
+        const status = await requestPersistentStorage();
+        if (cancelled) return;
+        await Promise.all([
+          setSetting("lastPersistenceCheckAt", nowIso()),
+          setSetting("storagePersisted", Boolean(status.persisted))
+        ]);
+      } catch {
+        if (!cancelled) await setSetting("lastPersistenceCheckAt", nowIso());
+      }
+    };
+
+    void persist();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+}
+
 function App() {
   useDailyPubMedAutoRun();
+  useLongTermStudyStorage();
 
   const [activeTab, setActiveTab] = useState<TabKey>(() => tabFromLocation());
   const [questions, setQuestions] = useState<Question[]>([]);

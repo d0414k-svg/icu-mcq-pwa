@@ -205,21 +205,25 @@ export async function deleteImportJobQuestions(job: ImportJob): Promise<number> 
     .filter((question): question is Question => Boolean(question && question.importJobId === job.id))
     .map((question) => question.id);
   if (targetIds.length === 0) {
-    await db.importJobs.delete(job.id);
     return 0;
   }
 
-  const [attempts, assets] = await Promise.all([
-    db.attempts.where("questionId").anyOf(targetIds).toArray(),
-    db.assets.where("questionId").anyOf(targetIds).toArray()
-  ]);
+  const archivedAt = nowIso();
+  const questionsToArchive = existingQuestions
+    .filter((question): question is Question => Boolean(question && question.importJobId === job.id))
+    .map((question) => ({
+      ...question,
+      status: "deleted" as const,
+      updatedAt: archivedAt
+    }));
 
-  await db.transaction("rw", [db.questions, db.attempts, db.questionStates, db.assets, db.importJobs], async () => {
-    await db.attempts.bulkDelete(attempts.map((attempt) => attempt.id));
-    await db.assets.bulkDelete(assets.map((asset) => asset.id));
-    await db.questionStates.bulkDelete(targetIds);
-    await db.questions.bulkDelete(targetIds);
-    await db.importJobs.delete(job.id);
+  await db.transaction("rw", [db.questions, db.importJobs], async () => {
+    await db.questions.bulkPut(questionsToArchive);
+    await db.importJobs.put({
+      ...job,
+      status: "committed",
+      questionIds: targetIds
+    });
   });
 
   return targetIds.length;
