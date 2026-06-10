@@ -12,6 +12,7 @@ export const GENERATED_PUBMED_CACHE: PubMedCachePayload = {
   importantArticles: [],
   importantSummary: undefined,
   importantFetchedAt: undefined,
+  dailyDigests: [],
   lastAutoRunAt: undefined,
   lastAutoRunDate: undefined,
   lastAutoRunStatus: "自動PubMed要約はGitHub Actionsで生成されます。",

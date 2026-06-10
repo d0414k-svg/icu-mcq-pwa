@@ -20,6 +20,14 @@ export interface PubMedArticle {
   url: string;
 }
 
+export interface PubMedDailyDigest {
+  date: string;
+  generatedAt: string;
+  summary?: string;
+  articles: PubMedArticle[];
+  importantArticles: PubMedArticle[];
+}
+
 export interface PubMedSettings {
   apiKey: string;
   aiBaseUrl: string;
@@ -43,6 +51,7 @@ export interface PubMedCachePayload {
   importantArticles: PubMedArticle[];
   importantSummary?: string;
   importantFetchedAt?: string;
+  dailyDigests?: PubMedDailyDigest[];
   lastAutoRunAt?: string;
   lastAutoRunDate?: string;
   lastAutoRunStatus?: string;
@@ -96,7 +105,8 @@ export const EMPTY_PUBMED_CACHE: PubMedCachePayload = {
   },
   summaryByAlert: {},
   fetchedAtByAlert: {},
-  importantArticles: []
+  importantArticles: [],
+  dailyDigests: []
 };
 
 function clonePubMedCache(cache: PubMedCachePayload): PubMedCachePayload {
@@ -110,6 +120,11 @@ function clonePubMedCache(cache: PubMedCachePayload): PubMedCachePayload {
     importantArticles: [...cache.importantArticles],
     importantSummary: cache.importantSummary,
     importantFetchedAt: cache.importantFetchedAt,
+    dailyDigests: (cache.dailyDigests ?? []).map((digest) => ({
+      ...digest,
+      articles: [...digest.articles],
+      importantArticles: [...digest.importantArticles]
+    })),
     lastAutoRunAt: cache.lastAutoRunAt,
     lastAutoRunDate: cache.lastAutoRunDate,
     lastAutoRunStatus: cache.lastAutoRunStatus,
@@ -120,33 +135,10 @@ function clonePubMedCache(cache: PubMedCachePayload): PubMedCachePayload {
 
 function mergeWithGeneratedPubMedCache(stored?: Partial<PubMedCachePayload>): PubMedCachePayload {
   const generated = clonePubMedCache(GENERATED_PUBMED_CACHE);
-  if (!stored) return generated;
-
-  return {
-    articlesByAlert: {
-      focused:
-        stored.articlesByAlert?.focused && stored.articlesByAlert.focused.length > 0
-          ? stored.articlesByAlert.focused
-          : generated.articlesByAlert.focused,
-      broad:
-        stored.articlesByAlert?.broad && stored.articlesByAlert.broad.length > 0
-          ? stored.articlesByAlert.broad
-          : generated.articlesByAlert.broad
-    },
-    summaryByAlert: { ...generated.summaryByAlert, ...(stored.summaryByAlert ?? {}) },
-    fetchedAtByAlert: { ...generated.fetchedAtByAlert, ...(stored.fetchedAtByAlert ?? {}) },
-    importantArticles:
-      stored.importantArticles && stored.importantArticles.length > 0
-        ? stored.importantArticles
-        : generated.importantArticles,
-    importantSummary: stored.importantSummary ?? generated.importantSummary,
-    importantFetchedAt: stored.importantFetchedAt ?? generated.importantFetchedAt,
-    lastAutoRunAt: stored.lastAutoRunAt ?? generated.lastAutoRunAt,
-    lastAutoRunDate: stored.lastAutoRunDate ?? generated.lastAutoRunDate,
-    lastAutoRunStatus: stored.lastAutoRunStatus ?? generated.lastAutoRunStatus,
-    lastImportantRunAt: stored.lastImportantRunAt ?? generated.lastImportantRunAt,
-    lastImportantRunStatus: stored.lastImportantRunStatus ?? generated.lastImportantRunStatus
-  };
+  if (stored) {
+    localStorage.removeItem(PUBMED_CACHE_STORAGE_KEY);
+  }
+  return generated;
 }
 
 function compactText(value: string) {
@@ -598,6 +590,7 @@ export async function runPubMedDailyUpdate(
     importantArticles: [...cache.importantArticles],
     importantSummary: cache.importantSummary,
     importantFetchedAt: cache.importantFetchedAt,
+    dailyDigests: cache.dailyDigests ?? [],
     lastAutoRunAt: now.toISOString(),
     lastAutoRunDate: localDateKey(now),
     lastAutoRunStatus: "更新中",
@@ -644,6 +637,7 @@ export async function runPubMedImportantUpdate(
     importantArticles: [...cache.importantArticles],
     importantSummary: cache.importantSummary,
     importantFetchedAt: cache.importantFetchedAt,
+    dailyDigests: cache.dailyDigests ?? [],
     lastAutoRunAt: cache.lastAutoRunAt,
     lastAutoRunDate: cache.lastAutoRunDate,
     lastAutoRunStatus: cache.lastAutoRunStatus,

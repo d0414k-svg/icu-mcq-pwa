@@ -28,27 +28,14 @@ import { computeStats, db, getSetting, nowIso, setSetting } from "./db";
 import { commitImportPreview, deleteImportJobQuestions, parseCsvToPreview } from "./importer/csv";
 import { extractQuestionDraftsFromPdf, PdfQuestionDraft } from "./pdfImport";
 import {
-  DEFAULT_PUBMED_SETTINGS,
   EMPTY_PUBMED_CACHE,
-  fetchImportantPubMedArticles,
-  fetchPubMedArticles,
-  isPubMedAiReady,
-  isPubMedDailyRunDue,
-  isPubMedImportantRunDue,
   loadPubMedCache,
-  loadPubMedSettings,
   PubMedCachePayload,
+  PubMedDailyDigest,
   PubMedAlertKey,
   PubMedArticle,
-  PubMedSettings,
   PUBMED_CACHE_EVENT,
-  PUBMED_ALERTS,
-  runPubMedDailyUpdate,
-  runPubMedImportantUpdate,
-  savePubMedCache,
-  savePubMedSettings,
-  summarizeImportantPubMedArticles,
-  summarizePubMedArticles
+  PUBMED_ALERTS
 } from "./pubmed";
 import { PUBMED_TRIAL_SUMMARIES } from "./pubmedTrialSummaries";
 import { accuracyLabel, questionPathLabel, questionSourceDetail, sourceTypeLabel } from "./questionDisplay";
@@ -144,6 +131,14 @@ function pubMedArticleMatches(article: PubMedArticle, normalizedQuery: string) {
     .join(" ")
     .toLowerCase();
   return searchableText.includes(normalizedQuery);
+}
+
+function uniquePubMedArticlesByPmid(articles: PubMedArticle[]) {
+  const byPmid = new Map<string, PubMedArticle>();
+  for (const article of articles) {
+    if (!byPmid.has(article.pmid)) byPmid.set(article.pmid, article);
+  }
+  return [...byPmid.values()];
 }
 
 function clipText(value: string, maxLength: number) {
@@ -263,42 +258,6 @@ function EmptyState({ title, children }: { title: string; children?: React.React
   );
 }
 
-function useDailyPubMedAutoRun() {
-  useEffect(() => {
-    let running = false;
-    let cancelled = false;
-
-    const maybeRun = async () => {
-      if (running || cancelled) return;
-      const settings = normalizedPubMedSettings(loadPubMedSettings());
-      let cache = loadPubMedCache();
-      const shouldRunDaily = isPubMedDailyRunDue(settings, cache);
-      const shouldRunImportant = isPubMedImportantRunDue(settings, cache);
-      if (!shouldRunDaily && !shouldRunImportant) return;
-
-      running = true;
-      try {
-        if (shouldRunDaily) {
-          cache = await runPubMedDailyUpdate(settings, cache);
-        }
-        if (isPubMedImportantRunDue(settings, cache)) {
-          await runPubMedImportantUpdate(settings, cache);
-        }
-      } finally {
-        running = false;
-      }
-    };
-
-    void maybeRun();
-    const timer = window.setInterval(() => void maybeRun(), 60_000);
-
-    return () => {
-      cancelled = true;
-      window.clearInterval(timer);
-    };
-  }, []);
-}
-
 function useLongTermStudyStorage() {
   useEffect(() => {
     let cancelled = false;
@@ -328,7 +287,6 @@ function useLongTermStudyStorage() {
 }
 
 function App() {
-  useDailyPubMedAutoRun();
   useLongTermStudyStorage();
 
   const [activeTab, setActiveTab] = useState<TabKey>(() => tabFromLocation());
@@ -1850,39 +1808,9 @@ function IssueList({ issues }: { issues: ImportIssue[] }) {
   );
 }
 
-function normalizedPubMedSettings(settings: PubMedSettings): PubMedSettings {
-  return {
-    ...settings,
-    aiBaseUrl: settings.aiBaseUrl.trim() || DEFAULT_PUBMED_SETTINGS.aiBaseUrl,
-    aiModel: settings.aiModel.trim() || DEFAULT_PUBMED_SETTINGS.aiModel,
-    aiEndpointMode: settings.aiEndpointMode === "chat" ? "chat" : "responses",
-    dailyRunTime: /^\d{2}:\d{2}$/.test(settings.dailyRunTime)
-      ? settings.dailyRunTime
-      : DEFAULT_PUBMED_SETTINGS.dailyRunTime,
-    retmax: Math.min(Math.max(Number(settings.retmax) || DEFAULT_PUBMED_SETTINGS.retmax, 1), 20),
-    importantRunIntervalDays: Math.min(
-      Math.max(Number(settings.importantRunIntervalDays) || DEFAULT_PUBMED_SETTINGS.importantRunIntervalDays, 1),
-      31
-    ),
-    importantLookbackMonths: Math.min(
-      Math.max(Number(settings.importantLookbackMonths) || DEFAULT_PUBMED_SETTINGS.importantLookbackMonths, 1),
-      36
-    ),
-    importantRetmax: Math.min(
-      Math.max(Number(settings.importantRetmax) || DEFAULT_PUBMED_SETTINGS.importantRetmax, 1),
-      10
-    )
-  };
-}
-
 function LiteratureView() {
   const [activeAlertKey, setActiveAlertKey] = useState<PubMedAlertKey>("focused");
-  const [settings, setSettings] = useState<PubMedSettings>(() => loadPubMedSettings());
   const [pubMedCache, setPubMedCache] = useState<PubMedCachePayload>(() => loadPubMedCache());
-  const [loading, setLoading] = useState(false);
-  const [summarizing, setSummarizing] = useState(false);
-  const [importantLoading, setImportantLoading] = useState(false);
-  const [importantSummarizing, setImportantSummarizing] = useState(false);
   const [message, setMessage] = useState("");
   const [literatureQuery, setLiteratureQuery] = useState("");
   const [onlyWithAbstract, setOnlyWithAbstract] = useState(false);
@@ -1893,7 +1821,6 @@ function LiteratureView() {
   const summary = pubMedCache.summaryByAlert[activeAlertKey];
   const fetchedAt = pubMedCache.fetchedAtByAlert[activeAlertKey];
   const importantArticles = pubMedCache.importantArticles ?? [];
-  const aiReady = isPubMedAiReady(settings);
   const normalizedLiteratureQuery = literatureQuery.trim().toLowerCase();
   const filteredArticles = articles.filter(
     (article) => pubMedArticleMatches(article, normalizedLiteratureQuery) && (!onlyWithAbstract || Boolean(article.abstract.trim()))
@@ -1908,29 +1835,65 @@ function LiteratureView() {
       .toLowerCase()
       .includes(normalizedLiteratureQuery);
   });
+  const fallbackDigestArticles = uniquePubMedArticlesByPmid([
+    ...(pubMedCache.articlesByAlert.focused ?? []),
+    ...(pubMedCache.articlesByAlert.broad ?? [])
+  ]);
+  const fallbackDigestGeneratedAt =
+    pubMedCache.lastAutoRunAt || pubMedCache.importantFetchedAt || fetchedAt || pubMedCache.lastImportantRunAt;
+  const fallbackDailyDigest: PubMedDailyDigest | undefined =
+    pubMedCache.dailyDigests && pubMedCache.dailyDigests.length > 0
+      ? undefined
+      : fallbackDigestArticles.length > 0 || importantArticles.length > 0 || summary || pubMedCache.importantSummary
+        ? {
+            date: pubMedCache.lastAutoRunDate || fallbackDigestGeneratedAt?.slice(0, 10) || "latest",
+            generatedAt: fallbackDigestGeneratedAt || new Date(0).toISOString(),
+            summary: pubMedCache.importantSummary || summary,
+            articles: fallbackDigestArticles,
+            importantArticles
+          }
+        : undefined;
+  const dailyDigests =
+    pubMedCache.dailyDigests && pubMedCache.dailyDigests.length > 0
+      ? pubMedCache.dailyDigests
+      : fallbackDailyDigest
+        ? [fallbackDailyDigest]
+        : [];
+  const filteredDailyDigests = dailyDigests
+    .map((digest) => ({
+      ...digest,
+      articles: digest.articles.filter(
+        (article) => pubMedArticleMatches(article, normalizedLiteratureQuery) && (!onlyWithAbstract || Boolean(article.abstract.trim()))
+      ),
+      importantArticles: digest.importantArticles.filter(
+        (article) => pubMedArticleMatches(article, normalizedLiteratureQuery) && (!onlyWithAbstract || Boolean(article.abstract.trim()))
+      )
+    }))
+    .filter(
+      (digest) =>
+        !normalizedLiteratureQuery ||
+        digest.summary?.toLowerCase().includes(normalizedLiteratureQuery) ||
+        digest.articles.length > 0 ||
+        digest.importantArticles.length > 0
+    );
+  const latestDailyDigest = filteredDailyDigests[0] ?? dailyDigests[0];
   const visibleImportantArticles = showAllImportant ? filteredImportantArticles : filteredImportantArticles.slice(0, 10);
-  const topImportantArticles = filteredImportantArticles.slice(0, 6);
+  const topImportantArticles =
+    latestDailyDigest?.importantArticles && latestDailyDigest.importantArticles.length > 0
+      ? latestDailyDigest.importantArticles.slice(0, 6)
+      : latestDailyDigest?.articles && latestDailyDigest.articles.length > 0
+        ? latestDailyDigest.articles.slice(0, 6)
+      : filteredImportantArticles.slice(0, 6);
   const topTrialSummaries = filteredTrialSummaries.slice(0, 6);
-  const publishedSummary = (pubMedCache.importantSummary || summary || "").trim();
+  const publishedSummary = (latestDailyDigest?.summary || pubMedCache.importantSummary || summary || "").trim();
   const latestPublishedAt =
-    pubMedCache.importantFetchedAt || fetchedAt || pubMedCache.lastImportantRunAt || pubMedCache.lastAutoRunAt;
+    latestDailyDigest?.generatedAt || pubMedCache.importantFetchedAt || fetchedAt || pubMedCache.lastImportantRunAt || pubMedCache.lastAutoRunAt;
 
   useEffect(() => {
     const syncCache = () => setPubMedCache(loadPubMedCache());
     window.addEventListener(PUBMED_CACHE_EVENT, syncCache);
     return () => window.removeEventListener(PUBMED_CACHE_EVENT, syncCache);
   }, []);
-
-  const updateSetting = <Key extends keyof PubMedSettings>(key: Key, value: PubMedSettings[Key]) => {
-    setSettings((current) => ({ ...current, [key]: value }));
-  };
-
-  const saveSettings = () => {
-    const nextSettings = normalizedPubMedSettings(settings);
-    setSettings(nextSettings);
-    savePubMedSettings(nextSettings);
-    setMessage("PubMed/AI設定を保存しました。APIキーは保存せず、この画面を開いている間だけ使います。");
-  };
 
   const copyLiteratureLink = async () => {
     const literatureUrl = `${window.location.origin}${window.location.pathname}?tab=literature`;
@@ -1942,122 +1905,19 @@ function LiteratureView() {
     }
   };
 
-  const clearLiteratureCache = () => {
-    const nextCache: PubMedCachePayload = {
-      ...EMPTY_PUBMED_CACHE,
-      articlesByAlert: { ...EMPTY_PUBMED_CACHE.articlesByAlert },
-      fetchedAtByAlert: { ...EMPTY_PUBMED_CACHE.fetchedAtByAlert },
-      summaryByAlert: { ...EMPTY_PUBMED_CACHE.summaryByAlert },
-      importantArticles: []
-    };
-    setPubMedCache(nextCache);
-    savePubMedCache(nextCache);
-    setLiteratureQuery("");
-    setOnlyWithAbstract(false);
-    setShowAllImportant(false);
-    setMessage("取得済み文献とAI要約のキャッシュをクリアしました。");
-  };
-
-  const loadArticles = async () => {
-    const nextSettings = normalizedPubMedSettings(settings);
-    setSettings(nextSettings);
-    setLoading(true);
-    setMessage("");
-    try {
-      const nextArticles = await fetchPubMedArticles(activeAlert, nextSettings);
-      const nextCache: PubMedCachePayload = {
-        ...pubMedCache,
-        articlesByAlert: { ...pubMedCache.articlesByAlert, [activeAlert.key]: nextArticles },
-        fetchedAtByAlert: { ...pubMedCache.fetchedAtByAlert, [activeAlert.key]: new Date().toISOString() },
-        summaryByAlert: { ...pubMedCache.summaryByAlert, [activeAlert.key]: undefined }
-      };
-      setPubMedCache(nextCache);
-      savePubMedCache(nextCache);
-      setMessage(`${activeAlert.title}: ${nextArticles.length}件を取得しました。`);
-    } catch (error) {
-      setMessage(`PubMed取得に失敗しました: ${(error as Error).message}`);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const runAiSummary = async () => {
-    setSummarizing(true);
-    setMessage("");
-    try {
-      const output = await summarizePubMedArticles(activeAlert, filteredArticles, normalizedPubMedSettings(settings));
-      const nextCache: PubMedCachePayload = {
-        ...pubMedCache,
-        summaryByAlert: { ...pubMedCache.summaryByAlert, [activeAlert.key]: output }
-      };
-      setPubMedCache(nextCache);
-      savePubMedCache(nextCache);
-      setMessage("AI要約を作成しました。");
-    } catch (error) {
-      setMessage(`AI要約に失敗しました: ${(error as Error).message}`);
-    } finally {
-      setSummarizing(false);
-    }
-  };
-
-  const loadImportantArticles = async () => {
-    const nextSettings = normalizedPubMedSettings(settings);
-    setSettings(nextSettings);
-    setImportantLoading(true);
-    setMessage("");
-    try {
-      const nextArticles = await fetchImportantPubMedArticles(nextSettings);
-      const nextCache: PubMedCachePayload = {
-        ...pubMedCache,
-        importantArticles: nextArticles,
-        importantFetchedAt: new Date().toISOString(),
-        lastImportantRunAt: new Date().toISOString(),
-        lastImportantRunStatus: `重要論文候補 ${nextArticles.length}件取得`
-      };
-      setPubMedCache(nextCache);
-      savePubMedCache(nextCache);
-      setMessage(`重要論文候補を${nextArticles.length}件取得しました。`);
-    } catch (error) {
-      setMessage(`重要論文取得に失敗しました: ${(error as Error).message}`);
-    } finally {
-      setImportantLoading(false);
-    }
-  };
-
-  const runImportantSummary = async () => {
-    setImportantSummarizing(true);
-    setMessage("");
-    try {
-      const output = await summarizeImportantPubMedArticles(filteredImportantArticles, normalizedPubMedSettings(settings));
-      const nextCache: PubMedCachePayload = {
-        ...pubMedCache,
-        importantSummary: output,
-        lastImportantRunAt: new Date().toISOString(),
-        lastImportantRunStatus: "重要論文 AI要約済み"
-      };
-      setPubMedCache(nextCache);
-      savePubMedCache(nextCache);
-      setMessage("重要論文まとめを作成しました。");
-    } catch (error) {
-      setMessage(`重要論文まとめに失敗しました: ${(error as Error).message}`);
-    } finally {
-      setImportantSummarizing(false);
-    }
-  };
-
   return (
     <section className="view-stack">
       <div className="panel pubmed-hero">
         <div>
           <p className="eyebrow">PubMed Alert</p>
-          <h2>小児集中治療・循環器文献</h2>
-          <p className="muted">Sent on Wednesday, 2026 June 10 の2検索式をプリセット化しています。</p>
+          <h2>毎朝の小児集中治療・循環器文献ダイジェスト</h2>
+          <p className="muted">GitHub Actionsが毎朝7:00に新着候補を取得し、日ごとに整理してサイトへ反映します。</p>
         </div>
         <div className="summary-grid">
           <StatPill label="検索式" value="2種類" />
-          <StatPill label="取得件数" value={settings.retmax} />
-          <StatPill label="表示中" value={`${filteredArticles.length}/${articles.length}`} />
-          <StatPill label="取得時刻" value={fetchedAt ? formatShortDate(fetchedAt) : "未取得"} />
+          <StatPill label="自動更新" value="7:00" />
+          <StatPill label="日別履歴" value={dailyDigests.length} />
+          <StatPill label="最新更新" value={latestPublishedAt ? formatShortDate(latestPublishedAt) : "待機中"} />
         </div>
       </div>
 
@@ -2076,15 +1936,15 @@ function LiteratureView() {
             <div className="literature-brief-text">{publishedSummary}</div>
           ) : (
             <div className="literature-empty-brief">
-              <strong>自動AI要約は準備中です。</strong>
-              <span>毎朝の自動取得で重要論文の要点が生成されると、ここに読みやすいダイジェストとして表示されます。いまは試し読み要約を確認できます。</span>
+              <strong>日別ダイジェストは次回の自動更新で作成されます。</strong>
+              <span>手動取得や画面上のAPIキー入力は使わず、GitHub Actionsで新着論文を取得してこのページに反映します。</span>
             </div>
           )}
           <div className="literature-digest-stats">
-            <StatPill label="AI要約" value={publishedSummary ? "あり" : "準備中"} />
-            <StatPill label="重要候補" value={filteredImportantArticles.length} />
-            <StatPill label="新着" value={filteredArticles.length} />
-            <StatPill label="試し読み" value={filteredTrialSummaries.length} />
+            <StatPill label="AI要約" value={publishedSummary ? "あり" : "待機中"} />
+            <StatPill label="重要候補" value={latestDailyDigest?.importantArticles.length ?? filteredImportantArticles.length} />
+            <StatPill label="新着候補" value={latestDailyDigest?.articles.length ?? filteredArticles.length} />
+            <StatPill label="履歴" value={`${dailyDigests.length}日`} />
           </div>
         </section>
 
@@ -2138,6 +1998,57 @@ function LiteratureView() {
         </section>
       </div>
 
+      {filteredDailyDigests.length > 0 && (
+        <div className="daily-digest-list" id="pubmed-daily">
+          <div className="section-heading-row">
+            <div>
+              <p className="eyebrow">Daily Digest</p>
+              <h2>日ごとの新着論文まとめ</h2>
+              <p className="muted">毎朝の自動更新で取得した論文を、日付ごとに保存して並べます。</p>
+            </div>
+            <span className="result-count">{filteredDailyDigests.length}/{dailyDigests.length}日</span>
+          </div>
+          {filteredDailyDigests.map((digest) => {
+            const digestPapers = uniquePubMedArticlesByPmid([...digest.importantArticles, ...digest.articles]).slice(0, 8);
+            return (
+              <section className="panel daily-digest-card" key={digest.date}>
+                <div className="daily-digest-head">
+                  <div>
+                    <p className="eyebrow">{digest.date}</p>
+                    <h3>{digest.date === latestDailyDigest?.date ? "最新の自動まとめ" : "過去の自動まとめ"}</h3>
+                  </div>
+                  <span className="literature-update-pill">{formatShortDate(digest.generatedAt)}</span>
+                </div>
+                {digest.summary ? (
+                  <div className="ai-summary-text daily-summary-text">{digest.summary}</div>
+                ) : (
+                  <p className="muted">この日のAI要約はまだありません。論文リンクからPubMedで確認できます。</p>
+                )}
+                {digestPapers.length > 0 && (
+                  <div className="daily-paper-list">
+                    {digestPapers.map((article) => (
+                      <article className="daily-paper-item" key={`${digest.date}-${article.pmid}`}>
+                        <div>
+                          <h4>{article.title}</h4>
+                          <div className="tag-row">
+                            <span>PMID {article.pmid}</span>
+                            {article.journal && <span>{article.journal}</span>}
+                            {article.publicationDate && <span>{article.publicationDate}</span>}
+                          </div>
+                        </div>
+                        <a href={article.url} target="_blank" rel="noreferrer" title="PubMedで開く">
+                          <ExternalLink aria-hidden="true" size={17} />
+                        </a>
+                      </article>
+                    ))}
+                  </div>
+                )}
+              </section>
+            );
+          })}
+        </div>
+      )}
+
       <div className="alert-tabs" role="tablist" aria-label="PubMedアラート">
         {PUBMED_ALERTS.map((alert) => (
           <button
@@ -2176,10 +2087,6 @@ function LiteratureView() {
               <ClipboardList aria-hidden="true" size={18} />
               リンクコピー
             </button>
-            <button className="secondary" type="button" onClick={clearLiteratureCache}>
-              <Trash2 aria-hidden="true" size={18} />
-              キャッシュ削除
-            </button>
           </div>
         </div>
         <div className="literature-filter-row">
@@ -2205,14 +2112,13 @@ function LiteratureView() {
             </button>
           )}
           <span className="muted">
-            新着 {filteredArticles.length}/{articles.length}、重要候補 {filteredImportantArticles.length}/{importantArticles.length}、試し読み {filteredTrialSummaries.length}/{PUBMED_TRIAL_SUMMARIES.length}
+            日別 {filteredDailyDigests.length}/{dailyDigests.length}、新着 {filteredArticles.length}/{articles.length}、重要候補 {filteredImportantArticles.length}/{importantArticles.length}
           </span>
         </div>
         <div className="quick-jump-row" aria-label="文献セクション">
+          <a href="#pubmed-daily">日別まとめ</a>
           <a href="#pubmed-selected-alert">選択中アラート</a>
           <a href="#pubmed-important">重要候補</a>
-          <a href="#pubmed-trial">試し読み</a>
-          <a href="#pubmed-settings">AI設定</a>
           <a href="#pubmed-results">新着文献</a>
         </div>
       </div>
@@ -2222,35 +2128,12 @@ function LiteratureView() {
           <h2>{activeAlert.title}</h2>
           <p className="muted">{activeAlert.subtitle}</p>
         </div>
-        <div className="settings-actions">
-          <button className="primary" type="button" onClick={() => void loadArticles()} disabled={loading}>
-            <Search aria-hidden="true" size={18} />
-            {loading ? "取得中" : "PubMed取得"}
-          </button>
-          <button
-            className="secondary"
-            type="button"
-            onClick={() => void runAiSummary()}
-            disabled={
-              summarizing ||
-              filteredArticles.length === 0 ||
-              !aiReady
-            }
-            title={
-              !aiReady
-                ? "OpenAI Responses APIではAPIキーが必要です"
-                : "絞り込み後に表示されている文献を要約"
-            }
-          >
-            <Wand2 aria-hidden="true" size={18} />
-            {summarizing ? "要約中" : "AI要約"}
-          </button>
+        <div className="summary-grid">
+          <StatPill label="自動取得" value={fetchedAt ? formatShortDate(fetchedAt) : "待機中"} />
+          <StatPill label="表示中" value={`${filteredArticles.length}/${articles.length}`} />
+          <StatPill label="要約" value={summary ? "あり" : "日別に統合"} />
+          <StatPill label="手動操作" value="なし" />
         </div>
-        {!aiReady && (
-          <p className="muted">
-            AI要約を使うにはOpenAIのAPIキーを入れるか、AI方式をローカル/互換Chat Completionsに切り替えてください。
-          </p>
-        )}
         <details className="query-details">
           <summary>検索式を表示</summary>
           <pre className="query-box">{activeAlert.query}</pre>
@@ -2262,230 +2145,62 @@ function LiteratureView() {
           <p className="eyebrow">Recent Important Papers</p>
           <h2>重要論文まとめ</h2>
           <p className="muted">
-            直近{settings.importantLookbackMonths}か月の候補を最大{settings.importantRetmax}件集め、PICU/CICUで読む価値が高い順にAIで整理します。
+            直近1-2年の候補から、PICU/CICUで読む価値が高いものを毎朝の自動更新で整理します。
           </p>
         </div>
         <div className="summary-grid">
           <StatPill label="候補" value={importantArticles.length} />
-          <StatPill label="対象期間" value={`${settings.importantLookbackMonths}か月`} />
-          <StatPill label="頻度" value={`${settings.importantRunIntervalDays}日ごと`} />
+          <StatPill label="対象期間" value="1-2年" />
+          <StatPill label="上限" value="5件/日" />
           <StatPill
             label="更新"
             value={pubMedCache.importantFetchedAt ? formatShortDate(pubMedCache.importantFetchedAt) : "未取得"}
           />
         </div>
-        <div className="settings-actions">
-          <button
-            className="primary"
-            type="button"
-            onClick={() => void loadImportantArticles()}
-            disabled={importantLoading}
-          >
-            <Search aria-hidden="true" size={18} />
-            {importantLoading ? "取得中" : "重要論文を更新"}
-          </button>
-          <button
-            className="secondary"
-            type="button"
-            onClick={() => void runImportantSummary()}
-            disabled={importantSummarizing || filteredImportantArticles.length === 0 || !aiReady}
-            title={
-              !aiReady
-                ? "OpenAI Responses APIではAPIキーが必要です"
-                : "絞り込み後に表示されている重要候補を要約"
-            }
-          >
-            <Wand2 aria-hidden="true" size={18} />
-            {importantSummarizing ? "まとめ中" : "重要論文をAI要約"}
-          </button>
-        </div>
         {pubMedCache.lastImportantRunStatus && <p className="muted">{pubMedCache.lastImportantRunStatus}</p>}
       </div>
 
-      <div className="panel trial-summary-panel" id="pubmed-trial">
-        <div>
-          <p className="eyebrow">Trial Summaries</p>
-          <h2>試し読み要約</h2>
-          <p className="muted">PubMed抄録ベースのサンプルです。AI要約の表示イメージ確認用に、重要候補から数本を短く整理しています。</p>
-        </div>
-        <div className="trial-summary-grid">
-          {filteredTrialSummaries.map((item) => (
-            <article key={item.pmid} className="trial-summary-card">
-              <div className="pubmed-card-head">
-                <h3>{item.title}</h3>
-                <a href={item.url} target="_blank" rel="noreferrer" title="PubMedで開く">
-                  <ExternalLink aria-hidden="true" size={17} />
-                </a>
-              </div>
-              <div className="tag-row">
-                <span>PMID {item.pmid}</span>
-                <span>{item.journal}</span>
-                <span>{item.published}</span>
-                {item.tags.map((tag) => (
-                  <span key={`${item.pmid}-${tag}`}>{tag}</span>
-                ))}
-              </div>
-              <p>{item.summary}</p>
-              <dl className="summary-note-list">
-                <div>
-                  <dt>読む理由</dt>
-                  <dd>{item.whyItMatters}</dd>
+      {dailyDigests.length === 0 && (
+        <div className="panel trial-summary-panel" id="pubmed-trial">
+          <div>
+            <p className="eyebrow">Trial Summaries</p>
+            <h2>試し読み要約</h2>
+            <p className="muted">初回の自動更新までの表示サンプルです。実データが生成されると日別まとめが優先表示されます。</p>
+          </div>
+          <div className="trial-summary-grid">
+            {filteredTrialSummaries.map((item) => (
+              <article key={item.pmid} className="trial-summary-card">
+                <div className="pubmed-card-head">
+                  <h3>{item.title}</h3>
+                  <a href={item.url} target="_blank" rel="noreferrer" title="PubMedで開く">
+                    <ExternalLink aria-hidden="true" size={17} />
+                  </a>
                 </div>
-                <div>
-                  <dt>注意点</dt>
-                  <dd>{item.caveat}</dd>
+                <div className="tag-row">
+                  <span>PMID {item.pmid}</span>
+                  <span>{item.journal}</span>
+                  <span>{item.published}</span>
+                  {item.tags.map((tag) => (
+                    <span key={`${item.pmid}-${tag}`}>{tag}</span>
+                  ))}
                 </div>
-              </dl>
-            </article>
-          ))}
-        </div>
-        {filteredTrialSummaries.length === 0 && (
-          <p className="muted">この絞り込みに一致する試し読み要約はありません。</p>
-        )}
-      </div>
-
-      <div className="panel pubmed-settings" id="pubmed-settings">
-        <h2>AI / PubMed設定</h2>
-        <div className="form-row">
-          <label>
-            AI方式
-            <select
-              value={settings.aiEndpointMode}
-              onChange={(event) => updateSetting("aiEndpointMode", event.target.value as PubMedSettings["aiEndpointMode"])}
-            >
-              <option value="responses">OpenAI Responses API</option>
-              <option value="chat">ローカル/互換 Chat Completions</option>
-            </select>
-          </label>
-          <label>
-            API key
-            <input
-              type="password"
-              value={settings.apiKey}
-              onChange={(event) => updateSetting("apiKey", event.target.value)}
-              placeholder={settings.aiEndpointMode === "chat" ? "ローカルLLMでは空欄可" : "sk-..."}
-              autoComplete="off"
-            />
-            <span className="muted">保存しません。自動要約はGitHub SecretsのOPENAI_API_KEYを使います。</span>
-          </label>
-          <label>
-            AI model
-            <input value={settings.aiModel} onChange={(event) => updateSetting("aiModel", event.target.value)} />
-          </label>
-          <label>
-            API base URL
-            <input
-              value={settings.aiBaseUrl}
-              onChange={(event) => updateSetting("aiBaseUrl", event.target.value)}
-              placeholder={DEFAULT_PUBMED_SETTINGS.aiBaseUrl}
-            />
-          </label>
-          <label>
-            NCBI email
-            <input
-              type="email"
-              value={settings.eutilsEmail}
-              onChange={(event) => updateSetting("eutilsEmail", event.target.value)}
-              placeholder="optional@example.com"
-            />
-          </label>
-          <label>
-            取得件数
-            <input
-              type="number"
-              min={1}
-              max={20}
-              value={settings.retmax}
-              onChange={(event) => updateSetting("retmax", Number(event.target.value))}
-            />
-          </label>
-          <label>
-            自動更新時刻
-            <input
-              type="time"
-              value={settings.dailyRunTime}
-              onChange={(event) => updateSetting("dailyRunTime", event.target.value)}
-            />
-          </label>
-          <label className="check-row">
-            <input
-              type="checkbox"
-              checked={settings.dailyRunEnabled}
-              onChange={(event) => updateSetting("dailyRunEnabled", event.target.checked)}
-            />
-            <span>毎朝の自動更新を有効にする</span>
-          </label>
-          <label className="check-row">
-            <input
-              type="checkbox"
-              checked={settings.dailyRunSummaries}
-              onChange={(event) => updateSetting("dailyRunSummaries", event.target.checked)}
-            />
-            <span>自動更新時にAI要約も作成する</span>
-          </label>
-          <label>
-            重要論文の対象期間
-            <input
-              type="number"
-              min={1}
-              max={36}
-              value={settings.importantLookbackMonths}
-              onChange={(event) => updateSetting("importantLookbackMonths", Number(event.target.value))}
-            />
-          </label>
-          <label>
-            重要論文の取得件数
-            <input
-              type="number"
-              min={1}
-              max={10}
-              value={settings.importantRetmax}
-              onChange={(event) => updateSetting("importantRetmax", Number(event.target.value))}
-            />
-          </label>
-          <label>
-            重要論文の自動まとめ間隔
-            <input
-              type="number"
-              min={1}
-              max={31}
-              value={settings.importantRunIntervalDays}
-              onChange={(event) => updateSetting("importantRunIntervalDays", Number(event.target.value))}
-            />
-          </label>
-          <label className="check-row">
-            <input
-              type="checkbox"
-              checked={settings.importantRunEnabled}
-              onChange={(event) => updateSetting("importantRunEnabled", event.target.checked)}
-            />
-            <span>重要論文まとめを定期更新する</span>
-          </label>
-        </div>
-        <button className="secondary" type="button" onClick={saveSettings}>
-          <Save aria-hidden="true" size={18} />
-          設定保存
-        </button>
-        <p className="muted">
-          OpenAIはResponses API、LM Studio/OllamaなどはChat Completions互換のbase URLを指定します。APIキーはlocalStorageに保存しません。毎朝の自動要約はGitHub SecretsのOPENAI_API_KEYを使います。
-        </p>
-        <p className="muted">
-          自動更新はアプリが開いている時、またはその日の{settings.dailyRunTime}以降に開いた時に実行します。
-          {pubMedCache.lastAutoRunStatus ? ` 最終自動更新: ${pubMedCache.lastAutoRunStatus}` : ""}
-        </p>
-      </div>
-
-      {summary && (
-        <div className="panel ai-summary-panel">
-          <h2>AI要約</h2>
-          <div className="ai-summary-text">{summary}</div>
-        </div>
-      )}
-
-      {pubMedCache.importantSummary && (
-        <div className="panel ai-summary-panel important-summary-panel">
-          <h2>重要論文まとめ</h2>
-          <div className="ai-summary-text">{pubMedCache.importantSummary}</div>
+                <p>{item.summary}</p>
+                <dl className="summary-note-list">
+                  <div>
+                    <dt>読む理由</dt>
+                    <dd>{item.whyItMatters}</dd>
+                  </div>
+                  <div>
+                    <dt>注意点</dt>
+                    <dd>{item.caveat}</dd>
+                  </div>
+                </dl>
+              </article>
+            ))}
+          </div>
+          {filteredTrialSummaries.length === 0 && (
+            <p className="muted">この絞り込みに一致する試し読み要約はありません。</p>
+          )}
         </div>
       )}
 
@@ -2565,7 +2280,7 @@ function LiteratureView() {
 
       {articles.length === 0 && (
         <EmptyState title="PubMed文献は未取得です">
-          <p>検索式を選び、PubMed取得を押すと最新順に表示します。</p>
+          <p>毎朝7:00の自動更新後に、日別まとめと新着文献がここへ表示されます。</p>
         </EmptyState>
       )}
     </section>

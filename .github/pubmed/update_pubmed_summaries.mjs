@@ -201,6 +201,59 @@ function articleBlocks(articles, maxArticles, abstractLength) {
     .join("\n\n");
 }
 
+function uniqueArticlesByPmid(articles) {
+  const byPmid = new Map();
+  for (const article of articles) {
+    if (!article?.pmid || byPmid.has(article.pmid)) continue;
+    byPmid.set(article.pmid, article);
+  }
+  return [...byPmid.values()];
+}
+
+async function readExistingGeneratedCache() {
+  try {
+    const source = await readFile(generatedPath, "utf8");
+    const match = source.match(/export const GENERATED_PUBMED_CACHE: PubMedCachePayload = ([\s\S]*);\s*$/);
+    if (!match) return undefined;
+    return JSON.parse(match[1]);
+  } catch {
+    return undefined;
+  }
+}
+
+function dailySummaryFrom({ summaryByAlert, importantSummary, articlesByAlert, importantArticles }) {
+  const sections = [
+    importantSummary ? `## 今日の重要論文\n${importantSummary}` : "",
+    summaryByAlert.focused ? `## PICU/CICU重点\n${summaryByAlert.focused}` : "",
+    summaryByAlert.broad ? `## 主要誌横断\n${summaryByAlert.broad}` : ""
+  ].filter(Boolean);
+
+  if (sections.length > 0) return sections.join("\n\n");
+
+  const totalArticles = uniqueArticlesByPmid([
+    ...(articlesByAlert.focused ?? []),
+    ...(articlesByAlert.broad ?? []),
+    ...(importantArticles ?? [])
+  ]).length;
+  return [
+    "## 今日の新着論文",
+    `新着候補 ${totalArticles}件を取得しました。`,
+    "AI要約はこの実行では生成できませんでした。OpenAI APIの利用枠を確認すると、次回以降は同じ日別枠に要約が入ります。"
+  ].join("\n");
+}
+
+function buildDailyDigests(previousCache, dailyDigest) {
+  const previousDigests = Array.isArray(previousCache?.dailyDigests) ? previousCache.dailyDigests : [];
+  const seenDates = new Set();
+  return [dailyDigest, ...previousDigests]
+    .filter((digest) => {
+      if (!digest?.date || seenDates.has(digest.date)) return false;
+      seenDates.add(digest.date);
+      return true;
+    })
+    .slice(0, 14);
+}
+
 async function requestOpenAiText(input, instructions) {
   if (!OPENAI_API_KEY.trim()) {
     throw new Error("OPENAI_API_KEY is required for automatic AI summaries.");
@@ -295,6 +348,7 @@ export const GENERATED_PUBMED_CACHE: PubMedCachePayload = ${JSON.stringify(cache
 
 async function main() {
   const source = await readFile(pubmedSourcePath, "utf8");
+  const previousCache = await readExistingGeneratedCache();
   const alerts = [
     {
       key: "focused",
@@ -322,11 +376,15 @@ async function main() {
     statusMessages.push(`${alert.title}: ${articles.length}件取得`);
 
     if (articles.length > 0) {
-      summaryByAlert[alert.key] = await requestOpenAiText(
-        alertSummaryPrompt(alert, articles),
-        "You are a careful medical literature summarizer. Write concise Japanese for clinicians. Do not provide individual medical advice."
-      );
-      statusMessages.push(`${alert.title}: AI要約済み`);
+      try {
+        summaryByAlert[alert.key] = await requestOpenAiText(
+          alertSummaryPrompt(alert, articles),
+          "You are a careful medical literature summarizer. Write concise Japanese for clinicians. Do not provide individual medical advice."
+        );
+        statusMessages.push(`${alert.title}: AI要約済み`);
+      } catch (error) {
+        statusMessages.push(`${alert.title}: AI要約失敗 (${error instanceof Error ? error.message : error})`);
+      }
     }
   }
 
@@ -337,11 +395,22 @@ async function main() {
   const importantArticles = await fetchPubMedArticlesByIds(importantIds);
   let importantSummary = undefined;
   if (importantArticles.length > 0) {
-    importantSummary = await requestOpenAiText(
-      importantSummaryPrompt(importantArticles),
-      "You are a careful medical literature curator for pediatric intensive care and pediatric cardiac intensive care. Write concise Japanese for clinicians, rank priorities, and avoid overstatement."
-    );
+    try {
+      importantSummary = await requestOpenAiText(
+        importantSummaryPrompt(importantArticles),
+        "You are a careful medical literature curator for pediatric intensive care and pediatric cardiac intensive care. Write concise Japanese for clinicians, rank priorities, and avoid overstatement."
+      );
+    } catch (error) {
+      statusMessages.push(`重要論文: AI要約失敗 (${error instanceof Error ? error.message : error})`);
+    }
   }
+  const dailyDigest = {
+    date: generatedAt.slice(0, 10),
+    generatedAt,
+    summary: dailySummaryFrom({ summaryByAlert, importantSummary, articlesByAlert, importantArticles }),
+    articles: uniqueArticlesByPmid([...(articlesByAlert.focused ?? []), ...(articlesByAlert.broad ?? [])]),
+    importantArticles
+  };
 
   const cache = {
     articlesByAlert,
@@ -350,6 +419,7 @@ async function main() {
     importantArticles,
     importantSummary,
     importantFetchedAt: generatedAt,
+    dailyDigests: buildDailyDigests(previousCache, dailyDigest),
     lastAutoRunAt: generatedAt,
     lastAutoRunDate: generatedAt.slice(0, 10),
     lastAutoRunStatus: statusMessages.join(" / "),
