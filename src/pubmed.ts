@@ -1,3 +1,5 @@
+import { GENERATED_PUBMED_CACHE } from "./pubmedGenerated";
+
 export type PubMedAlertKey = "focused" | "broad";
 
 export interface PubMedAlertDefinition {
@@ -96,6 +98,56 @@ export const EMPTY_PUBMED_CACHE: PubMedCachePayload = {
   fetchedAtByAlert: {},
   importantArticles: []
 };
+
+function clonePubMedCache(cache: PubMedCachePayload): PubMedCachePayload {
+  return {
+    articlesByAlert: {
+      focused: [...cache.articlesByAlert.focused],
+      broad: [...cache.articlesByAlert.broad]
+    },
+    summaryByAlert: { ...cache.summaryByAlert },
+    fetchedAtByAlert: { ...cache.fetchedAtByAlert },
+    importantArticles: [...cache.importantArticles],
+    importantSummary: cache.importantSummary,
+    importantFetchedAt: cache.importantFetchedAt,
+    lastAutoRunAt: cache.lastAutoRunAt,
+    lastAutoRunDate: cache.lastAutoRunDate,
+    lastAutoRunStatus: cache.lastAutoRunStatus,
+    lastImportantRunAt: cache.lastImportantRunAt,
+    lastImportantRunStatus: cache.lastImportantRunStatus
+  };
+}
+
+function mergeWithGeneratedPubMedCache(stored?: Partial<PubMedCachePayload>): PubMedCachePayload {
+  const generated = clonePubMedCache(GENERATED_PUBMED_CACHE);
+  if (!stored) return generated;
+
+  return {
+    articlesByAlert: {
+      focused:
+        stored.articlesByAlert?.focused && stored.articlesByAlert.focused.length > 0
+          ? stored.articlesByAlert.focused
+          : generated.articlesByAlert.focused,
+      broad:
+        stored.articlesByAlert?.broad && stored.articlesByAlert.broad.length > 0
+          ? stored.articlesByAlert.broad
+          : generated.articlesByAlert.broad
+    },
+    summaryByAlert: { ...generated.summaryByAlert, ...(stored.summaryByAlert ?? {}) },
+    fetchedAtByAlert: { ...generated.fetchedAtByAlert, ...(stored.fetchedAtByAlert ?? {}) },
+    importantArticles:
+      stored.importantArticles && stored.importantArticles.length > 0
+        ? stored.importantArticles
+        : generated.importantArticles,
+    importantSummary: stored.importantSummary ?? generated.importantSummary,
+    importantFetchedAt: stored.importantFetchedAt ?? generated.importantFetchedAt,
+    lastAutoRunAt: stored.lastAutoRunAt ?? generated.lastAutoRunAt,
+    lastAutoRunDate: stored.lastAutoRunDate ?? generated.lastAutoRunDate,
+    lastAutoRunStatus: stored.lastAutoRunStatus ?? generated.lastAutoRunStatus,
+    lastImportantRunAt: stored.lastImportantRunAt ?? generated.lastImportantRunAt,
+    lastImportantRunStatus: stored.lastImportantRunStatus ?? generated.lastImportantRunStatus
+  };
+}
 
 function compactText(value: string) {
   return value.replace(/\s+/g, " ").trim();
@@ -275,27 +327,13 @@ export function savePubMedSettings(settings: PubMedSettings) {
 }
 
 export function loadPubMedCache(): PubMedCachePayload {
-  if (typeof localStorage === "undefined") return EMPTY_PUBMED_CACHE;
+  if (typeof localStorage === "undefined") return clonePubMedCache(GENERATED_PUBMED_CACHE);
   try {
-    const stored = JSON.parse(localStorage.getItem(PUBMED_CACHE_STORAGE_KEY) ?? "{}") as Partial<PubMedCachePayload>;
-    return {
-      articlesByAlert: {
-        focused: stored.articlesByAlert?.focused ?? [],
-        broad: stored.articlesByAlert?.broad ?? []
-      },
-      summaryByAlert: stored.summaryByAlert ?? {},
-      fetchedAtByAlert: stored.fetchedAtByAlert ?? {},
-      importantArticles: stored.importantArticles ?? [],
-      importantSummary: stored.importantSummary,
-      importantFetchedAt: stored.importantFetchedAt,
-      lastAutoRunAt: stored.lastAutoRunAt,
-      lastAutoRunDate: stored.lastAutoRunDate,
-      lastAutoRunStatus: stored.lastAutoRunStatus,
-      lastImportantRunAt: stored.lastImportantRunAt,
-      lastImportantRunStatus: stored.lastImportantRunStatus
-    };
+    const rawCache = localStorage.getItem(PUBMED_CACHE_STORAGE_KEY);
+    const stored = rawCache ? (JSON.parse(rawCache) as Partial<PubMedCachePayload>) : undefined;
+    return mergeWithGeneratedPubMedCache(stored);
   } catch {
-    return EMPTY_PUBMED_CACHE;
+    return clonePubMedCache(GENERATED_PUBMED_CACHE);
   }
 }
 

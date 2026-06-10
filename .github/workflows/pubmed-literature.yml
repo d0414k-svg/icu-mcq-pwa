@@ -1,0 +1,54 @@
+name: PubMed Literature Update
+
+on:
+  schedule:
+    # 07:00 JST
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-literature:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate PubMed AI summaries
+        run: npm run pubmed:update
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.5' }}
+          NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
+          PUBMED_ALERT_RETMAX: "20"
+          PUBMED_IMPORTANT_RETMAX: "40"
+          PUBMED_IMPORTANT_LOOKBACK_MONTHS: "24"
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Commit generated summaries
+        run: |
+          if git diff --quiet -- src/pubmedGenerated.ts; then
+            echo "No PubMed summary changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/pubmedGenerated.ts
+          git commit -m "Update PubMed literature summaries"
+          git push
