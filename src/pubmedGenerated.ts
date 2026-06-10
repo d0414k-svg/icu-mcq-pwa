@@ -455,7 +455,7 @@ export const GENERATED_PUBMED_CACHE: PubMedCachePayload = {
   ],
   "lastAutoRunAt": "2026-06-10T17:33:06.454Z",
   "lastAutoRunDate": "2026-06-10",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / PICU/CICU重点: AI要約失敗 (You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.) / 主要誌横断: 5件取得 / 主要誌横断: AI要約失敗 (You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.) / 重要論文: AI要約失敗 (You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.)",
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / PICU/CICU重点: AI要約失敗 (OpenAI API利用枠エラー) / 主要誌横断: 5件取得 / 主要誌横断: AI要約失敗 (OpenAI API利用枠エラー) / 重要論文: AI要約失敗 (OpenAI API利用枠エラー)",
   "lastImportantRunAt": "2026-06-10T17:33:06.454Z",
   "lastImportantRunStatus": "重要論文候補 5件取得"
 };

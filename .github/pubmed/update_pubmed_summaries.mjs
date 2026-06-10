@@ -254,6 +254,13 @@ function buildDailyDigests(previousCache, dailyDigest) {
     .slice(0, 14);
 }
 
+function summaryErrorLabel(error) {
+  const message = error instanceof Error ? error.message : String(error);
+  if (/quota|exceeded/i.test(message)) return "OpenAI API利用枠エラー";
+  if (/api key|required|auth|401/i.test(message)) return "OpenAI API設定エラー";
+  return "OpenAI APIエラー";
+}
+
 async function requestOpenAiText(input, instructions) {
   if (!OPENAI_API_KEY.trim()) {
     throw new Error("OPENAI_API_KEY is required for automatic AI summaries.");
@@ -383,7 +390,7 @@ async function main() {
         );
         statusMessages.push(`${alert.title}: AI要約済み`);
       } catch (error) {
-        statusMessages.push(`${alert.title}: AI要約失敗 (${error instanceof Error ? error.message : error})`);
+        statusMessages.push(`${alert.title}: AI要約失敗 (${summaryErrorLabel(error)})`);
       }
     }
   }
@@ -401,7 +408,7 @@ async function main() {
         "You are a careful medical literature curator for pediatric intensive care and pediatric cardiac intensive care. Write concise Japanese for clinicians, rank priorities, and avoid overstatement."
       );
     } catch (error) {
-      statusMessages.push(`重要論文: AI要約失敗 (${error instanceof Error ? error.message : error})`);
+      statusMessages.push(`重要論文: AI要約失敗 (${summaryErrorLabel(error)})`);
     }
   }
   const dailyDigest = {
