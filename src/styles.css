@@ -127,7 +127,8 @@ button {
 .job-list,
 .settings-list,
 .issue-list,
-.question-list {
+.question-list,
+.pubmed-list {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -135,6 +136,7 @@ button {
 
 .panel,
 .question-card,
+.pubmed-card,
 .empty-state,
 .modal-panel {
   background: #ffffff;
@@ -145,6 +147,7 @@ button {
 
 .panel,
 .question-card,
+.pubmed-card,
 .empty-state {
   padding: 14px;
 }
@@ -160,6 +163,12 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.pubmed-hero,
+.pubmed-controls {
+  display: grid;
+  gap: 12px;
 }
 
 .compact-toolbar {
@@ -187,6 +196,29 @@ label {
   color: #3e514c;
   font-size: 0.82rem;
   font-weight: 700;
+}
+
+.check-row {
+  flex: 1 1 260px;
+  flex-direction: row;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 11px;
+  color: #172026;
+  background: #fbfdfc;
+  border: 1px solid #c9d9d5;
+  border-radius: 8px;
+}
+
+.check-row input {
+  width: 18px;
+  min-height: 18px;
+  flex: 0 0 18px;
+  padding: 0;
+}
+
+.check-row span {
+  overflow-wrap: anywhere;
 }
 
 input,
@@ -361,6 +393,43 @@ textarea:focus {
 .segmented-control button.active {
   color: #ffffff;
   background: #0f766e;
+}
+
+.alert-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.alert-tabs button {
+  display: grid;
+  min-width: 0;
+  min-height: 74px;
+  gap: 4px;
+  padding: 10px 12px;
+  text-align: left;
+  color: #36514c;
+  background: #e8f3f1;
+  border: 1px solid #c4ddd8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.alert-tabs button.active {
+  color: #ffffff;
+  background: #0f766e;
+  border-color: #0f766e;
+}
+
+.alert-tabs strong,
+.alert-tabs span {
+  overflow-wrap: anywhere;
+}
+
+.alert-tabs span {
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.35;
 }
 
 .question-card {
@@ -874,6 +943,242 @@ textarea:focus {
   overflow-wrap: anywhere;
 }
 
+.query-details {
+  display: grid;
+  gap: 8px;
+}
+
+.query-details summary {
+  color: #0f766e;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.query-box {
+  max-height: 240px;
+  overflow: auto;
+  margin: 0;
+  padding: 11px;
+  color: #263a35;
+  background: #f4faf8;
+  border: 1px solid #cfe3de;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
+
+.pubmed-utility-panel {
+  display: grid;
+  gap: 12px;
+}
+
+.pubmed-utility-main,
+.section-heading-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+}
+
+.pubmed-search-field {
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 12px;
+  color: #0f766e;
+  background: #fbfdfc;
+  border: 1px solid #cfe3de;
+  border-radius: 8px;
+}
+
+.pubmed-search-field input {
+  min-width: 0;
+  width: 100%;
+  padding: 0;
+  color: #172026;
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.utility-buttons,
+.literature-filter-row,
+.quick-jump-row,
+.list-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.literature-filter-row {
+  justify-content: space-between;
+}
+
+.compact-check {
+  min-height: 34px;
+  padding: 6px 9px;
+}
+
+.text-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 6px 4px;
+  color: #0f766e;
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 900;
+}
+
+.text-button:hover {
+  background: #eef8f5;
+}
+
+.quick-jump-row a,
+.result-count {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  padding: 6px 9px;
+  color: #263a35;
+  background: #f4faf8;
+  border: 1px solid #dce8e4;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.quick-jump-row a:hover {
+  border-color: #0f766e;
+}
+
+.pubmed-settings {
+  display: grid;
+  gap: 12px;
+}
+
+.important-panel,
+.important-card,
+.important-summary-panel {
+  border-color: #d7bf72;
+}
+
+.important-panel {
+  background: #fffdf5;
+}
+
+.trial-summary-panel {
+  display: grid;
+  gap: 12px;
+}
+
+.trial-summary-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.trial-summary-card {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  background: #fbfdfc;
+  border: 1px solid #dce8e4;
+  border-radius: 8px;
+}
+
+.trial-summary-card p {
+  margin: 0;
+  overflow-wrap: anywhere;
+  line-height: 1.75;
+}
+
+.summary-note-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.summary-note-list div {
+  display: grid;
+  gap: 3px;
+  padding-top: 8px;
+  border-top: 1px solid #dce8e4;
+}
+
+.summary-note-list dt {
+  color: #0f766e;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.summary-note-list dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+  line-height: 1.65;
+}
+
+.ai-summary-panel {
+  display: grid;
+  gap: 10px;
+  border-color: #9fcfc7;
+}
+
+.ai-summary-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  color: #172026;
+  line-height: 1.75;
+}
+
+.pubmed-card {
+  display: grid;
+  gap: 10px;
+}
+
+.pubmed-card-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: start;
+}
+
+.pubmed-card-head h3 {
+  margin: 0;
+  overflow-wrap: anywhere;
+  color: #123c38;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.pubmed-card-head a {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  color: #0f766e;
+  background: #e8f3f1;
+  border-radius: 8px;
+}
+
+.abstract-text {
+  overflow-wrap: anywhere;
+  display: -webkit-box;
+  margin: 0;
+  color: #263a35;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  line-height: 1.7;
+}
+
 .settings-list {
   gap: 8px;
   margin: 12px 0 0;
@@ -915,7 +1220,7 @@ textarea:focus {
   left: 0;
   z-index: 5;
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 4px;
   padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
   background: rgba(255, 255, 255, 0.94);
@@ -1018,11 +1323,15 @@ textarea:focus {
     align-items: start;
   }
 
+  .trial-summary-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .bottom-nav {
     right: 50%;
     bottom: 18px;
     left: 50%;
-    width: min(520px, calc(100% - 32px));
+    width: min(620px, calc(100% - 32px));
     transform: translateX(-50%);
     border: 1px solid #dce8e4;
     border-radius: 8px;
@@ -1030,6 +1339,22 @@ textarea:focus {
 }
 
 @media (max-width: 420px) {
+  .pubmed-utility-main,
+  .section-heading-row {
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
+
+  .utility-buttons,
+  .list-actions {
+    justify-content: stretch;
+  }
+
+  .utility-buttons button,
+  .list-actions button {
+    flex: 1 1 150px;
+  }
+
   .segmented-control {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
