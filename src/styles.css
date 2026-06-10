@@ -1544,6 +1544,71 @@ textarea:focus {
   }
 }
 
+@media (max-width: 540px) {
+  .app-main {
+    padding: 12px 10px calc(116px + env(safe-area-inset-bottom));
+  }
+
+  .view-stack {
+    gap: 10px;
+  }
+
+  .panel,
+  .question-card,
+  .pubmed-card,
+  .empty-state {
+    padding: 12px;
+  }
+
+  .pubmed-hero h2,
+  .literature-panel-head h2 {
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+
+  .pubmed-hero .summary-grid {
+    gap: 7px;
+  }
+
+  .literature-dashboard {
+    gap: 10px;
+  }
+
+  .literature-brief-panel,
+  .literature-top-panel {
+    padding: 12px;
+    border-left-width: 0;
+    border-top-width: 4px;
+    box-shadow: 0 8px 18px rgba(23, 32, 38, 0.05);
+  }
+
+  .literature-empty-brief,
+  .literature-brief-text {
+    padding: 11px;
+    font-size: 0.95rem;
+    line-height: 1.8;
+  }
+
+  .literature-rank-card h3 {
+    font-size: 0.94rem;
+    line-height: 1.5;
+  }
+
+  .literature-rank-card p {
+    font-size: 0.88rem;
+    line-height: 1.7;
+  }
+
+  .rank-index {
+    width: 30px;
+    height: 30px;
+  }
+
+  .tag-row span {
+    font-size: 0.72rem;
+  }
+}
+
 @media (max-width: 420px) {
   .pubmed-utility-main,
   .section-heading-row {
@@ -1551,13 +1616,23 @@ textarea:focus {
     align-items: stretch;
   }
 
-  .literature-panel-head,
-  .literature-rank-card {
+  .literature-panel-head {
     grid-template-columns: 1fr;
   }
 
+  .literature-rank-card {
+    grid-template-columns: 30px minmax(0, 1fr) 42px;
+    gap: 9px;
+    padding: 11px;
+  }
+
+  .literature-rank-card a {
+    width: 42px;
+    height: 42px;
+  }
+
   .literature-digest-stats {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .utility-buttons,
