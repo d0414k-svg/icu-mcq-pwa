@@ -29,7 +29,7 @@ jobs:
         run: npm run pubmed:update
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.5' }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
           PUBMED_ALERT_RETMAX: "20"
           PUBMED_IMPORTANT_RETMAX: "40"
