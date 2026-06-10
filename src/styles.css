@@ -1116,7 +1116,8 @@ textarea:focus {
 .literature-top-panel {
   border-left: 4px solid #b45309;
   grid-template-rows: auto minmax(0, 1fr);
-  max-height: clamp(300px, calc(100vh - 390px), 560px);
+  min-height: 300px;
+  max-height: 46vh;
   overflow: hidden;
 }
 
@@ -1528,8 +1529,18 @@ textarea:focus {
     grid-template-columns: 1fr;
   }
 
+  .literature-top-panel {
+    max-height: none;
+    overflow: visible;
+  }
+
   .literature-digest-stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .literature-rank-list {
+    overflow: visible;
+    padding-right: 0;
   }
 }
 
