@@ -1,0 +1,46 @@
+node_modules/
+dist/
+.netlify/
+__pycache__/
+scripts/
+*.pyc
+*.zip
+*.log
+.DS_Store
+
+# User-owned source materials and backups must stay local.
+問題回答/
+テキスト/
+*.pdf
+icu-mcq-backup-*.json
+outputs/
+
+# Private MCQ banks and review artifacts.
+private_data/
+docs/private_*.md
+local_exports/
+imports/
+backups/
+review_outputs/
+icu_mcq_800_review_results.csv
+icu_mcq_800_review_summary.md
+icu_mcq_questions_*.csv
+icu_mcq_*review*.csv
+icu_mcq_clean_import_medical_reviewed.csv
+icu_mcq_master_qa_medical_reviewed.csv
+medical_review_application_log.csv
+medical_review_apply_report.md
+review_application_*.csv
+review_application_report.md
+question_import_20*.csv
+question_import_800*.csv
+original_questions_from_textbook*.csv
+textbook_original*.csv
+
+# Keep only fictitious public samples in the repository.
+!question_import_blank.csv
+!question_import_example_fictitious.csv
+!public/samples/fictitious_questions.csv
+
+# Generated delivery bundles/directories.
+icu-mcq-pwa-*/

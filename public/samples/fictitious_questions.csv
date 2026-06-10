@@ -1,0 +1,6 @@
+question_id,year,number,stem,choices,correct_answers,answer_mode,status,explanation_source,explanation,tags,source_type,source_note,page
+FICT-2026-001,2026,1,"架空症例: ICU入室直後の循環評価について、最初に確認する項目として最も適切なものはどれか","A. 血圧、心拍数、末梢冷感などの循環所見 || B. 退院時サマリーの装丁 || C. 病棟の掲示物 || D. 家族控室の椅子の数","A",single,active,manual,"この行は架空サンプルです。実際の試験問題ではありません。","循環,初期評価",csv,"架空サンプル",1
+FICT-2026-002,2026,2,"架空症例: 人工呼吸管理中の観察として妥当なものを2つ選べ","A. 酸素化の推移 || B. 呼吸仕事量 || C. 病院売店の営業時間 || D. 週末の天気","A,B",multiple,active,manual,"この行は複数正答バリデーション用の架空サンプルです。実際の試験問題ではありません。","呼吸,人工呼吸",csv,"架空サンプル",1
+FICT-2026-003,2026,3,"架空問題: 採点除外として管理する問題の例","A. 選択肢A || B. 選択肢B","",single,excluded,none,,"",csv,"架空サンプル",2
+FICT-2026-004,2026,4,"架空問題: 解説なし、タグなしの警告を確認する行","A. 選択肢A || B. 選択肢B","B",single,active,none,,"",csv,"架空サンプル",2
+FICT-2026-004,2026,5,"架空問題: CSV内重複IDの検出用","A. 選択肢A || B. 選択肢B","A",single,active,manual,"重複行は取り込まれません。","検証",csv,"架空サンプル",2

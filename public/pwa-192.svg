@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" role="img" aria-label="ICU MCQ">
+  <rect width="192" height="192" rx="38" fill="#0f766e"/>
+  <path d="M46 52h100v88H46z" fill="#f7faf9"/>
+  <path d="M62 72h68M62 94h48M62 116h62" stroke="#0f766e" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="142" cy="128" r="22" fill="#f59e0b"/>
+  <path d="m132 128 7 7 14-17" fill="none" stroke="#172026" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
