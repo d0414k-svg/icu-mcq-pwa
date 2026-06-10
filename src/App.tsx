@@ -146,6 +146,12 @@ function pubMedArticleMatches(article: PubMedArticle, normalizedQuery: string) {
   return searchableText.includes(normalizedQuery);
 }
 
+function clipText(value: string, maxLength: number) {
+  const compacted = value.replace(/\s+/g, " ").trim();
+  if (compacted.length <= maxLength) return compacted;
+  return `${compacted.slice(0, Math.max(0, maxLength - 3))}...`;
+}
+
 function stateMap(states: QuestionState[]) {
   return new Map(states.map((state) => [state.questionId, state]));
 }
@@ -1903,6 +1909,11 @@ function LiteratureView() {
       .includes(normalizedLiteratureQuery);
   });
   const visibleImportantArticles = showAllImportant ? filteredImportantArticles : filteredImportantArticles.slice(0, 10);
+  const topImportantArticles = filteredImportantArticles.slice(0, 6);
+  const topTrialSummaries = filteredTrialSummaries.slice(0, 6);
+  const publishedSummary = (pubMedCache.importantSummary || summary || "").trim();
+  const latestPublishedAt =
+    pubMedCache.importantFetchedAt || fetchedAt || pubMedCache.lastImportantRunAt || pubMedCache.lastAutoRunAt;
 
   useEffect(() => {
     const syncCache = () => setPubMedCache(loadPubMedCache());
@@ -2048,6 +2059,83 @@ function LiteratureView() {
           <StatPill label="表示中" value={`${filteredArticles.length}/${articles.length}`} />
           <StatPill label="取得時刻" value={fetchedAt ? formatShortDate(fetchedAt) : "未取得"} />
         </div>
+      </div>
+
+      <div className="literature-dashboard" aria-label="論文まとめダッシュボード">
+        <section className="literature-brief-panel">
+          <div className="literature-panel-head">
+            <div>
+              <p className="eyebrow">Digest</p>
+              <h2>先に読む論文まとめ</h2>
+            </div>
+            <span className="literature-update-pill">
+              {latestPublishedAt ? formatShortDate(latestPublishedAt) : "自動生成待ち"}
+            </span>
+          </div>
+          {publishedSummary ? (
+            <div className="literature-brief-text">{publishedSummary}</div>
+          ) : (
+            <div className="literature-empty-brief">
+              <strong>自動AI要約は準備中です。</strong>
+              <span>毎朝の自動取得で重要論文の要点が生成されると、ここに読みやすいダイジェストとして表示されます。いまは試し読み要約を確認できます。</span>
+            </div>
+          )}
+          <div className="literature-digest-stats">
+            <StatPill label="AI要約" value={publishedSummary ? "あり" : "準備中"} />
+            <StatPill label="重要候補" value={filteredImportantArticles.length} />
+            <StatPill label="新着" value={filteredArticles.length} />
+            <StatPill label="試し読み" value={filteredTrialSummaries.length} />
+          </div>
+        </section>
+
+        <section className="literature-top-panel">
+          <div className="literature-panel-head">
+            <div>
+              <p className="eyebrow">Reading Queue</p>
+              <h2>読む順リスト</h2>
+            </div>
+            <a className="literature-mini-link" href="#pubmed-important">
+              候補へ
+            </a>
+          </div>
+          <div className="literature-rank-list">
+            {topImportantArticles.length > 0
+              ? topImportantArticles.map((article, index) => (
+                  <article key={`rank-${article.pmid}`} className="literature-rank-card">
+                    <span className="rank-index">{index + 1}</span>
+                    <div>
+                      <h3>{article.title}</h3>
+                      <p>{clipText(article.abstract || "抄録はありません。PubMedで詳細を確認してください。", 130)}</p>
+                      <div className="tag-row">
+                        <span>PMID {article.pmid}</span>
+                        {article.journal && <span>{article.journal}</span>}
+                        {article.publicationDate && <span>{article.publicationDate}</span>}
+                      </div>
+                    </div>
+                    <a href={article.url} target="_blank" rel="noreferrer" title="PubMedで開く">
+                      <ExternalLink aria-hidden="true" size={17} />
+                    </a>
+                  </article>
+                ))
+              : topTrialSummaries.map((item, index) => (
+                  <article key={`rank-trial-${item.pmid}`} className="literature-rank-card">
+                    <span className="rank-index">{index + 1}</span>
+                    <div>
+                      <h3>{item.title}</h3>
+                      <p>{clipText(item.summary, 150)}</p>
+                      <div className="tag-row">
+                        <span>PMID {item.pmid}</span>
+                        <span>{item.journal}</span>
+                        <span>{item.published}</span>
+                      </div>
+                    </div>
+                    <a href={item.url} target="_blank" rel="noreferrer" title="PubMedで開く">
+                      <ExternalLink aria-hidden="true" size={17} />
+                    </a>
+                  </article>
+                ))}
+          </div>
+        </section>
       </div>
 
       <div className="alert-tabs" role="tablist" aria-label="PubMedアラート">
