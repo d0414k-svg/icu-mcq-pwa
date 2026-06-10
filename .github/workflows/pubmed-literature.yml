@@ -32,7 +32,7 @@ jobs:
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
           PUBMED_ALERT_RETMAX: "20"
-          PUBMED_IMPORTANT_RETMAX: "40"
+          PUBMED_IMPORTANT_RETMAX: "12"
           PUBMED_IMPORTANT_LOOKBACK_MONTHS: "24"
 
       - name: Test
