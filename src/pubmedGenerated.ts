@@ -1,6 +1,6 @@
 import type { PubMedCachePayload } from "./pubmed";
 
-export const GENERATED_PUBMED_CACHE_VERSION = "2026-06-10T17:33:06.454Z";
+export const GENERATED_PUBMED_CACHE_VERSION = "2026-06-10T23:28:17.871Z";
 
 export const GENERATED_PUBMED_CACHE: PubMedCachePayload = {
   "articlesByAlert": {
@@ -171,8 +171,8 @@ export const GENERATED_PUBMED_CACHE: PubMedCachePayload = {
   },
   "summaryByAlert": {},
   "fetchedAtByAlert": {
-    "focused": "2026-06-10T17:33:06.454Z",
-    "broad": "2026-06-10T17:33:06.454Z"
+    "focused": "2026-06-10T23:28:17.871Z",
+    "broad": "2026-06-10T23:28:17.871Z"
   },
   "importantArticles": [
     {
@@ -261,11 +261,11 @@ export const GENERATED_PUBMED_CACHE: PubMedCachePayload = {
       "url": "https://pubmed.ncbi.nlm.nih.gov/39208447/"
     }
   ],
-  "importantFetchedAt": "2026-06-10T17:33:06.454Z",
+  "importantFetchedAt": "2026-06-10T23:28:17.871Z",
   "dailyDigests": [
     {
       "date": "2026-06-10",
-      "generatedAt": "2026-06-10T17:33:06.454Z",
+      "generatedAt": "2026-06-10T23:28:17.871Z",
       "summary": "## 今日の新着論文\n新着候補 11件を取得しました。\nAI要約はこの実行では生成できませんでした。OpenAI APIの利用枠を確認すると、次回以降は同じ日別枠に要約が入ります。",
       "articles": [
         {
@@ -453,9 +453,9 @@ export const GENERATED_PUBMED_CACHE: PubMedCachePayload = {
       ]
     }
   ],
-  "lastAutoRunAt": "2026-06-10T17:33:06.454Z",
+  "lastAutoRunAt": "2026-06-10T23:28:17.871Z",
   "lastAutoRunDate": "2026-06-10",
   "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / PICU/CICU重点: AI要約失敗 (OpenAI API利用枠エラー) / 主要誌横断: 5件取得 / 主要誌横断: AI要約失敗 (OpenAI API利用枠エラー) / 重要論文: AI要約失敗 (OpenAI API利用枠エラー)",
-  "lastImportantRunAt": "2026-06-10T17:33:06.454Z",
+  "lastImportantRunAt": "2026-06-10T23:28:17.871Z",
   "lastImportantRunStatus": "重要論文候補 5件取得"
 };
