@@ -56,14 +56,14 @@ export const DEFAULT_PUBMED_SETTINGS: PubMedSettings = {
   aiModel: "gpt-5.5",
   aiEndpointMode: "responses",
   eutilsEmail: "",
-  retmax: 20,
+  retmax: 5,
   dailyRunEnabled: true,
   dailyRunTime: "07:00",
   dailyRunSummaries: true,
   importantRunEnabled: true,
   importantRunIntervalDays: 7,
   importantLookbackMonths: 24,
-  importantRetmax: 12
+  importantRetmax: 5
 };
 
 const PUBMED_SETTINGS_STORAGE_KEY = "icu-mcq-pubmed-settings";
@@ -301,9 +301,9 @@ export function loadPubMedSettings(): PubMedSettings {
       importantLookbackMonths: Number(stored.importantLookbackMonths || DEFAULT_PUBMED_SETTINGS.importantLookbackMonths),
       importantRetmax: Math.min(
         Math.max(Number(stored.importantRetmax) || DEFAULT_PUBMED_SETTINGS.importantRetmax, 1),
-        20
+        10
       ),
-      retmax: Number(stored.retmax || DEFAULT_PUBMED_SETTINGS.retmax)
+      retmax: Math.min(Math.max(Number(stored.retmax) || DEFAULT_PUBMED_SETTINGS.retmax, 1), 20)
     };
   } catch {
     return DEFAULT_PUBMED_SETTINGS;
@@ -319,7 +319,7 @@ export function savePubMedSettings(settings: PubMedSettings) {
       dailyRunTime: /^\d{2}:\d{2}$/.test(settings.dailyRunTime)
         ? settings.dailyRunTime
         : DEFAULT_PUBMED_SETTINGS.dailyRunTime,
-      retmax: Math.min(Math.max(Number(settings.retmax) || DEFAULT_PUBMED_SETTINGS.retmax, 1), 50),
+      retmax: Math.min(Math.max(Number(settings.retmax) || DEFAULT_PUBMED_SETTINGS.retmax, 1), 20),
       importantRunIntervalDays: Math.min(
         Math.max(Number(settings.importantRunIntervalDays) || DEFAULT_PUBMED_SETTINGS.importantRunIntervalDays, 1),
         31
@@ -330,7 +330,7 @@ export function savePubMedSettings(settings: PubMedSettings) {
       ),
       importantRetmax: Math.min(
         Math.max(Number(settings.importantRetmax) || DEFAULT_PUBMED_SETTINGS.importantRetmax, 1),
-        20
+        10
       )
     })
   );
@@ -409,7 +409,7 @@ export function isPubMedImportantRunDue(settings: PubMedSettings, cache: PubMedC
 export async function fetchImportantPubMedArticles(settings: PubMedSettings, now = new Date()) {
   const query = buildImportantQuery(settings, now);
   const ids = await searchPubMedIds(query, settings, {
-    retmax: Math.min(Math.max(settings.importantRetmax, 1), 20),
+    retmax: Math.min(Math.max(settings.importantRetmax, 1), 10),
     sort: "relevance"
   });
   return fetchPubMedArticlesByIds(ids, settings);
@@ -436,7 +436,7 @@ function truncate(value: string, maxLength: number) {
 
 function buildSummaryInput(alert: PubMedAlertDefinition, articles: PubMedArticle[]) {
   const articleBlocks = articles
-    .slice(0, 10)
+    .slice(0, 5)
     .map((article, index) =>
       [
         `#${index + 1}`,
@@ -444,7 +444,7 @@ function buildSummaryInput(alert: PubMedAlertDefinition, articles: PubMedArticle
         `Title: ${article.title}`,
         `Journal: ${article.journal || "unknown"} (${article.publicationDate || "date unknown"})`,
         `Authors: ${article.authors.join(", ") || "unknown"}`,
-        `Abstract: ${truncate(article.abstract || "No abstract available.", 1400)}`
+        `Abstract: ${truncate(article.abstract || "No abstract available.", 900)}`
       ].join("\n")
     )
     .join("\n\n");
@@ -468,7 +468,7 @@ function buildSummaryInput(alert: PubMedAlertDefinition, articles: PubMedArticle
 
 function buildImportantSummaryInput(settings: PubMedSettings, articles: PubMedArticle[]) {
   const articleBlocks = articles
-    .slice(0, 18)
+    .slice(0, 5)
     .map((article, index) =>
       [
         `#${index + 1}`,
@@ -476,7 +476,7 @@ function buildImportantSummaryInput(settings: PubMedSettings, articles: PubMedAr
         `Title: ${article.title}`,
         `Journal: ${article.journal || "unknown"} (${article.publicationDate || "date unknown"})`,
         `Authors: ${article.authors.join(", ") || "unknown"}`,
-        `Abstract: ${truncate(article.abstract || "No abstract available.", 1300)}`
+        `Abstract: ${truncate(article.abstract || "No abstract available.", 900)}`
       ].join("\n")
     )
     .join("\n\n");
@@ -490,7 +490,7 @@ function buildImportantSummaryInput(settings: PubMedSettings, articles: PubMedAr
     "Do not treat every paper as equally important. It is acceptable to say that some records look low priority.",
     "",
     "Output format:",
-    "1. 今回の最重要論文: top 5-8 papers, each with PMID, one-line finding, why it matters, and caveat",
+    "1. 今回の最重要論文: top 3-5 papers, each with PMID, one-line finding, why it matters, and caveat",
     "2. テーマ別まとめ: respiratory, sepsis/shock, ECMO/ECLS, AKI/CRRT, sedation/delirium, congenital heart/CICU as applicable",
     "3. すぐ読むべき順",
     "4. 後回しでよいもの / 抄録だけでは判断困難なもの",

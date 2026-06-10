@@ -9,8 +9,8 @@ const generatedPath = resolve(rootDir, "src", "pubmedGenerated.ts");
 
 const EUTILS_BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils";
 const EUTILS_TOOL = "icu_mcq_pwa";
-const ALERT_RETMAX = clampNumber(process.env.PUBMED_ALERT_RETMAX, 20, 1, 50);
-const IMPORTANT_RETMAX = clampNumber(process.env.PUBMED_IMPORTANT_RETMAX, 12, 1, 20);
+const ALERT_RETMAX = clampNumber(process.env.PUBMED_ALERT_RETMAX, 5, 1, 20);
+const IMPORTANT_RETMAX = clampNumber(process.env.PUBMED_IMPORTANT_RETMAX, 5, 1, 10);
 const IMPORTANT_LOOKBACK_MONTHS = clampNumber(process.env.PUBMED_IMPORTANT_LOOKBACK_MONTHS, 24, 1, 36);
 const OPENAI_BASE_URL = process.env.OPENAI_BASE_URL || "https://api.openai.com/v1";
 const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-5.5";
@@ -259,7 +259,7 @@ function alertSummaryPrompt(alert, articles) {
     "",
     "Do not overstate findings. If only abstracts are available, say so.",
     "",
-    articleBlocks(articles, 10, 1400)
+    articleBlocks(articles, 5, 900)
   ].join("\n");
 }
 
@@ -273,14 +273,14 @@ function importantSummaryPrompt(articles) {
     "Do not treat every paper as equally important. It is acceptable to say that some records look low priority.",
     "",
     "Output format:",
-    "1. 今回の最重要論文: top 5-8 papers, each with PMID, one-line finding, why it matters, and caveat",
+    "1. 今回の最重要論文: top 3-5 papers, each with PMID, one-line finding, why it matters, and caveat",
     "2. テーマ別まとめ: respiratory, sepsis/shock, ECMO/ECLS, AKI/CRRT, sedation/delirium, congenital heart/CICU as applicable",
     "3. すぐ読むべき順",
     "4. 後回しでよいもの / 抄録だけでは判断困難なもの",
     "",
     "If only abstracts are available, explicitly say so and avoid overstating causality.",
     "",
-    articleBlocks(articles, 18, 1300)
+    articleBlocks(articles, 5, 900)
   ].join("\n");
 }
 

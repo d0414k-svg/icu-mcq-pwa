@@ -31,8 +31,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
-          PUBMED_ALERT_RETMAX: "20"
-          PUBMED_IMPORTANT_RETMAX: "12"
+          PUBMED_ALERT_RETMAX: "5"
+          PUBMED_IMPORTANT_RETMAX: "5"
           PUBMED_IMPORTANT_LOOKBACK_MONTHS: "24"
 
       - name: Test

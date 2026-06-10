@@ -1859,7 +1859,7 @@ function normalizedPubMedSettings(settings: PubMedSettings): PubMedSettings {
     dailyRunTime: /^\d{2}:\d{2}$/.test(settings.dailyRunTime)
       ? settings.dailyRunTime
       : DEFAULT_PUBMED_SETTINGS.dailyRunTime,
-    retmax: Math.min(Math.max(Number(settings.retmax) || DEFAULT_PUBMED_SETTINGS.retmax, 1), 50),
+    retmax: Math.min(Math.max(Number(settings.retmax) || DEFAULT_PUBMED_SETTINGS.retmax, 1), 20),
     importantRunIntervalDays: Math.min(
       Math.max(Number(settings.importantRunIntervalDays) || DEFAULT_PUBMED_SETTINGS.importantRunIntervalDays, 1),
       31
@@ -1870,7 +1870,7 @@ function normalizedPubMedSettings(settings: PubMedSettings): PubMedSettings {
     ),
     importantRetmax: Math.min(
       Math.max(Number(settings.importantRetmax) || DEFAULT_PUBMED_SETTINGS.importantRetmax, 1),
-      20
+      10
     )
   };
 }
@@ -2394,7 +2394,7 @@ function LiteratureView() {
             <input
               type="number"
               min={1}
-              max={50}
+              max={20}
               value={settings.retmax}
               onChange={(event) => updateSetting("retmax", Number(event.target.value))}
             />
@@ -2438,7 +2438,7 @@ function LiteratureView() {
             <input
               type="number"
               min={1}
-              max={20}
+              max={10}
               value={settings.importantRetmax}
               onChange={(event) => updateSetting("importantRetmax", Number(event.target.value))}
             />
