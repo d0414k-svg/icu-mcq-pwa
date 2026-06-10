@@ -1870,7 +1870,7 @@ function normalizedPubMedSettings(settings: PubMedSettings): PubMedSettings {
     ),
     importantRetmax: Math.min(
       Math.max(Number(settings.importantRetmax) || DEFAULT_PUBMED_SETTINGS.importantRetmax, 1),
-      100
+      20
     )
   };
 }
@@ -1929,7 +1929,7 @@ function LiteratureView() {
     const nextSettings = normalizedPubMedSettings(settings);
     setSettings(nextSettings);
     savePubMedSettings(nextSettings);
-    setMessage("PubMed/AI設定を保存しました。APIキーはこのブラウザ内だけに保存されます。");
+    setMessage("PubMed/AI設定を保存しました。APIキーは保存せず、この画面を開いている間だけ使います。");
   };
 
   const copyLiteratureLink = async () => {
@@ -2366,6 +2366,7 @@ function LiteratureView() {
               placeholder={settings.aiEndpointMode === "chat" ? "ローカルLLMでは空欄可" : "sk-..."}
               autoComplete="off"
             />
+            <span className="muted">保存しません。自動要約はGitHub SecretsのOPENAI_API_KEYを使います。</span>
           </label>
           <label>
             AI model
@@ -2437,7 +2438,7 @@ function LiteratureView() {
             <input
               type="number"
               min={1}
-              max={100}
+              max={20}
               value={settings.importantRetmax}
               onChange={(event) => updateSetting("importantRetmax", Number(event.target.value))}
             />
@@ -2466,7 +2467,7 @@ function LiteratureView() {
           設定保存
         </button>
         <p className="muted">
-          OpenAIはResponses API、LM Studio/OllamaなどはChat Completions互換のbase URLを指定します。APIキーはlocalStorage保存です。
+          OpenAIはResponses API、LM Studio/OllamaなどはChat Completions互換のbase URLを指定します。APIキーはlocalStorageに保存しません。毎朝の自動要約はGitHub SecretsのOPENAI_API_KEYを使います。
         </p>
         <p className="muted">
           自動更新はアプリが開いている時、またはその日の{settings.dailyRunTime}以降に開いた時に実行します。

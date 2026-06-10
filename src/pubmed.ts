@@ -63,7 +63,7 @@ export const DEFAULT_PUBMED_SETTINGS: PubMedSettings = {
   importantRunEnabled: true,
   importantRunIntervalDays: 7,
   importantLookbackMonths: 24,
-  importantRetmax: 40
+  importantRetmax: 12
 };
 
 const PUBMED_SETTINGS_STORAGE_KEY = "icu-mcq-pubmed-settings";
@@ -269,9 +269,15 @@ export function loadPubMedSettings(): PubMedSettings {
   if (typeof localStorage === "undefined") return DEFAULT_PUBMED_SETTINGS;
   try {
     const stored = JSON.parse(localStorage.getItem(PUBMED_SETTINGS_STORAGE_KEY) ?? "{}") as Partial<PubMedSettings>;
+    if (stored.apiKey) {
+      const sanitizedStored = { ...stored };
+      delete sanitizedStored.apiKey;
+      localStorage.setItem(PUBMED_SETTINGS_STORAGE_KEY, JSON.stringify(sanitizedStored));
+    }
     return {
       ...DEFAULT_PUBMED_SETTINGS,
       ...stored,
+      apiKey: "",
       aiEndpointMode: stored.aiEndpointMode === "chat" ? "chat" : DEFAULT_PUBMED_SETTINGS.aiEndpointMode,
       dailyRunEnabled:
         typeof stored.dailyRunEnabled === "boolean"
@@ -293,7 +299,10 @@ export function loadPubMedSettings(): PubMedSettings {
         stored.importantRunIntervalDays || DEFAULT_PUBMED_SETTINGS.importantRunIntervalDays
       ),
       importantLookbackMonths: Number(stored.importantLookbackMonths || DEFAULT_PUBMED_SETTINGS.importantLookbackMonths),
-      importantRetmax: Number(stored.importantRetmax || DEFAULT_PUBMED_SETTINGS.importantRetmax),
+      importantRetmax: Math.min(
+        Math.max(Number(stored.importantRetmax) || DEFAULT_PUBMED_SETTINGS.importantRetmax, 1),
+        20
+      ),
       retmax: Number(stored.retmax || DEFAULT_PUBMED_SETTINGS.retmax)
     };
   } catch {
@@ -306,6 +315,7 @@ export function savePubMedSettings(settings: PubMedSettings) {
     PUBMED_SETTINGS_STORAGE_KEY,
     JSON.stringify({
       ...settings,
+      apiKey: "",
       dailyRunTime: /^\d{2}:\d{2}$/.test(settings.dailyRunTime)
         ? settings.dailyRunTime
         : DEFAULT_PUBMED_SETTINGS.dailyRunTime,
@@ -320,7 +330,7 @@ export function savePubMedSettings(settings: PubMedSettings) {
       ),
       importantRetmax: Math.min(
         Math.max(Number(settings.importantRetmax) || DEFAULT_PUBMED_SETTINGS.importantRetmax, 1),
-        100
+        20
       )
     })
   );
@@ -399,7 +409,7 @@ export function isPubMedImportantRunDue(settings: PubMedSettings, cache: PubMedC
 export async function fetchImportantPubMedArticles(settings: PubMedSettings, now = new Date()) {
   const query = buildImportantQuery(settings, now);
   const ids = await searchPubMedIds(query, settings, {
-    retmax: Math.min(Math.max(settings.importantRetmax, 1), 100),
+    retmax: Math.min(Math.max(settings.importantRetmax, 1), 20),
     sort: "relevance"
   });
   return fetchPubMedArticlesByIds(ids, settings);
