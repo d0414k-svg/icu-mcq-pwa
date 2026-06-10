@@ -64,6 +64,35 @@ button {
   letter-spacing: 0;
 }
 
+.header-actions {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-link {
+  display: inline-flex;
+  min-height: 52px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 12px;
+  color: #123c38;
+  background: #e8f3f1;
+  border: 1px solid #c4ddd8;
+  border-radius: 8px;
+  font-size: 0.86rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.header-link.active {
+  color: #ffffff;
+  background: #0f766e;
+  border-color: #0f766e;
+}
+
 .eyebrow {
   margin: 0 0 4px;
   color: #667872;

@@ -363,9 +363,21 @@ function App() {
           <p className="eyebrow">Local Study PWA</p>
           <h1>ICU MCQ</h1>
         </div>
-        <div className="header-badges" aria-label="学習状況">
-          <StatPill label="問題" value={stats.activeQuestions} />
-          <StatPill label="復習" value={stats.dueQuestions} />
+        <div className="header-actions">
+          <button
+            className={activeTab === "literature" ? "header-link active" : "header-link"}
+            type="button"
+            onClick={() => selectTab("literature")}
+            aria-current={activeTab === "literature" ? "page" : undefined}
+            title="PubMed文献アラートを開く"
+          >
+            <Newspaper aria-hidden="true" size={18} />
+            <span>論文</span>
+          </button>
+          <div className="header-badges" aria-label="学習状況">
+            <StatPill label="問題" value={stats.activeQuestions} />
+            <StatPill label="復習" value={stats.dueQuestions} />
+          </div>
         </div>
       </header>
 
