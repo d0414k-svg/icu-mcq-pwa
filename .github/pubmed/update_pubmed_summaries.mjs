@@ -12,6 +12,7 @@ const EUTILS_TOOL = "icu_mcq_pwa";
 const ALERT_RETMAX = clampNumber(process.env.PUBMED_ALERT_RETMAX, 5, 1, 20);
 const IMPORTANT_RETMAX = clampNumber(process.env.PUBMED_IMPORTANT_RETMAX, 5, 1, 10);
 const IMPORTANT_LOOKBACK_MONTHS = clampNumber(process.env.PUBMED_IMPORTANT_LOOKBACK_MONTHS, 24, 1, 36);
+const ARTICLE_SUMMARY_LIMIT = clampNumber(process.env.PUBMED_ARTICLE_SUMMARY_LIMIT, 4, 1, 12);
 const AI_BASE_URL = process.env.AI_BASE_URL || process.env.OPENAI_BASE_URL || "https://api.openai.com/v1";
 const AI_MODEL = process.env.AI_MODEL || process.env.OPENAI_MODEL || "gpt-5.5";
 const AI_API_KEY = process.env.AI_API_KEY || process.env.OPENAI_API_KEY || "";
@@ -217,6 +218,31 @@ function uniqueArticlesByPmid(articles) {
   return [...byPmid.values()];
 }
 
+function articleSummaryBucket(previousCache) {
+  return previousCache?.articleSummariesByPmid && typeof previousCache.articleSummariesByPmid === "object"
+    ? { ...previousCache.articleSummariesByPmid }
+    : {};
+}
+
+function articleSummaryFromCache(articleSummariesByPmid, article) {
+  const item = articleSummariesByPmid?.[article.pmid];
+  return typeof item?.summary === "string" && item.summary.trim() ? item.summary.trim() : "";
+}
+
+function articleSummarySections(title, articles, articleSummariesByPmid) {
+  const sections = articles
+    .map((article, index) => {
+      const summary = articleSummaryFromCache(articleSummariesByPmid, article);
+      if (!summary) return "";
+      const meta = [`PMID ${article.pmid}`, article.journal, article.publicationDate].filter(Boolean).join(" / ");
+      return [`### ${index + 1}. ${article.title}`, meta, summary].join("\n");
+    })
+    .filter(Boolean);
+
+  if (sections.length === 0) return "";
+  return [`## ${title}`, ...sections].join("\n\n");
+}
+
 async function readExistingGeneratedCache() {
   try {
     const source = await readFile(generatedPath, "utf8");
@@ -228,7 +254,24 @@ async function readExistingGeneratedCache() {
   }
 }
 
-function dailySummaryFrom({ summaryByAlert, importantSummary, articlesByAlert, importantArticles }) {
+function dailySummaryFrom({ summaryByAlert, importantSummary, articlesByAlert, importantArticles, articleSummariesByPmid }) {
+  const allArticles = uniqueArticlesByPmid([
+    ...(importantArticles ?? []),
+    ...(articlesByAlert.focused ?? []),
+    ...(articlesByAlert.broad ?? [])
+  ]);
+  const summarizedCount = allArticles.filter((article) => articleSummaryFromCache(articleSummariesByPmid, article)).length;
+  const pendingCount = Math.max(allArticles.length - summarizedCount, 0);
+  const sequentialSummary = [
+    "## 今日の順次AI要約",
+    `取得候補 ${allArticles.length}件 / AI要約済み ${summarizedCount}件 / 未要約 ${pendingCount}件`,
+    articleSummarySections("重要候補から読む", importantArticles ?? [], articleSummariesByPmid),
+    articleSummarySections("PICU/CICU重点", articlesByAlert.focused ?? [], articleSummariesByPmid),
+    articleSummarySections("主要誌横断", articlesByAlert.broad ?? [], articleSummariesByPmid)
+  ].filter(Boolean);
+
+  if (summarizedCount > 0) return sequentialSummary.join("\n\n");
+
   const sections = [
     importantSummary ? `## 今日の重要論文\n${importantSummary}` : "",
     summaryByAlert.focused ? `## PICU/CICU重点\n${summaryByAlert.focused}` : "",
@@ -237,14 +280,9 @@ function dailySummaryFrom({ summaryByAlert, importantSummary, articlesByAlert, i
 
   if (sections.length > 0) return sections.join("\n\n");
 
-  const totalArticles = uniqueArticlesByPmid([
-    ...(articlesByAlert.focused ?? []),
-    ...(articlesByAlert.broad ?? []),
-    ...(importantArticles ?? [])
-  ]).length;
   return [
     "## 今日の新着論文",
-    `新着候補 ${totalArticles}件を取得しました。`,
+    `新着候補 ${allArticles.length}件を取得しました。`,
     "AI要約はこの実行では生成できませんでした。OpenAIまたはローカルLLMの接続・利用枠を確認すると、次回以降は同じ日別枠に要約が入ります。"
   ].join("\n");
 }
@@ -411,6 +449,35 @@ function importantSummaryPrompt(articles) {
   ].join("\n");
 }
 
+function articleSummaryPrompt(article, contextLabel) {
+  return [
+    `Context: ${contextLabel}`,
+    "Audience: pediatric intensivists and pediatric cardiac intensivists.",
+    "Task: Summarize this single PubMed record in Japanese.",
+    "",
+    `PMID: ${article.pmid}`,
+    `Title: ${article.title}`,
+    `Journal: ${article.journal || "unknown"} (${article.publicationDate || "date unknown"})`,
+    `Authors: ${article.authors.join(", ") || "unknown"}`,
+    `Abstract: ${truncate(article.abstract || "No abstract available.", 1200)}`,
+    "",
+    "Output format:",
+    "- 要点: one concise sentence",
+    "- PICU/CICUでの意味: one concise sentence",
+    "- 注意点: one concise sentence, especially if only abstract is available",
+    "",
+    "Do not overstate causality or clinical practice impact."
+  ].join("\n");
+}
+
+function articleContextLabels(article, articlesByAlert, importantArticles) {
+  const labels = [];
+  if ((importantArticles ?? []).some((item) => item.pmid === article.pmid)) labels.push("重要候補");
+  if ((articlesByAlert.focused ?? []).some((item) => item.pmid === article.pmid)) labels.push("PICU/CICU重点");
+  if ((articlesByAlert.broad ?? []).some((item) => item.pmid === article.pmid)) labels.push("主要誌横断");
+  return labels.join(" / ") || "PubMed新着";
+}
+
 function generatedModule(cache, generatedAt) {
   return `import type { PubMedCachePayload } from "./pubmed";
 
@@ -440,6 +507,7 @@ async function main() {
   const articlesByAlert = { focused: [], broad: [] };
   const summaryByAlert = {};
   const fetchedAtByAlert = {};
+  const articleSummariesByPmid = articleSummaryBucket(previousCache);
   const statusMessages = [];
 
   for (const alert of alerts) {
@@ -448,18 +516,6 @@ async function main() {
     articlesByAlert[alert.key] = articles;
     fetchedAtByAlert[alert.key] = generatedAt;
     statusMessages.push(`${alert.title}: ${articles.length}件取得`);
-
-    if (articles.length > 0) {
-      try {
-        summaryByAlert[alert.key] = await requestAiText(
-          alertSummaryPrompt(alert, articles),
-          "You are a careful medical literature summarizer. Write concise Japanese for clinicians. Do not provide individual medical advice."
-        );
-        statusMessages.push(`${alert.title}: AI要約済み`);
-      } catch (error) {
-        statusMessages.push(`${alert.title}: AI要約失敗 (${summaryErrorLabel(error)})`);
-      }
-    }
   }
 
   const importantIds = await searchPubMedIds(importantQuery(alerts, new Date(generatedAt)), {
@@ -467,23 +523,60 @@ async function main() {
     sort: "relevance"
   });
   const importantArticles = await fetchPubMedArticlesByIds(importantIds);
-  let importantSummary = undefined;
-  if (importantArticles.length > 0) {
+  const candidateArticles = uniqueArticlesByPmid([
+    ...importantArticles,
+    ...(articlesByAlert.focused ?? []),
+    ...(articlesByAlert.broad ?? [])
+  ]);
+  const pendingArticles = candidateArticles.filter((article) => !articleSummaryFromCache(articleSummariesByPmid, article));
+  const selectedArticles = pendingArticles.slice(0, ARTICLE_SUMMARY_LIMIT);
+  let addedSummaryCount = 0;
+
+  for (const article of selectedArticles) {
     try {
-      importantSummary = await requestAiText(
-        importantSummaryPrompt(importantArticles),
-        "You are a careful medical literature curator for pediatric intensive care and pediatric cardiac intensive care. Write concise Japanese for clinicians, rank priorities, and avoid overstatement."
+      const contextLabel = articleContextLabels(article, articlesByAlert, importantArticles);
+      const summary = await requestAiText(
+        articleSummaryPrompt(article, contextLabel),
+        "You are a careful medical literature summarizer. Write concise Japanese for clinicians. Do not provide individual medical advice."
       );
+      articleSummariesByPmid[article.pmid] = {
+        pmid: article.pmid,
+        title: article.title,
+        generatedAt: new Date().toISOString(),
+        model: AI_MODEL,
+        summary
+      };
+      addedSummaryCount += 1;
+      statusMessages.push(`PMID ${article.pmid}: 順次AI要約済み`);
     } catch (error) {
-      statusMessages.push(`重要論文: AI要約失敗 (${summaryErrorLabel(error)})`);
+      statusMessages.push(`PMID ${article.pmid}: AI要約失敗 (${summaryErrorLabel(error)})`);
     }
   }
+
+  const summarizedCandidateCount = candidateArticles.filter((article) =>
+    articleSummaryFromCache(articleSummariesByPmid, article)
+  ).length;
+  const remainingSummaryCount = Math.max(candidateArticles.length - summarizedCandidateCount, 0);
+  statusMessages.push(`順次AI要約: ${addedSummaryCount}件追加 / ${summarizedCandidateCount}/${candidateArticles.length}件済み`);
+
+  summaryByAlert.focused = articleSummarySections("PICU/CICU重点", articlesByAlert.focused ?? [], articleSummariesByPmid);
+  summaryByAlert.broad = articleSummarySections("主要誌横断", articlesByAlert.broad ?? [], articleSummariesByPmid);
+  const importantSummary = articleSummarySections("重要候補", importantArticles, articleSummariesByPmid) || undefined;
+  const importantSummarizedCount = importantArticles.filter((article) =>
+    articleSummaryFromCache(articleSummariesByPmid, article)
+  ).length;
+
   const dailyDigest = {
     date: generatedAt.slice(0, 10),
     generatedAt,
-    summary: dailySummaryFrom({ summaryByAlert, importantSummary, articlesByAlert, importantArticles }),
+    summary: dailySummaryFrom({ summaryByAlert, importantSummary, articlesByAlert, importantArticles, articleSummariesByPmid }),
     articles: uniqueArticlesByPmid([...(articlesByAlert.focused ?? []), ...(articlesByAlert.broad ?? [])]),
-    importantArticles
+    importantArticles,
+    articleSummaries: Object.fromEntries(
+      candidateArticles
+        .filter((article) => articleSummaryFromCache(articleSummariesByPmid, article))
+        .map((article) => [article.pmid, articleSummariesByPmid[article.pmid]])
+    )
   };
 
   const cache = {
@@ -493,12 +586,13 @@ async function main() {
     importantArticles,
     importantSummary,
     importantFetchedAt: generatedAt,
+    articleSummariesByPmid,
     dailyDigests: buildDailyDigests(previousCache, dailyDigest),
     lastAutoRunAt: generatedAt,
     lastAutoRunDate: generatedAt.slice(0, 10),
     lastAutoRunStatus: statusMessages.join(" / "),
     lastImportantRunAt: generatedAt,
-    lastImportantRunStatus: `重要論文候補 ${importantArticles.length}件取得${importantSummary ? " / AI要約済み" : ""}`
+    lastImportantRunStatus: `重要論文候補 ${importantArticles.length}件取得 / 順次AI要約 ${importantSummarizedCount}/${importantArticles.length}件済み / 全体未要約 ${remainingSummaryCount}件`
   };
 
   await writeFile(generatedPath, generatedModule(cache, generatedAt), "utf8");

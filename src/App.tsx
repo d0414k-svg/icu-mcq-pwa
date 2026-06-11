@@ -1821,6 +1821,7 @@ function LiteratureView() {
   const summary = pubMedCache.summaryByAlert[activeAlertKey];
   const fetchedAt = pubMedCache.fetchedAtByAlert[activeAlertKey];
   const importantArticles = pubMedCache.importantArticles ?? [];
+  const articleSummariesByPmid = pubMedCache.articleSummariesByPmid ?? {};
   const normalizedLiteratureQuery = literatureQuery.trim().toLowerCase();
   const filteredArticles = articles.filter(
     (article) => pubMedArticleMatches(article, normalizedLiteratureQuery) && (!onlyWithAbstract || Boolean(article.abstract.trim()))
@@ -1850,7 +1851,8 @@ function LiteratureView() {
             generatedAt: fallbackDigestGeneratedAt || new Date(0).toISOString(),
             summary: pubMedCache.importantSummary || summary,
             articles: fallbackDigestArticles,
-            importantArticles
+            importantArticles,
+            articleSummaries: articleSummariesByPmid
           }
         : undefined;
   const dailyDigests =
@@ -1873,6 +1875,9 @@ function LiteratureView() {
       (digest) =>
         !normalizedLiteratureQuery ||
         digest.summary?.toLowerCase().includes(normalizedLiteratureQuery) ||
+        Object.values(digest.articleSummaries ?? {}).some((item) =>
+          item.summary.toLowerCase().includes(normalizedLiteratureQuery)
+        ) ||
         digest.articles.length > 0 ||
         digest.importantArticles.length > 0
     );
@@ -1960,23 +1965,29 @@ function LiteratureView() {
           </div>
           <div className="literature-rank-list">
             {topImportantArticles.length > 0
-              ? topImportantArticles.map((article, index) => (
-                  <article key={`rank-${article.pmid}`} className="literature-rank-card">
-                    <span className="rank-index">{index + 1}</span>
-                    <div>
-                      <h3>{article.title}</h3>
-                      <p>{clipText(article.abstract || "抄録はありません。PubMedで詳細を確認してください。", 130)}</p>
-                      <div className="tag-row">
-                        <span>PMID {article.pmid}</span>
-                        {article.journal && <span>{article.journal}</span>}
-                        {article.publicationDate && <span>{article.publicationDate}</span>}
+              ? topImportantArticles.map((article, index) => {
+                  const aiSummary = articleSummariesByPmid[article.pmid]?.summary;
+                  return (
+                    <article key={`rank-${article.pmid}`} className="literature-rank-card">
+                      <span className="rank-index">{index + 1}</span>
+                      <div>
+                        <h3>{article.title}</h3>
+                        <p className={aiSummary ? "literature-ai-note" : undefined}>
+                          {clipText(aiSummary || article.abstract || "抄録はありません。PubMedで詳細を確認してください。", aiSummary ? 260 : 130)}
+                        </p>
+                        <div className="tag-row">
+                          <span>PMID {article.pmid}</span>
+                          {aiSummary && <span>AI要約済み</span>}
+                          {article.journal && <span>{article.journal}</span>}
+                          {article.publicationDate && <span>{article.publicationDate}</span>}
+                        </div>
                       </div>
-                    </div>
-                    <a href={article.url} target="_blank" rel="noreferrer" title="PubMedで開く">
-                      <ExternalLink aria-hidden="true" size={17} />
-                    </a>
-                  </article>
-                ))
+                      <a href={article.url} target="_blank" rel="noreferrer" title="PubMedで開く">
+                        <ExternalLink aria-hidden="true" size={17} />
+                      </a>
+                    </article>
+                  );
+                })
               : topTrialSummaries.map((item, index) => (
                   <article key={`rank-trial-${item.pmid}`} className="literature-rank-card">
                     <span className="rank-index">{index + 1}</span>
@@ -2026,21 +2037,27 @@ function LiteratureView() {
                 )}
                 {digestPapers.length > 0 && (
                   <div className="daily-paper-list">
-                    {digestPapers.map((article) => (
-                      <article className="daily-paper-item" key={`${digest.date}-${article.pmid}`}>
-                        <div>
-                          <h4>{article.title}</h4>
-                          <div className="tag-row">
-                            <span>PMID {article.pmid}</span>
-                            {article.journal && <span>{article.journal}</span>}
-                            {article.publicationDate && <span>{article.publicationDate}</span>}
+                    {digestPapers.map((article) => {
+                      const aiSummary =
+                        digest.articleSummaries?.[article.pmid]?.summary || articleSummariesByPmid[article.pmid]?.summary;
+                      return (
+                        <article className="daily-paper-item" key={`${digest.date}-${article.pmid}`}>
+                          <div>
+                            <h4>{article.title}</h4>
+                            <div className="tag-row">
+                              <span>PMID {article.pmid}</span>
+                              {aiSummary && <span>AI要約済み</span>}
+                              {article.journal && <span>{article.journal}</span>}
+                              {article.publicationDate && <span>{article.publicationDate}</span>}
+                            </div>
+                            {aiSummary && <p className="daily-paper-ai-note">{aiSummary}</p>}
                           </div>
-                        </div>
-                        <a href={article.url} target="_blank" rel="noreferrer" title="PubMedで開く">
-                          <ExternalLink aria-hidden="true" size={17} />
-                        </a>
-                      </article>
-                    ))}
+                          <a href={article.url} target="_blank" rel="noreferrer" title="PubMedで開く">
+                            <ExternalLink aria-hidden="true" size={17} />
+                          </a>
+                        </article>
+                      );
+                    })}
                   </div>
                 )}
               </section>

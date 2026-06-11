@@ -44,6 +44,8 @@ LM StudioやvLLMなどに切り替える場合は、`AI_BASE_URL` と `AI_MODEL`
 
 このリポジトリのPubMed workflowは、`self-hosted`, `Windows`, `X64`, `pubmed-local-llm` ラベルを持つrunnerを使います。現在のWindowsユーザー権限ではサービス化ではなく、HKCUのログオン起動からrunnerを立ち上げます。PCが起動していて、このユーザーがログオンしている時にジョブを拾えます。
 
+AI要約は順次更新です。取得したPMIDごとに要約を保存し、既に要約済みのPMIDは再利用します。既定では1回のworkflowで未要約論文を最大4本だけ処理し、残りは次回以降に続きから要約します。
+
 ## GitHub Actionsで使う変数
 
 Workflowは以下を読みます。

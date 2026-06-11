@@ -20,12 +20,21 @@ export interface PubMedArticle {
   url: string;
 }
 
+export interface PubMedArticleSummary {
+  pmid: string;
+  title?: string;
+  generatedAt: string;
+  model?: string;
+  summary: string;
+}
+
 export interface PubMedDailyDigest {
   date: string;
   generatedAt: string;
   summary?: string;
   articles: PubMedArticle[];
   importantArticles: PubMedArticle[];
+  articleSummaries?: Record<string, PubMedArticleSummary>;
 }
 
 export interface PubMedSettings {
@@ -51,6 +60,7 @@ export interface PubMedCachePayload {
   importantArticles: PubMedArticle[];
   importantSummary?: string;
   importantFetchedAt?: string;
+  articleSummariesByPmid?: Record<string, PubMedArticleSummary>;
   dailyDigests?: PubMedDailyDigest[];
   lastAutoRunAt?: string;
   lastAutoRunDate?: string;
@@ -120,10 +130,12 @@ function clonePubMedCache(cache: PubMedCachePayload): PubMedCachePayload {
     importantArticles: [...cache.importantArticles],
     importantSummary: cache.importantSummary,
     importantFetchedAt: cache.importantFetchedAt,
+    articleSummariesByPmid: cache.articleSummariesByPmid ? { ...cache.articleSummariesByPmid } : undefined,
     dailyDigests: (cache.dailyDigests ?? []).map((digest) => ({
       ...digest,
       articles: [...digest.articles],
-      importantArticles: [...digest.importantArticles]
+      importantArticles: [...digest.importantArticles],
+      articleSummaries: digest.articleSummaries ? { ...digest.articleSummaries } : undefined
     })),
     lastAutoRunAt: cache.lastAutoRunAt,
     lastAutoRunDate: cache.lastAutoRunDate,

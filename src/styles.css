@@ -1222,6 +1222,17 @@ textarea:focus {
   overflow-wrap: anywhere;
 }
 
+.literature-rank-card p.literature-ai-note,
+.daily-paper-ai-note {
+  padding: 8px 9px;
+  color: #24433d;
+  background: #f0f9f6;
+  border: 1px solid #cfe9e1;
+  border-radius: 8px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
 .literature-rank-card a {
   display: inline-flex;
   width: 34px;
@@ -1300,6 +1311,11 @@ textarea:focus {
 
 .daily-paper-item h4 {
   font-size: 0.94rem;
+}
+
+.daily-paper-ai-note {
+  margin: 8px 0 0;
+  font-size: 0.82rem;
 }
 
 .daily-paper-item a {

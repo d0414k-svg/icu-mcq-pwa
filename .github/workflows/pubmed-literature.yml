@@ -39,6 +39,7 @@ jobs:
           NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
           PUBMED_ALERT_RETMAX: "5"
           PUBMED_IMPORTANT_RETMAX: "5"
+          PUBMED_ARTICLE_SUMMARY_LIMIT: "4"
           PUBMED_IMPORTANT_LOOKBACK_MONTHS: "24"
 
       - name: Test
