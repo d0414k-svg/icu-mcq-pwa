@@ -12,10 +12,17 @@ const EUTILS_TOOL = "icu_mcq_pwa";
 const ALERT_RETMAX = clampNumber(process.env.PUBMED_ALERT_RETMAX, 5, 1, 20);
 const IMPORTANT_RETMAX = clampNumber(process.env.PUBMED_IMPORTANT_RETMAX, 5, 1, 10);
 const IMPORTANT_LOOKBACK_MONTHS = clampNumber(process.env.PUBMED_IMPORTANT_LOOKBACK_MONTHS, 24, 1, 36);
-const OPENAI_BASE_URL = process.env.OPENAI_BASE_URL || "https://api.openai.com/v1";
-const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-5.5";
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "";
+const AI_BASE_URL = process.env.AI_BASE_URL || process.env.OPENAI_BASE_URL || "https://api.openai.com/v1";
+const AI_MODEL = process.env.AI_MODEL || process.env.OPENAI_MODEL || "gpt-5.5";
+const AI_API_KEY = process.env.AI_API_KEY || process.env.OPENAI_API_KEY || "";
+const AI_ENDPOINT_MODE = normalizeAiEndpointMode(process.env.AI_ENDPOINT_MODE || process.env.OPENAI_ENDPOINT_MODE || "responses");
 const NCBI_EMAIL = process.env.NCBI_EMAIL || "";
+
+function normalizeAiEndpointMode(value) {
+  const mode = String(value || "").trim().toLowerCase();
+  if (["chat", "chat-completions", "chat_completions"].includes(mode)) return "chat";
+  return "responses";
+}
 
 function clampNumber(value, fallback, min, max) {
   const parsed = Number(value || fallback);
@@ -238,7 +245,7 @@ function dailySummaryFrom({ summaryByAlert, importantSummary, articlesByAlert, i
   return [
     "## 今日の新着論文",
     `新着候補 ${totalArticles}件を取得しました。`,
-    "AI要約はこの実行では生成できませんでした。OpenAI APIの利用枠を確認すると、次回以降は同じ日別枠に要約が入ります。"
+    "AI要約はこの実行では生成できませんでした。OpenAIまたはローカルLLMの接続・利用枠を確認すると、次回以降は同じ日別枠に要約が入ります。"
   ].join("\n");
 }
 
@@ -256,31 +263,68 @@ function buildDailyDigests(previousCache, dailyDigest) {
 
 function summaryErrorLabel(error) {
   const message = error instanceof Error ? error.message : String(error);
+  if (/ECONNREFUSED|ENOTFOUND|ECONNRESET|fetch failed|network|connect/i.test(message)) return "AI接続エラー";
   if (/quota|exceeded/i.test(message)) return "OpenAI API利用枠エラー";
-  if (/api key|required|auth|401/i.test(message)) return "OpenAI API設定エラー";
-  return "OpenAI APIエラー";
+  if (/api key|required|auth|401|403/i.test(message)) return "AI API設定エラー";
+  return "AI要約エラー";
 }
 
-async function requestOpenAiText(input, instructions) {
-  if (!OPENAI_API_KEY.trim()) {
+function isOfficialOpenAiEndpoint(baseUrl) {
+  try {
+    return new URL(baseUrl).hostname === "api.openai.com";
+  } catch {
+    return /^https:\/\/api\.openai\.com\b/i.test(baseUrl);
+  }
+}
+
+function aiEndpoint(path) {
+  const baseUrl = AI_BASE_URL.trim().replace(/\/+$/, "");
+  if (baseUrl.endsWith(path)) return baseUrl;
+  return baseUrl.endsWith("/v1") ? `${baseUrl}${path}` : `${baseUrl}/v1${path}`;
+}
+
+function aiHeaders() {
+  const headers = { "Content-Type": "application/json" };
+  if (AI_API_KEY.trim()) headers.Authorization = `Bearer ${AI_API_KEY.trim()}`;
+  return headers;
+}
+
+function ensureAiCredentials() {
+  if (!AI_API_KEY.trim() && isOfficialOpenAiEndpoint(AI_BASE_URL)) {
     throw new Error("OPENAI_API_KEY is required for automatic AI summaries.");
   }
+}
 
-  const baseUrl = OPENAI_BASE_URL.trim().replace(/\/+$/, "");
-  const endpoint = baseUrl.endsWith("/responses")
-    ? baseUrl
-    : baseUrl.endsWith("/v1")
-      ? `${baseUrl}/responses`
-      : `${baseUrl}/v1/responses`;
+function extractResponsesText(payload) {
+  return (
+    payload.output_text ||
+    payload.output
+      ?.flatMap((item) => item.content ?? [])
+      .map((content) => content.text ?? "")
+      .filter(Boolean)
+      .join("\n") ||
+    ""
+  );
+}
 
-  const response = await fetch(endpoint, {
+function extractChatText(payload) {
+  const content = payload.choices?.[0]?.message?.content;
+  if (Array.isArray(content)) {
+    return content
+      .map((item) => item.text ?? "")
+      .filter(Boolean)
+      .join("\n");
+  }
+  return typeof content === "string" ? content : "";
+}
+
+async function requestResponsesText(input, instructions) {
+  ensureAiCredentials();
+  const response = await fetch(aiEndpoint("/responses"), {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${OPENAI_API_KEY.trim()}`
-    },
+    headers: aiHeaders(),
     body: JSON.stringify({
-      model: OPENAI_MODEL,
+      model: AI_MODEL,
       reasoning: { effort: "low" },
       instructions,
       input
@@ -289,20 +333,43 @@ async function requestOpenAiText(input, instructions) {
 
   const payload = await response.json().catch(() => ({}));
   if (!response.ok) {
-    const message = payload?.error?.message || `OpenAI request failed: ${response.status}`;
+    const message = payload?.error?.message || `AI request failed: ${response.status}`;
     throw new Error(message);
   }
 
-  const outputText =
-    payload.output_text ||
-    payload.output
-      ?.flatMap((item) => item.content ?? [])
-      .map((content) => content.text ?? "")
-      .filter(Boolean)
-      .join("\n") ||
-    "";
-  if (!outputText.trim()) throw new Error("OpenAI returned an empty summary.");
+  const outputText = extractResponsesText(payload);
+  if (!outputText.trim()) throw new Error("AI endpoint returned an empty summary.");
   return outputText.trim();
+}
+
+async function requestChatText(input, instructions) {
+  ensureAiCredentials();
+  const response = await fetch(aiEndpoint("/chat/completions"), {
+    method: "POST",
+    headers: aiHeaders(),
+    body: JSON.stringify({
+      model: AI_MODEL,
+      temperature: 0.2,
+      messages: [
+        { role: "system", content: instructions },
+        { role: "user", content: input }
+      ]
+    })
+  });
+
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    const message = payload?.error?.message || `AI request failed: ${response.status}`;
+    throw new Error(message);
+  }
+
+  const outputText = extractChatText(payload);
+  if (!outputText.trim()) throw new Error("AI endpoint returned an empty summary.");
+  return outputText.trim();
+}
+
+async function requestAiText(input, instructions) {
+  return AI_ENDPOINT_MODE === "chat" ? requestChatText(input, instructions) : requestResponsesText(input, instructions);
 }
 
 function alertSummaryPrompt(alert, articles) {
@@ -384,7 +451,7 @@ async function main() {
 
     if (articles.length > 0) {
       try {
-        summaryByAlert[alert.key] = await requestOpenAiText(
+        summaryByAlert[alert.key] = await requestAiText(
           alertSummaryPrompt(alert, articles),
           "You are a careful medical literature summarizer. Write concise Japanese for clinicians. Do not provide individual medical advice."
         );
@@ -403,7 +470,7 @@ async function main() {
   let importantSummary = undefined;
   if (importantArticles.length > 0) {
     try {
-      importantSummary = await requestOpenAiText(
+      importantSummary = await requestAiText(
         importantSummaryPrompt(importantArticles),
         "You are a careful medical literature curator for pediatric intensive care and pediatric cardiac intensive care. Write concise Japanese for clinicians, rank priorities, and avoid overstatement."
       );

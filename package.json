@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "pubmed:update": "node .github/pubmed/update_pubmed_summaries.mjs",
+    "pubmed:update:local:ollama": "powershell -ExecutionPolicy Bypass -File .github/pubmed/update_pubmed_local_ollama.ps1",
     "test": "vitest run"
   },
   "dependencies": {
