@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   update-literature:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Windows, X64, pubmed-local-llm]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,10 +28,10 @@ jobs:
       - name: Generate PubMed AI summaries
         run: npm run pubmed:update
         env:
-          AI_ENDPOINT_MODE: ${{ vars.AI_ENDPOINT_MODE }}
-          AI_BASE_URL: ${{ vars.AI_BASE_URL }}
-          AI_MODEL: ${{ vars.AI_MODEL }}
-          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_ENDPOINT_MODE: ${{ vars.AI_ENDPOINT_MODE || 'chat' }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL || 'http://127.0.0.1:11434/v1' }}
+          AI_MODEL: ${{ vars.AI_MODEL || 'qwen3:8b' }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY || 'local' }}
           OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
@@ -47,11 +47,14 @@ jobs:
         run: npm run build
 
       - name: Commit generated summaries
+        shell: powershell
         run: |
-          if git diff --quiet -- src/pubmedGenerated.ts; then
-            echo "No PubMed summary changes."
+          git diff --quiet -- src/pubmedGenerated.ts
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "No PubMed summary changes."
             exit 0
-          fi
+          }
+          if ($LASTEXITCODE -ne 1) { exit $LASTEXITCODE }
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/pubmedGenerated.ts

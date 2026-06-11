@@ -9,7 +9,7 @@ if (-not $env:AI_BASE_URL -and -not $env:OPENAI_BASE_URL) {
 }
 
 if (-not $env:AI_MODEL -and -not $env:OPENAI_MODEL) {
-  $env:AI_MODEL = "qwen2.5:14b"
+  $env:AI_MODEL = "qwen3:8b"
 }
 
 if (-not $env:AI_API_KEY -and -not $env:OPENAI_API_KEY) {

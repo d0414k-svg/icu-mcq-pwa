@@ -13,7 +13,7 @@ PubMedの日次更新は、OpenAI APIだけでなく、OllamaやLM Studioなど�
 Ollamaを起動して、要約用モデルを用意します。
 
 ```powershell
-ollama pull qwen2.5:14b
+ollama pull qwen3:8b
 npm run pubmed:update:local:ollama
 npm test
 npm run build
@@ -28,7 +28,7 @@ npm run build
 ```powershell
 $env:AI_ENDPOINT_MODE = "chat"
 $env:AI_BASE_URL = "http://127.0.0.1:11434/v1"
-$env:AI_MODEL = "qwen2.5:14b"
+$env:AI_MODEL = "qwen3:8b"
 $env:AI_API_KEY = "local"
 ```
 
@@ -41,6 +41,8 @@ LM StudioやvLLMなどに切り替える場合は、`AI_BASE_URL` と `AI_MODEL`
 3. ローカルLLMを安全な認証付きエンドポイントとして外部公開し、GitHub Actionsから `AI_BASE_URL` で呼ぶ。
 
 最も扱いやすいのは1です。2はPCが起動している必要があります。3はセキュリティ設計が必要なので、特別な理由がない限り避けます。
+
+このリポジトリのPubMed workflowは、`self-hosted`, `Windows`, `X64`, `pubmed-local-llm` ラベルを持つrunnerを使います。現在のWindowsユーザー権限ではサービス化ではなく、HKCUのログオン起動からrunnerを立ち上げます。PCが起動していて、このユーザーがログオンしている時にジョブを拾えます。
 
 ## GitHub Actionsで使う変数
 
