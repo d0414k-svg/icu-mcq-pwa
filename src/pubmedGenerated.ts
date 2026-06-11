@@ -1,6 +1,6 @@
 import type { PubMedCachePayload } from "./pubmed";
 
-export const GENERATED_PUBMED_CACHE_VERSION = "2026-06-11T00:53:41.866Z";
+export const GENERATED_PUBMED_CACHE_VERSION = "2026-06-11T01:16:35.969Z";
 
 export const GENERATED_PUBMED_CACHE: PubMedCachePayload = {
   "articlesByAlert": {
@@ -170,12 +170,12 @@ export const GENERATED_PUBMED_CACHE: PubMedCachePayload = {
     ]
   },
   "summaryByAlert": {
-    "focused": "1. 最重要ポイント:  \n- 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率が増加し、長期的な監視と手術戦略の検討が必要。  \n- 低中所得国（LMIC）でのテトラロジー・オブ・ファロット（TOF）修復では、技術的パフォーマンススコア（TPS）が死亡率や合併症に影響を与える可能性。  \n- 離脱ポンプ手術における近赤外線分光法（NIRS）は、脳・体循環の変化をリアルタイムで検出する非侵襲的モニタリングツールとして有用。  \n\n2. 論文別メモ:  \n#3 (PMID:41610214): 系統的レビューでACHD患者の大動脈疾患の発生・進行・術後結果をまとめた。臨床的意義は長期管理戦略の検討。制限は最新データの不足。  \n#4 (PMID:41610206): LMICでのTOF修復でTPSと術後結果の関連を評価。臨床的意義は資源限られた環境での術式改善。制限は後ろ向き研究。  \n#5 (PMID:41604529): NIRSを離脱ポンプ手術中の脳・体循環モニタリングに応用。臨床的意義は術中リアルタイム介入の支援。制限は単一施設での結果。  \n#1・#2 (PMID:41757867, 41757848): 抽象なし。読者コメントとその反論の内容は不明。  \n\n3. PICU/CICUで明日から気にすること:  \n- ACHD患者の大動脈疾患の早期発見・継続的モニタリングの重要性。  \n- LMICでのTOF修復における術式・技術の質への注意。  \n- 離脱ポンプ手術中の脳・体循環モニタリングツール（NIRS）の導入検討。  \n\n4. 優先して読む順:  \n1. #3（大動脈疾患の系統的レビュー）  \n2. #4（TOF修復とTPSの関連）  \n3. #5（NIRSの術中モニタリング）  \n4. #1・#2（コメントと反論）",
-    "broad": "1. 最重要ポイント:  \n- 再手術的二尖瓣置換（rSMVR）は、経カテーテル二尖瓣-in-Valve（mViV）に比べて長期生存率に優位性を示唆（PMID:41995635）。  \n- 成人先天性心疾患（ACHD）患者における大動脈疾患（aortopathy）の発生率・進行・手術結果の理解が、長期的なモニタリングと治療戦略に重要（PMID:41610214）。  \n- ローアンドミドルインカム国（LMIC）での四腔症（TOF）修復では、技術的パフォーマンススコア（TPS）が死亡率に影響を与える可能性（PMID:41610206）。  \n\n2. 論文別メモ:  \n- **PMID:41995635**  \n  - 1-2文要約: 再手術的二尖瓣置換（rSMVR）は、mViVに比べて5年生存率や再手術回避に優位性を示唆。  \n  - 臨床的意義: 長期的な心機能維持に向け、術式選択の参考となる。  \n  - 欠点: 抽象は不完全で、詳細な結果は不明。  \n\n- **PMID:41757867**  \n  - 要約: 読者コメントで、小児心臓外科後のICU再入院リスク要因に関する論文の議論が提示。  \n  - 臨床的意義: 論文の補足情報として参考。  \n  - 欠点: 抽象なし。  \n\n- **PMID:41757848**  \n  - 要約: 読者コメントへの応答で、ICU再入院リスク要因の検討が述べられている。  \n  - 臨床的意義: 論文の補足情報として参考。  \n  - 欠点: 抽象なし。  \n\n- **PMID:41610214**  \n  - 要約: ACHD患者における大動脈疾患の発生率・進行・手術結果を系統的レビューでまとめた。  \n  - 臨床的意義: 長期モニタリング戦略の設計に有用。  \n  - 欠点: 研究対象は成人に限る。  \n\n- **PMID:41610206**  \n  - 要約: LMICでのTOF修復でTPSが死亡率に影響を与える可能性を示唆。  \n  - 臨床的意義: 手術品質向上のための指針として参考。  \n  - 欠点: 単一施設の結果に限る。  \n\n3. PICU/CICUで明日から気にすること:  \n- ACHD患者における大動脈疾患の早期発見・モニタリングの重要性。  \n- LMICでのTOF修復では、術者の技術的スキル（TPS）が結果に影響を与える可能性。  \n- 小児心外科後のICU再入院リスク要因の再評価が必要。  \n\n4. 優先して読む順:  \n1. PMID:41995635（術式選択の参考）  \n2. PMID:41610214（ACHD患者の長期管理戦略）  \n3. PMID:41610206（LMICでの手術品質向上）  \n4. PMID:41757867・41757848（補足情報として）"
+    "focused": "",
+    "broad": ""
   },
   "fetchedAtByAlert": {
-    "focused": "2026-06-11T00:53:41.866Z",
-    "broad": "2026-06-11T00:53:41.866Z"
+    "focused": "2026-06-11T01:16:35.969Z",
+    "broad": "2026-06-11T01:16:35.969Z"
   },
   "importantArticles": [
     {
@@ -264,13 +264,43 @@ export const GENERATED_PUBMED_CACHE: PubMedCachePayload = {
       "url": "https://pubmed.ncbi.nlm.nih.gov/39208447/"
     }
   ],
-  "importantSummary": "### 1. 今回の最重要論文  \n**1. PMID: 40119480**  \n- **1行の見出し**: 2024年版日本重症栄養ガイドラインが発表。  \n- **なぜ重要か**: 日本特化の最新ガイドラインで、小児・成人のICU患者の栄養療法を包括的にガイド。臨床実践に即した実用性が高く、小児ICUでの栄養管理に直接的な影響。  \n- **注意点**: 日本国内での適用が主で、国際的な幅は限定的。  \n\n**2. PMID: 40665004**  \n- **1行の見出し**: SRLFとGFRUPによるICU栄養療法の国際的ガイドライン。  \n- **なぜ重要か**: 成人・小児（新生児・火傷患者を除く）の栄養療法を網羅し、GRADEメソッドで高品質な根拠に基づく推奨を提供。小児ICUでの栄養管理に直接的な実践指針。  \n- **注意点**: 火傷患者や新生児は対象外で、特定の疾患群に限定。  \n\n**3. PMID: 39208447**  \n- **1行の見出し**: SHARC定義による心因性ショックの疫学調査。  \n- **なぜ重要か**: 心因性ショックの分類を統一し、CICUでの臨床データを基にした疫学的洞察を提供。小児心不全管理に新たな指針となる可能性。  \n- **注意点**: 治療法の革新ではなく、分類・疫学の整理に焦点。  \n\n**4. PMID: 40668437**  \n- **1行の見出し**: ICUでの腎置換療法（RRT）のガイドライン。  \n- **なぜ重要か**: AKI患者のRRT適応・管理を包括的にガイド。小児ICUでの腎機能管理に直接的な実践指針。  \n- **注意点**: 火傷患者は対象外で、特定の疾患群に限定。  \n\n**5. PMID: 40439782**  \n- **1行の見出し**: 遺伝性貧血（スickle cell disease）の緊急管理ガイドライン。  \n- **なぜ重要か**: 小児・成人のスickle cell disease患者の緊急管理を網羅し、小児CICUでの特異的対応に有用。  \n- **注意点**: 特定疾患群に限定され、一般ICUへの適用は限られる。  \n\n---\n\n### 2. テーマ別まとめ  \n**栄養療法**  \n- **PMID: 40119480**（日本版ガイドライン）、**PMID: 40665004**（国際的ガイドライン）：小児ICUでの栄養管理に直接的な影響。  \n- **PMID: 40668437**（RRT）：AKI管理に焦点。  \n\n**心因性ショック**  \n- **PMID: 39208447**（SHARC定義による疫学調査）：CICUでの分類・管理指針に貢献。  \n\n**腎機能不全**  \n- **PMID: 40668437**：RRTの適応・管理を包括的にガイド。  \n\n**特異疾患（スickle cell disease）**  \n- **PMID: 40439782**：小児CICUでの特異的対応に有用。  \n\n---\n\n### 3. すぐ読むべき順  \n1. **PMID: 40119480**（栄養療法ガイドライン）  \n2. **PMID: 40665004**（国際的栄養療法ガイドライン）  \n3. **PMID: 39208447**（心因性ショックの疫学）  \n4. **PMID: 40668437**（RRTガイドライン）  \n5. **PMID: 40439782**（スickle cell diseaseの緊急管理）  \n\n---\n\n### 4. 後回しでよいもの / 抄録だけでは判断困難なもの  \n- **PMID: 40439782**：特異疾患群に限定され、一般ICUへの適用は限られる。  \n- **PMID: 40668437**：火傷患者は対象外で、特定疾患群に限定。  \n- **PMID: 40665004**：火傷患者や新生児は対象外で、特定疾患群に限定。  \n\n---  \n**注意**: すべての論文は抄録のみの情報に基づくため、因果関係の過度な主張は避けました。",
-  "importantFetchedAt": "2026-06-11T00:53:41.866Z",
+  "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。",
+  "importantFetchedAt": "2026-06-11T01:16:35.969Z",
+  "articleSummariesByPmid": {
+    "40119480": {
+      "pmid": "40119480",
+      "title": "The Japanese Critical Care Nutrition Guideline 2024.",
+      "generatedAt": "2026-06-11T01:17:01.751Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。"
+    },
+    "40439782": {
+      "pmid": "40439782",
+      "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
+      "generatedAt": "2026-06-11T01:17:26.413Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。"
+    },
+    "40665004": {
+      "pmid": "40665004",
+      "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
+      "generatedAt": "2026-06-11T01:17:13.713Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。"
+    },
+    "40668437": {
+      "pmid": "40668437",
+      "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
+      "generatedAt": "2026-06-11T01:17:36.989Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。"
+    }
+  },
   "dailyDigests": [
     {
       "date": "2026-06-11",
-      "generatedAt": "2026-06-11T00:53:41.866Z",
-      "summary": "## 今日の重要論文\n### 1. 今回の最重要論文  \n**1. PMID: 40119480**  \n- **1行の見出し**: 2024年版日本重症栄養ガイドラインが発表。  \n- **なぜ重要か**: 日本特化の最新ガイドラインで、小児・成人のICU患者の栄養療法を包括的にガイド。臨床実践に即した実用性が高く、小児ICUでの栄養管理に直接的な影響。  \n- **注意点**: 日本国内での適用が主で、国際的な幅は限定的。  \n\n**2. PMID: 40665004**  \n- **1行の見出し**: SRLFとGFRUPによるICU栄養療法の国際的ガイドライン。  \n- **なぜ重要か**: 成人・小児（新生児・火傷患者を除く）の栄養療法を網羅し、GRADEメソッドで高品質な根拠に基づく推奨を提供。小児ICUでの栄養管理に直接的な実践指針。  \n- **注意点**: 火傷患者や新生児は対象外で、特定の疾患群に限定。  \n\n**3. PMID: 39208447**  \n- **1行の見出し**: SHARC定義による心因性ショックの疫学調査。  \n- **なぜ重要か**: 心因性ショックの分類を統一し、CICUでの臨床データを基にした疫学的洞察を提供。小児心不全管理に新たな指針となる可能性。  \n- **注意点**: 治療法の革新ではなく、分類・疫学の整理に焦点。  \n\n**4. PMID: 40668437**  \n- **1行の見出し**: ICUでの腎置換療法（RRT）のガイドライン。  \n- **なぜ重要か**: AKI患者のRRT適応・管理を包括的にガイド。小児ICUでの腎機能管理に直接的な実践指針。  \n- **注意点**: 火傷患者は対象外で、特定の疾患群に限定。  \n\n**5. PMID: 40439782**  \n- **1行の見出し**: 遺伝性貧血（スickle cell disease）の緊急管理ガイドライン。  \n- **なぜ重要か**: 小児・成人のスickle cell disease患者の緊急管理を網羅し、小児CICUでの特異的対応に有用。  \n- **注意点**: 特定疾患群に限定され、一般ICUへの適用は限られる。  \n\n---\n\n### 2. テーマ別まとめ  \n**栄養療法**  \n- **PMID: 40119480**（日本版ガイドライン）、**PMID: 40665004**（国際的ガイドライン）：小児ICUでの栄養管理に直接的な影響。  \n- **PMID: 40668437**（RRT）：AKI管理に焦点。  \n\n**心因性ショック**  \n- **PMID: 39208447**（SHARC定義による疫学調査）：CICUでの分類・管理指針に貢献。  \n\n**腎機能不全**  \n- **PMID: 40668437**：RRTの適応・管理を包括的にガイド。  \n\n**特異疾患（スickle cell disease）**  \n- **PMID: 40439782**：小児CICUでの特異的対応に有用。  \n\n---\n\n### 3. すぐ読むべき順  \n1. **PMID: 40119480**（栄養療法ガイドライン）  \n2. **PMID: 40665004**（国際的栄養療法ガイドライン）  \n3. **PMID: 39208447**（心因性ショックの疫学）  \n4. **PMID: 40668437**（RRTガイドライン）  \n5. **PMID: 40439782**（スickle cell diseaseの緊急管理）  \n\n---\n\n### 4. 後回しでよいもの / 抄録だけでは判断困難なもの  \n- **PMID: 40439782**：特異疾患群に限定され、一般ICUへの適用は限られる。  \n- **PMID: 40668437**：火傷患者は対象外で、特定疾患群に限定。  \n- **PMID: 40665004**：火傷患者や新生児は対象外で、特定疾患群に限定。  \n\n---  \n**注意**: すべての論文は抄録のみの情報に基づくため、因果関係の過度な主張は避けました。\n\n## PICU/CICU重点\n1. 最重要ポイント:  \n- 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率が増加し、長期的な監視と手術戦略の検討が必要。  \n- 低中所得国（LMIC）でのテトラロジー・オブ・ファロット（TOF）修復では、技術的パフォーマンススコア（TPS）が死亡率や合併症に影響を与える可能性。  \n- 離脱ポンプ手術における近赤外線分光法（NIRS）は、脳・体循環の変化をリアルタイムで検出する非侵襲的モニタリングツールとして有用。  \n\n2. 論文別メモ:  \n#3 (PMID:41610214): 系統的レビューでACHD患者の大動脈疾患の発生・進行・術後結果をまとめた。臨床的意義は長期管理戦略の検討。制限は最新データの不足。  \n#4 (PMID:41610206): LMICでのTOF修復でTPSと術後結果の関連を評価。臨床的意義は資源限られた環境での術式改善。制限は後ろ向き研究。  \n#5 (PMID:41604529): NIRSを離脱ポンプ手術中の脳・体循環モニタリングに応用。臨床的意義は術中リアルタイム介入の支援。制限は単一施設での結果。  \n#1・#2 (PMID:41757867, 41757848): 抽象なし。読者コメントとその反論の内容は不明。  \n\n3. PICU/CICUで明日から気にすること:  \n- ACHD患者の大動脈疾患の早期発見・継続的モニタリングの重要性。  \n- LMICでのTOF修復における術式・技術の質への注意。  \n- 離脱ポンプ手術中の脳・体循環モニタリングツール（NIRS）の導入検討。  \n\n4. 優先して読む順:  \n1. #3（大動脈疾患の系統的レビュー）  \n2. #4（TOF修復とTPSの関連）  \n3. #5（NIRSの術中モニタリング）  \n4. #1・#2（コメントと反論）\n\n## 主要誌横断\n1. 最重要ポイント:  \n- 再手術的二尖瓣置換（rSMVR）は、経カテーテル二尖瓣-in-Valve（mViV）に比べて長期生存率に優位性を示唆（PMID:41995635）。  \n- 成人先天性心疾患（ACHD）患者における大動脈疾患（aortopathy）の発生率・進行・手術結果の理解が、長期的なモニタリングと治療戦略に重要（PMID:41610214）。  \n- ローアンドミドルインカム国（LMIC）での四腔症（TOF）修復では、技術的パフォーマンススコア（TPS）が死亡率に影響を与える可能性（PMID:41610206）。  \n\n2. 論文別メモ:  \n- **PMID:41995635**  \n  - 1-2文要約: 再手術的二尖瓣置換（rSMVR）は、mViVに比べて5年生存率や再手術回避に優位性を示唆。  \n  - 臨床的意義: 長期的な心機能維持に向け、術式選択の参考となる。  \n  - 欠点: 抽象は不完全で、詳細な結果は不明。  \n\n- **PMID:41757867**  \n  - 要約: 読者コメントで、小児心臓外科後のICU再入院リスク要因に関する論文の議論が提示。  \n  - 臨床的意義: 論文の補足情報として参考。  \n  - 欠点: 抽象なし。  \n\n- **PMID:41757848**  \n  - 要約: 読者コメントへの応答で、ICU再入院リスク要因の検討が述べられている。  \n  - 臨床的意義: 論文の補足情報として参考。  \n  - 欠点: 抽象なし。  \n\n- **PMID:41610214**  \n  - 要約: ACHD患者における大動脈疾患の発生率・進行・手術結果を系統的レビューでまとめた。  \n  - 臨床的意義: 長期モニタリング戦略の設計に有用。  \n  - 欠点: 研究対象は成人に限る。  \n\n- **PMID:41610206**  \n  - 要約: LMICでのTOF修復でTPSが死亡率に影響を与える可能性を示唆。  \n  - 臨床的意義: 手術品質向上のための指針として参考。  \n  - 欠点: 単一施設の結果に限る。  \n\n3. PICU/CICUで明日から気にすること:  \n- ACHD患者における大動脈疾患の早期発見・モニタリングの重要性。  \n- LMICでのTOF修復では、術者の技術的スキル（TPS）が結果に影響を与える可能性。  \n- 小児心外科後のICU再入院リスク要因の再評価が必要。  \n\n4. 優先して読む順:  \n1. PMID:41995635（術式選択の参考）  \n2. PMID:41610214（ACHD患者の長期管理戦略）  \n3. PMID:41610206（LMICでの手術品質向上）  \n4. PMID:41757867・41757848（補足情報として）",
+      "generatedAt": "2026-06-11T01:16:35.969Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 11件 / AI要約済み 4件 / 未要約 7件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。",
       "articles": [
         {
           "pmid": "41757867",
@@ -454,7 +484,37 @@ export const GENERATED_PUBMED_CACHE: PubMedCachePayload = {
           "doi": "10.1093/ehjacc/zuae098",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39208447/"
         }
-      ]
+      ],
+      "articleSummaries": {
+        "40119480": {
+          "pmid": "40119480",
+          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
+          "generatedAt": "2026-06-11T01:17:01.751Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。"
+        },
+        "40439782": {
+          "pmid": "40439782",
+          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
+          "generatedAt": "2026-06-11T01:17:26.413Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。"
+        },
+        "40665004": {
+          "pmid": "40665004",
+          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
+          "generatedAt": "2026-06-11T01:17:13.713Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。"
+        },
+        "40668437": {
+          "pmid": "40668437",
+          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
+          "generatedAt": "2026-06-11T01:17:36.989Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。"
+        }
+      }
     },
     {
       "date": "2026-06-10",
@@ -646,9 +706,9 @@ export const GENERATED_PUBMED_CACHE: PubMedCachePayload = {
       ]
     }
   ],
-  "lastAutoRunAt": "2026-06-11T00:53:41.866Z",
+  "lastAutoRunAt": "2026-06-11T01:16:35.969Z",
   "lastAutoRunDate": "2026-06-11",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / PICU/CICU重点: AI要約済み / 主要誌横断: 5件取得 / 主要誌横断: AI要約済み",
-  "lastImportantRunAt": "2026-06-11T00:53:41.866Z",
-  "lastImportantRunStatus": "重要論文候補 5件取得 / AI要約済み"
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 40119480: 順次AI要約済み / PMID 40665004: 順次AI要約済み / PMID 40439782: 順次AI要約済み / PMID 40668437: 順次AI要約済み / 順次AI要約: 4件追加 / 4/11件済み",
+  "lastImportantRunAt": "2026-06-11T01:16:35.969Z",
+  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 4/5件済み / 全体未要約 7件"
 };
