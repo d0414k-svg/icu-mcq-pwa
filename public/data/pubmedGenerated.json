@@ -166,12 +166,12 @@
     ]
   },
   "summaryByAlert": {
-    "focused": "",
-    "broad": ""
+    "focused": "## PICU/CICU重点\n\n### 1. Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757867 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。\n\n### 2. Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757848 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本論文は、心臓手術後の小児ICU再入院リスク要因に関する論文に対する読者コメントへの応答である。  \nPICU/CICUでの意味: 読者からのフィードバックを反映したリスク要因分析の重要性が強調されている。  \n注意点: 抽象が提供されていないため、詳細な臨床的意義や実践への影響は不明である。\n\n### 3. Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.\nPMID 41610214 / World J Pediatr Congenit Heart Surg / 2026 Jul\n- 要点: 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率・進行・手術成績に関する系統的レビューで、二尖瓣大動脈症候群や大動脈狭窄などの先天性心疾患と関連する大動脈疾患の臨床的特徴が明らかにされた。  \n- PICU/CICUでの意味: 本研究は成人データに基づくため、小児患者における大動脈疾患の長期的管理や手術指針への直接的応用には制限がある。  \n- 注意点: 抽象のみが提供されており、詳細な臨床データや小児集団への適用可能性は不明である。",
+    "broad": "## 主要誌横断\n\n### 2. Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757867 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。\n\n### 3. Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757848 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本論文は、心臓手術後の小児ICU再入院リスク要因に関する論文に対する読者コメントへの応答である。  \nPICU/CICUでの意味: 読者からのフィードバックを反映したリスク要因分析の重要性が強調されている。  \n注意点: 抽象が提供されていないため、詳細な臨床的意義や実践への影響は不明である。\n\n### 4. Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.\nPMID 41610214 / World J Pediatr Congenit Heart Surg / 2026 Jul\n- 要点: 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率・進行・手術成績に関する系統的レビューで、二尖瓣大動脈症候群や大動脈狭窄などの先天性心疾患と関連する大動脈疾患の臨床的特徴が明らかにされた。  \n- PICU/CICUでの意味: 本研究は成人データに基づくため、小児患者における大動脈疾患の長期的管理や手術指針への直接的応用には制限がある。  \n- 注意点: 抽象のみが提供されており、詳細な臨床データや小児集団への適用可能性は不明である。"
   },
   "fetchedAtByAlert": {
-    "focused": "2026-06-11T01:16:35.969Z",
-    "broad": "2026-06-11T01:16:35.969Z"
+    "focused": "2026-06-11T01:41:59.432Z",
+    "broad": "2026-06-11T01:41:59.432Z"
   },
   "importantArticles": [
     {
@@ -260,9 +260,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/39208447/"
     }
   ],
-  "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。",
-  "importantFetchedAt": "2026-06-11T01:16:35.969Z",
+  "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 5. Epidemiology of cardiogenic shock using the Shock Academic Research Consortium (SHARC) consensus definitions.\nPMID 39208447 / Eur Heart J Acute Cardiovasc Care / 2024 Oct 28\n要点: SHARC合意定義に基づく現代の心因性ショック（CS）の流行は、CICUで急性心筋梗塞関連CS（AMI-CS）や心不全関連CS（HF-CS）が主要な原因であり、65%が単一原因のCSを示した。  \nPICU/CICUでの意味: SHARC定義はCSの分類を統一し、臨床研究や登録データの比較に有用で、心不全の急性悪化や混合型CSの分類にも示唆を提供する。  \n注意点: 研究は登録データに基づくため、臨床現場での即時適用には注意が必要で、心外科手術後のCSは除外されている。",
+  "importantFetchedAt": "2026-06-11T01:41:59.432Z",
   "articleSummariesByPmid": {
+    "39208447": {
+      "pmid": "39208447",
+      "title": "Epidemiology of cardiogenic shock using the Shock Academic Research Consortium (SHARC) consensus definitions.",
+      "generatedAt": "2026-06-11T01:42:25.990Z",
+      "model": "qwen3:8b",
+      "summary": "要点: SHARC合意定義に基づく現代の心因性ショック（CS）の流行は、CICUで急性心筋梗塞関連CS（AMI-CS）や心不全関連CS（HF-CS）が主要な原因であり、65%が単一原因のCSを示した。  \nPICU/CICUでの意味: SHARC定義はCSの分類を統一し、臨床研究や登録データの比較に有用で、心不全の急性悪化や混合型CSの分類にも示唆を提供する。  \n注意点: 研究は登録データに基づくため、臨床現場での即時適用には注意が必要で、心外科手術後のCSは除外されている。"
+    },
     "40119480": {
       "pmid": "40119480",
       "title": "The Japanese Critical Care Nutrition Guideline 2024.",
@@ -290,13 +297,34 @@
       "generatedAt": "2026-06-11T01:17:36.989Z",
       "model": "qwen3:8b",
       "summary": "- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。"
+    },
+    "41610214": {
+      "pmid": "41610214",
+      "title": "Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.",
+      "generatedAt": "2026-06-11T01:42:57.794Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率・進行・手術成績に関する系統的レビューで、二尖瓣大動脈症候群や大動脈狭窄などの先天性心疾患と関連する大動脈疾患の臨床的特徴が明らかにされた。  \n- PICU/CICUでの意味: 本研究は成人データに基づくため、小児患者における大動脈疾患の長期的管理や手術指針への直接的応用には制限がある。  \n- 注意点: 抽象のみが提供されており、詳細な臨床データや小児集団への適用可能性は不明である。"
+    },
+    "41757848": {
+      "pmid": "41757848",
+      "title": "Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".",
+      "generatedAt": "2026-06-11T01:42:45.848Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 本論文は、心臓手術後の小児ICU再入院リスク要因に関する論文に対する読者コメントへの応答である。  \nPICU/CICUでの意味: 読者からのフィードバックを反映したリスク要因分析の重要性が強調されている。  \n注意点: 抽象が提供されていないため、詳細な臨床的意義や実践への影響は不明である。"
+    },
+    "41757867": {
+      "pmid": "41757867",
+      "title": "Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".",
+      "generatedAt": "2026-06-11T01:42:36.488Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。"
     }
   },
   "dailyDigests": [
     {
       "date": "2026-06-11",
-      "generatedAt": "2026-06-11T01:16:35.969Z",
-      "summary": "## 今日の順次AI要約\n\n取得候補 11件 / AI要約済み 4件 / 未要約 7件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。",
+      "generatedAt": "2026-06-11T01:41:59.432Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 11件 / AI要約済み 8件 / 未要約 3件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 5. Epidemiology of cardiogenic shock using the Shock Academic Research Consortium (SHARC) consensus definitions.\nPMID 39208447 / Eur Heart J Acute Cardiovasc Care / 2024 Oct 28\n要点: SHARC合意定義に基づく現代の心因性ショック（CS）の流行は、CICUで急性心筋梗塞関連CS（AMI-CS）や心不全関連CS（HF-CS）が主要な原因であり、65%が単一原因のCSを示した。  \nPICU/CICUでの意味: SHARC定義はCSの分類を統一し、臨床研究や登録データの比較に有用で、心不全の急性悪化や混合型CSの分類にも示唆を提供する。  \n注意点: 研究は登録データに基づくため、臨床現場での即時適用には注意が必要で、心外科手術後のCSは除外されている。\n\n## PICU/CICU重点\n\n### 1. Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757867 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。\n\n### 2. Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757848 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本論文は、心臓手術後の小児ICU再入院リスク要因に関する論文に対する読者コメントへの応答である。  \nPICU/CICUでの意味: 読者からのフィードバックを反映したリスク要因分析の重要性が強調されている。  \n注意点: 抽象が提供されていないため、詳細な臨床的意義や実践への影響は不明である。\n\n### 3. Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.\nPMID 41610214 / World J Pediatr Congenit Heart Surg / 2026 Jul\n- 要点: 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率・進行・手術成績に関する系統的レビューで、二尖瓣大動脈症候群や大動脈狭窄などの先天性心疾患と関連する大動脈疾患の臨床的特徴が明らかにされた。  \n- PICU/CICUでの意味: 本研究は成人データに基づくため、小児患者における大動脈疾患の長期的管理や手術指針への直接的応用には制限がある。  \n- 注意点: 抽象のみが提供されており、詳細な臨床データや小児集団への適用可能性は不明である。\n\n## 主要誌横断\n\n### 2. Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757867 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。\n\n### 3. Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757848 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本論文は、心臓手術後の小児ICU再入院リスク要因に関する論文に対する読者コメントへの応答である。  \nPICU/CICUでの意味: 読者からのフィードバックを反映したリスク要因分析の重要性が強調されている。  \n注意点: 抽象が提供されていないため、詳細な臨床的意義や実践への影響は不明である。\n\n### 4. Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.\nPMID 41610214 / World J Pediatr Congenit Heart Surg / 2026 Jul\n- 要点: 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率・進行・手術成績に関する系統的レビューで、二尖瓣大動脈症候群や大動脈狭窄などの先天性心疾患と関連する大動脈疾患の臨床的特徴が明らかにされた。  \n- PICU/CICUでの意味: 本研究は成人データに基づくため、小児患者における大動脈疾患の長期的管理や手術指針への直接的応用には制限がある。  \n- 注意点: 抽象のみが提供されており、詳細な臨床データや小児集団への適用可能性は不明である。",
       "articles": [
         {
           "pmid": "41757867",
@@ -482,6 +510,13 @@
         }
       ],
       "articleSummaries": {
+        "39208447": {
+          "pmid": "39208447",
+          "title": "Epidemiology of cardiogenic shock using the Shock Academic Research Consortium (SHARC) consensus definitions.",
+          "generatedAt": "2026-06-11T01:42:25.990Z",
+          "model": "qwen3:8b",
+          "summary": "要点: SHARC合意定義に基づく現代の心因性ショック（CS）の流行は、CICUで急性心筋梗塞関連CS（AMI-CS）や心不全関連CS（HF-CS）が主要な原因であり、65%が単一原因のCSを示した。  \nPICU/CICUでの意味: SHARC定義はCSの分類を統一し、臨床研究や登録データの比較に有用で、心不全の急性悪化や混合型CSの分類にも示唆を提供する。  \n注意点: 研究は登録データに基づくため、臨床現場での即時適用には注意が必要で、心外科手術後のCSは除外されている。"
+        },
         "40119480": {
           "pmid": "40119480",
           "title": "The Japanese Critical Care Nutrition Guideline 2024.",
@@ -509,6 +544,27 @@
           "generatedAt": "2026-06-11T01:17:36.989Z",
           "model": "qwen3:8b",
           "summary": "- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。"
+        },
+        "41610214": {
+          "pmid": "41610214",
+          "title": "Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.",
+          "generatedAt": "2026-06-11T01:42:57.794Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率・進行・手術成績に関する系統的レビューで、二尖瓣大動脈症候群や大動脈狭窄などの先天性心疾患と関連する大動脈疾患の臨床的特徴が明らかにされた。  \n- PICU/CICUでの意味: 本研究は成人データに基づくため、小児患者における大動脈疾患の長期的管理や手術指針への直接的応用には制限がある。  \n- 注意点: 抽象のみが提供されており、詳細な臨床データや小児集団への適用可能性は不明である。"
+        },
+        "41757848": {
+          "pmid": "41757848",
+          "title": "Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".",
+          "generatedAt": "2026-06-11T01:42:45.848Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 本論文は、心臓手術後の小児ICU再入院リスク要因に関する論文に対する読者コメントへの応答である。  \nPICU/CICUでの意味: 読者からのフィードバックを反映したリスク要因分析の重要性が強調されている。  \n注意点: 抽象が提供されていないため、詳細な臨床的意義や実践への影響は不明である。"
+        },
+        "41757867": {
+          "pmid": "41757867",
+          "title": "Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".",
+          "generatedAt": "2026-06-11T01:42:36.488Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。"
         }
       }
     },
@@ -702,9 +758,9 @@
       ]
     }
   ],
-  "lastAutoRunAt": "2026-06-11T01:16:35.969Z",
+  "lastAutoRunAt": "2026-06-11T01:41:59.432Z",
   "lastAutoRunDate": "2026-06-11",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 40119480: 順次AI要約済み / PMID 40665004: 順次AI要約済み / PMID 40439782: 順次AI要約済み / PMID 40668437: 順次AI要約済み / 順次AI要約: 4件追加 / 4/11件済み",
-  "lastImportantRunAt": "2026-06-11T01:16:35.969Z",
-  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 4/5件済み / 全体未要約 7件"
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 39208447: 順次AI要約済み / PMID 41757867: 順次AI要約済み / PMID 41757848: 順次AI要約済み / PMID 41610214: 順次AI要約済み / 順次AI要約: 4件追加 / 8/11件済み",
+  "lastImportantRunAt": "2026-06-11T01:41:59.432Z",
+  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 3件"
 }
