@@ -19,7 +19,7 @@ npm test
 npm run build
 ```
 
-生成結果は `src/pubmedGenerated.ts` に入ります。公開サイトへ反映するには、その変更をGitHubへpushし、Netlifyのdeployが通る必要があります。
+生成結果は `public/data/pubmedGenerated.json` に入ります。公開サイトはGitHub raw URLからこのJSONを読むため、通常の日次更新ではNetlifyの再デプロイは不要です。
 
 ## ローカルLLM用の環境変数
 
@@ -45,6 +45,8 @@ LM StudioやvLLMなどに切り替える場合は、`AI_BASE_URL` と `AI_MODEL`
 このリポジトリのPubMed workflowは、`self-hosted`, `Windows`, `X64`, `pubmed-local-llm` ラベルを持つrunnerを使います。現在のWindowsユーザー権限ではサービス化ではなく、HKCUのログオン起動からrunnerを立ち上げます。PCが起動していて、このユーザーがログオンしている時にジョブを拾えます。
 
 AI要約は順次更新です。取得したPMIDごとに要約を保存し、既に要約済みのPMIDは再利用します。既定では1回のworkflowで未要約論文を最大4本だけ処理し、残りは次回以降に続きから要約します。
+
+更新結果は `public/data/pubmedGenerated.json` に保存します。アプリ本体はNetlifyに置いたまま、このJSONだけをGitHub raw URLから読み込むため、日次更新のたびにNetlifyを再デプロイする必要はありません。Netlifyの `ignore` command で、このJSONだけのcommitではbuildをスキップします。
 
 ## GitHub Actionsで使う変数
 

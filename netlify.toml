@@ -1,6 +1,7 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  ignore = "node ./.github/netlify-ignore-build.mjs"
 
 [build.environment]
   NODE_VERSION = "22"

@@ -51,7 +51,7 @@ jobs:
       - name: Commit generated summaries
         shell: powershell
         run: |
-          git diff --quiet -- src/pubmedGenerated.ts
+          git diff --quiet -- public/data/pubmedGenerated.json
           if ($LASTEXITCODE -eq 0) {
             Write-Host "No PubMed summary changes."
             exit 0
@@ -59,6 +59,6 @@ jobs:
           if ($LASTEXITCODE -ne 1) { exit $LASTEXITCODE }
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/pubmedGenerated.ts
-          git commit -m "Update PubMed literature summaries"
+          git add public/data/pubmedGenerated.json
+          git commit -m "Update PubMed literature data"
           git push

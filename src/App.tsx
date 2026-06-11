@@ -30,6 +30,7 @@ import { extractQuestionDraftsFromPdf, PdfQuestionDraft } from "./pdfImport";
 import {
   EMPTY_PUBMED_CACHE,
   loadPubMedCache,
+  loadRemotePubMedCache,
   PubMedCachePayload,
   PubMedDailyDigest,
   PubMedAlertKey,
@@ -1895,9 +1896,20 @@ function LiteratureView() {
     latestDailyDigest?.generatedAt || pubMedCache.importantFetchedAt || fetchedAt || pubMedCache.lastImportantRunAt || pubMedCache.lastAutoRunAt;
 
   useEffect(() => {
+    let isMounted = true;
     const syncCache = () => setPubMedCache(loadPubMedCache());
     window.addEventListener(PUBMED_CACHE_EVENT, syncCache);
-    return () => window.removeEventListener(PUBMED_CACHE_EVENT, syncCache);
+    loadRemotePubMedCache()
+      .then((remoteCache) => {
+        if (isMounted && remoteCache) setPubMedCache(remoteCache);
+      })
+      .catch(() => {
+        // Keep the bundled fallback cache when GitHub raw data is unavailable.
+      });
+    return () => {
+      isMounted = false;
+      window.removeEventListener(PUBMED_CACHE_EVENT, syncCache);
+    };
   }, []);
 
   const copyLiteratureLink = async () => {

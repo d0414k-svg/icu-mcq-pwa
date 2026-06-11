@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -6,6 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = resolve(__dirname, "..", "..");
 const pubmedSourcePath = resolve(rootDir, "src", "pubmed.ts");
 const generatedPath = resolve(rootDir, "src", "pubmedGenerated.ts");
+const generatedJsonPath = resolve(rootDir, "public", "data", "pubmedGenerated.json");
 
 const EUTILS_BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils";
 const EUTILS_TOOL = "icu_mcq_pwa";
@@ -245,6 +246,12 @@ function articleSummarySections(title, articles, articleSummariesByPmid) {
 
 async function readExistingGeneratedCache() {
   try {
+    return JSON.parse(await readFile(generatedJsonPath, "utf8"));
+  } catch {
+    // Fall back to the older bundled TypeScript cache during migration.
+  }
+
+  try {
     const source = await readFile(generatedPath, "utf8");
     const match = source.match(/export const GENERATED_PUBMED_CACHE: PubMedCachePayload = ([\s\S]*);\s*$/);
     if (!match) return undefined;
@@ -478,13 +485,8 @@ function articleContextLabels(article, articlesByAlert, importantArticles) {
   return labels.join(" / ") || "PubMed新着";
 }
 
-function generatedModule(cache, generatedAt) {
-  return `import type { PubMedCachePayload } from "./pubmed";
-
-export const GENERATED_PUBMED_CACHE_VERSION = ${JSON.stringify(generatedAt)};
-
-export const GENERATED_PUBMED_CACHE: PubMedCachePayload = ${JSON.stringify(cache, null, 2)};
-`;
+function generatedJson(cache) {
+  return `${JSON.stringify(cache, null, 2)}\n`;
 }
 
 async function main() {
@@ -595,8 +597,9 @@ async function main() {
     lastImportantRunStatus: `重要論文候補 ${importantArticles.length}件取得 / 順次AI要約 ${importantSummarizedCount}/${importantArticles.length}件済み / 全体未要約 ${remainingSummaryCount}件`
   };
 
-  await writeFile(generatedPath, generatedModule(cache, generatedAt), "utf8");
-  console.log(`Updated ${generatedPath}`);
+  await mkdir(dirname(generatedJsonPath), { recursive: true });
+  await writeFile(generatedJsonPath, generatedJson(cache), "utf8");
+  console.log(`Updated ${generatedJsonPath}`);
   console.log(cache.lastAutoRunStatus);
   console.log(cache.lastImportantRunStatus);
 }

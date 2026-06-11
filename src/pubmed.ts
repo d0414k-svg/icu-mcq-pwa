@@ -88,6 +88,8 @@ export const DEFAULT_PUBMED_SETTINGS: PubMedSettings = {
 const PUBMED_SETTINGS_STORAGE_KEY = "icu-mcq-pubmed-settings";
 const PUBMED_CACHE_STORAGE_KEY = "icu-mcq-pubmed-cache";
 export const PUBMED_CACHE_EVENT = "icu-mcq-pubmed-cache-updated";
+export const PUBMED_REMOTE_CACHE_URL =
+  "https://raw.githubusercontent.com/d0414k-svg/icu-mcq-pwa/main/public/data/pubmedGenerated.json";
 const EUTILS_BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils";
 const EUTILS_TOOL = "icu_mcq_pwa";
 
@@ -151,6 +153,24 @@ function mergeWithGeneratedPubMedCache(stored?: Partial<PubMedCachePayload>): Pu
     localStorage.removeItem(PUBMED_CACHE_STORAGE_KEY);
   }
   return generated;
+}
+
+function isPubMedCachePayload(value: unknown): value is PubMedCachePayload {
+  if (!value || typeof value !== "object") return false;
+  const cache = value as Partial<PubMedCachePayload>;
+  return Boolean(cache.articlesByAlert && typeof cache.articlesByAlert === "object" && Array.isArray(cache.importantArticles));
+}
+
+export async function loadRemotePubMedCache(): Promise<PubMedCachePayload | undefined> {
+  const response = await fetch(`${PUBMED_REMOTE_CACHE_URL}?v=${Date.now()}`, {
+    cache: "no-store",
+    headers: { Accept: "application/json" }
+  });
+  if (!response.ok) throw new Error(`PubMed JSON取得に失敗しました (${response.status})。`);
+
+  const payload = (await response.json()) as unknown;
+  if (!isPubMedCachePayload(payload)) throw new Error("PubMed JSONの形式が想定と違います。");
+  return clonePubMedCache(payload);
 }
 
 function compactText(value: string) {
