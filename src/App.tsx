@@ -43,6 +43,7 @@ import { accuracyLabel, questionPathLabel, questionSourceDetail, sourceTypeLabel
 import { parseChoices, parsePastedQuestionBlock, parseStringList } from "./questionParsing";
 import { recordAttempt } from "./services/attempts";
 import { requestPersistentStorage, StorageStatus } from "./storage";
+import { buildTagPerformance, buildWeakQuestionQueue, buildYearPerformance, CategoryPerformance } from "./studyAnalytics";
 import {
   Attempt,
   AttemptMode,
@@ -58,7 +59,7 @@ import {
 } from "./types";
 import { hasValidationErrors, validateQuestion, ValidationIssue } from "./validation";
 
-type TabKey = "practice" | "review" | "manage" | "literature" | "import" | "settings";
+type TabKey = "practice" | "review" | "stats" | "manage" | "literature" | "import" | "settings";
 type StudySortKey = "official" | "path" | "due" | "weak" | "unanswered" | "recent";
 type ManageSortKey = "path" | "updated" | "weak" | "unanswered";
 
@@ -81,13 +82,13 @@ const STATUS_LABEL: Record<QuestionStatus, string> = {
 const TAB_ITEMS: Array<{ key: TabKey; label: string; icon: typeof PlayCircle }> = [
   { key: "practice", label: "演習", icon: PlayCircle },
   { key: "review", label: "復習", icon: RotateCcw },
+  { key: "stats", label: "成績", icon: ClipboardList },
   { key: "manage", label: "管理", icon: Library },
-  { key: "literature", label: "文献", icon: Newspaper },
   { key: "import", label: "取込", icon: FileUp },
   { key: "settings", label: "設定", icon: Settings }
 ];
 
-const TAB_KEYS = new Set<TabKey>(TAB_ITEMS.map((item) => item.key));
+const TAB_KEYS = new Set<TabKey>([...TAB_ITEMS.map((item) => item.key), "literature"]);
 
 function tabFromLocation(): TabKey {
   if (typeof window === "undefined") return "practice";
@@ -172,6 +173,11 @@ function accuracyValue(state?: QuestionState) {
   const total = answeredTotal(state);
   if (total === 0) return -1;
   return (state?.correctCount ?? 0) / total;
+}
+
+function formatPercentValue(value: number | null | undefined) {
+  if (value === null || value === undefined || !Number.isFinite(value)) return "未回答";
+  return `${Math.round(value * 100)}%`;
 }
 
 function reviewDueTime(state?: QuestionState) {
@@ -382,6 +388,9 @@ function App() {
         {activeTab === "review" && (
           <ReviewView questions={questions} statesByQuestion={statesByQuestion} onRefresh={refresh} />
         )}
+        {activeTab === "stats" && (
+          <StatsView questions={questions} attempts={attempts} statesByQuestion={statesByQuestion} />
+        )}
         {activeTab === "manage" && (
           <ManageView questions={questions} statesByQuestion={statesByQuestion} onRefresh={refresh} />
         )}
@@ -591,7 +600,10 @@ function ReviewView({
 }) {
   const [filter, setFilter] = useState("all");
   const [sortKey, setSortKey] = useState<StudySortKey>("due");
+  const [mistakeLoop, setMistakeLoop] = useState(false);
+  const [targetStreak, setTargetStreak] = useState("2");
   const activeQuestions = questions.filter((question) => question.status === "active");
+  const targetStreakCount = Number(targetStreak);
   const reviewCountFor = (value: string) =>
     activeQuestions.filter((question) => {
       const state = statesByQuestion.get(question.id);
@@ -617,7 +629,12 @@ function ReviewView({
       if (filter === "unanswered") return unanswered;
       return due || unanswered || mistake || bookmarked;
     });
-  const reviewQuestions = sortStudyQuestions(reviewQuestionsBeforeSort, statesByQuestion, sortKey);
+  const mistakeLoopQuestions = activeQuestions.filter((question) => {
+    const state = statesByQuestion.get(question.id);
+    return Boolean((state?.wrongCount ?? 0) > 0 && (state?.correctStreak ?? 0) < targetStreakCount);
+  });
+  const reviewSource = mistakeLoop ? mistakeLoopQuestions : reviewQuestionsBeforeSort;
+  const reviewQuestions = sortStudyQuestions(reviewSource, statesByQuestion, sortKey);
 
   return (
     <section className="view-stack">
@@ -639,6 +656,30 @@ function ReviewView({
           </button>
         ))}
       </div>
+      <div className="loop-panel">
+        <label className="check-row">
+          <input
+            type="checkbox"
+            checked={mistakeLoop}
+            onChange={(event) => {
+              setMistakeLoop(event.target.checked);
+              if (event.target.checked) {
+                setFilter("mistake");
+                setSortKey("weak");
+              }
+            }}
+          />
+          <span>誤答だけ周回する</span>
+        </label>
+        <label>
+          クリア条件
+          <select value={targetStreak} onChange={(event) => setTargetStreak(event.target.value)}>
+            <option value="1">1回正解で外す</option>
+            <option value="2">2回連続正解で外す</option>
+            <option value="3">3回連続正解で外す</option>
+          </select>
+        </label>
+      </div>
       <div className="toolbar compact-toolbar">
         <label>
           復習順
@@ -652,17 +693,173 @@ function ReviewView({
         </label>
         <div className="filter-summary inline-summary">
           <strong>対象 {reviewQuestions.length}問</strong>
+          {mistakeLoop && <span>周回残り {mistakeLoopQuestions.length}問</span>}
           <span>出題中 {activeQuestions.length}問</span>
         </div>
       </div>
       <QuestionRunner
-        emptyTitle="復習対象はありません"
+        emptyTitle={mistakeLoop ? "誤答周回は完了です" : "復習対象はありません"}
         mode="review"
         questions={reviewQuestions}
         statesByQuestion={statesByQuestion}
         onRefresh={onRefresh}
       />
     </section>
+  );
+}
+
+function StatsView({
+  questions,
+  attempts,
+  statesByQuestion
+}: {
+  questions: Question[];
+  attempts: Attempt[];
+  statesByQuestion: Map<string, QuestionState>;
+}) {
+  const activeQuestions = questions.filter((question) => question.status === "active");
+  const tagRows = buildTagPerformance(questions, attempts, statesByQuestion);
+  const yearRows = buildYearPerformance(questions, attempts, statesByQuestion);
+  const weakQueue = buildWeakQuestionQueue(questions, statesByQuestion, 8);
+  const questionsById = new Map(questions.map((question) => [question.id, question]));
+  const correctAttempts = attempts.filter((attempt) => attempt.isCorrect).length;
+  const overallAccuracy = attempts.length > 0 ? correctAttempts / attempts.length : null;
+  const wrongQuestionCount = activeQuestions.filter((question) => (statesByQuestion.get(question.id)?.wrongCount ?? 0) > 0).length;
+  const noExplanationCount = activeQuestions.filter((question) => !question.explanation?.trim()).length;
+  const answeredQuestionCount = activeQuestions.filter((question) => statesByQuestion.get(question.id)?.lastAnsweredAt).length;
+
+  return (
+    <section className="view-stack">
+      <div className="metric-row">
+        <StatPill label="全体正答率" value={formatPercentValue(overallAccuracy)} />
+        <StatPill label="回答済" value={`${answeredQuestionCount}/${activeQuestions.length}`} />
+        <StatPill label="誤答あり" value={wrongQuestionCount} />
+      </div>
+      <div className="metric-row">
+        <StatPill label="回答履歴" value={attempts.length} />
+        <StatPill label="分類" value={tagRows.length} />
+        <StatPill label="解説なし" value={noExplanationCount} />
+      </div>
+
+      <PerformancePanel title="タグ別正答率" rows={tagRows} emptyText="タグ付き問題がありません" />
+      <PerformancePanel title="年度別正答率" rows={yearRows} emptyText="年度別に表示できる問題がありません" />
+
+      <section className="panel performance-panel">
+        <div className="section-heading-row">
+          <div>
+            <h2>誤答周回候補</h2>
+            <p className="muted">復習タブで「誤答だけ周回」をONにすると、この順で潰せます。</p>
+          </div>
+          <span className="performance-badge">{weakQueue.length}問</span>
+        </div>
+        {weakQueue.length === 0 ? (
+          <p className="muted">誤答記録のある問題はまだありません。</p>
+        ) : (
+          <div className="weak-list">
+            {weakQueue.map((item) => {
+              const question = questionsById.get(item.questionId);
+              if (!question) return null;
+              return (
+                <div className="weak-item" key={item.questionId}>
+                  <div>
+                    <strong>{questionPathLabel(question)}</strong>
+                    <span>{clipText(question.stem, 76)}</span>
+                  </div>
+                  <small>
+                    誤答{item.wrongCount} / 正解{item.correctCount} / 連続{item.correctStreak}
+                  </small>
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </section>
+    </section>
+  );
+}
+
+function PerformancePanel({
+  title,
+  rows,
+  emptyText
+}: {
+  title: string;
+  rows: CategoryPerformance[];
+  emptyText: string;
+}) {
+  const maxWrong = Math.max(1, ...rows.map((row) => row.wrongAttemptCount));
+  return (
+    <section className="panel performance-panel">
+      <div className="section-heading-row">
+        <h2>{title}</h2>
+        <span className="performance-badge">{rows.length}分類</span>
+      </div>
+      {rows.length === 0 ? (
+        <p className="muted">{emptyText}</p>
+      ) : (
+        <div className="performance-list">
+          {rows.map((row) => {
+            const accuracy = row.accuracy ?? 0;
+            const wrongWidth = Math.max(6, Math.round((row.wrongAttemptCount / maxWrong) * 100));
+            return (
+              <article className="performance-row" key={row.key}>
+                <div className="performance-main">
+                  <div className="performance-title">
+                    <strong>{row.label}</strong>
+                    <span>{formatPercentValue(row.accuracy)}</span>
+                  </div>
+                  <div className="performance-bars" aria-hidden="true">
+                    <span className="accuracy-bar" style={{ width: `${Math.round(accuracy * 100)}%` }} />
+                    {row.wrongAttemptCount > 0 && <span className="wrong-bar" style={{ width: `${wrongWidth}%` }} />}
+                  </div>
+                </div>
+                <div className="performance-meta">
+                  <span>{row.questionCount}問</span>
+                  <span>履歴{row.attemptCount}</span>
+                  <span>誤答{row.wrongAttemptCount}</span>
+                  <span>未答{row.unansweredQuestionCount}</span>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      )}
+    </section>
+  );
+}
+
+function ExplanationText({ text }: { text?: string }) {
+  const trimmed = text?.trim();
+  if (!trimmed) return <p className="explanation-text muted">解説未登録</p>;
+  const lines = trimmed.split(/\r?\n/);
+  return (
+    <div className="explanation-rich">
+      {lines.map((line, index) => {
+        const value = line.trim();
+        if (!value) return <span className="explanation-gap" key={`gap-${index}`} />;
+        const headingMatch = value.match(/^(結論|根拠|理由|誤選択肢|選択肢|覚え方|ポイント|メモ|補足|鑑別|出典)[:：]\s*(.*)$/);
+        if (headingMatch) {
+          return (
+            <p className="explanation-line highlighted" key={`${value}-${index}`}>
+              <strong>{headingMatch[1]}</strong>
+              {headingMatch[2] && <span>{headingMatch[2]}</span>}
+            </p>
+          );
+        }
+        if (/^[-*・]/.test(value)) {
+          return (
+            <p className="explanation-line bullet" key={`${value}-${index}`}>
+              {value.replace(/^[-*・]\s*/, "")}
+            </p>
+          );
+        }
+        return (
+          <p className="explanation-line" key={`${value}-${index}`}>
+            {value}
+          </p>
+        );
+      })}
+    </div>
   );
 }
 
@@ -756,6 +953,7 @@ function QuestionRunner({
 
   const goToQuestion = (nextIndex: number) => {
     const bounded = Math.min(Math.max(nextIndex, 0), questions.length - 1);
+    if (answerVisible) void onRefresh();
     setIndex(bounded);
   };
 
@@ -777,7 +975,6 @@ function QuestionRunner({
     try {
       const attempt = await recordAttempt(question, selectedAnswers, mode, Date.now() - questionStartedAt);
       setResult(attempt);
-      await onRefresh();
     } finally {
       setSubmitting(false);
     }
@@ -816,6 +1013,7 @@ function QuestionRunner({
   };
 
   const nextQuestion = () => {
+    if (answerVisible) void onRefresh();
     setIndex((current) => (current + 1) % questions.length);
   };
 
@@ -1033,10 +1231,17 @@ function QuestionRunner({
               <span>{explanationSourceLabel(question)}</span>
               {question.sourceNote && <span>{question.sourceNote}</span>}
             </div>
-            <p className={question.explanation ? "explanation-text" : "explanation-text muted"}>
-              {question.explanation || "解説未登録"}
-            </p>
+            <ExplanationText text={question.explanation} />
+            {!question.explanation?.trim() && (
+              <p className="muted">管理タブで「結論・根拠・誤選択肢・覚え方」を追記できます。</p>
+            )}
           </div>
+          {questionState?.memo?.trim() && (
+            <div className="explanation-block">
+              <div className="section-label">自分の補足メモ</div>
+              <ExplanationText text={questionState.memo} />
+            </div>
+          )}
           <button className="primary full" type="button" onClick={nextQuestion}>
             <PlayCircle aria-hidden="true" size={18} />
             次の問題へ
@@ -1249,6 +1454,28 @@ function QuestionEditor({ question, onRefresh }: { question: Question; onRefresh
     }));
   };
 
+  const appendExplanationTemplate = () => {
+    const template = [
+      "結論:",
+      "",
+      "根拠:",
+      "",
+      "誤選択肢:",
+      "- A:",
+      "- B:",
+      "- C:",
+      "- D:",
+      "",
+      "覚え方:",
+      "",
+      "出典:"
+    ].join("\n");
+    setDraft((current) => ({
+      ...current,
+      explanation: current.explanation?.trim() ? `${current.explanation.trim()}\n\n${template}` : template
+    }));
+  };
+
   const choicePreview = (() => {
     try {
       return parseChoices(draft.choicesText).length;
@@ -1409,6 +1636,16 @@ function QuestionEditor({ question, onRefresh }: { question: Question; onRefresh
           <option value="none">なし</option>
         </select>
       </label>
+      <div className="editor-helpers">
+        <button className="secondary" type="button" onClick={appendExplanationTemplate}>
+          <Wand2 aria-hidden="true" size={17} />
+          解説テンプレを追記
+        </button>
+        <div className="filter-summary inline-summary">
+          <strong>結論・根拠・誤選択肢・覚え方</strong>
+          <span>自分用に整形</span>
+        </div>
+      </div>
       <label>
         ローカル取込解説
         <textarea
