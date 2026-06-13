@@ -1,5 +1,6 @@
 import {
   Bookmark,
+  BookOpen,
   Check,
   ChevronLeft,
   ChevronRight,
@@ -12,6 +13,7 @@ import {
   ListChecks,
   Newspaper,
   PlayCircle,
+  Plus,
   RotateCcw,
   Save,
   Search,
@@ -20,12 +22,14 @@ import {
   Shuffle,
   Trash2,
   Wand2,
-  Upload
+  Upload,
+  X
 } from "lucide-react";
 import { ChangeEvent, FormEvent, useEffect, useMemo, useRef, useState } from "react";
 import { downloadBackup, restoreBackupFromFile } from "./backup";
 import { computeStats, db, getSetting, nowIso, setSetting } from "./db";
 import { commitImportPreview, deleteImportJobQuestions, parseCsvToPreview } from "./importer/csv";
+import { GlossaryEntry, mergeGlossaryEntries, normalizeGlossaryEntries, splitTextByGlossary } from "./glossary";
 import { extractQuestionDraftsFromPdf, PdfQuestionDraft } from "./pdfImport";
 import {
   EMPTY_PUBMED_CACHE,
@@ -305,10 +309,22 @@ function App() {
   const [noticeAccepted, setNoticeAccepted] = useState(true);
   const [lastBackupAt, setLastBackupAt] = useState<string | undefined>();
   const [lastRestoreAt, setLastRestoreAt] = useState<string | undefined>();
+  const [customGlossaryEntries, setCustomGlossaryEntries] = useState<GlossaryEntry[]>([]);
   const statesByQuestion = useMemo(() => stateMap(states), [states]);
+  const glossaryEntries = useMemo(() => mergeGlossaryEntries(customGlossaryEntries), [customGlossaryEntries]);
 
   const refresh = async () => {
-    const [nextQuestions, nextAttempts, nextStates, nextImportJobs, nextStats, accepted, backupAt, restoreAt] =
+    const [
+      nextQuestions,
+      nextAttempts,
+      nextStates,
+      nextImportJobs,
+      nextStats,
+      accepted,
+      backupAt,
+      restoreAt,
+      nextCustomGlossaryEntries
+    ] =
       await Promise.all([
         db.questions.orderBy("id").toArray(),
         db.attempts.orderBy("answeredAt").reverse().toArray(),
@@ -317,7 +333,8 @@ function App() {
         computeStats(),
         getSetting("noticeAccepted", false),
         getSetting<string | undefined>("lastBackupAt", undefined),
-        getSetting<string | undefined>("lastRestoreAt", undefined)
+        getSetting<string | undefined>("lastRestoreAt", undefined),
+        getSetting<GlossaryEntry[]>("customGlossaryEntries", [])
       ]);
     setQuestions(nextQuestions);
     setAttempts(nextAttempts);
@@ -327,6 +344,7 @@ function App() {
     setNoticeAccepted(accepted);
     setLastBackupAt(backupAt);
     setLastRestoreAt(restoreAt);
+    setCustomGlossaryEntries(normalizeGlossaryEntries(nextCustomGlossaryEntries));
   };
 
   useEffect(() => {
@@ -383,10 +401,21 @@ function App() {
 
       <main className="app-main">
         {activeTab === "practice" && (
-          <PracticeView questions={questions} statesByQuestion={statesByQuestion} stats={stats} onRefresh={refresh} />
+          <PracticeView
+            questions={questions}
+            statesByQuestion={statesByQuestion}
+            stats={stats}
+            glossaryEntries={glossaryEntries}
+            onRefresh={refresh}
+          />
         )}
         {activeTab === "review" && (
-          <ReviewView questions={questions} statesByQuestion={statesByQuestion} onRefresh={refresh} />
+          <ReviewView
+            questions={questions}
+            statesByQuestion={statesByQuestion}
+            glossaryEntries={glossaryEntries}
+            onRefresh={refresh}
+          />
         )}
         {activeTab === "stats" && (
           <StatsView questions={questions} attempts={attempts} statesByQuestion={statesByQuestion} />
@@ -401,6 +430,8 @@ function App() {
             stats={stats}
             lastBackupAt={lastBackupAt}
             lastRestoreAt={lastRestoreAt}
+            customGlossaryEntries={customGlossaryEntries}
+            glossaryEntries={glossaryEntries}
             onRefresh={refresh}
           />
         )}
@@ -454,11 +485,13 @@ function PracticeView({
   questions,
   statesByQuestion,
   stats,
+  glossaryEntries,
   onRefresh
 }: {
   questions: Question[];
   statesByQuestion: Map<string, QuestionState>;
   stats: PracticeStats;
+  glossaryEntries: GlossaryEntry[];
   onRefresh: () => Promise<void>;
 }) {
   const [year, setYear] = useState("all");
@@ -583,6 +616,7 @@ function PracticeView({
         mode="practice"
         questions={filtered}
         statesByQuestion={statesByQuestion}
+        glossaryEntries={glossaryEntries}
         onRefresh={onRefresh}
       />
     </section>
@@ -592,10 +626,12 @@ function PracticeView({
 function ReviewView({
   questions,
   statesByQuestion,
+  glossaryEntries,
   onRefresh
 }: {
   questions: Question[];
   statesByQuestion: Map<string, QuestionState>;
+  glossaryEntries: GlossaryEntry[];
   onRefresh: () => Promise<void>;
 }) {
   const [filter, setFilter] = useState("all");
@@ -702,6 +738,7 @@ function ReviewView({
         mode="review"
         questions={reviewQuestions}
         statesByQuestion={statesByQuestion}
+        glossaryEntries={glossaryEntries}
         onRefresh={onRefresh}
       />
     </section>
@@ -828,7 +865,15 @@ function PerformancePanel({
   );
 }
 
-function ExplanationText({ text }: { text?: string }) {
+function ExplanationText({
+  text,
+  glossaryEntries = [],
+  onGlossarySelect
+}: {
+  text?: string;
+  glossaryEntries?: GlossaryEntry[];
+  onGlossarySelect?: (entry: GlossaryEntry) => void;
+}) {
   const trimmed = text?.trim();
   if (!trimmed) return <p className="explanation-text muted">解説未登録</p>;
   const lines = trimmed.split(/\r?\n/);
@@ -842,20 +887,32 @@ function ExplanationText({ text }: { text?: string }) {
           return (
             <p className="explanation-line highlighted" key={`${value}-${index}`}>
               <strong>{headingMatch[1]}</strong>
-              {headingMatch[2] && <span>{headingMatch[2]}</span>}
+              {headingMatch[2] && (
+                <span>
+                  <GlossaryInlineText
+                    text={headingMatch[2]}
+                    entries={glossaryEntries}
+                    onSelect={onGlossarySelect}
+                  />
+                </span>
+              )}
             </p>
           );
         }
         if (/^[-*・]/.test(value)) {
           return (
             <p className="explanation-line bullet" key={`${value}-${index}`}>
-              {value.replace(/^[-*・]\s*/, "")}
+              <GlossaryInlineText
+                text={value.replace(/^[-*・]\s*/, "")}
+                entries={glossaryEntries}
+                onSelect={onGlossarySelect}
+              />
             </p>
           );
         }
         return (
           <p className="explanation-line" key={`${value}-${index}`}>
-            {value}
+            <GlossaryInlineText text={value} entries={glossaryEntries} onSelect={onGlossarySelect} />
           </p>
         );
       })}
@@ -863,15 +920,95 @@ function ExplanationText({ text }: { text?: string }) {
   );
 }
 
+function GlossaryInlineText({
+  text,
+  entries,
+  onSelect
+}: {
+  text: string;
+  entries: GlossaryEntry[];
+  onSelect?: (entry: GlossaryEntry) => void;
+}) {
+  if (!onSelect || entries.length === 0) return <>{text}</>;
+  return (
+    <>
+      {splitTextByGlossary(text, entries).map((segment, index) => {
+        const entry = segment.entry;
+        return entry ? (
+          <button
+            className="keyword-term"
+            key={`${segment.text}-${entry.id}-${index}`}
+            type="button"
+            onClick={(event) => {
+              event.preventDefault();
+              event.stopPropagation();
+              onSelect(entry);
+            }}
+          >
+            {segment.text}
+          </button>
+        ) : (
+          <span key={`${segment.text}-${index}`}>{segment.text}</span>
+        );
+      })}
+    </>
+  );
+}
+
+function GlossarySheet({ entry, onClose }: { entry: GlossaryEntry | null; onClose: () => void }) {
+  if (!entry) return null;
+  return (
+    <div className="glossary-overlay" role="presentation" onClick={onClose}>
+      <section
+        className="glossary-sheet"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="glossary-title"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <div className="glossary-head">
+          <div>
+            <span>{entry.category}</span>
+            <h2 id="glossary-title">{entry.term}</h2>
+          </div>
+          <button className="icon-button" type="button" onClick={onClose} aria-label="閉じる">
+            <X aria-hidden="true" size={18} />
+          </button>
+        </div>
+        {entry.aliases.length > 0 && (
+          <div className="tag-row">
+            {entry.aliases.map((alias) => (
+              <span key={alias}>{alias}</span>
+            ))}
+          </div>
+        )}
+        <p className="glossary-summary">{entry.summary}</p>
+        {entry.bullets.length > 0 && (
+          <ul className="glossary-bullets">
+            {entry.bullets.map((bullet) => (
+              <li key={bullet}>{bullet}</li>
+            ))}
+          </ul>
+        )}
+        <p className="muted">
+          {entry.sourceNote || "自作用語メモです。必要に応じて原典で確認してください。"}
+        </p>
+      </section>
+    </div>
+  );
+}
+
 function QuestionRunner({
   questions,
   statesByQuestion,
+  glossaryEntries,
   mode,
   emptyTitle,
   onRefresh
 }: {
   questions: Question[];
   statesByQuestion: Map<string, QuestionState>;
+  glossaryEntries: GlossaryEntry[];
   mode: AttemptMode;
   emptyTitle: string;
   onRefresh: () => Promise<void>;
@@ -881,6 +1018,7 @@ function QuestionRunner({
   const [result, setResult] = useState<Attempt | null>(null);
   const [answerRevealed, setAnswerRevealed] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  const [activeGlossaryEntry, setActiveGlossaryEntry] = useState<GlossaryEntry | null>(null);
   const [questionStartedAt, setQuestionStartedAt] = useState(Date.now());
   const feedbackRef = useRef<HTMLElement | null>(null);
   const questionSetKey = useMemo(() => questions.map((item) => item.id).join("|"), [questions]);
@@ -891,17 +1029,19 @@ function QuestionRunner({
   useEffect(() => {
     setIndex(0);
     setSelectedAnswers([]);
-    setResult(null);
-    setAnswerRevealed(false);
-    setSubmitting(false);
-    setQuestionStartedAt(Date.now());
-  }, [questionSetKey, mode]);
+      setResult(null);
+      setAnswerRevealed(false);
+      setSubmitting(false);
+      setActiveGlossaryEntry(null);
+      setQuestionStartedAt(Date.now());
+    }, [questionSetKey, mode]);
 
   useEffect(() => {
     setSelectedAnswers([]);
     setResult(null);
     setAnswerRevealed(false);
     setSubmitting(false);
+    setActiveGlossaryEntry(null);
     setQuestionStartedAt(Date.now());
   }, [question?.id]);
 
@@ -1104,7 +1244,13 @@ function QuestionRunner({
 
       <section className="stem-panel">
         <div className="section-label">問題文</div>
-        <p className="stem">{question.stem}</p>
+        <p className="stem">
+          <GlossaryInlineText
+            text={question.stem}
+            entries={glossaryEntries}
+            onSelect={setActiveGlossaryEntry}
+          />
+        </p>
       </section>
 
       <div className="tag-row">
@@ -1151,7 +1297,13 @@ function QuestionRunner({
                 onChange={() => toggleAnswer(choice.key)}
               />
               <strong>{choice.key}</strong>
-              <span>{choice.text}</span>
+              <span>
+                <GlossaryInlineText
+                  text={choice.text}
+                  entries={glossaryEntries}
+                  onSelect={setActiveGlossaryEntry}
+                />
+              </span>
             </label>
           );
         })}
@@ -1201,14 +1353,20 @@ function QuestionRunner({
             <div className="answer-block">
               <div className="section-label">あなたの回答</div>
               {selectedChoices.length > 0 ? (
-                <ul className="answer-list">
-                  {selectedChoices.map((choice) => (
-                    <li key={choice.key}>
-                      <strong>{choice.key}</strong>
-                      <span>{choice.text}</span>
-                    </li>
-                  ))}
-                </ul>
+            <ul className="answer-list">
+              {selectedChoices.map((choice) => (
+                <li key={choice.key}>
+                  <strong>{choice.key}</strong>
+                  <span>
+                    <GlossaryInlineText
+                      text={choice.text}
+                      entries={glossaryEntries}
+                      onSelect={setActiveGlossaryEntry}
+                    />
+                  </span>
+                </li>
+              ))}
+            </ul>
               ) : (
                 <p className="explanation-text muted">未選択</p>
               )}
@@ -1220,7 +1378,13 @@ function QuestionRunner({
               {correctChoices.map((choice) => (
                 <li key={choice.key}>
                   <strong>{choice.key}</strong>
-                  <span>{choice.text}</span>
+                  <span>
+                    <GlossaryInlineText
+                      text={choice.text}
+                      entries={glossaryEntries}
+                      onSelect={setActiveGlossaryEntry}
+                    />
+                  </span>
                 </li>
               ))}
             </ul>
@@ -1231,7 +1395,11 @@ function QuestionRunner({
               <span>{explanationSourceLabel(question)}</span>
               {question.sourceNote && <span>{question.sourceNote}</span>}
             </div>
-            <ExplanationText text={question.explanation} />
+            <ExplanationText
+              text={question.explanation}
+              glossaryEntries={glossaryEntries}
+              onGlossarySelect={setActiveGlossaryEntry}
+            />
             {!question.explanation?.trim() && (
               <p className="muted">管理タブで「結論・根拠・誤選択肢・覚え方」を追記できます。</p>
             )}
@@ -1239,7 +1407,11 @@ function QuestionRunner({
           {questionState?.memo?.trim() && (
             <div className="explanation-block">
               <div className="section-label">自分の補足メモ</div>
-              <ExplanationText text={questionState.memo} />
+              <ExplanationText
+                text={questionState.memo}
+                glossaryEntries={glossaryEntries}
+                onGlossarySelect={setActiveGlossaryEntry}
+              />
             </div>
           )}
           <button className="primary full" type="button" onClick={nextQuestion}>
@@ -1250,6 +1422,7 @@ function QuestionRunner({
       )}
 
       <MemoBox initialValue={questionState?.memo ?? ""} onSave={saveMemo} />
+      <GlossarySheet entry={activeGlossaryEntry} onClose={() => setActiveGlossaryEntry(null)} />
     </article>
   );
 }
@@ -2553,15 +2726,217 @@ function LiteratureView() {
   );
 }
 
+function GlossaryManager({
+  customEntries,
+  glossaryEntries,
+  onRefresh
+}: {
+  customEntries: GlossaryEntry[];
+  glossaryEntries: GlossaryEntry[];
+  onRefresh: () => Promise<void>;
+}) {
+  const emptyDraft = {
+    id: "",
+    term: "",
+    aliasesText: "",
+    category: "疾患" as GlossaryEntry["category"],
+    summary: "",
+    bulletsText: "",
+    sourceNote: ""
+  };
+  const [draft, setDraft] = useState(emptyDraft);
+  const [message, setMessage] = useState("");
+  const builtInCount = glossaryEntries.filter((entry) => entry.builtIn).length;
+  const updateDraft = (key: string, value: string) => setDraft((current) => ({ ...current, [key]: value }));
+
+  const resetDraft = () => {
+    setDraft(emptyDraft);
+    setMessage("");
+  };
+
+  const saveGlossaryEntry = async (event: FormEvent) => {
+    event.preventDefault();
+    const term = draft.term.trim();
+    const summary = draft.summary.trim();
+    if (!term || !summary) {
+      setMessage("用語名と説明は必須です。");
+      return;
+    }
+
+    const nextEntry: GlossaryEntry = {
+      id: draft.id || `glossary-${Date.now()}-${Math.random().toString(36).slice(2)}`,
+      term,
+      aliases: parseStringList(draft.aliasesText),
+      category: draft.category,
+      summary,
+      bullets: draft.bulletsText
+        .split(/\r?\n/)
+        .map((line) => line.trim())
+        .filter(Boolean),
+      sourceNote: draft.sourceNote.trim() || "自作用語メモ",
+      builtIn: false,
+      updatedAt: nowIso()
+    };
+    const nextEntries = normalizeGlossaryEntries([
+      ...customEntries.filter((entry) => entry.id !== nextEntry.id),
+      nextEntry
+    ]);
+    await setSetting("customGlossaryEntries", nextEntries);
+    setMessage("用語を保存しました。");
+    resetDraft();
+    await onRefresh();
+  };
+
+  const editGlossaryEntry = (entry: GlossaryEntry) => {
+    setDraft({
+      id: entry.id,
+      term: entry.term,
+      aliasesText: entry.aliases.join(","),
+      category: entry.category,
+      summary: entry.summary,
+      bulletsText: entry.bullets.join("\n"),
+      sourceNote: entry.sourceNote ?? ""
+    });
+    setMessage("");
+  };
+
+  const deleteGlossaryEntry = async (id: string) => {
+    const target = customEntries.find((entry) => entry.id === id);
+    if (!target || !confirm(`「${target.term}」を用語集から削除しますか？`)) return;
+    await setSetting(
+      "customGlossaryEntries",
+      normalizeGlossaryEntries(customEntries.filter((entry) => entry.id !== id))
+    );
+    if (draft.id === id) resetDraft();
+    setMessage("用語を削除しました。");
+    await onRefresh();
+  };
+
+  return (
+    <section className="panel glossary-manager">
+      <div className="section-heading-row">
+        <div>
+          <h2>クリック用語集</h2>
+          <p className="muted">
+            問題文・選択肢・解説に登録語が出ると、タップしてミニ解説を開けます。外部AIには送信しません。
+          </p>
+        </div>
+        <span className="performance-badge">
+          初期{builtInCount} / 自作{customEntries.length}
+        </span>
+      </div>
+
+      <form className="glossary-form" onSubmit={saveGlossaryEntry}>
+        <div className="form-row">
+          <label>
+            用語名
+            <input
+              value={draft.term}
+              onChange={(event) => updateDraft("term", event.target.value)}
+              placeholder="例: MODS"
+            />
+          </label>
+          <label>
+            分類
+            <select value={draft.category} onChange={(event) => updateDraft("category", event.target.value)}>
+              {(["疾患", "スコア", "治療", "検査", "概念", "その他"] as const).map((category) => (
+                <option key={category} value={category}>
+                  {category}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
+        <label>
+          別名・略語
+          <input
+            value={draft.aliasesText}
+            onChange={(event) => updateDraft("aliasesText", event.target.value)}
+            placeholder="カンマ区切り。例: 多臓器機能障害症候群"
+          />
+        </label>
+        <label>
+          説明
+          <textarea
+            value={draft.summary}
+            onChange={(event) => updateDraft("summary", event.target.value)}
+            rows={3}
+            placeholder="自分が復習時に読みたい短い説明"
+          />
+        </label>
+        <label>
+          覚えるポイント
+          <textarea
+            value={draft.bulletsText}
+            onChange={(event) => updateDraft("bulletsText", event.target.value)}
+            rows={3}
+            placeholder="1行に1ポイント"
+          />
+        </label>
+        <label>
+          出典メモ
+          <input
+            value={draft.sourceNote}
+            onChange={(event) => updateDraft("sourceNote", event.target.value)}
+            placeholder="例: 自分のノート、教科書章名"
+          />
+        </label>
+        <div className="editor-helpers">
+          <button className="primary" type="submit">
+            <Plus aria-hidden="true" size={17} />
+            {draft.id ? "用語を更新" : "用語を追加"}
+          </button>
+          {draft.id && (
+            <button className="secondary" type="button" onClick={resetDraft}>
+              新規入力へ戻る
+            </button>
+          )}
+          <span className="muted">初期用語はアプリ内メモです。必要に応じて自分の表現に追加してください。</span>
+        </div>
+      </form>
+
+      <div className="glossary-list">
+        {customEntries.length === 0 ? (
+          <p className="muted">自作用語はまだありません。初期用語だけでハイライトします。</p>
+        ) : (
+          customEntries.map((entry) => (
+            <article className="glossary-list-item" key={entry.id}>
+              <div>
+                <strong>{entry.term}</strong>
+                <span>{entry.category}</span>
+                <p>{clipText(entry.summary, 90)}</p>
+              </div>
+              <div className="list-actions">
+                <button className="secondary" type="button" onClick={() => editGlossaryEntry(entry)}>
+                  <BookOpen aria-hidden="true" size={16} />
+                  編集
+                </button>
+                <button className="danger" type="button" onClick={() => deleteGlossaryEntry(entry.id)}>
+                  <Trash2 aria-hidden="true" size={16} />
+                  削除
+                </button>
+              </div>
+            </article>
+          ))
+        )}
+      </div>
+    </section>
+  );
+}
+
 function SettingsView({
   stats,
   lastBackupAt,
   lastRestoreAt,
+  customGlossaryEntries,
+  glossaryEntries,
   onRefresh
 }: {
   stats: PracticeStats;
   lastBackupAt?: string;
   lastRestoreAt?: string;
+  customGlossaryEntries: GlossaryEntry[];
+  glossaryEntries: GlossaryEntry[];
   onRefresh: () => Promise<void>;
 }) {
   const [storage, setStorage] = useState<StorageStatus | null>(null);
@@ -2665,6 +3040,12 @@ function SettingsView({
           </dl>
         )}
       </div>
+
+      <GlossaryManager
+        customEntries={customGlossaryEntries}
+        glossaryEntries={glossaryEntries}
+        onRefresh={onRefresh}
+      />
 
       <div className="panel">
         <h2>利用範囲</h2>
