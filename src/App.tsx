@@ -392,16 +392,7 @@ function App() {
             <Newspaper aria-hidden="true" size={18} />
             <span>論文</span>
           </button>
-          <a
-            className="header-link"
-            href="https://daily-report-dashboard-site.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-            title="Daily Report Dashboard を開く"
-          >
-            <ExternalLink aria-hidden="true" size={18} />
-            <span>Dashboard</span>
-          </a>
+
           <div className="header-badges" aria-label="学習状況">
             <StatPill label="問題" value={stats.activeQuestions} />
             <StatPill label="復習" value={stats.dueQuestions} />
@@ -3070,4 +3061,5 @@ function SettingsView({
 }
 
 export default App;
+
 
