@@ -1329,13 +1329,7 @@ function QuestionRunner({
                 onChange={() => toggleAnswer(choice.key)}
               />
               <strong>{choice.key}</strong>
-              <span>
-                <GlossaryInlineText
-                  text={choice.text}
-                  entries={glossaryEntries}
-                  onSelect={setActiveGlossaryEntry}
-                />
-              </span>
+              <span>{choice.text}</span>
             </label>
           );
         })}
