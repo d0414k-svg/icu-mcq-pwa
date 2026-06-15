@@ -88,11 +88,10 @@ const TAB_ITEMS: Array<{ key: TabKey; label: string; icon: typeof PlayCircle }> 
   { key: "review", label: "復習", icon: RotateCcw },
   { key: "stats", label: "成績", icon: ClipboardList },
   { key: "manage", label: "管理", icon: Library },
-  { key: "import", label: "取込", icon: FileUp },
   { key: "settings", label: "設定", icon: Settings }
 ];
 
-const TAB_KEYS = new Set<TabKey>([...TAB_ITEMS.map((item) => item.key), "literature"]);
+const TAB_KEYS = new Set<TabKey>([...TAB_ITEMS.map((item) => item.key), "import", "literature"]);
 
 function tabFromLocation(): TabKey {
   if (typeof window === "undefined") return "practice";
@@ -432,7 +431,12 @@ function App() {
           <StatsView questions={questions} attempts={attempts} statesByQuestion={statesByQuestion} />
         )}
         {activeTab === "manage" && (
-          <ManageView questions={questions} statesByQuestion={statesByQuestion} onRefresh={refresh} />
+          <ManageView
+            questions={questions}
+            statesByQuestion={statesByQuestion}
+            onOpenImport={() => selectTab("import")}
+            onRefresh={refresh}
+          />
         )}
         {activeTab === "literature" && <LiteratureView />}
         {activeTab === "import" && <ImportView importJobs={importJobs} onRefresh={refresh} />}
@@ -461,7 +465,7 @@ function App() {
               aria-current={activeTab === item.key ? "page" : undefined}
               aria-label={item.label}
             >
-              <Icon aria-hidden="true" size={20} />
+              <Icon aria-hidden="true" size={22} />
               <span>{item.label}</span>
             </button>
           );
@@ -1336,7 +1340,7 @@ function QuestionRunner({
           );
         })}
 
-        <div className="action-row">
+        <div className="action-row sticky-answer-bar">
           {!answerVisible ? (
             <>
               <div className="answer-action">
@@ -1344,6 +1348,9 @@ function QuestionRunner({
                   <Check aria-hidden="true" size={18} />
                   {submitting ? "保存中" : "回答"}
                 </button>
+                {isMultipleAnswer && (
+                  <span className={submitDisabled ? "answer-helper" : "answer-helper ready"}>{answerHelper}</span>
+                )}
               </div>
               {selectedAnswers.length > 0 && (
                 <button className="secondary" type="button" onClick={() => setSelectedAnswers([])}>
@@ -1450,10 +1457,6 @@ function QuestionRunner({
             <strong>{questionPathLabel(question)}</strong>
             <small>{questionSourceDetail(question)}</small>
           </section>
-          <button className="primary full" type="button" onClick={nextQuestion}>
-            <PlayCircle aria-hidden="true" size={18} />
-            次の問題へ
-          </button>
         </section>
       )}
 
@@ -1519,10 +1522,12 @@ function MemoBox({ initialValue, onSave }: { initialValue: string; onSave: (memo
 function ManageView({
   questions,
   statesByQuestion,
+  onOpenImport,
   onRefresh
 }: {
   questions: Question[];
   statesByQuestion: Map<string, QuestionState>;
+  onOpenImport: () => void;
   onRefresh: () => Promise<void>;
 }) {
   const [query, setQuery] = useState("");
@@ -1627,6 +1632,10 @@ function ManageView({
         <button className="secondary full" type="button" onClick={createManualQuestion}>
           <ListChecks aria-hidden="true" size={17} />
           手動で追加
+        </button>
+        <button className="secondary full" type="button" onClick={onOpenImport}>
+          <FileUp aria-hidden="true" size={17} />
+          CSV/PDFを取り込む
         </button>
         <div className="question-list" aria-label="問題一覧">
           {filtered.map((question) => {
@@ -3127,6 +3136,3 @@ function SettingsView({
 }
 
 export default App;
-
-
-

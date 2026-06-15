@@ -42,6 +42,13 @@ button {
   border: 0;
 }
 
+button,
+.choice-item {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  user-select: none;
+}
+
 .app-shell {
   min-height: 100vh;
   min-height: 100dvh;
@@ -96,9 +103,10 @@ button {
 }
 
 .header-link.active {
-  color: #ffffff;
-  background: var(--c-accent);
-  border-color: var(--c-accent);
+  color: var(--c-accent);
+  background: var(--c-surface);
+  border-color: #c4ddd8;
+  box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.18);
 }
 
 .eyebrow {
@@ -218,6 +226,23 @@ button {
 .import-actions,
 .action-row {
   flex-wrap: wrap;
+}
+
+.sticky-answer-bar {
+  position: sticky;
+  bottom: calc(78px + env(safe-area-inset-bottom));
+  z-index: 4;
+  padding: var(--s2);
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-md);
+  box-shadow: 0 10px 30px rgba(23, 32, 38, 0.14);
+  backdrop-filter: blur(12px);
+}
+
+.sticky-answer-bar .primary,
+.sticky-answer-bar .secondary {
+  min-height: var(--tap);
 }
 
 .toolbar > label,
@@ -354,11 +379,20 @@ textarea:focus {
   background: #9bb9b4;
 }
 
+.primary:active:not(:disabled) {
+  filter: brightness(0.94);
+}
+
 .secondary,
 .file-button.secondary-like {
   color: var(--c-ink-soft);
   background: var(--c-accent-weak);
   border: 1px solid #c4ddd8;
+}
+
+.secondary:active:not(:disabled),
+.file-button.secondary-like:active:not(:disabled) {
+  background: #dcebe7;
 }
 
 .secondary:disabled {
@@ -428,8 +462,9 @@ textarea:focus {
 }
 
 .segmented-control button.active {
-  color: #ffffff;
-  background: var(--c-accent);
+  color: var(--c-accent);
+  background: var(--c-surface);
+  box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.22);
 }
 
 .alert-tabs {
@@ -453,9 +488,10 @@ textarea:focus {
 }
 
 .alert-tabs button.active {
-  color: #ffffff;
-  background: var(--c-accent);
-  border-color: var(--c-accent);
+  color: var(--c-accent);
+  background: var(--c-surface);
+  border-color: #c4ddd8;
+  box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.22);
 }
 
 .alert-tabs strong,
@@ -695,6 +731,15 @@ textarea:focus {
   border-radius: var(--r-sm);
   font-weight: 600;
   line-height: 1.65;
+  transition:
+    transform 0.12s ease,
+    border-color 0.12s ease,
+    box-shadow 0.12s ease,
+    background 0.12s ease;
+}
+
+.choice-item:active {
+  transform: scale(0.99);
 }
 
 .choice-heading,
@@ -732,7 +777,7 @@ textarea:focus {
 
 .choice-item.selected {
   border-color: var(--c-accent);
-  box-shadow: inset 0 0 0 1px var(--c-accent);
+  box-shadow: inset 0 0 0 2px var(--c-accent);
 }
 
 .choice-item.correct {
@@ -1877,7 +1922,7 @@ textarea:focus {
   left: 0;
   z-index: 5;
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: var(--s1);
   padding: var(--s2) 10px calc(var(--s2) + env(safe-area-inset-bottom));
   background: rgba(255, 255, 255, 0.94);
@@ -1886,6 +1931,7 @@ textarea:focus {
 }
 
 .bottom-nav button {
+  position: relative;
   display: flex;
   min-width: 0;
   min-height: 56px;
@@ -1896,13 +1942,24 @@ textarea:focus {
   color: #526962;
   background: transparent;
   border-radius: var(--r-sm);
-  font-size: 0.74rem;
+  font-size: var(--fs-micro);
   font-weight: 800;
 }
 
 .bottom-nav button.active {
-  color: #ffffff;
+  color: var(--c-accent);
+  background: var(--c-surface);
+}
+
+.bottom-nav button.active::before {
+  position: absolute;
+  top: 0;
+  right: 16%;
+  left: 16%;
+  height: 2px;
   background: var(--c-accent);
+  border-radius: 999px;
+  content: "";
 }
 
 .modal-backdrop {
