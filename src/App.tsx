@@ -67,6 +67,29 @@ type TabKey = "practice" | "review" | "stats" | "manage" | "literature" | "impor
 type StudySortKey = "official" | "path" | "due" | "weak" | "unanswered" | "recent";
 type ManageSortKey = "path" | "updated" | "weak" | "unanswered";
 
+type PracticeStudyPrefs = {
+  year?: string;
+  tag?: string;
+  practiceFilter?: string;
+  sortKey?: StudySortKey;
+  shuffleSeed?: string;
+  questionId?: string;
+};
+
+type ReviewStudyPrefs = {
+  filter?: string;
+  sortKey?: StudySortKey;
+  mistakeLoop?: boolean;
+  targetStreak?: string;
+  questionId?: string;
+};
+
+const PRACTICE_PREFS_KEY = "studyPrefs.practice";
+const REVIEW_PREFS_KEY = "studyPrefs.review";
+const STUDY_SORT_KEYS = new Set<StudySortKey>(["official", "path", "due", "weak", "unanswered", "recent"]);
+const PRACTICE_FILTER_KEYS = new Set(["all", "unanswered", "incorrect", "bookmarked", "due"]);
+const REVIEW_FILTER_KEYS = new Set(["all", "due", "mistake", "bookmark", "unanswered"]);
+
 const EMPTY_STATS: PracticeStats = {
   totalQuestions: 0,
   activeQuestions: 0,
@@ -119,6 +142,10 @@ function formatShortDate(value?: string) {
     month: "2-digit",
     day: "2-digit"
   }).format(new Date(value));
+}
+
+function coerceStudySortKey(value: unknown, fallback: StudySortKey): StudySortKey {
+  return typeof value === "string" && STUDY_SORT_KEYS.has(value as StudySortKey) ? (value as StudySortKey) : fallback;
 }
 
 function pubMedArticleMatches(article: PubMedArticle, normalizedQuery: string) {
@@ -514,6 +541,40 @@ function PracticeView({
   const [practiceFilter, setPracticeFilter] = useState("all");
   const [sortKey, setSortKey] = useState<StudySortKey>("official");
   const [shuffleSeed, setShuffleSeed] = useState("");
+  const [prefsLoaded, setPrefsLoaded] = useState(false);
+  const [resumeQuestionId, setResumeQuestionId] = useState<string | undefined>();
+
+  useEffect(() => {
+    let cancelled = false;
+    void getSetting<PracticeStudyPrefs>(PRACTICE_PREFS_KEY, {}).then((prefs) => {
+      if (cancelled) return;
+      setYear(prefs.year ?? "all");
+      setTag(prefs.tag ?? "all");
+      setPracticeFilter(
+        prefs.practiceFilter && PRACTICE_FILTER_KEYS.has(prefs.practiceFilter) ? prefs.practiceFilter : "all"
+      );
+      setSortKey(coerceStudySortKey(prefs.sortKey, "official"));
+      setShuffleSeed(prefs.shuffleSeed ?? "");
+      setResumeQuestionId(prefs.questionId);
+      setPrefsLoaded(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!prefsLoaded) return;
+    void setSetting<PracticeStudyPrefs>(PRACTICE_PREFS_KEY, {
+      year,
+      tag,
+      practiceFilter,
+      sortKey,
+      shuffleSeed,
+      questionId: resumeQuestionId
+    });
+  }, [prefsLoaded, year, tag, practiceFilter, sortKey, shuffleSeed, resumeQuestionId]);
+
   const activeQuestions = questions.filter((question) => question.status === "active");
   const years = [...new Set(activeQuestions.map((question) => question.year))].sort((a, b) => b - a);
   const tags = [...new Set(activeQuestions.flatMap((question) => question.tags))].sort((a, b) =>
@@ -659,6 +720,8 @@ function PracticeView({
         questions={filtered}
         statesByQuestion={statesByQuestion}
         glossaryEntries={glossaryEntries}
+        restoreQuestionId={prefsLoaded ? resumeQuestionId : undefined}
+        onCurrentQuestionChange={setResumeQuestionId}
         onRefresh={onRefresh}
       />
     </section>
@@ -680,6 +743,36 @@ function ReviewView({
   const [sortKey, setSortKey] = useState<StudySortKey>("due");
   const [mistakeLoop, setMistakeLoop] = useState(false);
   const [targetStreak, setTargetStreak] = useState("2");
+  const [prefsLoaded, setPrefsLoaded] = useState(false);
+  const [resumeQuestionId, setResumeQuestionId] = useState<string | undefined>();
+
+  useEffect(() => {
+    let cancelled = false;
+    void getSetting<ReviewStudyPrefs>(REVIEW_PREFS_KEY, {}).then((prefs) => {
+      if (cancelled) return;
+      setFilter(prefs.filter && REVIEW_FILTER_KEYS.has(prefs.filter) ? prefs.filter : "all");
+      setSortKey(coerceStudySortKey(prefs.sortKey, "due"));
+      setMistakeLoop(Boolean(prefs.mistakeLoop));
+      setTargetStreak(["1", "2", "3"].includes(prefs.targetStreak ?? "") ? prefs.targetStreak ?? "2" : "2");
+      setResumeQuestionId(prefs.questionId);
+      setPrefsLoaded(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!prefsLoaded) return;
+    void setSetting<ReviewStudyPrefs>(REVIEW_PREFS_KEY, {
+      filter,
+      sortKey,
+      mistakeLoop,
+      targetStreak,
+      questionId: resumeQuestionId
+    });
+  }, [prefsLoaded, filter, sortKey, mistakeLoop, targetStreak, resumeQuestionId]);
+
   const activeQuestions = questions.filter((question) => question.status === "active");
   const targetStreakCount = Number(targetStreak);
   const reviewCountFor = (value: string) =>
@@ -806,6 +899,8 @@ function ReviewView({
         questions={reviewQuestions}
         statesByQuestion={statesByQuestion}
         glossaryEntries={glossaryEntries}
+        restoreQuestionId={prefsLoaded ? resumeQuestionId : undefined}
+        onCurrentQuestionChange={setResumeQuestionId}
         onRefresh={onRefresh}
       />
     </section>
@@ -1071,6 +1166,8 @@ function QuestionRunner({
   glossaryEntries,
   mode,
   emptyTitle,
+  restoreQuestionId,
+  onCurrentQuestionChange,
   onRefresh
 }: {
   questions: Question[];
@@ -1078,6 +1175,8 @@ function QuestionRunner({
   glossaryEntries: GlossaryEntry[];
   mode: AttemptMode;
   emptyTitle: string;
+  restoreQuestionId?: string;
+  onCurrentQuestionChange?: (questionId: string) => void;
   onRefresh: () => Promise<void>;
 }) {
   const [index, setIndex] = useState(0);
@@ -1094,14 +1193,19 @@ function QuestionRunner({
   const answerVisible = Boolean(result) || answerRevealed;
 
   useEffect(() => {
-    setIndex(0);
+    const restoredIndex = restoreQuestionId ? questions.findIndex((item) => item.id === restoreQuestionId) : -1;
+    setIndex(restoredIndex >= 0 ? restoredIndex : 0);
     setSelectedAnswers([]);
-      setResult(null);
-      setAnswerRevealed(false);
-      setSubmitting(false);
-      setActiveGlossaryEntry(null);
-      setQuestionStartedAt(Date.now());
-    }, [questionSetKey, mode]);
+    setResult(null);
+    setAnswerRevealed(false);
+    setSubmitting(false);
+    setActiveGlossaryEntry(null);
+    setQuestionStartedAt(Date.now());
+  }, [questionSetKey, mode, restoreQuestionId]);
+
+  useEffect(() => {
+    if (question) onCurrentQuestionChange?.(question.id);
+  }, [question?.id, onCurrentQuestionChange]);
 
   useEffect(() => {
     setSelectedAnswers([]);
