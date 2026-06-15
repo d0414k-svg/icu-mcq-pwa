@@ -876,6 +876,19 @@ textarea:focus {
   margin: var(--s2) 0 0;
 }
 
+.empty-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2);
+  justify-content: center;
+  margin-top: var(--s3);
+}
+
+.empty-actions .primary,
+.empty-actions .secondary {
+  flex: 1 1 190px;
+}
+
 .feedback.correct {
   background: var(--c-ok-bg);
   border: 1px solid var(--c-ok-line);

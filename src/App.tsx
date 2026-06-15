@@ -270,6 +270,12 @@ function sortStudyQuestions(
   });
 }
 
+async function loadFictitiousSamplePreview(duplicateMode: ImportDuplicateMode) {
+  const response = await fetch(`${import.meta.env.BASE_URL}samples/fictitious_questions.csv`);
+  if (!response.ok) throw new Error("サンプルCSVを読み込めませんでした。");
+  return parseCsvToPreview("fictitious_questions.csv", await response.text(), { duplicateMode });
+}
+
 function explanationSourceLabel(question: Question) {
   if (question.explanationSource === "official") return "取込解説";
   if (question.explanationSource === "manual") return "手動メモ";
@@ -443,6 +449,7 @@ function App() {
             statesByQuestion={statesByQuestion}
             stats={stats}
             glossaryEntries={glossaryEntries}
+            onOpenImport={() => selectTab("import")}
             onRefresh={refresh}
           />
         )}
@@ -466,7 +473,9 @@ function App() {
           />
         )}
         {activeTab === "literature" && <LiteratureView />}
-        {activeTab === "import" && <ImportView importJobs={importJobs} onRefresh={refresh} />}
+        {activeTab === "import" && (
+          <ImportView importJobs={importJobs} onOpenPractice={() => selectTab("practice")} onRefresh={refresh} />
+        )}
         {activeTab === "settings" && (
           <SettingsView
             stats={stats}
@@ -528,12 +537,14 @@ function PracticeView({
   statesByQuestion,
   stats,
   glossaryEntries,
+  onOpenImport,
   onRefresh
 }: {
   questions: Question[];
   statesByQuestion: Map<string, QuestionState>;
   stats: PracticeStats;
   glossaryEntries: GlossaryEntry[];
+  onOpenImport: () => void;
   onRefresh: () => Promise<void>;
 }) {
   const [year, setYear] = useState("all");
@@ -543,6 +554,8 @@ function PracticeView({
   const [shuffleSeed, setShuffleSeed] = useState("");
   const [prefsLoaded, setPrefsLoaded] = useState(false);
   const [resumeQuestionId, setResumeQuestionId] = useState<string | undefined>();
+  const [sampleImporting, setSampleImporting] = useState(false);
+  const [onboardingMessage, setOnboardingMessage] = useState("");
 
   useEffect(() => {
     let cancelled = false;
@@ -607,6 +620,26 @@ function PracticeView({
     setSortKey("official");
     setShuffleSeed("");
   };
+  const importSampleAndStart = async () => {
+    setSampleImporting(true);
+    setOnboardingMessage("");
+    try {
+      const parsed = await loadFictitiousSamplePreview("skip");
+      if (parsed.questions.length === 0) {
+        setOnboardingMessage("追加できるサンプル問題がありませんでした。すでに取り込み済みかもしれません。");
+        return;
+      }
+      await commitImportPreview(parsed);
+      resetFilters();
+      setResumeQuestionId(parsed.questions[0]?.id);
+      setOnboardingMessage(`${parsed.questions.length}問の架空サンプルを追加しました。`);
+      await onRefresh();
+    } catch (error) {
+      setOnboardingMessage(`サンプルを追加できませんでした: ${(error as Error).message}`);
+    } finally {
+      setSampleImporting(false);
+    }
+  };
   const yearLabel = year === "all" ? "年度すべて" : `${year}年`;
   const tagLabel = tag === "all" ? "タグすべて" : `タグ${tag}`;
   const filterLabel =
@@ -629,101 +662,120 @@ function PracticeView({
 
   return (
     <section className="view-stack">
-      <details className="set-config">
-        <summary>
-          {yearLabel}・{tagLabel}・{filterLabel}・{sortLabel}
-          {shuffleSeed ? "・ランダム" : ""} / 対象{filtered.length}問
-        </summary>
-        <div className="set-config-body">
-          <div className="metric-row">
-            <StatPill label="回答済" value={`${stats.answeredQuestions}/${stats.activeQuestions}`} />
-            <StatPill label="履歴" value={stats.attempts} />
-            <StatPill label="ブックマーク" value={stats.bookmarkedQuestions} />
-          </div>
-          <div className="toolbar">
-            <label>
-              年度
-              <select value={year} onChange={(event) => setYear(event.target.value)}>
-                <option value="all">すべて</option>
-                {years.map((item) => (
-                  <option key={item} value={item}>
-                    {item}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label>
-              タグ
-              <select value={tag} onChange={(event) => setTag(event.target.value)}>
-                <option value="all">すべて</option>
-                {tags.map((item) => (
-                  <option key={item} value={item}>
-                    {item}
-                  </option>
-                ))}
-              </select>
-            </label>
-          </div>
-          <div className="toolbar">
-            <label>
-              出題
-              <select value={practiceFilter} onChange={(event) => setPracticeFilter(event.target.value)}>
-                <option value="all">すべての出題中 ({filterCounts.all})</option>
-                <option value="unanswered">未回答 ({filterCounts.unanswered})</option>
-                <option value="incorrect">誤答あり ({filterCounts.incorrect})</option>
-                <option value="bookmarked">ブックマーク ({filterCounts.bookmarked})</option>
-                <option value="due">復習期限 ({filterCounts.due})</option>
-              </select>
-            </label>
-            <label>
-              並び順
-              <select
-                value={sortKey}
-                onChange={(event) => {
-                  setSortKey(event.target.value as StudySortKey);
-                  setShuffleSeed("");
-                }}
-              >
-                <option value="official">正規問題優先</option>
-                <option value="path">問題パス順</option>
-                <option value="due">復習期限が近い</option>
-                <option value="weak">苦手優先</option>
-                <option value="unanswered">未回答優先</option>
-                <option value="recent">最近解いた順</option>
-              </select>
-            </label>
-            <button
-              className={shuffleSeed ? "secondary active-soft" : "secondary"}
-              type="button"
-              onClick={() => {
-                setShuffleSeed((current) => (current ? "" : String(Date.now())));
-              }}
-            >
-              <Shuffle aria-hidden="true" size={17} />
-              {shuffleSeed ? "通常順" : "ランダム順"}
+      {activeQuestions.length === 0 ? (
+        <EmptyState title="まだ問題がありません">
+          <p className="muted">まずは架空サンプルで操作を試すか、自分のCSV/PDFを端末内に取り込んでください。</p>
+          <div className="empty-actions">
+            <button className="primary" type="button" onClick={importSampleAndStart} disabled={sampleImporting}>
+              <DatabaseBackup aria-hidden="true" size={18} />
+              {sampleImporting ? "追加中" : "サンプルを入れて試す"}
+            </button>
+            <button className="secondary" type="button" onClick={onOpenImport}>
+              <FileUp aria-hidden="true" size={18} />
+              自分の問題を取り込む
             </button>
           </div>
-          <div className="filter-summary">
-            <strong>対象 {filtered.length}問</strong>
-            <span>全出題 {activeQuestions.length}問</span>
-            {hasActiveFilters && (
-              <button className="link-button" type="button" onClick={resetFilters}>
-                条件をリセット
-              </button>
-            )}
-          </div>
-        </div>
-      </details>
-      <QuestionRunner
-        emptyTitle="CSVを取り込むと演習を開始できます"
-        mode="practice"
-        questions={filtered}
-        statesByQuestion={statesByQuestion}
-        glossaryEntries={glossaryEntries}
-        restoreQuestionId={prefsLoaded ? resumeQuestionId : undefined}
-        onCurrentQuestionChange={setResumeQuestionId}
-        onRefresh={onRefresh}
-      />
+          {onboardingMessage && <p className="form-message">{onboardingMessage}</p>}
+        </EmptyState>
+      ) : (
+        <>
+          <details className="set-config">
+            <summary>
+              {yearLabel}・{tagLabel}・{filterLabel}・{sortLabel}
+              {shuffleSeed ? "・ランダム" : ""} / 対象{filtered.length}問
+            </summary>
+            <div className="set-config-body">
+              <div className="metric-row">
+                <StatPill label="回答済" value={`${stats.answeredQuestions}/${stats.activeQuestions}`} />
+                <StatPill label="履歴" value={stats.attempts} />
+                <StatPill label="ブックマーク" value={stats.bookmarkedQuestions} />
+              </div>
+              <div className="toolbar">
+                <label>
+                  年度
+                  <select value={year} onChange={(event) => setYear(event.target.value)}>
+                    <option value="all">すべて</option>
+                    {years.map((item) => (
+                      <option key={item} value={item}>
+                        {item}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label>
+                  タグ
+                  <select value={tag} onChange={(event) => setTag(event.target.value)}>
+                    <option value="all">すべて</option>
+                    {tags.map((item) => (
+                      <option key={item} value={item}>
+                        {item}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              </div>
+              <div className="toolbar">
+                <label>
+                  出題
+                  <select value={practiceFilter} onChange={(event) => setPracticeFilter(event.target.value)}>
+                    <option value="all">すべての出題中 ({filterCounts.all})</option>
+                    <option value="unanswered">未回答 ({filterCounts.unanswered})</option>
+                    <option value="incorrect">誤答あり ({filterCounts.incorrect})</option>
+                    <option value="bookmarked">ブックマーク ({filterCounts.bookmarked})</option>
+                    <option value="due">復習期限 ({filterCounts.due})</option>
+                  </select>
+                </label>
+                <label>
+                  並び順
+                  <select
+                    value={sortKey}
+                    onChange={(event) => {
+                      setSortKey(event.target.value as StudySortKey);
+                      setShuffleSeed("");
+                    }}
+                  >
+                    <option value="official">正規問題優先</option>
+                    <option value="path">問題パス順</option>
+                    <option value="due">復習期限が近い</option>
+                    <option value="weak">苦手優先</option>
+                    <option value="unanswered">未回答優先</option>
+                    <option value="recent">最近解いた順</option>
+                  </select>
+                </label>
+                <button
+                  className={shuffleSeed ? "secondary active-soft" : "secondary"}
+                  type="button"
+                  onClick={() => {
+                    setShuffleSeed((current) => (current ? "" : String(Date.now())));
+                  }}
+                >
+                  <Shuffle aria-hidden="true" size={17} />
+                  {shuffleSeed ? "通常順" : "ランダム順"}
+                </button>
+              </div>
+              <div className="filter-summary">
+                <strong>対象 {filtered.length}問</strong>
+                <span>全出題 {activeQuestions.length}問</span>
+                {hasActiveFilters && (
+                  <button className="link-button" type="button" onClick={resetFilters}>
+                    条件をリセット
+                  </button>
+                )}
+              </div>
+            </div>
+          </details>
+          <QuestionRunner
+            emptyTitle="CSVを取り込むと演習を開始できます"
+            mode="practice"
+            questions={filtered}
+            statesByQuestion={statesByQuestion}
+            glossaryEntries={glossaryEntries}
+            restoreQuestionId={prefsLoaded ? resumeQuestionId : undefined}
+            onCurrentQuestionChange={setResumeQuestionId}
+            onRefresh={onRefresh}
+          />
+        </>
+      )}
     </section>
   );
 }
@@ -2024,7 +2076,15 @@ function QuestionEditor({ question, onRefresh }: { question: Question; onRefresh
   );
 }
 
-function ImportView({ importJobs, onRefresh }: { importJobs: ImportJob[]; onRefresh: () => Promise<void> }) {
+function ImportView({
+  importJobs,
+  onOpenPractice,
+  onRefresh
+}: {
+  importJobs: ImportJob[];
+  onOpenPractice: () => void;
+  onRefresh: () => Promise<void>;
+}) {
   const [preview, setPreview] = useState<ImportPreview | null>(null);
   const [message, setMessage] = useState("");
   const [duplicateMode, setDuplicateMode] = useState<ImportDuplicateMode>("add");
@@ -2050,10 +2110,13 @@ function ImportView({ importJobs, onRefresh }: { importJobs: ImportJob[]; onRefr
   };
 
   const loadSample = async () => {
-    const response = await fetch(`${import.meta.env.BASE_URL}samples/fictitious_questions.csv`);
-    const parsed = await parseCsvToPreview("fictitious_questions.csv", await response.text(), { duplicateMode });
-    setPreview(parsed);
-    setMessage("");
+    try {
+      const parsed = await loadFictitiousSamplePreview(duplicateMode);
+      setPreview(parsed);
+      setMessage("");
+    } catch (error) {
+      setMessage(`サンプルを読み込めませんでした: ${(error as Error).message}`);
+    }
   };
 
   const commit = async () => {
@@ -2191,6 +2254,25 @@ function ImportView({ importJobs, onRefresh }: { importJobs: ImportJob[]; onRefr
 
   return (
     <section className="view-stack">
+      <div className="panel import-guide">
+        <h2>はじめての取込</h2>
+        <ol className="step-list">
+          <li>まずは架空サンプルで、選択・採点・復習の流れを確認します。</li>
+          <li>自分の問題はCSV、貼り付け、PDF下書きのいずれかで端末内に保存します。</li>
+          <li>取込後は演習タブに戻り、iPhoneでそのまま解き始めます。</li>
+        </ol>
+        <div className="empty-actions">
+          <button className="secondary" type="button" onClick={loadSample}>
+            <DatabaseBackup aria-hidden="true" size={18} />
+            サンプルをプレビュー
+          </button>
+          <button className="primary" type="button" onClick={onOpenPractice}>
+            <PlayCircle aria-hidden="true" size={18} />
+            演習へ
+          </button>
+        </div>
+      </div>
+
       <div className="panel import-panel">
         <h2>PDFから下書き抽出</h2>
         <p className="muted">
