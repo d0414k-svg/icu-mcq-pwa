@@ -889,6 +889,16 @@ textarea:focus {
   flex: 1 1 190px;
 }
 
+.session-summary {
+  display: grid;
+  gap: var(--s3);
+}
+
+.session-wrong-list {
+  display: grid;
+  gap: var(--s2);
+}
+
 .feedback.correct {
   background: var(--c-ok-bg);
   border: 1px solid var(--c-ok-line);

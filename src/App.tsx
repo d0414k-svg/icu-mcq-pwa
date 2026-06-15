@@ -49,6 +49,12 @@ import { recordAttempt } from "./services/attempts";
 import { requestPersistentStorage, StorageStatus } from "./storage";
 import { buildTagPerformance, buildWeakQuestionQueue, buildYearPerformance, CategoryPerformance } from "./studyAnalytics";
 import {
+  createSessionWindow,
+  SessionSizeKey,
+  sessionStartForIndex,
+  summarizeSession
+} from "./session";
+import {
   Attempt,
   AttemptMode,
   ImportDuplicateMode,
@@ -86,9 +92,11 @@ type ReviewStudyPrefs = {
 
 const PRACTICE_PREFS_KEY = "studyPrefs.practice";
 const REVIEW_PREFS_KEY = "studyPrefs.review";
+const SESSION_SIZE_KEY = "studyPrefs.sessionSize";
 const STUDY_SORT_KEYS = new Set<StudySortKey>(["official", "path", "due", "weak", "unanswered", "recent"]);
 const PRACTICE_FILTER_KEYS = new Set(["all", "unanswered", "incorrect", "bookmarked", "due"]);
 const REVIEW_FILTER_KEYS = new Set(["all", "due", "mistake", "bookmark", "unanswered"]);
+const SESSION_SIZE_KEYS = new Set<SessionSizeKey>(["10", "20", "all"]);
 
 const EMPTY_STATS: PracticeStats = {
   totalQuestions: 0,
@@ -142,6 +150,15 @@ function formatShortDate(value?: string) {
     month: "2-digit",
     day: "2-digit"
   }).format(new Date(value));
+}
+
+function formatDurationMs(value?: number | null) {
+  if (typeof value !== "number") return "記録なし";
+  const seconds = Math.max(0, Math.round(value / 1000));
+  if (seconds < 60) return `${seconds}秒`;
+  const minutes = Math.floor(seconds / 60);
+  const rest = seconds % 60;
+  return rest > 0 ? `${minutes}分${rest}秒` : `${minutes}分`;
 }
 
 function coerceStudySortKey(value: unknown, fallback: StudySortKey): StudySortKey {
@@ -327,6 +344,30 @@ function useLongTermStudyStorage() {
       cancelled = true;
     };
   }, []);
+}
+
+function useSessionSizePreference() {
+  const [sessionSize, setSessionSizeState] = useState<SessionSizeKey>("10");
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    void getSetting<SessionSizeKey>(SESSION_SIZE_KEY, "10").then((saved) => {
+      if (cancelled) return;
+      setSessionSizeState(SESSION_SIZE_KEYS.has(saved) ? saved : "10");
+      setLoaded(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const setSessionSize = (next: SessionSizeKey) => {
+    setSessionSizeState(next);
+    void setSetting(SESSION_SIZE_KEY, next);
+  };
+
+  return { sessionSize, setSessionSize, loaded };
 }
 
 function App() {
@@ -556,6 +597,7 @@ function PracticeView({
   const [resumeQuestionId, setResumeQuestionId] = useState<string | undefined>();
   const [sampleImporting, setSampleImporting] = useState(false);
   const [onboardingMessage, setOnboardingMessage] = useState("");
+  const { sessionSize, setSessionSize, loaded: sessionSizeLoaded } = useSessionSizePreference();
 
   useEffect(() => {
     let cancelled = false;
@@ -716,6 +758,18 @@ function PracticeView({
               </div>
               <div className="toolbar">
                 <label>
+                  セット
+                  <select
+                    value={sessionSize}
+                    onChange={(event) => setSessionSize(event.target.value as SessionSizeKey)}
+                    disabled={!sessionSizeLoaded}
+                  >
+                    <option value="10">10問</option>
+                    <option value="20">20問</option>
+                    <option value="all">すべて</option>
+                  </select>
+                </label>
+                <label>
                   出題
                   <select value={practiceFilter} onChange={(event) => setPracticeFilter(event.target.value)}>
                     <option value="all">すべての出題中 ({filterCounts.all})</option>
@@ -770,6 +824,8 @@ function PracticeView({
             questions={filtered}
             statesByQuestion={statesByQuestion}
             glossaryEntries={glossaryEntries}
+            sessionSize={sessionSize}
+            restoreReady={prefsLoaded}
             restoreQuestionId={prefsLoaded ? resumeQuestionId : undefined}
             onCurrentQuestionChange={setResumeQuestionId}
             onRefresh={onRefresh}
@@ -797,6 +853,7 @@ function ReviewView({
   const [targetStreak, setTargetStreak] = useState("2");
   const [prefsLoaded, setPrefsLoaded] = useState(false);
   const [resumeQuestionId, setResumeQuestionId] = useState<string | undefined>();
+  const { sessionSize, setSessionSize, loaded: sessionSizeLoaded } = useSessionSizePreference();
 
   useEffect(() => {
     let cancelled = false;
@@ -928,6 +985,18 @@ function ReviewView({
           </div>
           <div className="toolbar compact-toolbar">
             <label>
+              セット
+              <select
+                value={sessionSize}
+                onChange={(event) => setSessionSize(event.target.value as SessionSizeKey)}
+                disabled={!sessionSizeLoaded}
+              >
+                <option value="10">10問</option>
+                <option value="20">20問</option>
+                <option value="all">すべて</option>
+              </select>
+            </label>
+            <label>
               復習順
               <select value={sortKey} onChange={(event) => setSortKey(event.target.value as StudySortKey)}>
                 <option value="due">復習期限が近い</option>
@@ -951,6 +1020,8 @@ function ReviewView({
         questions={reviewQuestions}
         statesByQuestion={statesByQuestion}
         glossaryEntries={glossaryEntries}
+        sessionSize={sessionSize}
+        restoreReady={prefsLoaded}
         restoreQuestionId={prefsLoaded ? resumeQuestionId : undefined}
         onCurrentQuestionChange={setResumeQuestionId}
         onRefresh={onRefresh}
@@ -1218,6 +1289,8 @@ function QuestionRunner({
   glossaryEntries,
   mode,
   emptyTitle,
+  sessionSize,
+  restoreReady,
   restoreQuestionId,
   onCurrentQuestionChange,
   onRefresh
@@ -1227,33 +1300,69 @@ function QuestionRunner({
   glossaryEntries: GlossaryEntry[];
   mode: AttemptMode;
   emptyTitle: string;
+  sessionSize: SessionSizeKey;
+  restoreReady: boolean;
   restoreQuestionId?: string;
   onCurrentQuestionChange?: (questionId: string) => void;
   onRefresh: () => Promise<void>;
 }) {
+  const [sessionStartIndex, setSessionStartIndex] = useState(0);
+  const [reviewOnlyIds, setReviewOnlyIds] = useState<string[] | null>(null);
   const [index, setIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
   const [result, setResult] = useState<Attempt | null>(null);
+  const [sessionAttempts, setSessionAttempts] = useState<Attempt[]>([]);
+  const [sessionComplete, setSessionComplete] = useState(false);
   const [answerRevealed, setAnswerRevealed] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [activeGlossaryEntry, setActiveGlossaryEntry] = useState<GlossaryEntry | null>(null);
   const [questionStartedAt, setQuestionStartedAt] = useState(Date.now());
   const feedbackRef = useRef<HTMLElement | null>(null);
   const questionSetKey = useMemo(() => questions.map((item) => item.id).join("|"), [questions]);
-  const question = questions[index];
+  const restoreAppliedRef = useRef("");
+  const questionsById = useMemo(() => new Map(questions.map((item) => [item.id, item])), [questions]);
+  const sessionSourceQuestions = reviewOnlyIds
+    ? reviewOnlyIds.map((id) => questionsById.get(id)).filter((item): item is Question => Boolean(item))
+    : questions;
+  const sessionWindow = createSessionWindow(sessionSourceQuestions, reviewOnlyIds ? "all" : sessionSize, sessionStartIndex);
+  const sessionQuestions = sessionWindow.items;
+  const question = sessionQuestions[index];
   const questionState = question ? statesByQuestion.get(question.id) : undefined;
   const answerVisible = Boolean(result) || answerRevealed;
 
   useEffect(() => {
-    const restoredIndex = restoreQuestionId ? questions.findIndex((item) => item.id === restoreQuestionId) : -1;
-    setIndex(restoredIndex >= 0 ? restoredIndex : 0);
+    restoreAppliedRef.current = "";
+    setReviewOnlyIds(null);
+    setSessionStartIndex(0);
     setSelectedAnswers([]);
     setResult(null);
+    setSessionAttempts([]);
+    setSessionComplete(false);
     setAnswerRevealed(false);
     setSubmitting(false);
     setActiveGlossaryEntry(null);
     setQuestionStartedAt(Date.now());
-  }, [questionSetKey, mode, restoreQuestionId]);
+  }, [questionSetKey, mode, sessionSize]);
+
+  useEffect(() => {
+    const restoreKey = `${questionSetKey}|${mode}|${sessionSize}`;
+    if (!restoreReady || restoreAppliedRef.current === restoreKey) return;
+    const restoredIndex = restoreQuestionId ? questions.findIndex((item) => item.id === restoreQuestionId) : -1;
+    const nextSessionStart = sessionStartForIndex(restoredIndex, sessionSize, questions.length);
+    const nextIndex = restoredIndex >= 0 ? restoredIndex - nextSessionStart : 0;
+    setReviewOnlyIds(null);
+    setSessionStartIndex(nextSessionStart);
+    setIndex(nextIndex);
+    setSelectedAnswers([]);
+    setResult(null);
+    setSessionAttempts([]);
+    setSessionComplete(false);
+    setAnswerRevealed(false);
+    setSubmitting(false);
+    setActiveGlossaryEntry(null);
+    setQuestionStartedAt(Date.now());
+    restoreAppliedRef.current = restoreKey;
+  }, [questionSetKey, mode, sessionSize, restoreReady, restoreQuestionId, questions]);
 
   useEffect(() => {
     if (question) onCurrentQuestionChange?.(question.id);
@@ -1275,10 +1384,60 @@ function QuestionRunner({
     }, 60);
   }, [answerVisible, question?.id]);
 
+  const sessionSummary = summarizeSession(sessionAttempts);
+  const wrongQuestions = sessionSummary.wrongQuestionIds
+    .map((id) => questionsById.get(id))
+    .filter((item): item is Question => Boolean(item));
+  const canStartNextSession = !reviewOnlyIds && sessionWindow.hasNext;
+
+  if (sessionComplete) {
+    return (
+      <SessionSummaryView
+        summary={sessionSummary}
+        wrongQuestions={wrongQuestions}
+        canRetryWrong={wrongQuestions.length > 0}
+        canStartNext={canStartNextSession}
+        nextLabel={sessionSize === "all" ? "次のセット" : `次の${sessionSize}問`}
+        onRetryWrong={() => {
+          setReviewOnlyIds(sessionSummary.wrongQuestionIds);
+          setSessionStartIndex(0);
+          setIndex(0);
+          setSelectedAnswers([]);
+          setResult(null);
+          setSessionAttempts([]);
+          setSessionComplete(false);
+          setAnswerRevealed(false);
+          setQuestionStartedAt(Date.now());
+        }}
+        onStartNext={() => {
+          setReviewOnlyIds(null);
+          setSessionStartIndex(sessionWindow.endIndex);
+          setIndex(0);
+          setSelectedAnswers([]);
+          setResult(null);
+          setSessionAttempts([]);
+          setSessionComplete(false);
+          setAnswerRevealed(false);
+          setQuestionStartedAt(Date.now());
+        }}
+        onFinish={() => {
+          setReviewOnlyIds(null);
+          setIndex(0);
+          setSelectedAnswers([]);
+          setResult(null);
+          setSessionAttempts([]);
+          setSessionComplete(false);
+          setAnswerRevealed(false);
+          setQuestionStartedAt(Date.now());
+        }}
+      />
+    );
+  }
+
   if (!question) return <EmptyState title={emptyTitle} />;
 
-  const answeredInSet = questions.filter((item) => statesByQuestion.get(item.id)?.lastAnsweredAt).length;
-  const progressPercent = questions.length > 0 ? Math.round(((index + 1) / questions.length) * 100) : 0;
+  const answeredInSet = sessionQuestions.filter((item) => statesByQuestion.get(item.id)?.lastAnsweredAt).length;
+  const progressPercent = sessionQuestions.length > 0 ? Math.round(((index + 1) / sessionQuestions.length) * 100) : 0;
   const correctCount = questionState?.correctCount ?? 0;
   const wrongCount = questionState?.wrongCount ?? 0;
   const lastAnsweredText = questionState?.lastAnsweredAt ? formatShortDate(questionState.lastAnsweredAt) : "未回答";
@@ -1315,7 +1474,7 @@ function QuestionRunner({
     : "未設定";
 
   const goToQuestion = (nextIndex: number) => {
-    const bounded = Math.min(Math.max(nextIndex, 0), questions.length - 1);
+    const bounded = Math.min(Math.max(nextIndex, 0), sessionQuestions.length - 1);
     if (answerVisible) void onRefresh();
     setIndex(bounded);
   };
@@ -1338,6 +1497,7 @@ function QuestionRunner({
     try {
       const attempt = await recordAttempt(question, selectedAnswers, mode, Date.now() - questionStartedAt);
       setResult(attempt);
+      setSessionAttempts((current) => [...current.filter((item) => item.questionId !== attempt.questionId), attempt]);
     } finally {
       setSubmitting(false);
     }
@@ -1377,7 +1537,11 @@ function QuestionRunner({
 
   const nextQuestion = () => {
     if (answerVisible) void onRefresh();
-    setIndex((current) => (current + 1) % questions.length);
+    if (index >= sessionQuestions.length - 1) {
+      setSessionComplete(true);
+      return;
+    }
+    setIndex((current) => current + 1);
   };
   const studyDetailText = [
     `正解/誤答 ${correctCount}/${wrongCount}`,
@@ -1399,7 +1563,7 @@ function QuestionRunner({
         <div>
           <span className="question-id">{question.id}</span>
           <span className="question-count">
-            {index + 1}/{questions.length}
+            {index + 1}/{sessionQuestions.length}
           </span>
         </div>
         <button
@@ -1417,7 +1581,7 @@ function QuestionRunner({
         <div>
           <strong>{progressPercent}%</strong>
           <span>
-            {index + 1}/{questions.length}問目・回答済 {answeredInSet}/{questions.length}
+            {index + 1}/{sessionQuestions.length}問目・回答済 {answeredInSet}/{sessionQuestions.length}
           </span>
         </div>
         <div className="progress-bar" aria-hidden="true">
@@ -1518,7 +1682,7 @@ function QuestionRunner({
           ) : (
             <button className="primary" type="button" onClick={nextQuestion}>
               <PlayCircle aria-hidden="true" size={18} />
-              次へ
+              {index >= sessionQuestions.length - 1 ? "結果を見る" : "次へ"}
             </button>
           )}
         </div>
@@ -1621,11 +1785,11 @@ function QuestionRunner({
           <select
             value={question.id}
             onChange={(event) => {
-              const nextIndex = questions.findIndex((item) => item.id === event.target.value);
+              const nextIndex = sessionQuestions.findIndex((item) => item.id === event.target.value);
               if (nextIndex >= 0) goToQuestion(nextIndex);
             }}
           >
-            {questions.map((item, itemIndex) => (
+            {sessionQuestions.map((item, itemIndex) => (
               <option key={item.id} value={item.id}>
                 {itemIndex + 1}. {questionPathLabel(item)}
               </option>
@@ -1636,7 +1800,7 @@ function QuestionRunner({
           className="secondary"
           type="button"
           onClick={() => goToQuestion(index + 1)}
-          disabled={index >= questions.length - 1}
+          disabled={index >= sessionQuestions.length - 1}
         >
           次
           <ChevronRight aria-hidden="true" size={17} />
@@ -1644,6 +1808,70 @@ function QuestionRunner({
       </div>
       <GlossarySheet entry={activeGlossaryEntry} onClose={() => setActiveGlossaryEntry(null)} />
     </article>
+  );
+}
+
+function SessionSummaryView({
+  summary,
+  wrongQuestions,
+  canRetryWrong,
+  canStartNext,
+  nextLabel,
+  onRetryWrong,
+  onStartNext,
+  onFinish
+}: {
+  summary: ReturnType<typeof summarizeSession>;
+  wrongQuestions: Question[];
+  canRetryWrong: boolean;
+  canStartNext: boolean;
+  nextLabel: string;
+  onRetryWrong: () => void;
+  onStartNext: () => void;
+  onFinish: () => void;
+}) {
+  return (
+    <section className="panel session-summary">
+      <div className="section-heading-row">
+        <div>
+          <p className="eyebrow">Session Summary</p>
+          <h2>セット終了</h2>
+        </div>
+      </div>
+      <div className="summary-grid">
+        <StatPill label="正答" value={`${summary.correctCount}/${summary.attemptCount}`} />
+        <StatPill label="正答率" value={formatPercentValue(summary.accuracy)} />
+        <StatPill label="誤答" value={summary.wrongCount} />
+        <StatPill label="中央時間" value={formatDurationMs(summary.medianElapsedMs)} />
+      </div>
+      <div className="session-wrong-list">
+        <div className="section-label">誤答問題</div>
+        {wrongQuestions.length > 0 ? (
+          wrongQuestions.map((question) => (
+            <div key={question.id} className="question-path-panel">
+              <strong>{questionPathLabel(question)}</strong>
+              <small>{question.stem || question.id}</small>
+            </div>
+          ))
+        ) : (
+          <p className="muted">このセットの誤答はありません。</p>
+        )}
+      </div>
+      <div className="action-row">
+        <button className="primary" type="button" onClick={onRetryWrong} disabled={!canRetryWrong}>
+          <RotateCcw aria-hidden="true" size={18} />
+          誤答だけもう一周
+        </button>
+        <button className="secondary" type="button" onClick={onStartNext} disabled={!canStartNext}>
+          <ChevronRight aria-hidden="true" size={18} />
+          {nextLabel}
+        </button>
+        <button className="secondary" type="button" onClick={onFinish}>
+          <Check aria-hidden="true" size={18} />
+          終了
+        </button>
+      </div>
+    </section>
   );
 }
 
