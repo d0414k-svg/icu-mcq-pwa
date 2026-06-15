@@ -542,86 +542,113 @@ function PracticeView({
     setSortKey("official");
     setShuffleSeed("");
   };
+  const yearLabel = year === "all" ? "年度すべて" : `${year}年`;
+  const tagLabel = tag === "all" ? "タグすべて" : `タグ${tag}`;
+  const filterLabel =
+    {
+      all: "全問",
+      unanswered: "未回答",
+      incorrect: "誤答あり",
+      bookmarked: "ブックマーク",
+      due: "復習期限"
+    }[practiceFilter] ?? "全問";
+  const sortLabel =
+    {
+      official: "正規問題優先",
+      path: "問題パス順",
+      due: "期限順",
+      weak: "苦手優先",
+      unanswered: "未回答優先",
+      recent: "最近順"
+    }[sortKey] ?? "正規問題優先";
 
   return (
     <section className="view-stack">
-      <div className="metric-row">
-        <StatPill label="回答済" value={`${stats.answeredQuestions}/${stats.activeQuestions}`} />
-        <StatPill label="履歴" value={stats.attempts} />
-        <StatPill label="ブックマーク" value={stats.bookmarkedQuestions} />
-      </div>
-      <div className="toolbar">
-        <label>
-          年度
-          <select value={year} onChange={(event) => setYear(event.target.value)}>
-            <option value="all">すべて</option>
-            {years.map((item) => (
-              <option key={item} value={item}>
-                {item}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label>
-          タグ
-          <select value={tag} onChange={(event) => setTag(event.target.value)}>
-            <option value="all">すべて</option>
-            {tags.map((item) => (
-              <option key={item} value={item}>
-                {item}
-              </option>
-            ))}
-          </select>
-        </label>
-      </div>
-      <div className="toolbar">
-        <label>
-          出題
-          <select value={practiceFilter} onChange={(event) => setPracticeFilter(event.target.value)}>
-            <option value="all">すべての出題中 ({filterCounts.all})</option>
-            <option value="unanswered">未回答 ({filterCounts.unanswered})</option>
-            <option value="incorrect">誤答あり ({filterCounts.incorrect})</option>
-            <option value="bookmarked">ブックマーク ({filterCounts.bookmarked})</option>
-            <option value="due">復習期限 ({filterCounts.due})</option>
-          </select>
-        </label>
-        <label>
-          並び順
-          <select
-            value={sortKey}
-            onChange={(event) => {
-              setSortKey(event.target.value as StudySortKey);
-              setShuffleSeed("");
-            }}
-          >
-            <option value="official">正規問題優先</option>
-            <option value="path">問題パス順</option>
-            <option value="due">復習期限が近い</option>
-            <option value="weak">苦手優先</option>
-            <option value="unanswered">未回答優先</option>
-            <option value="recent">最近解いた順</option>
-          </select>
-        </label>
-        <button
-          className={shuffleSeed ? "secondary active-soft" : "secondary"}
-          type="button"
-          onClick={() => {
-            setShuffleSeed((current) => (current ? "" : String(Date.now())));
-          }}
-        >
-          <Shuffle aria-hidden="true" size={17} />
-          {shuffleSeed ? "通常順" : "ランダム順"}
-        </button>
-      </div>
-      <div className="filter-summary">
-        <strong>対象 {filtered.length}問</strong>
-        <span>全出題 {activeQuestions.length}問</span>
-        {hasActiveFilters && (
-          <button className="link-button" type="button" onClick={resetFilters}>
-            条件をリセット
-          </button>
-        )}
-      </div>
+      <details className="set-config">
+        <summary>
+          {yearLabel}・{tagLabel}・{filterLabel}・{sortLabel}
+          {shuffleSeed ? "・ランダム" : ""} / 対象{filtered.length}問
+        </summary>
+        <div className="set-config-body">
+          <div className="metric-row">
+            <StatPill label="回答済" value={`${stats.answeredQuestions}/${stats.activeQuestions}`} />
+            <StatPill label="履歴" value={stats.attempts} />
+            <StatPill label="ブックマーク" value={stats.bookmarkedQuestions} />
+          </div>
+          <div className="toolbar">
+            <label>
+              年度
+              <select value={year} onChange={(event) => setYear(event.target.value)}>
+                <option value="all">すべて</option>
+                {years.map((item) => (
+                  <option key={item} value={item}>
+                    {item}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label>
+              タグ
+              <select value={tag} onChange={(event) => setTag(event.target.value)}>
+                <option value="all">すべて</option>
+                {tags.map((item) => (
+                  <option key={item} value={item}>
+                    {item}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
+          <div className="toolbar">
+            <label>
+              出題
+              <select value={practiceFilter} onChange={(event) => setPracticeFilter(event.target.value)}>
+                <option value="all">すべての出題中 ({filterCounts.all})</option>
+                <option value="unanswered">未回答 ({filterCounts.unanswered})</option>
+                <option value="incorrect">誤答あり ({filterCounts.incorrect})</option>
+                <option value="bookmarked">ブックマーク ({filterCounts.bookmarked})</option>
+                <option value="due">復習期限 ({filterCounts.due})</option>
+              </select>
+            </label>
+            <label>
+              並び順
+              <select
+                value={sortKey}
+                onChange={(event) => {
+                  setSortKey(event.target.value as StudySortKey);
+                  setShuffleSeed("");
+                }}
+              >
+                <option value="official">正規問題優先</option>
+                <option value="path">問題パス順</option>
+                <option value="due">復習期限が近い</option>
+                <option value="weak">苦手優先</option>
+                <option value="unanswered">未回答優先</option>
+                <option value="recent">最近解いた順</option>
+              </select>
+            </label>
+            <button
+              className={shuffleSeed ? "secondary active-soft" : "secondary"}
+              type="button"
+              onClick={() => {
+                setShuffleSeed((current) => (current ? "" : String(Date.now())));
+              }}
+            >
+              <Shuffle aria-hidden="true" size={17} />
+              {shuffleSeed ? "通常順" : "ランダム順"}
+            </button>
+          </div>
+          <div className="filter-summary">
+            <strong>対象 {filtered.length}問</strong>
+            <span>全出題 {activeQuestions.length}問</span>
+            {hasActiveFilters && (
+              <button className="link-button" type="button" onClick={resetFilters}>
+                条件をリセット
+              </button>
+            )}
+          </div>
+        </div>
+      </details>
       <QuestionRunner
         emptyTitle="CSVを取り込むと演習を開始できます"
         mode="practice"
@@ -682,68 +709,93 @@ function ReviewView({
   });
   const reviewSource = mistakeLoop ? mistakeLoopQuestions : reviewQuestionsBeforeSort;
   const reviewQuestions = sortStudyQuestions(reviewSource, statesByQuestion, sortKey);
+  const reviewFilterLabel =
+    {
+      all: "全て",
+      due: "期限",
+      mistake: "誤答",
+      bookmark: "保存",
+      unanswered: "未答"
+    }[filter] ?? "全て";
+  const reviewSortLabel =
+    {
+      due: "期限順",
+      weak: "苦手優先",
+      unanswered: "未回答優先",
+      recent: "最近順",
+      path: "問題パス順",
+      official: "正規問題優先"
+    }[sortKey] ?? "期限順";
 
   return (
     <section className="view-stack">
-      <div className="segmented-control" role="tablist" aria-label="復習フィルター">
-        {[
-          ["all", "全て"],
-          ["due", "期限"],
-          ["mistake", "誤答"],
-          ["bookmark", "保存"],
-          ["unanswered", "未答"]
-        ].map(([value, label]) => (
-          <button
-            key={value}
-            className={filter === value ? "active" : ""}
-            type="button"
-            onClick={() => setFilter(value)}
-          >
-            {label} {reviewCountFor(value)}
-          </button>
-        ))}
-      </div>
-      <div className="loop-panel">
-        <label className="check-row">
-          <input
-            type="checkbox"
-            checked={mistakeLoop}
-            onChange={(event) => {
-              setMistakeLoop(event.target.checked);
-              if (event.target.checked) {
-                setFilter("mistake");
-                setSortKey("weak");
-              }
-            }}
-          />
-          <span>誤答だけ周回する</span>
-        </label>
-        <label>
-          クリア条件
-          <select value={targetStreak} onChange={(event) => setTargetStreak(event.target.value)}>
-            <option value="1">1回正解で外す</option>
-            <option value="2">2回連続正解で外す</option>
-            <option value="3">3回連続正解で外す</option>
-          </select>
-        </label>
-      </div>
-      <div className="toolbar compact-toolbar">
-        <label>
-          復習順
-          <select value={sortKey} onChange={(event) => setSortKey(event.target.value as StudySortKey)}>
-            <option value="due">復習期限が近い</option>
-            <option value="weak">苦手優先</option>
-            <option value="unanswered">未回答優先</option>
-            <option value="recent">最近解いた順</option>
-            <option value="path">問題パス順</option>
-          </select>
-        </label>
-        <div className="filter-summary inline-summary">
-          <strong>対象 {reviewQuestions.length}問</strong>
-          {mistakeLoop && <span>周回残り {mistakeLoopQuestions.length}問</span>}
-          <span>出題中 {activeQuestions.length}問</span>
+      <details className="set-config">
+        <summary>
+          {mistakeLoop ? `誤答周回・${targetStreak}連続正解まで` : `復習${reviewFilterLabel}`}・{reviewSortLabel} /
+          対象{reviewQuestions.length}問
+        </summary>
+        <div className="set-config-body">
+          <div className="segmented-control" role="tablist" aria-label="復習フィルター">
+            {[
+              ["all", "全て"],
+              ["due", "期限"],
+              ["mistake", "誤答"],
+              ["bookmark", "保存"],
+              ["unanswered", "未答"]
+            ].map(([value, label]) => (
+              <button
+                key={value}
+                className={filter === value ? "active" : ""}
+                type="button"
+                onClick={() => setFilter(value)}
+              >
+                {label} {reviewCountFor(value)}
+              </button>
+            ))}
+          </div>
+          <div className="loop-panel">
+            <label className="check-row">
+              <input
+                type="checkbox"
+                checked={mistakeLoop}
+                onChange={(event) => {
+                  setMistakeLoop(event.target.checked);
+                  if (event.target.checked) {
+                    setFilter("mistake");
+                    setSortKey("weak");
+                  }
+                }}
+              />
+              <span>誤答だけ周回する</span>
+            </label>
+            <label>
+              クリア条件
+              <select value={targetStreak} onChange={(event) => setTargetStreak(event.target.value)}>
+                <option value="1">1回正解で外す</option>
+                <option value="2">2回連続正解で外す</option>
+                <option value="3">3回連続正解で外す</option>
+              </select>
+            </label>
+          </div>
+          <div className="toolbar compact-toolbar">
+            <label>
+              復習順
+              <select value={sortKey} onChange={(event) => setSortKey(event.target.value as StudySortKey)}>
+                <option value="due">復習期限が近い</option>
+                <option value="weak">苦手優先</option>
+                <option value="unanswered">未回答優先</option>
+                <option value="recent">最近解いた順</option>
+                <option value="path">問題パス順</option>
+              </select>
+            </label>
+            <div className="filter-summary inline-summary">
+              <strong>対象 {reviewQuestions.length}問</strong>
+              {mistakeLoop && <span>周回残り {mistakeLoopQuestions.length}問</span>}
+              <span>出題中 {activeQuestions.length}問</span>
+            </div>
+          </div>
         </div>
-      </div>
+      </details>
       <QuestionRunner
         emptyTitle={mistakeLoop ? "誤答周回は完了です" : "復習対象はありません"}
         mode="review"
@@ -1167,6 +1219,19 @@ function QuestionRunner({
     if (answerVisible) void onRefresh();
     setIndex((current) => (current + 1) % questions.length);
   };
+  const studyDetailText = [
+    `正解/誤答 ${correctCount}/${wrongCount}`,
+    `正答率 ${accuracyLabel(questionState)}`,
+    `連続正解 ${questionState?.correctStreak ?? 0}`,
+    `復習期限 ${reviewDueText}`,
+    `前回 ${lastAnsweredText}`,
+    `メモ ${memoStatus}`
+  ].join("・");
+  const questionDetailText = [
+    `選択肢 ${question.choices.length}`,
+    `正答数 ${question.correctAnswers.length}`,
+    `形式 ${question.answerMode === "single" ? "単一" : "複数"}`
+  ].join("・");
 
   return (
     <article className="question-card">
@@ -1200,57 +1265,16 @@ function QuestionRunner({
         </div>
       </div>
 
-      <div className="question-navigator">
-        <button className="secondary" type="button" onClick={() => goToQuestion(index - 1)} disabled={index === 0}>
-          <ChevronLeft aria-hidden="true" size={17} />
-          前
-        </button>
-        <label>
-          問題ジャンプ
-          <select
-            value={question.id}
-            onChange={(event) => {
-              const nextIndex = questions.findIndex((item) => item.id === event.target.value);
-              if (nextIndex >= 0) goToQuestion(nextIndex);
-            }}
-          >
-            {questions.map((item, itemIndex) => (
-              <option key={item.id} value={item.id}>
-                {itemIndex + 1}. {questionPathLabel(item)}
-              </option>
-            ))}
-          </select>
-        </label>
-        <button
-          className="secondary"
-          type="button"
-          onClick={() => goToQuestion(index + 1)}
-          disabled={index >= questions.length - 1}
-        >
-          次
-          <ChevronRight aria-hidden="true" size={17} />
-        </button>
-      </div>
-
-      <section className="question-path-panel">
-        <div className="section-label">問題パス</div>
-        <strong>{questionPathLabel(question)}</strong>
-        <small>{questionSourceDetail(question)}</small>
-      </section>
-
-      <div className="question-meta-grid">
-        <StatPill label="選択肢" value={question.choices.length} />
-        <StatPill label="正答数" value={question.correctAnswers.length} />
-        <StatPill label="形式" value={question.answerMode === "single" ? "単一" : "複数"} />
-      </div>
-
-      <div className="study-summary-grid">
-        <StatPill label="正解/誤答" value={`${correctCount}/${wrongCount}`} />
-        <StatPill label="正答率" value={accuracyLabel(questionState)} />
-        <StatPill label="連続正解" value={questionState?.correctStreak ?? 0} />
-        <StatPill label="復習期限" value={reviewDueText} />
-        <StatPill label="前回" value={lastAnsweredText} />
-        <StatPill label="メモ" value={memoStatus} />
+      <div className="tag-row">
+        <span>{question.year}年</span>
+        {questionState?.lastAnsweredAt && (
+          <span>{questionState.lastCorrect ? "前回正解" : "前回不正解"}</span>
+        )}
+        {question.tags.map((tag) => (
+          <span key={tag}>{tag}</span>
+        ))}
+        {!hasExplanation && <span className="warning-tag">解説なし</span>}
+        {questionState?.memo?.trim() && <span>メモあり</span>}
       </div>
 
       <section className="stem-panel">
@@ -1264,18 +1288,6 @@ function QuestionRunner({
         </p>
       </section>
 
-      <div className="tag-row">
-        <span>{question.year}年</span>
-        {questionState?.lastAnsweredAt && (
-          <span>{questionState.lastCorrect ? "前回正解" : "前回不正解"}</span>
-        )}
-        {question.tags.map((tag) => (
-          <span key={tag}>{tag}</span>
-        ))}
-        {!hasExplanation && <span className="warning-tag">解説なし</span>}
-        {questionState?.memo?.trim() && <span>メモあり</span>}
-      </div>
-
       <form className="choice-list" onSubmit={submitAnswer}>
         <div className="choice-heading">
           <h2>選択肢</h2>
@@ -1284,6 +1296,11 @@ function QuestionRunner({
             {selectedCountLabel ? ` / ${selectedCountLabel}` : ""}
           </span>
         </div>
+        {!answerVisible && isMultipleAnswer && (
+          <p className={submitDisabled ? "answer-helper choice-helper" : "answer-helper choice-helper ready"}>
+            {answerHelper}
+          </p>
+        )}
         {question.choices.map((choice) => {
           const checked = selectedAnswers.includes(choice.key);
           const isCorrectChoice = answerVisible && question.correctAnswers.includes(choice.key);
@@ -1327,7 +1344,6 @@ function QuestionRunner({
                   <Check aria-hidden="true" size={18} />
                   {submitting ? "保存中" : "回答"}
                 </button>
-                <span className={submitDisabled ? "answer-helper" : "answer-helper ready"}>{answerHelper}</span>
               </div>
               {selectedAnswers.length > 0 && (
                 <button className="secondary" type="button" onClick={() => setSelectedAnswers([])}>
@@ -1425,6 +1441,15 @@ function QuestionRunner({
               />
             </div>
           )}
+          <div className="study-detail-stack" aria-label="解答後の学習情報">
+            <p>{studyDetailText}</p>
+            <p>{questionDetailText}</p>
+          </div>
+          <section className="question-path-panel">
+            <div className="section-label">問題パス</div>
+            <strong>{questionPathLabel(question)}</strong>
+            <small>{questionSourceDetail(question)}</small>
+          </section>
           <button className="primary full" type="button" onClick={nextQuestion}>
             <PlayCircle aria-hidden="true" size={18} />
             次の問題へ
@@ -1433,6 +1458,37 @@ function QuestionRunner({
       )}
 
       <MemoBox initialValue={questionState?.memo ?? ""} onSave={saveMemo} />
+      <div className="question-navigator">
+        <button className="secondary" type="button" onClick={() => goToQuestion(index - 1)} disabled={index === 0}>
+          <ChevronLeft aria-hidden="true" size={17} />
+          前
+        </button>
+        <label>
+          問題ジャンプ
+          <select
+            value={question.id}
+            onChange={(event) => {
+              const nextIndex = questions.findIndex((item) => item.id === event.target.value);
+              if (nextIndex >= 0) goToQuestion(nextIndex);
+            }}
+          >
+            {questions.map((item, itemIndex) => (
+              <option key={item.id} value={item.id}>
+                {itemIndex + 1}. {questionPathLabel(item)}
+              </option>
+            ))}
+          </select>
+        </label>
+        <button
+          className="secondary"
+          type="button"
+          onClick={() => goToQuestion(index + 1)}
+          disabled={index >= questions.length - 1}
+        >
+          次
+          <ChevronRight aria-hidden="true" size={17} />
+        </button>
+      </div>
       <GlossarySheet entry={activeGlossaryEntry} onClose={() => setActiveGlossaryEntry(null)} />
     </article>
   );
