@@ -2,82 +2,88 @@
   "articlesByAlert": {
     "focused": [
       {
-        "pmid": "41757867",
-        "title": "Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".",
-        "journal": "World J Pediatr Congenit Heart Surg",
+        "pmid": "42002215",
+        "title": "Association of Parenting Stress in Early Childhood with Emotional Health and Resilience of Young Adults with Congenital Heart Disease.",
+        "journal": "J Pediatr",
         "publicationDate": "2026 Jul",
         "authors": [
-          "Sharma A",
-          "Katkuri SN",
-          "Vadhithala V",
-          "Kumar A",
-          "Verma S",
-          "Dedeepya D"
+          "Herrup EA",
+          "Shillingford AJ",
+          "Gaynor JW",
+          "Driscoll CFB",
+          "Hampton L",
+          "Zhang B"
         ],
-        "abstract": "",
-        "doi": "10.1177/21501351261418271",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41757867/"
+        "abstract": "OBJECTIVE: To describe the association between parenting stress levels during early childhood and subsequent emotional health outcomes and resilience of their children with congenital heart disease (CHD) as young adults.\nSTUDY DESIGN: This prospective cohort study included 202 dyads of young adults with CHD and their caregivers. The young adults had undergone surgery with cardiopulmonary bypass at ≤ 6 months of life and were enrolled in a longitudinal study of neurodevelopmental outcomes in CHD. Resilience and general health status of the young adults were evaluated using self-report standardized questionnaires (14-Item Resilience Scale [RS-14] and 36-Item Short-Form Health Survey [SF-36]). Parenting stress in the preschool period was assessed using the Parenting Stress Index (PSI), completed by caregivers.\nRESULTS: An underlying mental health condition was self-reported by 120 (59%) of the young adults. Median PSI score (PSI total score = 58; interquartile ranges 46.25-71) indicated normal parenting stress levels. Mean SF-36 score (46, SD 11) was just below general population average (50), and mean RS-14 score (77, SD14) was similar to population average (76). Higher parenting stress was associated with lower young adults' resilience, with a unit increase in PSI total score associated with 0.14 (95% CI 0.02 - 0.26) decrease in RS-14 total score.\nCONCLUSIONS: Higher reported parenting stress during early childhood was associated with lower self-reported resilience in young adulthood for patients with CHD. This suggests that identification of an at-risk population early in life is possible and may provide an opportunity for targeted family-based interventions to improve psychosocial development with increased resilience.",
+        "doi": "10.1016/j.jpeds.2026.115110",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42002215/"
       },
       {
-        "pmid": "41757848",
-        "title": "Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".",
-        "journal": "World J Pediatr Congenit Heart Surg",
+        "pmid": "41999858",
+        "title": "The Final Day: What Happens Without a Pre-Existing Do Not Resuscitate Order?",
+        "journal": "J Pediatr",
         "publicationDate": "2026 Jul",
         "authors": [
-          "Barbarino A",
-          "Wiedemann A",
-          "Jouvet P"
+          "Weaver MS",
+          "Liang J",
+          "Cohen AD",
+          "Li C",
+          "Johnson LM"
         ],
-        "abstract": "",
-        "doi": "10.1177/21501351261418272",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41757848/"
+        "abstract": "Children with cancer may not have a do not resuscitate (DNR) order, yet absence rarely guarantees cardiopulmonary resuscitation (CPR). In a review of 344 inpatient deaths over a decade, 85% had DNR orders; 20% received CPR, mostly for perceived reversibility. Intensive care unit location and active chemotherapy were associated with fewer DNR orders. Families often declined CPR, despite absence of a DNR order, when death was imminent.",
+        "doi": "10.1016/j.jpeds.2026.115109",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41999858/"
       },
       {
-        "pmid": "41610214",
-        "title": "Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.",
-        "journal": "World J Pediatr Congenit Heart Surg",
+        "pmid": "41967830",
+        "title": "Trends and Causes of Neonatal Mortality in Canadian Neonatal Intensive Care Units.",
+        "journal": "J Pediatr",
         "publicationDate": "2026 Jul",
         "authors": [
-          "Yong HJ",
-          "Sonkin A",
-          "Francis J",
-          "Ravishankar R",
-          "Brophy S",
-          "O'Bree E"
+          "Stritzke A",
+          "Bhullar H",
+          "Shah PS",
+          "Beltempo M",
+          "Mukerji A",
+          "Ruth CA"
         ],
-        "abstract": "BackgroundAs survival rates improve, adults with congenital heart disease (ACHD) increasingly present with aortopathies ranging from aortic root dilatation and aneurysm formation to life-threatening dissection and rupture. These vascular complications are associated with various congenital cardiac lesions, including bicuspid aortic valve, coarctation of the aorta, Tetralogy of Fallot, and transposition of the great arteries. Understanding the incidence, progression, and outcomes of aortopathy in this population is essential for guiding surveillance and surgical strategies.ObjectiveTo summarize current evidence on the clinical characteristics, progression, surgical decision-making and outcomes of aortopathies in ACHD.MethodsA systematic review was conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. Databases searched included PubMed, SCOPUS, Cochrane Library, and Medline, with articles screened for relevance using predefined criteria.ResultsOf 3382 records identified, 46 studies met the inclusion criteria following a full-text review, and these studies combined included 24 241 patients. Bicuspid aortic valve and repaired coarctation were the most studied conditions, with aortic dilatation commonly observed even in the absence of valve dysfunction. Neo-aortic root enlargement postarterial switch operation and root dilation in Tetralogy of Fallot were also prevalent. The decision for surgical intervention is individualized; it is based on overall balance of procedural versus observation risk (ie, aortic diameter thresholds), patient risk factors, suitability for valve preservation, and the presence of concurrent cardiac lesions. However, there remains heterogeneity in imaging protocols, surgical thresholds, and long-term outcome data.ConclusionsAortopathies in ACHD patients represent a significant long-term complication requiring lifelong imaging surveillance and individualized surgical management. Despite growing recognition, evidence remains limited regarding optimal thresholds for surgical intervention and personalized risk stratification.",
-        "doi": "10.1177/21501351251409635",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41610214/"
+        "abstract": "OBJECTIVE: To determine patterns and causes of neonatal deaths in Canadian neonatal intensive care units (NICUs) over the last decade.\nSTUDY DESIGN: All neonatal deaths reported by NICUs participating in the Canadian Neonatal Network 2010-2022 were divided retrospectively into 2 groups by gestational age (GA), <33 weeks and ≥33 weeks. Cause of death was assigned using prespecified classification criteria adapted from published criteria. Demographic, perinatal, and neonatal characteristics of newborns who died were compared with those of the survivors. Trends in birth characteristics and causes of death over 3 epochs (2010-2013, 2014-2017, and 2018-2022) were evaluated.\nRESULTS: A total of 5646 (2.96%) newborns died after receiving intensive care; 3782 (67%) were born at <33 weeks and 1864 (33%) at ≥33 weeks GA. The most common cause of death at <33 GA weeks was extreme prematurity (<28 weeks), followed by respiratory causes. Among those with GA ≥33 weeks, the leading cause of death was central nervous system conditions, followed by congenital anomalies and malformations. Most deaths occurred between days 2-7, followed by days 8-28 after birth. Over the 3 epochs studied, deaths associated with extreme preterm birth decreased significantly, but other causes of death remained unchanged.\nCONCLUSIONS: In Canadian NICUs, among infants with GA <33 weeks, extreme preterm birth was the leading cause of mortality. Central nervous system-related conditions were the predominant cause of death in infants born ≥33 weeks. Deaths due to extreme preterm birth decreased over the last decade in Canada, likely reflecting increased provision of active resuscitative care.",
+        "doi": "10.1016/j.jpeds.2026.115102",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41967830/"
       },
       {
-        "pmid": "41610206",
-        "title": "Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.",
-        "journal": "World J Pediatr Congenit Heart Surg",
+        "pmid": "41921774",
+        "title": "Nutritional Management of Infants with Severe Bronchopulmonary Dysplasia During Acute Infection.",
+        "journal": "J Pediatr",
         "publicationDate": "2026 Jul",
         "authors": [
-          "Miana LA",
-          "Nathan M",
-          "Manuel V",
-          "Tenório DF",
-          "Freitas N",
-          "Turquetto A"
+          "Thompsen K",
+          "Murthy K",
+          "Robinson DT",
+          "Baptiste S",
+          "Li J",
+          "Falciglia GH"
         ],
-        "abstract": "ObjectivesTetralogy of Fallot (TOF) repair is associated with low mortality in high-performance centers, but outcomes are worse in low- and middle-income countries (LMICs). Prior studies have not demonstrated a strong link between Technical Performance Score (TPS) and mortality. The aim of this was to evaluate risk factors for mortality and complications after TOF repair in a high-volume LMIC heart center with a focus on surgical performance.MethodsWe retrospectively reviewed children undergoing TOF repair between 2015 and 2022. Patients over two years of age or with complex defects beyond atrial septal defect and persistent ductus arteriosus were excluded. Preoperative factors included age, weight, genetic syndromes, urgency, and pulmonary artery z-scores. Intraoperative variables included transannular patch use, cardiopulmonary bypass and cross-clamp times, surgeon, and TPS classification. Postoperative variables included delayed sternal closure (DSC), extracorporeal membrane oxygenation (ECMO), and Vasoactive Inotropic Score (VIS) during the first 24 h. Outcomes included mortality, complications, and length of stay (LOS). Analyses included logistic regression and Kaplan-Meier estimates.ResultsAmong 255 patients, in-hospital mortality was 7.5% (n = 19). Technical Performance Score class 3 was an independent predictor of mortality ( P = .027), along with VIS 24 h and ECMO. Cardiopulmonary bypass time, ECMO, and DSC were associated with major complications. Technical Performance Score class 3 correlated with longer LOS, but multivariable analysis identified low weight and ECMO as independent LOS predictors. Five-year survival was worse in TPS class 3 ( P = .007).ConclusionsInadequate TPS is an independent predictor of mortality after TOF repair in an LMIC context. Class 3 TPS also relates to longer hospitalization and worse medium-term survival. Surgical quality remains essential for better outcomes.",
-        "doi": "10.1177/21501351251386433",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41610206/"
+        "abstract": "OBJECTIVE: To define nutritional provisions in infants admitted to the neonatal intensive care unit with severe bronchopulmonary dysplasia (sBPD) and concurrent diagnosis of infection.\nSTUDY DESIGN: Fifty instances of infection over 4 years among 32 infants with sBPD were reviewed retrospectively from a level IV neonatal intensive care unit. Nutritional provisions (total daily energy and proportions from fat, carbohydrate, protein, and enteral feeds, as well as sodium, potassium, magnesium, phosphorous, calcium, acetate, and chloride) were assessed for 7 days prior to and after infection diagnosis and analyzed using general linear mixed models.\nRESULTS: Across 50 total infections, nutritional provisions were similar before and after infection diagnosis. However, after diagnosis of a bloodstream infection (BSI; 12 infections), infants received a 28.4% increase in proportion of energy from fat (P = .0029) and 24% more chloride (P = .018) compared with before the BSI diagnosis. Infants after BSI diagnosis also received an 8.6% decrease in proportion of energy from carbohydrates (P = .049), 4.8% decrease in proportion of energy from protein (P = .049), 15.5% less potassium (P < .001), 26.7% less calcium (P = .001), and 18.9% less phosphorous (P = .0025).\nCONCLUSIONS: In this cohort of infants with sBPD, nutritional provisions differed after the diagnosis of BSI, indicating that providers appear to manage the nutrition of acutely infected infants in a manner distinct from their management before diagnosis. These findings highlight how the biologic and clinical interactions between sBPD, infection, recovery, nutrition, and growth require further investigation.",
+        "doi": "10.1016/j.jpeds.2026.115086",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41921774/"
       },
       {
-        "pmid": "41604529",
-        "title": "Near-Infrared Spectroscopy for Off-Pump Pediatric Cardiac Surgery.",
-        "journal": "World J Pediatr Congenit Heart Surg",
+        "pmid": "41911962",
+        "title": "Using Vital Signs to Predict Disposition of Children Transported to the Hospital by Emergency Medical Services.",
+        "journal": "J Pediatr",
         "publicationDate": "2026 Jul",
         "authors": [
-          "Khantwal Joshi R",
-          "Joshi R"
+          "Ramgopal S",
+          "Macy ML",
+          "Horvat CM",
+          "Cash RE",
+          "Okubo M",
+          "Janofsky S"
         ],
-        "abstract": "Objective: Near-infrared spectroscopy (NIRS) is a noninvasive monitoring tool used to assess tissue oxygenation in a wide spectrum of clinical scenarios. This study evaluates its use in identifying cerebral and somatic flow alteration during off-pump pediatric cardiac surgery, thereby initiating and guiding corrective interventions. Design: Retrospective study. Setting: Tertiary care hospital. Participants: A total of 128 consecutive patients who underwent off-pump surgery for congenital heart disease and were monitored with NIRS between April 2021 and April 2024 in the department of pediatric cardiac sciences at a single tertiary care hospital. Interventions: Changes in NIRS values of >20% from the baseline were considered significant. Detection of significant abnormalities in NIRS values was recorded in the electronic patient record (EPR) along with the time of occurrence. Any surgical, ventilatory, or hemodynamic intervention that was prompted by the change in NIRS values was also noted in the EPR along with time frame involved. Measurements and Main Results: Approximately 10/128 (8%) patients demonstrated a significant change in NIRS. Based on the types of operations being performed, patients were grouped into six categories requiring specific corrective interventions that led to gradual correction in NIRS values along with hemodynamic stability. Conclusions: Routine intraoperative and postoperative NIRS monitoring in off-pump congenital cardiac surgeries can help in prompt detection of impending tissue hypoxic injury. It also serves as a real-time guide to assess the therapeutic effects of corrective steps taken after detection of tissue hypoxia thereby improving operative and intensive care outcomes.",
-        "doi": "10.1177/21501351251408329",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41604529/"
+        "abstract": "OBJECTIVE: To compare prehospital and emergency department (ED)-based vital sign assessments for children with out-of-hospital emergencies and to evaluate the relationships between vital signs and mental status assessment on patient mortality or intensive care unit (ICU) admission.\nSTUDY DESIGN: We performed a retrospective, multiagency and multicenter study of pediatric transports from the scene to the hospital within an integrated health system between 2014 and 2023. We compared 3 sets of vital signs (first prehospital, last prehospital, and first ED). We evaluated the multivariable association of vital signs with outcomes of ICU admission and in-hospital mortality.\nRESULTS: We included 68 489 children. ICU admission occurred in 2.4%, and in-hospital mortality in 0.1%. All vital signs demonstrated high agreement between the first prehospital, last prehospital, and ED phases of care (Gwet's AC1 > 0.80). For ICU admission, the area under the receiver operator characteristic curve of the initial prehospital model (0.79, 95% CI: 0.77-0.80) was lower than the last prehospital (0.81, 95% CI: 0.80-0.83) and first-ED model (0.83, 95% CI: 0.82-0.85). Models predicting ICU admission had moderate accuracy (sensitivities of 0.72-0.79; specificities of 0.80-0.87). The area under the receiver operator characteristic curve for models predicting mortality based on prehospital vital signs and ED vital signs reached highly accurate criteria (initial prehospital: 0.91, 95% CI: 0.85-0.97; last prehospital: 0.95, 95% CI: 0.91-0.99; first ED: 0.96, 95% CI: 0.93-0.99). Models for mortality demonstrated high sensitivity (0.90-0.98) and specificity (0.90-0.97). Across models, altered mental status showed the strongest associations with both outcomes, and predictive performance improved modestly from initial prehospital to ED assessment.\nCONCLUSIONS: Prehospital and ED vital signs are predictive of in-hospital outcomes. Following prospective evaluation, these findings may inform pediatric clinical decision-making in prehospital and initial hospital management. These results support the use of age-adjusted physiologic measures together with mental status assessment to strengthen early risk stratification of children transported by emergency medical services.",
+        "doi": "10.1016/j.jpeds.2026.115088",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41911962/"
       }
     ],
     "broad": [
@@ -166,12 +172,12 @@
     ]
   },
   "summaryByAlert": {
-    "focused": "## PICU/CICU重点\n\n### 1. Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757867 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。\n\n### 2. Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757848 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本論文は、心臓手術後の小児ICU再入院リスク要因に関する論文に対する読者コメントへの応答である。  \nPICU/CICUでの意味: 読者からのフィードバックを反映したリスク要因分析の重要性が強調されている。  \n注意点: 抽象が提供されていないため、詳細な臨床的意義や実践への影響は不明である。\n\n### 3. Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.\nPMID 41610214 / World J Pediatr Congenit Heart Surg / 2026 Jul\n- 要点: 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率・進行・手術成績に関する系統的レビューで、二尖瓣大動脈症候群や大動脈狭窄などの先天性心疾患と関連する大動脈疾患の臨床的特徴が明らかにされた。  \n- PICU/CICUでの意味: 本研究は成人データに基づくため、小児患者における大動脈疾患の長期的管理や手術指針への直接的応用には制限がある。  \n- 注意点: 抽象のみが提供されており、詳細な臨床データや小児集団への適用可能性は不明である。\n\n### 4. Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.\nPMID 41610206 / World J Pediatr Congenit Heart Surg / 2026 Jul\n- 要点: 技術的パフォーマンススコア（TPS）がテトラロジー・オブ・フォールト（TOF）修復後の死亡率や合併症に影響を与える可能性を、低中所得国（LMIC）の高容量心臓センターで評価した。  \n- PICU/CICUでの意味: 手術の技術的パフォーマンスを評価するTPSが、術後合併症や死亡リスクに関与する可能性を示唆し、資源制約下でのリスク管理に参考となる。  \n- 注意点: 抽象のみが提供されており、TPSと結果の具体的な関連性や臨床的意義の幅は限定的。低中所得国での適用には注意が必要。\n\n### 5. Near-Infrared Spectroscopy for Off-Pump Pediatric Cardiac Surgery.\nPMID 41604529 / World J Pediatr Congenit Heart Surg / 2026 Jul\n- 要点: NIRSは、非侵襲的でリアルタイムな脳・体幹血流モニタリングに有用であり、手術中の異常検出と介入ガイドに貢献した。  \n- PICU/CICUでの意味: 手術中の脳血流変動を即時把握し、術中合併症の早期対応に役立つ可能性がある。  \n- 注意点: 経験的データに基づくため、臨床実践への直接的な適用には注意が必要で、大規模な検証が求められる。",
+    "focused": "",
     "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757867 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。\n\n### 3. Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757848 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本論文は、心臓手術後の小児ICU再入院リスク要因に関する論文に対する読者コメントへの応答である。  \nPICU/CICUでの意味: 読者からのフィードバックを反映したリスク要因分析の重要性が強調されている。  \n注意点: 抽象が提供されていないため、詳細な臨床的意義や実践への影響は不明である。\n\n### 4. Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.\nPMID 41610214 / World J Pediatr Congenit Heart Surg / 2026 Jul\n- 要点: 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率・進行・手術成績に関する系統的レビューで、二尖瓣大動脈症候群や大動脈狭窄などの先天性心疾患と関連する大動脈疾患の臨床的特徴が明らかにされた。  \n- PICU/CICUでの意味: 本研究は成人データに基づくため、小児患者における大動脈疾患の長期的管理や手術指針への直接的応用には制限がある。  \n- 注意点: 抽象のみが提供されており、詳細な臨床データや小児集団への適用可能性は不明である。\n\n### 5. Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.\nPMID 41610206 / World J Pediatr Congenit Heart Surg / 2026 Jul\n- 要点: 技術的パフォーマンススコア（TPS）がテトラロジー・オブ・フォールト（TOF）修復後の死亡率や合併症に影響を与える可能性を、低中所得国（LMIC）の高容量心臓センターで評価した。  \n- PICU/CICUでの意味: 手術の技術的パフォーマンスを評価するTPSが、術後合併症や死亡リスクに関与する可能性を示唆し、資源制約下でのリスク管理に参考となる。  \n- 注意点: 抽象のみが提供されており、TPSと結果の具体的な関連性や臨床的意義の幅は限定的。低中所得国での適用には注意が必要。"
   },
   "fetchedAtByAlert": {
-    "focused": "2026-06-15T23:55:47.157Z",
-    "broad": "2026-06-15T23:55:47.157Z"
+    "focused": "2026-06-23T04:10:51.889Z",
+    "broad": "2026-06-23T04:10:51.889Z"
   },
   "importantArticles": [
     {
@@ -209,23 +215,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40665004/"
     },
     {
-      "pmid": "40439782",
-      "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
-      "journal": "Ann Intensive Care",
-      "publicationDate": "2025 May 29",
-      "authors": [
-        "Mekontso Dessap A",
-        "Dauger S",
-        "Khellaf M",
-        "Agbakou M",
-        "Agut S",
-        "Angoulvant F"
-      ],
-      "abstract": "Forty-two questions were evaluated concerning management of emergencies and critical illnesses in paediatric and adult patients with sickle cell disease. The assessment covered the following areas: patient referral, vaso-occlusive crisis, acute chest syndrome, transfusion therapy, and priapism. The patient referral category included guidelines for admission to intensive care unit and management at specialized reference centers. The vaso-occlusive crisis topic encompassed pain management, hydration, incentive spirometry, and target oxygen saturation levels. For acute chest syndrome, the focus areas included imaging techniques such as lung ultrasound, computed tomography scans, and echocardiography; treatment with systemic corticosteroids; non-invasive ventilation; prophylactic and therapeutic anticoagulation; and procalcitonin and antibiotic therapy. The section on transfusion therapy addressed indications and methods of transfusion, as well as the diagnosis and prediction of delayed hemolytic transfusion reactions. A total of 45 recommendations were proposed, including 14 specific to adults, 13 specific to pediatrics, and 18 applicable to both adults and children, along with three therapeutic algorithms. The Grade of Recommendation Assessment, Development, and Evaluation (GRADE) methodology was adhered to throughout the process. Sixteen recommendations were based on a low level of evidence (GRADE 2+ or 2-), while 26 were based on evidence that could not be classified under the GRADE system and were therefore considered expert opinions. Finally, for three aspects of sickle cell disease management, the experts concluded that no reliable recommendations could be made based on the current state of knowledge. The recommendations and therapeutic algorithms received strong agreement from the experts.",
-      "doi": "10.1186/s13613-025-01479-3",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40439782/"
-    },
-    {
       "pmid": "40668437",
       "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
       "journal": "Ann Intensive Care",
@@ -243,25 +232,42 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40668437/"
     },
     {
-      "pmid": "39208447",
-      "title": "Epidemiology of cardiogenic shock using the Shock Academic Research Consortium (SHARC) consensus definitions.",
+      "pmid": "40198815",
+      "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
       "journal": "Eur Heart J Acute Cardiovasc Care",
-      "publicationDate": "2024 Oct 28",
+      "publicationDate": "2025 Aug 06",
       "authors": [
-        "Berg DD",
-        "Bohula EA",
-        "Patel SM",
-        "Alfonso CE",
-        "Alviar CL",
-        "Baird-Zars VM"
+        "Kerneis M",
+        "Ammirati E",
+        "Delmas C",
+        "Heggermont W",
+        "Heymans S",
+        "Lenz M"
       ],
-      "abstract": "AIMS: The Shock Academic Research Consortium (SHARC) recently proposed pragmatic consensus definitions to standardize classification of cardiogenic shock (CS) in registries and clinical trials. We aimed to describe contemporary CS epidemiology using the SHARC definitions in a cardiac intensive care unit (CICU) population.\nMETHODS AND RESULTS: The Critical Care Cardiology Trials Network (CCCTN) is a multinational research network of advanced CICUs coordinated by the TIMI Study Group (Boston, MA). Cardiogenic shock was defined as a cardiac disorder resulting in SBP < 90 mmHg for ≥30 min [or the need for vasopressors, inotropes, or mechanical circulatory support (MCS) to maintain SBP ≥ 90 mmHg] with evidence of hypoperfusion. Primary aetiologic categories included acute myocardial infarction-related CS (AMI-CS), heart failure-related CS (HF-CS), and non-myocardial (secondary) CS. Post-cardiotomy CS was not included. Heart failure-related CS was further subcategorized as de novo vs. acute-on-chronic HF-CS. Patients with both cardiogenic and non-cardiogenic components of shock were classified separately as mixed CS. Of 8974 patients meeting shock criteria (2017-23), 65% had isolated CS and 17% had mixed shock. Among patients with CS (n = 5869), 27% had AMI-CS (65% STEMI), 59% HF-CS (72% acute-on-chronic, 28% de novo), and 14% secondary CS. Patients with AMI-CS and de novo HF-CS were most likely to have had concomitant cardiac arrest (P < 0.001). Patients with AMI-CS and mixed CS were most likely to present in more severe shock stages (SCAI D or E; P < 0.001). Temporary MCS use was highest in AMI-CS (59%). In-hospital mortality was highest in mixed CS (48%), followed by AMI-CS (41%), similar in de novo HF-CS (31%) and secondary CS (31%), and lowest in acute-on-chronic HF-CS (25%; P < 0.001).\nCONCLUSION: SHARC consensus definitions for CS classification can be pragmatically applied in contemporary registries and reveal discrete subpopulations of CS with distinct phenotypes and outcomes that may be relevant to clinical practice and future research.",
-      "doi": "10.1093/ehjacc/zuae098",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39208447/"
+      "abstract": "Acute Myocarditis (AM) encompasses a broad spectrum of clinical presentations and causes. Despite the recent advances in cardiovascular imaging, pathology, virology, and genetics, specific therapies are still lacking. This collaborative review aims to analyse the current evidence to answer practical questions that physicians may face during the early management of patients presenting with an acute form of the disease, complicated or not. This review analyses current evidence to address practical questions posed by acute cardiovascular physicians during the early management of acute, or potentially, myocarditis. Based on the current literature, this review provides a step-by-step approach to treat AM patients from their admission in the cardiac intensive care unit (CICU) to discharge, by answering 10 clinical questions: Might this patient be suffering from an AM? Should I hospitalize this patient and, if so, where? Which cardiac imaging exam should I perform and what can I learn from it? Is this patient requiring an EMB? What should the non-invasive aetiological work-up be? Is her/his episode of AM of viral, toxic, or other origin? Does this patient need specific treatments or mechanical circulatory support? Is there an indication for guideline-directed medical heart failure treatment? When can the patient be discharged and resume physical activity? Notably, this review highlights the need to build a multidisciplinary response team to address the many diagnostic and therapeutic challenges of AM patients. It also points out the lack of evidence to guide the treatment of these patients.",
+      "doi": "10.1093/ehjacc/zuaf057",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40198815/"
+    },
+    {
+      "pmid": "39841470",
+      "title": "Supine Blood Pressure and Risk of Cardiovascular Disease and Mortality.",
+      "journal": "JAMA Cardiol",
+      "publicationDate": "2025 Mar 01",
+      "authors": [
+        "Giao DM",
+        "Col H",
+        "Larbi Kwapong F",
+        "Turkson-Ocran RA",
+        "Ngo LH",
+        "Cluett JL"
+      ],
+      "abstract": "IMPORTANCE: Nocturnal hypertension while asleep is associated with substantial increases in risk of cardiovascular disease (CVD) and death. Whether hypertension while supine is a risk factor associated with CVD independent of seated hypertension remains unknown.\nOBJECTIVE: To investigate the association between supine hypertension and CVD outcomes and by hypertension treatment status.\nDESIGN, SETTING, AND PARTICIPANTS: This prospective cohort study used data from the Atherosclerosis Risk in Communities (ARIC) study, which was established in 1987 to examine cardiovascular risk factors among middle-aged adults from 4 communities in the US. Supine and seated blood pressure were measured in more than 13 000 middle-aged adults with longitudinal surveillance for CVD over 27 years. Participants with a history of coronary heart disease (CHD), heart failure, or stroke were excluded. Data were analyzed from May 2023 through December 2024.\nEXPOSURES: Supine hypertension (supine systolic blood pressure ≥130 or diastolic blood pressure ≥80 mm Hg) with and without seated hypertension (seated systolic blood pressure ≥130 or diastolic blood pressure ≥80 mm Hg).\nMAIN OUTCOMES AND MEASURES: Cox proportional hazard models with adjustment for CVD risk factors were performed to investigate the association of supine hypertension with and without seated hypertension with incident CHD, heart failure, stroke, fatal CHD, and all-cause mortality.\nRESULTS: Of 11 369 participants without known CVD (6332 female [55.7%] and 5037 male [44.3%]; 2858 Black [25.1%] and 8511 White [74.9%]; mean [SD] age 53.9 [5.7] years]), 16.4% (95% CI, 15.5%-17.2%) of those without seated hypertension had supine hypertension and 73.5% (95% CI, 72.2%-74.8%) of those with seated hypertension had supine hypertension. Supine hypertension was associated with incident CHD (hazard ratio [HR], 1.60; 95% CI, 1.45-1.76), heart failure (HR, 1.83; 95% CI, 1.68-2.01), stroke (HR, 1.86; 95% CI, 1.63-2.13), fatal CHD (HR, 2.18; 95% CI, 1.84-2.59), and all-cause mortality (HR, 1.43; 95% CI, 1.35-1.52) during a median (25th, 75th percentile) follow-up of 25.7 (15.4, 30.4) years, 26.9 (17.6, 30.5) years, 27.6 (18.5, 30.6 years), 28.3 (20.5, 30.7) years, and 28.3 (20.5 years, 30.7) years, respectively. There were no meaningful differences by seated hypertension status. Results were similar by hypertension medication use. Participants with supine hypertension alone had risk associations similar to those of participants with hypertension in both positions and significantly greater than those of participants with seated hypertension alone with the exception of fatal CHD; seated vs supine HRs were 0.72 (95% CI, 0.61-0.85) for CHD, 0.72 (95% CI, 0.60-0.85) for heart failure, 0.66 (95% CI, 0.51-0.86) for stroke, and 0.83 (95% CI, 0.74-0.92) for all-cause mortality.\nCONCLUSIONS AND RELEVANCE: Supine hypertension regardless of seated hypertension had a higher HR for CVD risk than seated hypertension alone. Future research should evaluate supine hypertension in the setting of nocturnal hypertension and as an independent target of blood pressure treatment.",
+      "doi": "10.1001/jamacardio.2024.5213",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39841470/"
     }
   ],
-  "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 5. Epidemiology of cardiogenic shock using the Shock Academic Research Consortium (SHARC) consensus definitions.\nPMID 39208447 / Eur Heart J Acute Cardiovasc Care / 2024 Oct 28\n要点: SHARC合意定義に基づく現代の心因性ショック（CS）の流行は、CICUで急性心筋梗塞関連CS（AMI-CS）や心不全関連CS（HF-CS）が主要な原因であり、65%が単一原因のCSを示した。  \nPICU/CICUでの意味: SHARC定義はCSの分類を統一し、臨床研究や登録データの比較に有用で、心不全の急性悪化や混合型CSの分類にも示唆を提供する。  \n注意点: 研究は登録データに基づくため、臨床現場での即時適用には注意が必要で、心外科手術後のCSは除外されている。",
-  "importantFetchedAt": "2026-06-15T23:55:47.157Z",
+  "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。",
+  "importantFetchedAt": "2026-06-23T04:10:51.889Z",
   "articleSummariesByPmid": {
     "39208447": {
       "pmid": "39208447",
@@ -342,6 +348,324 @@
     }
   },
   "dailyDigests": [
+    {
+      "date": "2026-06-23",
+      "generatedAt": "2026-06-23T04:10:51.889Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 15件 / AI要約済み 8件 / 未要約 7件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757867 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。\n\n### 3. Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757848 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本論文は、心臓手術後の小児ICU再入院リスク要因に関する論文に対する読者コメントへの応答である。  \nPICU/CICUでの意味: 読者からのフィードバックを反映したリスク要因分析の重要性が強調されている。  \n注意点: 抽象が提供されていないため、詳細な臨床的意義や実践への影響は不明である。\n\n### 4. Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.\nPMID 41610214 / World J Pediatr Congenit Heart Surg / 2026 Jul\n- 要点: 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率・進行・手術成績に関する系統的レビューで、二尖瓣大動脈症候群や大動脈狭窄などの先天性心疾患と関連する大動脈疾患の臨床的特徴が明らかにされた。  \n- PICU/CICUでの意味: 本研究は成人データに基づくため、小児患者における大動脈疾患の長期的管理や手術指針への直接的応用には制限がある。  \n- 注意点: 抽象のみが提供されており、詳細な臨床データや小児集団への適用可能性は不明である。\n\n### 5. Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.\nPMID 41610206 / World J Pediatr Congenit Heart Surg / 2026 Jul\n- 要点: 技術的パフォーマンススコア（TPS）がテトラロジー・オブ・フォールト（TOF）修復後の死亡率や合併症に影響を与える可能性を、低中所得国（LMIC）の高容量心臓センターで評価した。  \n- PICU/CICUでの意味: 手術の技術的パフォーマンスを評価するTPSが、術後合併症や死亡リスクに関与する可能性を示唆し、資源制約下でのリスク管理に参考となる。  \n- 注意点: 抽象のみが提供されており、TPSと結果の具体的な関連性や臨床的意義の幅は限定的。低中所得国での適用には注意が必要。",
+      "articles": [
+        {
+          "pmid": "42002215",
+          "title": "Association of Parenting Stress in Early Childhood with Emotional Health and Resilience of Young Adults with Congenital Heart Disease.",
+          "journal": "J Pediatr",
+          "publicationDate": "2026 Jul",
+          "authors": [
+            "Herrup EA",
+            "Shillingford AJ",
+            "Gaynor JW",
+            "Driscoll CFB",
+            "Hampton L",
+            "Zhang B"
+          ],
+          "abstract": "OBJECTIVE: To describe the association between parenting stress levels during early childhood and subsequent emotional health outcomes and resilience of their children with congenital heart disease (CHD) as young adults.\nSTUDY DESIGN: This prospective cohort study included 202 dyads of young adults with CHD and their caregivers. The young adults had undergone surgery with cardiopulmonary bypass at ≤ 6 months of life and were enrolled in a longitudinal study of neurodevelopmental outcomes in CHD. Resilience and general health status of the young adults were evaluated using self-report standardized questionnaires (14-Item Resilience Scale [RS-14] and 36-Item Short-Form Health Survey [SF-36]). Parenting stress in the preschool period was assessed using the Parenting Stress Index (PSI), completed by caregivers.\nRESULTS: An underlying mental health condition was self-reported by 120 (59%) of the young adults. Median PSI score (PSI total score = 58; interquartile ranges 46.25-71) indicated normal parenting stress levels. Mean SF-36 score (46, SD 11) was just below general population average (50), and mean RS-14 score (77, SD14) was similar to population average (76). Higher parenting stress was associated with lower young adults' resilience, with a unit increase in PSI total score associated with 0.14 (95% CI 0.02 - 0.26) decrease in RS-14 total score.\nCONCLUSIONS: Higher reported parenting stress during early childhood was associated with lower self-reported resilience in young adulthood for patients with CHD. This suggests that identification of an at-risk population early in life is possible and may provide an opportunity for targeted family-based interventions to improve psychosocial development with increased resilience.",
+          "doi": "10.1016/j.jpeds.2026.115110",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42002215/"
+        },
+        {
+          "pmid": "41999858",
+          "title": "The Final Day: What Happens Without a Pre-Existing Do Not Resuscitate Order?",
+          "journal": "J Pediatr",
+          "publicationDate": "2026 Jul",
+          "authors": [
+            "Weaver MS",
+            "Liang J",
+            "Cohen AD",
+            "Li C",
+            "Johnson LM"
+          ],
+          "abstract": "Children with cancer may not have a do not resuscitate (DNR) order, yet absence rarely guarantees cardiopulmonary resuscitation (CPR). In a review of 344 inpatient deaths over a decade, 85% had DNR orders; 20% received CPR, mostly for perceived reversibility. Intensive care unit location and active chemotherapy were associated with fewer DNR orders. Families often declined CPR, despite absence of a DNR order, when death was imminent.",
+          "doi": "10.1016/j.jpeds.2026.115109",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41999858/"
+        },
+        {
+          "pmid": "41967830",
+          "title": "Trends and Causes of Neonatal Mortality in Canadian Neonatal Intensive Care Units.",
+          "journal": "J Pediatr",
+          "publicationDate": "2026 Jul",
+          "authors": [
+            "Stritzke A",
+            "Bhullar H",
+            "Shah PS",
+            "Beltempo M",
+            "Mukerji A",
+            "Ruth CA"
+          ],
+          "abstract": "OBJECTIVE: To determine patterns and causes of neonatal deaths in Canadian neonatal intensive care units (NICUs) over the last decade.\nSTUDY DESIGN: All neonatal deaths reported by NICUs participating in the Canadian Neonatal Network 2010-2022 were divided retrospectively into 2 groups by gestational age (GA), <33 weeks and ≥33 weeks. Cause of death was assigned using prespecified classification criteria adapted from published criteria. Demographic, perinatal, and neonatal characteristics of newborns who died were compared with those of the survivors. Trends in birth characteristics and causes of death over 3 epochs (2010-2013, 2014-2017, and 2018-2022) were evaluated.\nRESULTS: A total of 5646 (2.96%) newborns died after receiving intensive care; 3782 (67%) were born at <33 weeks and 1864 (33%) at ≥33 weeks GA. The most common cause of death at <33 GA weeks was extreme prematurity (<28 weeks), followed by respiratory causes. Among those with GA ≥33 weeks, the leading cause of death was central nervous system conditions, followed by congenital anomalies and malformations. Most deaths occurred between days 2-7, followed by days 8-28 after birth. Over the 3 epochs studied, deaths associated with extreme preterm birth decreased significantly, but other causes of death remained unchanged.\nCONCLUSIONS: In Canadian NICUs, among infants with GA <33 weeks, extreme preterm birth was the leading cause of mortality. Central nervous system-related conditions were the predominant cause of death in infants born ≥33 weeks. Deaths due to extreme preterm birth decreased over the last decade in Canada, likely reflecting increased provision of active resuscitative care.",
+          "doi": "10.1016/j.jpeds.2026.115102",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41967830/"
+        },
+        {
+          "pmid": "41921774",
+          "title": "Nutritional Management of Infants with Severe Bronchopulmonary Dysplasia During Acute Infection.",
+          "journal": "J Pediatr",
+          "publicationDate": "2026 Jul",
+          "authors": [
+            "Thompsen K",
+            "Murthy K",
+            "Robinson DT",
+            "Baptiste S",
+            "Li J",
+            "Falciglia GH"
+          ],
+          "abstract": "OBJECTIVE: To define nutritional provisions in infants admitted to the neonatal intensive care unit with severe bronchopulmonary dysplasia (sBPD) and concurrent diagnosis of infection.\nSTUDY DESIGN: Fifty instances of infection over 4 years among 32 infants with sBPD were reviewed retrospectively from a level IV neonatal intensive care unit. Nutritional provisions (total daily energy and proportions from fat, carbohydrate, protein, and enteral feeds, as well as sodium, potassium, magnesium, phosphorous, calcium, acetate, and chloride) were assessed for 7 days prior to and after infection diagnosis and analyzed using general linear mixed models.\nRESULTS: Across 50 total infections, nutritional provisions were similar before and after infection diagnosis. However, after diagnosis of a bloodstream infection (BSI; 12 infections), infants received a 28.4% increase in proportion of energy from fat (P = .0029) and 24% more chloride (P = .018) compared with before the BSI diagnosis. Infants after BSI diagnosis also received an 8.6% decrease in proportion of energy from carbohydrates (P = .049), 4.8% decrease in proportion of energy from protein (P = .049), 15.5% less potassium (P < .001), 26.7% less calcium (P = .001), and 18.9% less phosphorous (P = .0025).\nCONCLUSIONS: In this cohort of infants with sBPD, nutritional provisions differed after the diagnosis of BSI, indicating that providers appear to manage the nutrition of acutely infected infants in a manner distinct from their management before diagnosis. These findings highlight how the biologic and clinical interactions between sBPD, infection, recovery, nutrition, and growth require further investigation.",
+          "doi": "10.1016/j.jpeds.2026.115086",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41921774/"
+        },
+        {
+          "pmid": "41911962",
+          "title": "Using Vital Signs to Predict Disposition of Children Transported to the Hospital by Emergency Medical Services.",
+          "journal": "J Pediatr",
+          "publicationDate": "2026 Jul",
+          "authors": [
+            "Ramgopal S",
+            "Macy ML",
+            "Horvat CM",
+            "Cash RE",
+            "Okubo M",
+            "Janofsky S"
+          ],
+          "abstract": "OBJECTIVE: To compare prehospital and emergency department (ED)-based vital sign assessments for children with out-of-hospital emergencies and to evaluate the relationships between vital signs and mental status assessment on patient mortality or intensive care unit (ICU) admission.\nSTUDY DESIGN: We performed a retrospective, multiagency and multicenter study of pediatric transports from the scene to the hospital within an integrated health system between 2014 and 2023. We compared 3 sets of vital signs (first prehospital, last prehospital, and first ED). We evaluated the multivariable association of vital signs with outcomes of ICU admission and in-hospital mortality.\nRESULTS: We included 68 489 children. ICU admission occurred in 2.4%, and in-hospital mortality in 0.1%. All vital signs demonstrated high agreement between the first prehospital, last prehospital, and ED phases of care (Gwet's AC1 > 0.80). For ICU admission, the area under the receiver operator characteristic curve of the initial prehospital model (0.79, 95% CI: 0.77-0.80) was lower than the last prehospital (0.81, 95% CI: 0.80-0.83) and first-ED model (0.83, 95% CI: 0.82-0.85). Models predicting ICU admission had moderate accuracy (sensitivities of 0.72-0.79; specificities of 0.80-0.87). The area under the receiver operator characteristic curve for models predicting mortality based on prehospital vital signs and ED vital signs reached highly accurate criteria (initial prehospital: 0.91, 95% CI: 0.85-0.97; last prehospital: 0.95, 95% CI: 0.91-0.99; first ED: 0.96, 95% CI: 0.93-0.99). Models for mortality demonstrated high sensitivity (0.90-0.98) and specificity (0.90-0.97). Across models, altered mental status showed the strongest associations with both outcomes, and predictive performance improved modestly from initial prehospital to ED assessment.\nCONCLUSIONS: Prehospital and ED vital signs are predictive of in-hospital outcomes. Following prospective evaluation, these findings may inform pediatric clinical decision-making in prehospital and initial hospital management. These results support the use of age-adjusted physiologic measures together with mental status assessment to strengthen early risk stratification of children transported by emergency medical services.",
+          "doi": "10.1016/j.jpeds.2026.115088",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41911962/"
+        },
+        {
+          "pmid": "41995635",
+          "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
+          "journal": "Ann Thorac Surg",
+          "publicationDate": "2028 Mar 23",
+          "authors": [
+            "Won D",
+            "Bolling SF",
+            "Romano MA",
+            "Johnston DR",
+            "Ailawadi G",
+            "Mehta CK"
+          ],
+          "abstract": "BACKGROUND: Although transcatheter mitral valve-in-valve replacement (mViV) is safe, long-term outcomes compared with reoperative surgical mitral valve replacement (rSMVR) remains unknown. This study compared long-term outcomes between mViV and rSMVR in patients with failing mitral bioprostheses.\nMETHODS: This retrospective, cohort study analyzed patients undergoing mViV or rSMVR for failing bioprosthetic mitral valves without active endocarditis at 2 quaternary care centers from 2004 to 2023. Primary end points included 30-day Mitral Valve Academic Research Consortium (MVARC) procedural success, 5-year cumulative incidence of death, freedom from reintervention, and cumulative incidence of heart failure. Echocardiographic evaluation of mean mitral valve gradients was assessed at baseline and 5-year follow-up.\nRESULTS: Of 229 patients (90 rSMVR, 139 mViV; mean age, 66.0 vs 68.7 years), MVARC 30-day outcomes were similar except for higher prolonged ventilation with rSMVR. At 5 years, rSMVR had significantly lower mortality (20.3% vs 40.9%; P = .01) and lower mean (standard deviation) mitral gradients (immediate postprocedure: 5.1 [2.3] mm Hg vs 7.8 [3.0] mm Hg; 5-year: 5.3 [2.0] mm Hg vs 9.8 [5.3] mm Hg; P < .001). Freedom from mitral valve reintervention (5.8% vs 6.1%; P = .97) and cumulative heart failure incidence (14.3% vs 22.9%; P = .17) were similar.\nCONCLUSIONS: Although mViV demonstrated comparable 30-day MVARC outcomes, rSMVR was associated with superior long-term survival and hemodynamic durability among patients deemed appropriate surgical candidates by a multidisciplinary heart team. Treatment decisions should balance short-term risk with long-term outcomes.",
+          "doi": "10.1016/j.athoracsur.2026.03.032",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41995635/"
+        },
+        {
+          "pmid": "41757867",
+          "title": "Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Jul",
+          "authors": [
+            "Sharma A",
+            "Katkuri SN",
+            "Vadhithala V",
+            "Kumar A",
+            "Verma S",
+            "Dedeepya D"
+          ],
+          "abstract": "",
+          "doi": "10.1177/21501351261418271",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41757867/"
+        },
+        {
+          "pmid": "41757848",
+          "title": "Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Jul",
+          "authors": [
+            "Barbarino A",
+            "Wiedemann A",
+            "Jouvet P"
+          ],
+          "abstract": "",
+          "doi": "10.1177/21501351261418272",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41757848/"
+        },
+        {
+          "pmid": "41610214",
+          "title": "Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Jul",
+          "authors": [
+            "Yong HJ",
+            "Sonkin A",
+            "Francis J",
+            "Ravishankar R",
+            "Brophy S",
+            "O'Bree E"
+          ],
+          "abstract": "BackgroundAs survival rates improve, adults with congenital heart disease (ACHD) increasingly present with aortopathies ranging from aortic root dilatation and aneurysm formation to life-threatening dissection and rupture. These vascular complications are associated with various congenital cardiac lesions, including bicuspid aortic valve, coarctation of the aorta, Tetralogy of Fallot, and transposition of the great arteries. Understanding the incidence, progression, and outcomes of aortopathy in this population is essential for guiding surveillance and surgical strategies.ObjectiveTo summarize current evidence on the clinical characteristics, progression, surgical decision-making and outcomes of aortopathies in ACHD.MethodsA systematic review was conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. Databases searched included PubMed, SCOPUS, Cochrane Library, and Medline, with articles screened for relevance using predefined criteria.ResultsOf 3382 records identified, 46 studies met the inclusion criteria following a full-text review, and these studies combined included 24 241 patients. Bicuspid aortic valve and repaired coarctation were the most studied conditions, with aortic dilatation commonly observed even in the absence of valve dysfunction. Neo-aortic root enlargement postarterial switch operation and root dilation in Tetralogy of Fallot were also prevalent. The decision for surgical intervention is individualized; it is based on overall balance of procedural versus observation risk (ie, aortic diameter thresholds), patient risk factors, suitability for valve preservation, and the presence of concurrent cardiac lesions. However, there remains heterogeneity in imaging protocols, surgical thresholds, and long-term outcome data.ConclusionsAortopathies in ACHD patients represent a significant long-term complication requiring lifelong imaging surveillance and individualized surgical management. Despite growing recognition, evidence remains limited regarding optimal thresholds for surgical intervention and personalized risk stratification.",
+          "doi": "10.1177/21501351251409635",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41610214/"
+        },
+        {
+          "pmid": "41610206",
+          "title": "Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Jul",
+          "authors": [
+            "Miana LA",
+            "Nathan M",
+            "Manuel V",
+            "Tenório DF",
+            "Freitas N",
+            "Turquetto A"
+          ],
+          "abstract": "ObjectivesTetralogy of Fallot (TOF) repair is associated with low mortality in high-performance centers, but outcomes are worse in low- and middle-income countries (LMICs). Prior studies have not demonstrated a strong link between Technical Performance Score (TPS) and mortality. The aim of this was to evaluate risk factors for mortality and complications after TOF repair in a high-volume LMIC heart center with a focus on surgical performance.MethodsWe retrospectively reviewed children undergoing TOF repair between 2015 and 2022. Patients over two years of age or with complex defects beyond atrial septal defect and persistent ductus arteriosus were excluded. Preoperative factors included age, weight, genetic syndromes, urgency, and pulmonary artery z-scores. Intraoperative variables included transannular patch use, cardiopulmonary bypass and cross-clamp times, surgeon, and TPS classification. Postoperative variables included delayed sternal closure (DSC), extracorporeal membrane oxygenation (ECMO), and Vasoactive Inotropic Score (VIS) during the first 24 h. Outcomes included mortality, complications, and length of stay (LOS). Analyses included logistic regression and Kaplan-Meier estimates.ResultsAmong 255 patients, in-hospital mortality was 7.5% (n = 19). Technical Performance Score class 3 was an independent predictor of mortality ( P = .027), along with VIS 24 h and ECMO. Cardiopulmonary bypass time, ECMO, and DSC were associated with major complications. Technical Performance Score class 3 correlated with longer LOS, but multivariable analysis identified low weight and ECMO as independent LOS predictors. Five-year survival was worse in TPS class 3 ( P = .007).ConclusionsInadequate TPS is an independent predictor of mortality after TOF repair in an LMIC context. Class 3 TPS also relates to longer hospitalization and worse medium-term survival. Surgical quality remains essential for better outcomes.",
+          "doi": "10.1177/21501351251386433",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41610206/"
+        }
+      ],
+      "importantArticles": [
+        {
+          "pmid": "40119480",
+          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
+          "journal": "J Intensive Care",
+          "publicationDate": "2025 Mar 21",
+          "authors": [
+            "Nakamura K",
+            "Yamamoto R",
+            "Higashibeppu N",
+            "Yoshida M",
+            "Tatsumi H",
+            "Shimizu Y"
+          ],
+          "abstract": "Nutrition therapy is important in the management of critically ill patients and is continuously evolving as new evidence emerges. The Japanese Critical Care Nutrition Guideline 2024 (JCCNG 2024) is specific to Japan and is the latest set of clinical practice guidelines for nutrition therapy in critical care that was revised from JCCNG 2016 by the Japanese Society of Intensive Care Medicine. An English version of these guidelines was created based on the contents of the original Japanese version. These guidelines were developed to help health care providers understand and provide nutrition therapy that will improve the outcomes of children and adults admitted to intensive care units or requiring intensive care, regardless of the disease. The intended users of these guidelines are all healthcare professionals involved in intensive care, including those who are not familiar with nutrition therapy. JCCNG 2024 consists of 37 clinical questions and 24 recommendations, covering immunomodulation therapy, nutrition therapy for special conditions, and nutrition therapy for children. These guidelines were developed in accordance with the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) system by experts from various healthcare professionals related to nutrition therapy and/or critical care. All GRADE-based recommendations, good practice statements (GPS), future research questions, and answers to background questions were finalized by consensus using the modified Delphi method. Strong recommendations for adults include early enteral nutrition (EN) within 48 h and the provision of pre/synbiotics. Weak recommendations for adults include the use of a nutrition protocol, EN rather than parenteral nutrition, the provision of higher protein doses, post-pyloric EN, continuous EN, omega-3 fatty acid-enriched EN, the provision of probiotics, and indirect calorimetry use. Weak recommendations for children include early EN within 48 h, bolus EN, and energy/protein-dense EN formulas. A nutritional assessment is recommended by GPS for both adults and children. JCCNG 2024 will be disseminated through educational activities mainly by the JCCNG Committee at various scientific meetings and seminars. Since studies on nutritional treatment for critically ill patients are being reported worldwide, these guidelines will be revised in 4 to 6 years. We hope that these guidelines will be used in clinical practice for critically ill patients and in future research.",
+          "doi": "10.1186/s40560-025-00785-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40119480/"
+        },
+        {
+          "pmid": "40665004",
+          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 Jul 15",
+          "authors": [
+            "Reignier J",
+            "Gaillard-Le Roux B",
+            "Dequin PF",
+            "Bertoni Maluf VA",
+            "Bohe J",
+            "Casaer MP"
+          ],
+          "abstract": "The objective of this work was to develop guidelines for nutritional support in critically ill adults and children (excluding neonates and burn patients) unable to maintain an adequate oral intake. We aimed to provide up-to-date recommendations based on high-level evidence including the results of recent landmark randomized controlled trials. Experts from the French Intensive Care Society (SRLF), the French Society of Clinical Nutrition and Metabolism (SFNCM), and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP) used the GRADE methodology to develop the guidelines. Twenty-four Patient Intervention Comparator Outcome (PICO) questions were identified, resulting in 34 adult and 29 pediatric recommendations. Of the 34 recommendations for adults, three were based on high-level evidence, 12 on moderate-level evidence, and 19 on expert opinion. The corresponding numbers for the 29 pediatric recommendations were one, five, and 23. All recommendations achieved strong agreement among the experts. These guidelines emphasize the importance of individualized nutritional support strategies that incorporate recent high-quality evidence to optimize the outcomes of critically ill patients.",
+          "doi": "10.1186/s13613-025-01509-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40665004/"
+        },
+        {
+          "pmid": "40668437",
+          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 Jul 16",
+          "authors": [
+            "Jourdain M",
+            "Chatti IG",
+            "Housni B",
+            "Jaquet P",
+            "Jezequel M",
+            "Kane O"
+          ],
+          "abstract": "BACKGROUND: Although largely used, the place of extracorporeal renal replacement therapy (RRT) in acute kidney injury (AKI) in intensive care unit (ICU) patients has yet to be clarified. The French Intensive Care Society (Société de Réanimation de Langue Française, SRLF) and the French Pediatric Group of Intensive Care and Emergency (Groupe Francophone de Réanimation et d'Urgence Pédiatrique, GFRUP) organized a consensus conference in November 2024.\nMETHODS: A committee, without any conflict of interest (CoI) on the subject, defined seven generic questions and drew up a list of sub questions according to the population, intervention, comparison and outcomes (PICO) model. An independent work group reviewed literature using predefined keywords. The quality of the data was assessed using the GRADE methodology. Eighteen experts in the field from both societies proposed their own answers in a public session and answered questions from the jury (a panel of 14 critical-care medicine physicians and a nurse) and the public. The jury then met for 48 h to write out and vote on its recommendations.\nRESULTS: The panel provided 45 statements addressing seven questions. In patients, adults or children, admitted to the ICU with AKI (1) What are the indications for RRT, when should it be initiated, and within what timeframe? (2) What are the advantages/disadvantages of the different RRT modalities in ICU, and based on what criteria should they be chosen? (3) Which dose of dialysis should be prescribed for ICU patients? (4) How to prescribe, adjust and monitor each RRT technique? (5) Which vascular access technique should be preferred (insertion site, catheter type and length)? (6) How to prevent circuit thrombosis? (7) What are the criteria to consider weaning from RRT and how can it be achieved?\nCONCLUSIONS: These recommendations should optimize the prescription and use of RRT during AKI in ICUs for both adult and pediatric patients.",
+          "doi": "10.1186/s13613-025-01517-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40668437/"
+        },
+        {
+          "pmid": "40198815",
+          "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
+          "journal": "Eur Heart J Acute Cardiovasc Care",
+          "publicationDate": "2025 Aug 06",
+          "authors": [
+            "Kerneis M",
+            "Ammirati E",
+            "Delmas C",
+            "Heggermont W",
+            "Heymans S",
+            "Lenz M"
+          ],
+          "abstract": "Acute Myocarditis (AM) encompasses a broad spectrum of clinical presentations and causes. Despite the recent advances in cardiovascular imaging, pathology, virology, and genetics, specific therapies are still lacking. This collaborative review aims to analyse the current evidence to answer practical questions that physicians may face during the early management of patients presenting with an acute form of the disease, complicated or not. This review analyses current evidence to address practical questions posed by acute cardiovascular physicians during the early management of acute, or potentially, myocarditis. Based on the current literature, this review provides a step-by-step approach to treat AM patients from their admission in the cardiac intensive care unit (CICU) to discharge, by answering 10 clinical questions: Might this patient be suffering from an AM? Should I hospitalize this patient and, if so, where? Which cardiac imaging exam should I perform and what can I learn from it? Is this patient requiring an EMB? What should the non-invasive aetiological work-up be? Is her/his episode of AM of viral, toxic, or other origin? Does this patient need specific treatments or mechanical circulatory support? Is there an indication for guideline-directed medical heart failure treatment? When can the patient be discharged and resume physical activity? Notably, this review highlights the need to build a multidisciplinary response team to address the many diagnostic and therapeutic challenges of AM patients. It also points out the lack of evidence to guide the treatment of these patients.",
+          "doi": "10.1093/ehjacc/zuaf057",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40198815/"
+        },
+        {
+          "pmid": "39841470",
+          "title": "Supine Blood Pressure and Risk of Cardiovascular Disease and Mortality.",
+          "journal": "JAMA Cardiol",
+          "publicationDate": "2025 Mar 01",
+          "authors": [
+            "Giao DM",
+            "Col H",
+            "Larbi Kwapong F",
+            "Turkson-Ocran RA",
+            "Ngo LH",
+            "Cluett JL"
+          ],
+          "abstract": "IMPORTANCE: Nocturnal hypertension while asleep is associated with substantial increases in risk of cardiovascular disease (CVD) and death. Whether hypertension while supine is a risk factor associated with CVD independent of seated hypertension remains unknown.\nOBJECTIVE: To investigate the association between supine hypertension and CVD outcomes and by hypertension treatment status.\nDESIGN, SETTING, AND PARTICIPANTS: This prospective cohort study used data from the Atherosclerosis Risk in Communities (ARIC) study, which was established in 1987 to examine cardiovascular risk factors among middle-aged adults from 4 communities in the US. Supine and seated blood pressure were measured in more than 13 000 middle-aged adults with longitudinal surveillance for CVD over 27 years. Participants with a history of coronary heart disease (CHD), heart failure, or stroke were excluded. Data were analyzed from May 2023 through December 2024.\nEXPOSURES: Supine hypertension (supine systolic blood pressure ≥130 or diastolic blood pressure ≥80 mm Hg) with and without seated hypertension (seated systolic blood pressure ≥130 or diastolic blood pressure ≥80 mm Hg).\nMAIN OUTCOMES AND MEASURES: Cox proportional hazard models with adjustment for CVD risk factors were performed to investigate the association of supine hypertension with and without seated hypertension with incident CHD, heart failure, stroke, fatal CHD, and all-cause mortality.\nRESULTS: Of 11 369 participants without known CVD (6332 female [55.7%] and 5037 male [44.3%]; 2858 Black [25.1%] and 8511 White [74.9%]; mean [SD] age 53.9 [5.7] years]), 16.4% (95% CI, 15.5%-17.2%) of those without seated hypertension had supine hypertension and 73.5% (95% CI, 72.2%-74.8%) of those with seated hypertension had supine hypertension. Supine hypertension was associated with incident CHD (hazard ratio [HR], 1.60; 95% CI, 1.45-1.76), heart failure (HR, 1.83; 95% CI, 1.68-2.01), stroke (HR, 1.86; 95% CI, 1.63-2.13), fatal CHD (HR, 2.18; 95% CI, 1.84-2.59), and all-cause mortality (HR, 1.43; 95% CI, 1.35-1.52) during a median (25th, 75th percentile) follow-up of 25.7 (15.4, 30.4) years, 26.9 (17.6, 30.5) years, 27.6 (18.5, 30.6 years), 28.3 (20.5, 30.7) years, and 28.3 (20.5 years, 30.7) years, respectively. There were no meaningful differences by seated hypertension status. Results were similar by hypertension medication use. Participants with supine hypertension alone had risk associations similar to those of participants with hypertension in both positions and significantly greater than those of participants with seated hypertension alone with the exception of fatal CHD; seated vs supine HRs were 0.72 (95% CI, 0.61-0.85) for CHD, 0.72 (95% CI, 0.60-0.85) for heart failure, 0.66 (95% CI, 0.51-0.86) for stroke, and 0.83 (95% CI, 0.74-0.92) for all-cause mortality.\nCONCLUSIONS AND RELEVANCE: Supine hypertension regardless of seated hypertension had a higher HR for CVD risk than seated hypertension alone. Future research should evaluate supine hypertension in the setting of nocturnal hypertension and as an independent target of blood pressure treatment.",
+          "doi": "10.1001/jamacardio.2024.5213",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39841470/"
+        }
+      ],
+      "articleSummaries": {
+        "40119480": {
+          "pmid": "40119480",
+          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
+          "generatedAt": "2026-06-11T01:17:01.751Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。"
+        },
+        "40665004": {
+          "pmid": "40665004",
+          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
+          "generatedAt": "2026-06-11T01:17:13.713Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。"
+        },
+        "40668437": {
+          "pmid": "40668437",
+          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
+          "generatedAt": "2026-06-11T01:17:36.989Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。"
+        },
+        "41610206": {
+          "pmid": "41610206",
+          "title": "Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.",
+          "generatedAt": "2026-06-15T23:56:23.881Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 技術的パフォーマンススコア（TPS）がテトラロジー・オブ・フォールト（TOF）修復後の死亡率や合併症に影響を与える可能性を、低中所得国（LMIC）の高容量心臓センターで評価した。  \n- PICU/CICUでの意味: 手術の技術的パフォーマンスを評価するTPSが、術後合併症や死亡リスクに関与する可能性を示唆し、資源制約下でのリスク管理に参考となる。  \n- 注意点: 抽象のみが提供されており、TPSと結果の具体的な関連性や臨床的意義の幅は限定的。低中所得国での適用には注意が必要。"
+        },
+        "41610214": {
+          "pmid": "41610214",
+          "title": "Incidence, Progression, and Surgical Outcomes of Aortopathies in Adults With Congenital Heart Disease: A Systematic Review.",
+          "generatedAt": "2026-06-11T01:42:57.794Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 成人先天性心疾患（ACHD）患者における大動脈疾患の発生率・進行・手術成績に関する系統的レビューで、二尖瓣大動脈症候群や大動脈狭窄などの先天性心疾患と関連する大動脈疾患の臨床的特徴が明らかにされた。  \n- PICU/CICUでの意味: 本研究は成人データに基づくため、小児患者における大動脈疾患の長期的管理や手術指針への直接的応用には制限がある。  \n- 注意点: 抽象のみが提供されており、詳細な臨床データや小児集団への適用可能性は不明である。"
+        },
+        "41757848": {
+          "pmid": "41757848",
+          "title": "Response to Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".",
+          "generatedAt": "2026-06-11T01:42:45.848Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 本論文は、心臓手術後の小児ICU再入院リスク要因に関する論文に対する読者コメントへの応答である。  \nPICU/CICUでの意味: 読者からのフィードバックを反映したリスク要因分析の重要性が強調されている。  \n注意点: 抽象が提供されていないため、詳細な臨床的意義や実践への影響は不明である。"
+        },
+        "41757867": {
+          "pmid": "41757867",
+          "title": "Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".",
+          "generatedAt": "2026-06-11T01:42:36.488Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。"
+        },
+        "41995635": {
+          "pmid": "41995635",
+          "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
+          "generatedAt": "2026-06-15T23:56:51.310Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。"
+        }
+      }
+    },
     {
       "date": "2026-06-15",
       "generatedAt": "2026-06-15T23:55:47.157Z",
@@ -1047,9 +1371,9 @@
       ]
     }
   ],
-  "lastAutoRunAt": "2026-06-15T23:55:47.157Z",
-  "lastAutoRunDate": "2026-06-15",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 41610206: 順次AI要約済み / PMID 41604529: 順次AI要約済み / PMID 41995635: 順次AI要約済み / 順次AI要約: 3件追加 / 11/11件済み",
-  "lastImportantRunAt": "2026-06-15T23:55:47.157Z",
-  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 0件"
+  "lastAutoRunAt": "2026-06-23T04:10:51.889Z",
+  "lastAutoRunDate": "2026-06-23",
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 40198815: AI要約失敗 (AI接続エラー) / PMID 39841470: AI要約失敗 (AI接続エラー) / PMID 42002215: AI要約失敗 (AI接続エラー) / PMID 41999858: AI要約失敗 (AI接続エラー) / 順次AI要約: 0件追加 / 8/15件済み",
+  "lastImportantRunAt": "2026-06-23T04:10:51.889Z",
+  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 3/5件済み / 全体未要約 7件"
 }
