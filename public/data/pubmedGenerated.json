@@ -172,12 +172,12 @@
     ]
   },
   "summaryByAlert": {
-    "focused": "## PICU/CICU重点\n\n### 1. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。\n\n### 2. Decline in rescue breathing and its impact on outcomes in pediatric out-of-hospital cardiac arrest due to drowning: a nationwide study, 2012-2023.\nPMID 41819340 / Resuscitation / 2026 Aug\n- 要点: 救助呼吸（RB-CPR）の減少が小児溺水による救命救急の30日死亡率に負の影響を及ぼす可能性を示唆する。  \n- PICU/CICUでの意味: 溺水による救命救急の予後改善には、 bystander CPRにおける救助呼吸の維持が重要である。  \n- 注意点: 結果は抽象のみに基づくため、因果関係や臨床実践への直接的影響は限定的。",
-    "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 5. Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757867 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。"
+    "focused": "## PICU/CICU重点\n\n### 1. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。\n\n### 2. Decline in rescue breathing and its impact on outcomes in pediatric out-of-hospital cardiac arrest due to drowning: a nationwide study, 2012-2023.\nPMID 41819340 / Resuscitation / 2026 Aug\n- 要点: 救助呼吸（RB-CPR）の減少が小児溺水による救命救急の30日死亡率に負の影響を及ぼす可能性を示唆する。  \n- PICU/CICUでの意味: 溺水による救命救急の予後改善には、 bystander CPRにおける救助呼吸の維持が重要である。  \n- 注意点: 結果は抽象のみに基づくため、因果関係や臨床実践への直接的影響は限定的。\n\n### 3. Association of Parenting Stress in Early Childhood with Emotional Health and Resilience of Young Adults with Congenital Heart Disease.\nPMID 42002215 / J Pediatr / 2026 Jul\n- 要点: 早期児童期の育てやすさストレスと、先天性心疾患を持つ若年成人の感情的健康および回復力との関連が示唆された。  \n- PICU/CICUでの意味: 早期の家族支援が長期的な精神的健康に影響を与える可能性を示唆し、患者の家族への継続的支援が重要である。  \n- 注意点: 研究は観察的で因果関係は明示せず、抽象のみが提供されているため、臨床的推奨には十分なデータが不足している。\n\n### 4. The Final Day: What Happens Without a Pre-Existing Do Not Resuscitate Order?\nPMID 41999858 / J Pediatr / 2026 Jul\n要点: がんを持つ児童において、事前に「救命措置中止」（DNR）指示がなくても心肺蘇生（CPR）が行われる可能性があり、その多くは即死が予想される場合に家族が拒否する傾向がある。  \nPICU/CICUでの意味: ICU内での治療や抗がん剤投与がDNR指示の減少に関連し、終末期の意思決定において医療チームは家族の意向や臨床状態を総合的に評価する必要がある。  \n注意点: 研究は抽象のみに基づくため、個々の臨床状況への直接的な適用は避け、DNR指示の有無にかかわらず終末期ケアの倫理的判断を慎重に行うべきである。\n\n### 5. Contemporary Use of Circulatory Arrest and Selective Antegrade Cerebral Perfusion During Neonatal Aortic Arch Surgery-International Survey.\nPMID 41985602 / Ann Thorac Surg / 2026 Jul\n要点: 国際的な調査では、新生児大動脈弓手術において選択的前流脳灌流（SACP）は69.2%の外科医が単独で使用し、深低温循環停止（DHCA）は9.6%が使用している。  \nPICU/CICUでの意味: 脳灌流技術の選択は脳保護戦略に影響し、術中脳血流管理の重要性を示唆する。  \n注意点: 現行の実践には十分な根拠がなく、個々の経験や解剖学的要因に基づく選択が一般的である。",
+    "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Contemporary Use of Circulatory Arrest and Selective Antegrade Cerebral Perfusion During Neonatal Aortic Arch Surgery-International Survey.\nPMID 41985602 / Ann Thorac Surg / 2026 Jul\n要点: 国際的な調査では、新生児大動脈弓手術において選択的前流脳灌流（SACP）は69.2%の外科医が単独で使用し、深低温循環停止（DHCA）は9.6%が使用している。  \nPICU/CICUでの意味: 脳灌流技術の選択は脳保護戦略に影響し、術中脳血流管理の重要性を示唆する。  \n注意点: 現行の実践には十分な根拠がなく、個々の経験や解剖学的要因に基づく選択が一般的である。\n\n### 3. A New Treatment Paradigm for Tetralogy of Fallot/Absent Pulmonary Valve with Significant Airway Compromise: Addressing the Airway First.\nPMID 41833793 / Ann Thorac Surg / 2026 Jul\n要点: 生体分解性3次元印刷スプリントによる気管支支持が、三又気管支軟化症を伴うテトラロジー・オブ・フォールト/肺動脈欠如症の気道管理改善に有効である可能性を示唆。  \nPICU/CICUでの意味: 気道優先治療により、気管切開や長期通気療法の必要性が減り、早期退院の可能性が開示された。  \n注意点: 抽象のみに基づくため、患者数が極めて少なく、長期的な効果や適用範囲の検証が求められる。\n\n### 5. Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757867 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。"
   },
   "fetchedAtByAlert": {
-    "focused": "2026-06-26T22:38:34.409Z",
-    "broad": "2026-06-26T22:38:34.409Z"
+    "focused": "2026-06-26T23:13:22.083Z",
+    "broad": "2026-06-26T23:13:22.083Z"
   },
   "importantArticles": [
     {
@@ -267,7 +267,7 @@
     }
   ],
   "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 4. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n### 5. Supine Blood Pressure and Risk of Cardiovascular Disease and Mortality.\nPMID 39841470 / JAMA Cardiol / 2025 Mar 01\n要点: 膝の血圧が高値を示すことが心血管疾患（CVD）および死亡リスクを上昇させる可能性があるが、座っている時の血圧状態との関連性は不明である。  \nPICU/CICUでの意味: 成人における膝の血圧の重要性が示唆され、重症児の血圧モニタリングにおいて注意が必要かもしれない。  \n注意点: 研究対象は成人であり、児童における膝の血圧の臨床的意義は今後の検証が待たれる。",
-  "importantFetchedAt": "2026-06-26T22:38:34.409Z",
+  "importantFetchedAt": "2026-06-26T23:13:22.083Z",
   "articleSummariesByPmid": {
     "39208447": {
       "pmid": "39208447",
@@ -360,12 +360,40 @@
       "model": "qwen3:8b",
       "summary": "- 要点: 救助呼吸（RB-CPR）の減少が小児溺水による救命救急の30日死亡率に負の影響を及ぼす可能性を示唆する。  \n- PICU/CICUでの意味: 溺水による救命救急の予後改善には、 bystander CPRにおける救助呼吸の維持が重要である。  \n- 注意点: 結果は抽象のみに基づくため、因果関係や臨床実践への直接的影響は限定的。"
     },
+    "41833793": {
+      "pmid": "41833793",
+      "title": "A New Treatment Paradigm for Tetralogy of Fallot/Absent Pulmonary Valve with Significant Airway Compromise: Addressing the Airway First.",
+      "generatedAt": "2026-06-26T23:14:30.065Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 生体分解性3次元印刷スプリントによる気管支支持が、三又気管支軟化症を伴うテトラロジー・オブ・フォールト/肺動脈欠如症の気道管理改善に有効である可能性を示唆。  \nPICU/CICUでの意味: 気道優先治療により、気管切開や長期通気療法の必要性が減り、早期退院の可能性が開示された。  \n注意点: 抽象のみに基づくため、患者数が極めて少なく、長期的な効果や適用範囲の検証が求められる。"
+    },
+    "41985602": {
+      "pmid": "41985602",
+      "title": "Contemporary Use of Circulatory Arrest and Selective Antegrade Cerebral Perfusion During Neonatal Aortic Arch Surgery-International Survey.",
+      "generatedAt": "2026-06-26T23:14:10.731Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 国際的な調査では、新生児大動脈弓手術において選択的前流脳灌流（SACP）は69.2%の外科医が単独で使用し、深低温循環停止（DHCA）は9.6%が使用している。  \nPICU/CICUでの意味: 脳灌流技術の選択は脳保護戦略に影響し、術中脳血流管理の重要性を示唆する。  \n注意点: 現行の実践には十分な根拠がなく、個々の経験や解剖学的要因に基づく選択が一般的である。"
+    },
     "41995635": {
       "pmid": "41995635",
       "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
       "generatedAt": "2026-06-15T23:56:51.310Z",
       "model": "qwen3:8b",
       "summary": "- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。"
+    },
+    "41999858": {
+      "pmid": "41999858",
+      "title": "The Final Day: What Happens Without a Pre-Existing Do Not Resuscitate Order?",
+      "generatedAt": "2026-06-26T23:13:59.280Z",
+      "model": "qwen3:8b",
+      "summary": "要点: がんを持つ児童において、事前に「救命措置中止」（DNR）指示がなくても心肺蘇生（CPR）が行われる可能性があり、その多くは即死が予想される場合に家族が拒否する傾向がある。  \nPICU/CICUでの意味: ICU内での治療や抗がん剤投与がDNR指示の減少に関連し、終末期の意思決定において医療チームは家族の意向や臨床状態を総合的に評価する必要がある。  \n注意点: 研究は抽象のみに基づくため、個々の臨床状況への直接的な適用は避け、DNR指示の有無にかかわらず終末期ケアの倫理的判断を慎重に行うべきである。"
+    },
+    "42002215": {
+      "pmid": "42002215",
+      "title": "Association of Parenting Stress in Early Childhood with Emotional Health and Resilience of Young Adults with Congenital Heart Disease.",
+      "generatedAt": "2026-06-26T23:13:45.047Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: 早期児童期の育てやすさストレスと、先天性心疾患を持つ若年成人の感情的健康および回復力との関連が示唆された。  \n- PICU/CICUでの意味: 早期の家族支援が長期的な精神的健康に影響を与える可能性を示唆し、患者の家族への継続的支援が重要である。  \n- 注意点: 研究は観察的で因果関係は明示せず、抽象のみが提供されているため、臨床的推奨には十分なデータが不足している。"
     },
     "42173429": {
       "pmid": "42173429",
@@ -378,8 +406,8 @@
   "dailyDigests": [
     {
       "date": "2026-06-26",
-      "generatedAt": "2026-06-26T22:38:34.409Z",
-      "summary": "## 今日の順次AI要約\n\n取得候補 14件 / AI要約済み 9件 / 未要約 5件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 4. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n### 5. Supine Blood Pressure and Risk of Cardiovascular Disease and Mortality.\nPMID 39841470 / JAMA Cardiol / 2025 Mar 01\n要点: 膝の血圧が高値を示すことが心血管疾患（CVD）および死亡リスクを上昇させる可能性があるが、座っている時の血圧状態との関連性は不明である。  \nPICU/CICUでの意味: 成人における膝の血圧の重要性が示唆され、重症児の血圧モニタリングにおいて注意が必要かもしれない。  \n注意点: 研究対象は成人であり、児童における膝の血圧の臨床的意義は今後の検証が待たれる。\n\n## PICU/CICU重点\n\n### 1. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。\n\n### 2. Decline in rescue breathing and its impact on outcomes in pediatric out-of-hospital cardiac arrest due to drowning: a nationwide study, 2012-2023.\nPMID 41819340 / Resuscitation / 2026 Aug\n- 要点: 救助呼吸（RB-CPR）の減少が小児溺水による救命救急の30日死亡率に負の影響を及ぼす可能性を示唆する。  \n- PICU/CICUでの意味: 溺水による救命救急の予後改善には、 bystander CPRにおける救助呼吸の維持が重要である。  \n- 注意点: 結果は抽象のみに基づくため、因果関係や臨床実践への直接的影響は限定的。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 5. Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757867 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。",
+      "generatedAt": "2026-06-26T23:13:22.083Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 14件 / AI要約済み 13件 / 未要約 1件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 3. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 4. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n### 5. Supine Blood Pressure and Risk of Cardiovascular Disease and Mortality.\nPMID 39841470 / JAMA Cardiol / 2025 Mar 01\n要点: 膝の血圧が高値を示すことが心血管疾患（CVD）および死亡リスクを上昇させる可能性があるが、座っている時の血圧状態との関連性は不明である。  \nPICU/CICUでの意味: 成人における膝の血圧の重要性が示唆され、重症児の血圧モニタリングにおいて注意が必要かもしれない。  \n注意点: 研究対象は成人であり、児童における膝の血圧の臨床的意義は今後の検証が待たれる。\n\n## PICU/CICU重点\n\n### 1. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。\n\n### 2. Decline in rescue breathing and its impact on outcomes in pediatric out-of-hospital cardiac arrest due to drowning: a nationwide study, 2012-2023.\nPMID 41819340 / Resuscitation / 2026 Aug\n- 要点: 救助呼吸（RB-CPR）の減少が小児溺水による救命救急の30日死亡率に負の影響を及ぼす可能性を示唆する。  \n- PICU/CICUでの意味: 溺水による救命救急の予後改善には、 bystander CPRにおける救助呼吸の維持が重要である。  \n- 注意点: 結果は抽象のみに基づくため、因果関係や臨床実践への直接的影響は限定的。\n\n### 3. Association of Parenting Stress in Early Childhood with Emotional Health and Resilience of Young Adults with Congenital Heart Disease.\nPMID 42002215 / J Pediatr / 2026 Jul\n- 要点: 早期児童期の育てやすさストレスと、先天性心疾患を持つ若年成人の感情的健康および回復力との関連が示唆された。  \n- PICU/CICUでの意味: 早期の家族支援が長期的な精神的健康に影響を与える可能性を示唆し、患者の家族への継続的支援が重要である。  \n- 注意点: 研究は観察的で因果関係は明示せず、抽象のみが提供されているため、臨床的推奨には十分なデータが不足している。\n\n### 4. The Final Day: What Happens Without a Pre-Existing Do Not Resuscitate Order?\nPMID 41999858 / J Pediatr / 2026 Jul\n要点: がんを持つ児童において、事前に「救命措置中止」（DNR）指示がなくても心肺蘇生（CPR）が行われる可能性があり、その多くは即死が予想される場合に家族が拒否する傾向がある。  \nPICU/CICUでの意味: ICU内での治療や抗がん剤投与がDNR指示の減少に関連し、終末期の意思決定において医療チームは家族の意向や臨床状態を総合的に評価する必要がある。  \n注意点: 研究は抽象のみに基づくため、個々の臨床状況への直接的な適用は避け、DNR指示の有無にかかわらず終末期ケアの倫理的判断を慎重に行うべきである。\n\n### 5. Contemporary Use of Circulatory Arrest and Selective Antegrade Cerebral Perfusion During Neonatal Aortic Arch Surgery-International Survey.\nPMID 41985602 / Ann Thorac Surg / 2026 Jul\n要点: 国際的な調査では、新生児大動脈弓手術において選択的前流脳灌流（SACP）は69.2%の外科医が単独で使用し、深低温循環停止（DHCA）は9.6%が使用している。  \nPICU/CICUでの意味: 脳灌流技術の選択は脳保護戦略に影響し、術中脳血流管理の重要性を示唆する。  \n注意点: 現行の実践には十分な根拠がなく、個々の経験や解剖学的要因に基づく選択が一般的である。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Contemporary Use of Circulatory Arrest and Selective Antegrade Cerebral Perfusion During Neonatal Aortic Arch Surgery-International Survey.\nPMID 41985602 / Ann Thorac Surg / 2026 Jul\n要点: 国際的な調査では、新生児大動脈弓手術において選択的前流脳灌流（SACP）は69.2%の外科医が単独で使用し、深低温循環停止（DHCA）は9.6%が使用している。  \nPICU/CICUでの意味: 脳灌流技術の選択は脳保護戦略に影響し、術中脳血流管理の重要性を示唆する。  \n注意点: 現行の実践には十分な根拠がなく、個々の経験や解剖学的要因に基づく選択が一般的である。\n\n### 3. A New Treatment Paradigm for Tetralogy of Fallot/Absent Pulmonary Valve with Significant Airway Compromise: Addressing the Airway First.\nPMID 41833793 / Ann Thorac Surg / 2026 Jul\n要点: 生体分解性3次元印刷スプリントによる気管支支持が、三又気管支軟化症を伴うテトラロジー・オブ・フォールト/肺動脈欠如症の気道管理改善に有効である可能性を示唆。  \nPICU/CICUでの意味: 気道優先治療により、気管切開や長期通気療法の必要性が減り、早期退院の可能性が開示された。  \n注意点: 抽象のみに基づくため、患者数が極めて少なく、長期的な効果や適用範囲の検証が求められる。\n\n### 5. Reader Comment on \"Risk Factors and Causes of Readmission to the Pediatric Intensive Care Unit After Cardiac Surgery\".\nPMID 41757867 / World J Pediatr Congenit Heart Surg / 2026 Jul\n要点: 本コメントは、心臓手術後の小児ICU再入院リスク因子に関する論文に対する読者からの意見を示している。  \nPICU/CICUでの意味: 心臓手術後の再入院リスク因子の理解が、小児重症患者の管理戦略に影響を与える可能性がある。  \n注意点: 抽象が提供されていないため、コメントの詳細な内容や臨床的意義は不明である。",
       "articles": [
         {
           "pmid": "42173429",
@@ -668,12 +696,40 @@
           "model": "qwen3:8b",
           "summary": "- 要点: 救助呼吸（RB-CPR）の減少が小児溺水による救命救急の30日死亡率に負の影響を及ぼす可能性を示唆する。  \n- PICU/CICUでの意味: 溺水による救命救急の予後改善には、 bystander CPRにおける救助呼吸の維持が重要である。  \n- 注意点: 結果は抽象のみに基づくため、因果関係や臨床実践への直接的影響は限定的。"
         },
+        "41833793": {
+          "pmid": "41833793",
+          "title": "A New Treatment Paradigm for Tetralogy of Fallot/Absent Pulmonary Valve with Significant Airway Compromise: Addressing the Airway First.",
+          "generatedAt": "2026-06-26T23:14:30.065Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 生体分解性3次元印刷スプリントによる気管支支持が、三又気管支軟化症を伴うテトラロジー・オブ・フォールト/肺動脈欠如症の気道管理改善に有効である可能性を示唆。  \nPICU/CICUでの意味: 気道優先治療により、気管切開や長期通気療法の必要性が減り、早期退院の可能性が開示された。  \n注意点: 抽象のみに基づくため、患者数が極めて少なく、長期的な効果や適用範囲の検証が求められる。"
+        },
+        "41985602": {
+          "pmid": "41985602",
+          "title": "Contemporary Use of Circulatory Arrest and Selective Antegrade Cerebral Perfusion During Neonatal Aortic Arch Surgery-International Survey.",
+          "generatedAt": "2026-06-26T23:14:10.731Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 国際的な調査では、新生児大動脈弓手術において選択的前流脳灌流（SACP）は69.2%の外科医が単独で使用し、深低温循環停止（DHCA）は9.6%が使用している。  \nPICU/CICUでの意味: 脳灌流技術の選択は脳保護戦略に影響し、術中脳血流管理の重要性を示唆する。  \n注意点: 現行の実践には十分な根拠がなく、個々の経験や解剖学的要因に基づく選択が一般的である。"
+        },
         "41995635": {
           "pmid": "41995635",
           "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
           "generatedAt": "2026-06-15T23:56:51.310Z",
           "model": "qwen3:8b",
           "summary": "- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。"
+        },
+        "41999858": {
+          "pmid": "41999858",
+          "title": "The Final Day: What Happens Without a Pre-Existing Do Not Resuscitate Order?",
+          "generatedAt": "2026-06-26T23:13:59.280Z",
+          "model": "qwen3:8b",
+          "summary": "要点: がんを持つ児童において、事前に「救命措置中止」（DNR）指示がなくても心肺蘇生（CPR）が行われる可能性があり、その多くは即死が予想される場合に家族が拒否する傾向がある。  \nPICU/CICUでの意味: ICU内での治療や抗がん剤投与がDNR指示の減少に関連し、終末期の意思決定において医療チームは家族の意向や臨床状態を総合的に評価する必要がある。  \n注意点: 研究は抽象のみに基づくため、個々の臨床状況への直接的な適用は避け、DNR指示の有無にかかわらず終末期ケアの倫理的判断を慎重に行うべきである。"
+        },
+        "42002215": {
+          "pmid": "42002215",
+          "title": "Association of Parenting Stress in Early Childhood with Emotional Health and Resilience of Young Adults with Congenital Heart Disease.",
+          "generatedAt": "2026-06-26T23:13:45.047Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 早期児童期の育てやすさストレスと、先天性心疾患を持つ若年成人の感情的健康および回復力との関連が示唆された。  \n- PICU/CICUでの意味: 早期の家族支援が長期的な精神的健康に影響を与える可能性を示唆し、患者の家族への継続的支援が重要である。  \n- 注意点: 研究は観察的で因果関係は明示せず、抽象のみが提供されているため、臨床的推奨には十分なデータが不足している。"
         },
         "42173429": {
           "pmid": "42173429",
@@ -1707,9 +1763,9 @@
       ]
     }
   ],
-  "lastAutoRunAt": "2026-06-26T22:38:34.409Z",
+  "lastAutoRunAt": "2026-06-26T23:13:22.083Z",
   "lastAutoRunDate": "2026-06-26",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 40198815: 順次AI要約済み / PMID 39841470: 順次AI要約済み / PMID 42173429: 順次AI要約済み / PMID 41819340: 順次AI要約済み / 順次AI要約: 4件追加 / 9/14件済み",
-  "lastImportantRunAt": "2026-06-26T22:38:34.409Z",
-  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 5件"
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42002215: 順次AI要約済み / PMID 41999858: 順次AI要約済み / PMID 41985602: 順次AI要約済み / PMID 41833793: 順次AI要約済み / 順次AI要約: 4件追加 / 13/14件済み",
+  "lastImportantRunAt": "2026-06-26T23:13:22.083Z",
+  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 1件"
 }
