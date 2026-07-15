@@ -106,67 +106,57 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/41995635/"
       },
       {
-        "pmid": "42441757",
-        "title": "Transforming Pulmonary Arterial Hypertension: Key Milestones and Future Perspectives.",
-        "journal": "Circulation",
+        "pmid": "42448377",
+        "title": "Sepsis: NHS to offer wearable tech to at-risk patients to reduce deaths.",
+        "journal": "BMJ",
         "publicationDate": "2026 Jul 14",
         "authors": [
-          "Humbert M",
-          "Zeder K",
-          "Kovacs G",
-          "Weatherald J"
-        ],
-        "abstract": "Pulmonary arterial hypertension (PAH) is a rare, progressive disease of the precapillary pulmonary arteries, characterized by fibroproliferative vascular remodeling, increased pulmonary vascular resistance, right ventricular failure, and premature death. Over the past four decades, substantial advances in understanding PAH pathobiology, epidemiology, diagnosis, and treatment have meaningfully improved patient outcomes. The pathobiology of PAH is multifaceted, involving endothelial dysfunction, smooth muscle cell hyperproliferation, inflammation, and dysregulation of key signaling pathways, including the prostacyclin, nitric oxide, endothelin 1, and bone morphogenetic/TGF-β (transforming growth factor β) axes. Dysregulation of the activin arm of the TGF-β pathway has emerged as a critical driver of vascular remodeling and is the target of sotatercept, the first antiremodeling therapy approved for PAH. Epidemiologically, PAH now more commonly affects older adults with cardiovascular and pulmonary comorbidities compared with historical cohorts. The global burden varies considerably, with methamphetamine-associated PAH rising in North America and schistosomiasis- and HIV-associated PAH prevalent in low- and middle-income countries, where underdiagnosis likely remains substantial. Diagnosis continues to be delayed, with advanced symptoms present at the time of diagnosis for most patients. Right heart catheterization remains essential for definitive diagnosis. Emerging tools, including artificial intelligence applied to electrocardiography, echocardiography, and electronic health records, hold promise for earlier case identification. Management and prognostication of PAH is based on regular risk stratification using validated multiparameter tools. The initial therapy choice is up-front combination therapy with 2 oral medications for most patients, with initial triple therapy that includes a parenteral prostacyclin used in high-risk patients. Add-on therapy with sotatercept is now an option for patients not achieving low risk, a strategy that led to improvements in hemodynamics, right heart function, and reduced the risk of adverse clinical outcomes in recent randomized trials. For patients who remain at higher risk despite maximal therapy, lung transplantation remains an important and life-saving option. Despite remarkable therapy progress, gaps persist in earlier detection, management of comorbid phenotypes, personalized therapy, and novel therapies targeting right ventricular failure. Ongoing clinical trials and translational research continue to advance the field toward the goal of normal survival and quality of life for patients with PAH.",
-        "doi": "10.1161/CIRCULATIONAHA.126.079274",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42441757/"
-      },
-      {
-        "pmid": "42441756",
-        "title": "Reversible ECG Changes in a Rare Case of Shock.",
-        "journal": "Circulation",
-        "publicationDate": "2026 Jul 14",
-        "authors": [
-          "Fragkoulis Y",
-          "Karampinos KI",
-          "Karabinos I"
+          "Iacobucci G"
         ],
         "abstract": "",
-        "doi": "10.1161/CIRCULATIONAHA.126.080922",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42441756/"
+        "doi": "10.1136/bmj-2026-100285",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42448377/"
       },
       {
-        "pmid": "42206375",
-        "title": "Microplastic Exposure Aggravates Cardiomyopathy Under Hemodynamic Stress Through the Gut-Heart Axis.",
-        "journal": "Circulation",
+        "pmid": "42448169",
+        "title": "Beyond Dogma and Data: What I Learned after 50 Years of Cardiac Surgery.",
+        "journal": "J Thorac Cardiovasc Surg",
         "publicationDate": "2026 Jul 14",
         "authors": [
-          "Wang J",
-          "Xu J",
-          "Mai H",
-          "Niu G",
-          "Wu S",
-          "Zhang X"
+          "David TE"
         ],
-        "abstract": "BACKGROUND: Bisphenol F (BPF) is a common substitute for bisphenol A and the most prevalent bisphenol compound in diverse plastic manufacturing applications. However, the potential toxicity of BPF remains largely unexplored. This study investigates the effects of BPF on the cardiovascular system and intestinal barrier.\nMETHODS: Germ-free mouse models and fecal microbiota transplantation techniques were used to confirm the role of gut microbiota in BPF-induced cardiovascular injury. Untargeted metabolomics and spatial metabolomics were used to identify the in vivo metabolic products of BPF. Single-cell sequencing was used to identify which cardiac cell types were damaged by BPF exposure.\nRESULTS: BPF was detected in 90.5% of 285 human urine samples (median, 1.16 ng/μg creatinine). BPF exposure induced cardiomyocyte hypertrophy, cardiac dysfunction, and intestinal barrier damage, effects contingent on the presence of gut microbiota. Metabolomic analysis identified the microbial conversion of BPF to N-acetylputrescine (NAP). Mechanistically, we found that BPF stimulated intestinal epithelial cells to secrete spermidine/spermine N1-acetyltransferase 1 (Sat1), which catalyzed this conversion. Furthermore, NAP impaired the intestinal barrier by disrupting the Golgi-mitochondria axis and caused cardiac hypertrophy by activating the p53 pathway and inhibiting glycolysis in cardiomyocytes. Supplementation with Akkermansia muciniphila or its metabolite tryptophol mitigated BPF-induced cardiac and intestinal injuries by downregulating the Sat1-NAP axis. Clinical analysis further showed elevated serum NAP levels in patients with inflammatory bowel disease, positively correlating with cardiac injury markers.\nCONCLUSIONS: BPF disrupts intestinal barrier function through microbial metabolism involving the tryptophol/Sat1 pathway, leading to NAP production. NAP damages intestinal organelles and enters circulation, inducing cardiac p53 activation and hypertrophy. This study delineates a novel gut microbiota-Sat1-NAP pathway underlying BPF-induced cardiotoxicity, offering new insights for risk assessment and therapeutic intervention.",
-        "doi": "10.1161/CIRCULATIONAHA.126.079820",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42206375/"
+        "abstract": "",
+        "doi": "10.1016/j.jtcvs.2026.06.024",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42448169/"
       },
       {
-        "pmid": "42186808",
-        "title": "Hypoxia Upregulation of BACH1 Aggravates Pulmonary Hypertension Through TGFBR2/SMAD Pathways.",
-        "journal": "Circulation",
+        "pmid": "42448168",
+        "title": "Factors associated with acute intestinal ischemia after cardiac surgery: A propensity score-matched study.",
+        "journal": "J Thorac Cardiovasc Surg",
         "publicationDate": "2026 Jul 14",
         "authors": [
-          "Hou Y",
-          "Li Q",
-          "Wei TW",
-          "Lin X",
-          "Guo J",
-          "Yuan P"
+          "Rømer V",
+          "Holbek BL",
+          "Linde JJ",
+          "Brandtzäg A",
+          "Resch T",
+          "Millarch A"
         ],
-        "abstract": "BACKGROUND: Vascular remodeling is a central characteristic of pulmonary hypertension (PH), yet the precise mechanisms underlying this process remain poorly understood.\nMETHODS: The coimmunoprecipitation assay was used to explore prolyl hydroxylase that modifies BACH1 (BTB and CNC homology 1). Cultured pulmonary artery smooth muscle cells, rodent models with PH, specimens from patients with idiopathic pulmonary arterial hypertension, and single-nucleus RNA sequencing were used to study the role of BACH1 in the regulation of PH and the underlying mechanisms.\nRESULTS: In this study, we found that the transcription factor BACH1 was upregulated in lung tissues and pulmonary artery smooth muscle cells from patients with idiopathic pulmonary arterial hypertension and animals with experimental PH. Under normoxia, the prolyl hydroxylation of BACH1, mediated by PHD (prolyl hydroxylase) 2, facilitated BACH1 degradation by VHL (von Hippel-Lindau) protein. Hypoxic exposure decreased this prolyl hydroxylation with subsequent increased BACH1 protein stability. The deficiency or overexpression of BACH1 in smooth muscle cells in mice alleviated or exacerbated pulmonary vascular remodeling and hypoxia-induced PH. Hypoxia triggered the accumulation of BACH1 and its recruitment to the promoter region of TGFBR2 (transforming growth factor β receptor type II) in smooth muscle cells. This recruitment activated TGFBR2 transcription, thereby promoting vascular remodeling by upregulating SMAD (suppressor of mothers against decapentaplegic) signaling and extracellular matrix deposition. Decreased TGFBR2 expression or inhibited kinase activity significantly attenuated the BACH1-induced extracellular matrix genes. Furthermore, the BACH1-enhanced PH development was blunted by a TGFBR2 kinase inhibitor.\nCONCLUSIONS: Our study illustrates that BACH1 is prolyl-hydroxylated in an oxygen/PHD-dependent manner, affecting its stability through VHL. BACH1 is crucial for hypoxia-induced PH by activating TGFBR2/SMAD in smooth muscle cells. Thus, BACH1 inhibition may be a potential therapeutic strategy for PH.",
-        "doi": "10.1161/CIRCULATIONAHA.124.073606",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42186808/"
+        "abstract": "OBJECTIVES: Acute intestinal ischemia from cardiac surgery is rare but highly lethal. Conventional risk models lack preoperative markers reflecting splanchnic arterial capacity. We hypothesized that subclinical abdominal atherosclerosis predisposes to perioperative intestinal ischemia and introduced a novel radiological measurement-the Total Enteric Cross-Sectional Artery-area (TECSA)-to quantify anatomical obstruction of intestinal flow capacity.\nMETHODS: In this retrospective, propensity score-matched study, we identified 53 cases of acute intestinal ischemia among 9,301 cardiac surgery patients during years 2016-2024. Ten cases were excluded for aortic dissection (n=9) and transplantation surgery (n=1). The remaining 43 cases were compared with 86 matched controls. Minimal luminal cross-sectional areas of the coeliac trunk, superior and inferior mesenteric, and internal iliac arteries were measured on CT-angiograms and indexed to body surface area to derive TECSA. Abdominal aortic and splanchnic calcium-scores and stenoses were also assessed. Associations were analyzed using multivariable logistic regression with multiple imputations.\nRESULTS: TECSA was lower in cases compared with controls (median 59 versus 92 mm 2 /m 2 , p<0.001). TECSA in the lowest quartile (≤61.5 mm 2 /m 2 ) was independently associated with high odds of intestinal ischemia (adjusted OR 8.10, 95% CI 1.58-41.41). High abdominal aortic calcium-score was associated with intestinal ischemia in a sensitivity analysis (≥10,559; adjusted OR 6.13, 95% CI 1.29-29.21). Coeliac trunk stenosis showed a weak association among complete cases only.\nCONCLUSIONS: Low TECSA and high abdominal aortic calcium-score identify patients at risk of acute intestinal ischemia. TECSA represents a novel, physiologically grounded, and reproducible radiological measurement for risk stratification in cardiac surgery.",
+        "doi": "10.1016/j.jtcvs.2026.07.001",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42448168/"
+      },
+      {
+        "pmid": "42448167",
+        "title": "Commentary: Why do we still not know what causes vasoplegia?: On: Galloway AC et al. Proteomic, Transcriptomic, and Metabolic Mediators of Post-Cardiopulmonary Bypass Vasoplegia Syndrome. JTCVS in press.",
+        "journal": "J Thorac Cardiovasc Surg",
+        "publicationDate": "2026 Jul 14",
+        "authors": [
+          "Sellke FW"
+        ],
+        "abstract": "",
+        "doi": "10.1016/j.jtcvs.2026.07.003",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42448167/"
       }
     ]
   },
@@ -175,8 +165,8 @@
     "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。"
   },
   "fetchedAtByAlert": {
-    "focused": "2026-07-14T03:57:49.705Z",
-    "broad": "2026-07-14T03:57:49.705Z"
+    "focused": "2026-07-15T06:20:31.354Z",
+    "broad": "2026-07-15T06:20:31.354Z"
   },
   "importantArticles": [
     {
@@ -248,25 +238,25 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40198815/"
     },
     {
-      "pmid": "39841470",
-      "title": "Supine Blood Pressure and Risk of Cardiovascular Disease and Mortality.",
-      "journal": "JAMA Cardiol",
-      "publicationDate": "2025 Mar 01",
+      "pmid": "40439782",
+      "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
+      "journal": "Ann Intensive Care",
+      "publicationDate": "2025 May 29",
       "authors": [
-        "Giao DM",
-        "Col H",
-        "Larbi Kwapong F",
-        "Turkson-Ocran RA",
-        "Ngo LH",
-        "Cluett JL"
+        "Mekontso Dessap A",
+        "Dauger S",
+        "Khellaf M",
+        "Agbakou M",
+        "Agut S",
+        "Angoulvant F"
       ],
-      "abstract": "IMPORTANCE: Nocturnal hypertension while asleep is associated with substantial increases in risk of cardiovascular disease (CVD) and death. Whether hypertension while supine is a risk factor associated with CVD independent of seated hypertension remains unknown.\nOBJECTIVE: To investigate the association between supine hypertension and CVD outcomes and by hypertension treatment status.\nDESIGN, SETTING, AND PARTICIPANTS: This prospective cohort study used data from the Atherosclerosis Risk in Communities (ARIC) study, which was established in 1987 to examine cardiovascular risk factors among middle-aged adults from 4 communities in the US. Supine and seated blood pressure were measured in more than 13 000 middle-aged adults with longitudinal surveillance for CVD over 27 years. Participants with a history of coronary heart disease (CHD), heart failure, or stroke were excluded. Data were analyzed from May 2023 through December 2024.\nEXPOSURES: Supine hypertension (supine systolic blood pressure ≥130 or diastolic blood pressure ≥80 mm Hg) with and without seated hypertension (seated systolic blood pressure ≥130 or diastolic blood pressure ≥80 mm Hg).\nMAIN OUTCOMES AND MEASURES: Cox proportional hazard models with adjustment for CVD risk factors were performed to investigate the association of supine hypertension with and without seated hypertension with incident CHD, heart failure, stroke, fatal CHD, and all-cause mortality.\nRESULTS: Of 11 369 participants without known CVD (6332 female [55.7%] and 5037 male [44.3%]; 2858 Black [25.1%] and 8511 White [74.9%]; mean [SD] age 53.9 [5.7] years]), 16.4% (95% CI, 15.5%-17.2%) of those without seated hypertension had supine hypertension and 73.5% (95% CI, 72.2%-74.8%) of those with seated hypertension had supine hypertension. Supine hypertension was associated with incident CHD (hazard ratio [HR], 1.60; 95% CI, 1.45-1.76), heart failure (HR, 1.83; 95% CI, 1.68-2.01), stroke (HR, 1.86; 95% CI, 1.63-2.13), fatal CHD (HR, 2.18; 95% CI, 1.84-2.59), and all-cause mortality (HR, 1.43; 95% CI, 1.35-1.52) during a median (25th, 75th percentile) follow-up of 25.7 (15.4, 30.4) years, 26.9 (17.6, 30.5) years, 27.6 (18.5, 30.6 years), 28.3 (20.5, 30.7) years, and 28.3 (20.5 years, 30.7) years, respectively. There were no meaningful differences by seated hypertension status. Results were similar by hypertension medication use. Participants with supine hypertension alone had risk associations similar to those of participants with hypertension in both positions and significantly greater than those of participants with seated hypertension alone with the exception of fatal CHD; seated vs supine HRs were 0.72 (95% CI, 0.61-0.85) for CHD, 0.72 (95% CI, 0.60-0.85) for heart failure, 0.66 (95% CI, 0.51-0.86) for stroke, and 0.83 (95% CI, 0.74-0.92) for all-cause mortality.\nCONCLUSIONS AND RELEVANCE: Supine hypertension regardless of seated hypertension had a higher HR for CVD risk than seated hypertension alone. Future research should evaluate supine hypertension in the setting of nocturnal hypertension and as an independent target of blood pressure treatment.",
-      "doi": "10.1001/jamacardio.2024.5213",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39841470/"
+      "abstract": "Forty-two questions were evaluated concerning management of emergencies and critical illnesses in paediatric and adult patients with sickle cell disease. The assessment covered the following areas: patient referral, vaso-occlusive crisis, acute chest syndrome, transfusion therapy, and priapism. The patient referral category included guidelines for admission to intensive care unit and management at specialized reference centers. The vaso-occlusive crisis topic encompassed pain management, hydration, incentive spirometry, and target oxygen saturation levels. For acute chest syndrome, the focus areas included imaging techniques such as lung ultrasound, computed tomography scans, and echocardiography; treatment with systemic corticosteroids; non-invasive ventilation; prophylactic and therapeutic anticoagulation; and procalcitonin and antibiotic therapy. The section on transfusion therapy addressed indications and methods of transfusion, as well as the diagnosis and prediction of delayed hemolytic transfusion reactions. A total of 45 recommendations were proposed, including 14 specific to adults, 13 specific to pediatrics, and 18 applicable to both adults and children, along with three therapeutic algorithms. The Grade of Recommendation Assessment, Development, and Evaluation (GRADE) methodology was adhered to throughout the process. Sixteen recommendations were based on a low level of evidence (GRADE 2+ or 2-), while 26 were based on evidence that could not be classified under the GRADE system and were therefore considered expert opinions. Finally, for three aspects of sickle cell disease management, the experts concluded that no reliable recommendations could be made based on the current state of knowledge. The recommendations and therapeutic algorithms received strong agreement from the experts.",
+      "doi": "10.1186/s13613-025-01479-3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40439782/"
     }
   ],
-  "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 4. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n### 5. Supine Blood Pressure and Risk of Cardiovascular Disease and Mortality.\nPMID 39841470 / JAMA Cardiol / 2025 Mar 01\n要点: 膝の血圧が高値を示すことが心血管疾患（CVD）および死亡リスクを上昇させる可能性があるが、座っている時の血圧状態との関連性は不明である。  \nPICU/CICUでの意味: 成人における膝の血圧の重要性が示唆され、重症児の血圧モニタリングにおいて注意が必要かもしれない。  \n注意点: 研究対象は成人であり、児童における膝の血圧の臨床的意義は今後の検証が待たれる。",
-  "importantFetchedAt": "2026-07-14T03:57:49.705Z",
+  "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 4. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n### 5. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。",
+  "importantFetchedAt": "2026-07-15T06:20:31.354Z",
   "articleSummariesByPmid": {
     "39208447": {
       "pmid": "39208447",
@@ -431,6 +421,334 @@
     }
   },
   "dailyDigests": [
+    {
+      "date": "2026-07-15",
+      "generatedAt": "2026-07-15T06:20:31.354Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 15件 / AI要約済み 11件 / 未要約 4件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 4. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n### 5. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n## PICU/CICU重点\n\n### 1. Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.\nPMID 42302804 / Lancet Child Adolesc Health / 2026 Aug\n要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。\n\n### 2. Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.\nPMID 42242271 / Lancet Child Adolesc Health / 2026 Aug\n要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。\n\n### 3. Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.\nPMID 42190905 / J Pediatr / 2026 Aug\n- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:\n\n### 4. Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.\nPMID 42190900 / J Pediatr / 2026 Aug\n要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。\n\n### 5. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。",
+      "articles": [
+        {
+          "pmid": "42302804",
+          "title": "Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.",
+          "journal": "Lancet Child Adolesc Health",
+          "publicationDate": "2026 Aug",
+          "authors": [
+            "Carlsen EM",
+            "Hansen BM",
+            "Dungu KHS",
+            "Lindhard MS",
+            "Gudiksen A",
+            "Aunsholt L"
+          ],
+          "abstract": "BACKGROUND: Suspicion of early-onset sepsis (EOS) is a major contributor to antibiotic use in late-preterm and term-born neonates. We aimed to evaluate whether a clinically guided, individualised approach to treatment duration could safely reduce antibiotic exposure compared with standard care.\nMETHODS: This nationwide, multicentre, open-label, randomised, controlled, non-inferiority trial included late-preterm and term-born neonates (aged 0-3 days, gestational age 35 weeks or more, birthweight 2000 g or more) with culture-negative early-onset sepsis (probable EOS), defined as continuation of antibiotic treatment beyond 36-48 h based on clinical signs of or maternal risk factors for infection in combination with elevated C-reactive protein and symptom onset less than 72 h after birth. Neonates were ineligible if they met the criteria for discontinuing antibiotics before 48 h. Participants were randomised (1:1) to individualised or standard treatment. In the individualised group, antibiotic treatment was discontinued after 24 h without clinical signs of infection, provided that C-reactive protein was declining to ≤30 mg/L. Standard treatment was 5-7 days. The coprimary outcomes were readmission due to bacterial infection (non-inferiority margin 4%) and total antibiotic duration (superiority assessment), performed on both intention-to-treat and per-protocol populations. Safety was assessed in all included neonates. This study was registered with ClinicalTrials.gov (NCT05329701) and is completed.\nFINDINGS: Between April 22, 2022, and April 5, 2025, 493 (61%) of 811 eligible neonates were randomly assigned to individualised (n=246) or standard (n=247) duration. Antibiotic therapy was initiated at a median of 22·5 h (IQR 14·4-28·0) after birth in the individualised group and 24·5 h (16·6-28·0) in the standard group. Readmission due to bacterial infection occurred in two (1%) of 246 neonates in the individualised group and one (<1%) of 247 in the standard group (risk difference 0·4% [95% CI -1·5 to 2·6]; p non-inferiority =0·0032). Median total antibiotic treatment within 28 days was 2·8 days (IQR 2·4-3·4) in the individualised group and 6·8 days (6·6-7·0) in the standard group (difference 4·0 days [95% CI 3·8-4·1]; p<0·0001). No serious adverse events occurred in the individualised group and one (<1%) occurred in the standard group (risk difference -0·4% [95% CI -2·3 to 1·1]). Per-protocol results were consistent.\nINTERPRETATION: In neonates with probable EOS, a clinically guided, individualised treatment strategy was non-inferior to standard therapy with respect to infection-related readmission and reduced treatment duration to a median of 3 days. These findings support reduced antibiotic use through individualised treatment duration strategies.\nFUNDING: Copenhagen University Hospital Rigshospitalet Research Fund, Innovation Fund Denmark, and Greater Copenhagen Health Science Partners.",
+          "doi": "10.1016/S2352-4642(26)00118-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42302804/"
+        },
+        {
+          "pmid": "42242271",
+          "title": "Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.",
+          "journal": "Lancet Child Adolesc Health",
+          "publicationDate": "2026 Aug",
+          "authors": [
+            "Martinez TA",
+            "Francis KL",
+            "Kamlin O",
+            "Shalish W",
+            "Sant'Anna G",
+            "Hodgson KA"
+          ],
+          "abstract": "BACKGROUND: To survive, infants born before 26 weeks' gestation require respiratory assistance immediately after birth. However, the respiratory trajectories of these most preterm infants are not well delineated. We aimed to describe the early respiratory trajectories of infants born before 26 weeks' gestation who received surfactant during their initial neonatal intensive care admission.\nMETHODS: This study was a post-hoc exploratory analysis of PLUSS, a randomised controlled trial comparing intratracheal budesonide mixed with surfactant versus surfactant alone. Infants were recruited from 21 neonatal intensive care units in Australia, New Zealand, Canada, and Singapore. Infants born before 28 weeks' gestation and aged less than 48 h were eligible if (1) they were mechanically ventilated, or (2) they were receiving non-invasive respiratory support and there was a clinical decision to treat with surfactant. For this analysis, only infants born before 26 weeks' gestation were included, and treatment and control groups were combined. We aimed to describe early respiratory trajectories, including the levels of respiratory support and oxygen administered during the first 14 days, and respiratory outcomes at 28 postnatal days and 36 weeks' and 40 weeks' postmenstrual age. The main in-hospital respiratory outcomes were the timing and success of the first extubation, the durations of respiratory support, including oxygen requirements, and outcomes at hospital discharge, such as duration of hospital stay and discharge home on oxygen. PLUSS is registered with the Australian New Zealand Clinical Trials Registry (ACTRN12617000322336), and follow-up is ongoing.\nFINDINGS: Between Jan 4, 2018, and March 27, 2023, 1062 infants were recruited to the PLUSS trial, of whom 601 were born before 26 weeks' gestation. 131 (97%) of 135 infants born at 22-23 weeks' gestation were intubated at birth, compared with 163 (74%) of 220 infants born at 24 weeks and 157 (64%) of 246 infants born at 25 weeks. The median postnatal age at first extubation ranged from 15 days (IQR 8-26) in infants born at 22-23 weeks' gestation to 6 days (2-18) in those born at 24 weeks and 3 days (1-10) in those born at 25 weeks. 54 (66%) of 82 infants born at 22-23 weeks' gestation required reintubation, compared with 80 (51%) of 158 infants born at 24 weeks and 72 (38%) of 189 infants born at 25 weeks. The median duration of mechanical ventilation in infants who survived to 36 weeks' postmenstrual age was 36 days (IQR 23-49) in those born at 22-23 weeks' gestation, 26 days (14-39) in those born at 24 weeks, and 12 days (3-27) in those born at 25 weeks. At 40 weeks' postmenstrual age, nine (11%) of 83 surviving infants born at 22-23 weeks' gestation were discharged home, and 63 (85%) of 74 infants still in the hospital were receiving oxygen or respiratory support. By contrast, 36 (23%) of 160 surviving infants born at 24 weeks and 61 (30%) of 204 born at 25 weeks were discharged home, and 97 (78%) of 124 in-hospital infants born at 24 weeks and 79 (55%) of 143 in-hospital infants born at 25 weeks required oxygen or respiratory support.\nINTERPRETATION: The most preterm infants born at the margins of viability require intensive and prolonged respiratory support. Knowledge of the respiratory trajectories in surfactant-treated infants born before 26 weeks' gestation could assist clinicians in family consultations while also guiding future randomised controlled trials.\nFUNDING: National Health and Medical Research Council, Australia; Chiesi Farmaceutici.",
+          "doi": "10.1016/S2352-4642(26)00094-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42242271/"
+        },
+        {
+          "pmid": "42190905",
+          "title": "Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.",
+          "journal": "J Pediatr",
+          "publicationDate": "2026 Aug",
+          "authors": [
+            "DiPrisco B",
+            "Brinker K",
+            "Coyle M",
+            "DuPont T",
+            "Hanin M",
+            "House M"
+          ],
+          "abstract": "OBJECTIVE: To evaluate neurodevelopmental care practices for patients with grade 3 bronchopulmonary dysplasia (BPD), specifically the relationships between frequency of developmental therapies and types of developmentally supportive equipment provided to patients and the patient's current level of respiratory support, while still in the neonatal intensive care unit (NICU).\nSTUDY DESIGN: Cross-sectional study of 22 NICUs in the BPD Collaborative, including all eligible infants in each NICU with grade 3 BPD who had never been discharged home. We collected data about current respiratory support, neurodevelopmental therapies, and availability of developmentally supportive equipment in patients' rooms through the medical records and interviews with bedside nurses.\nRESULTS: For this study 141 infants were included (median postmenstrual age 49 weeks, IQR 43-60 weeks). The majority (65.2%) were receiving invasive ventilation. Respiratory support was significantly associated with any physical therapy (P = .008) or speech therapy (P < .001) and total number of completed therapy sessions in the prior 48 hours (P < .001). Availability of developmentally supportive equipment in an infant's room was also significantly associated with respiratory support. Patients with tracheostomies had a notably higher count of many different types of developmentally supportive equipment in their rooms than those infants with endotracheal tubes and those receiving noninvasive respiratory support. The majority of nurses reported having time to support their patients' development (80%), but fewer than half the infants regularly experienced reading (37%) or singing (46%).\nCONCLUSIONS: Developmental supports for infants with grade 3 BPD vary based on respiratory support and across institutions. Infants with tracheostomies have more opportunities for developmentally supportive activities. These data can be used to benchmark care practices across institutions and guide prospective studies to standardize developmental care and improve outcomes in infants with grade 3 BPD.",
+          "doi": "10.1016/j.jpeds.2026.115157",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42190905/"
+        },
+        {
+          "pmid": "42190900",
+          "title": "Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.",
+          "journal": "J Pediatr",
+          "publicationDate": "2026 Aug",
+          "authors": [
+            "Sutyla RF",
+            "Young KA",
+            "Dhar S",
+            "Nanduri N",
+            "Barton SJ",
+            "Lemmon M"
+          ],
+          "abstract": "OBJECTIVE: To evaluate the language used to discuss a child's disability and understand themes related to its use.\nSTUDY DESIGN: This descriptive qualitative study was embedded in a qualitative study examining family meeting dynamics and decision-making in pediatric and neonatal intensive care units. Family meetings involved an infant 1 year old or younger and were held to discuss neurologic prognosis or goals of care. We performed a secondary, post hoc analysis of family meeting content to characterize language used to discuss current and/or future disability.\nRESULTS: A total of 68 family meetings were screened; 45 (66%) included disability language. Disability was referenced by explicitly naming disability, sharing information about disability characteristics, and using problematic language. We identified 5 themes that further characterized disability language: (1) euphemisms for disability, (2) invoking the healthy other, (3) the intersection between quality of life and disability, (4) using the medical model to contextualize disability, and (5) disability's impact on the child's family.\nCONCLUSIONS: The language used by family members and clinicians to discuss and contextualize disability provides important insight into how disability is addressed in pediatric and neonatal intensive care units. These findings emphasize the importance of including topics related to disability in medical education and can inform further work to develop training tools to aid pediatric clinicians in discussing disability effectively.",
+          "doi": "10.1016/j.jpeds.2026.115160",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42190900/"
+        },
+        {
+          "pmid": "42173429",
+          "title": "Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.",
+          "journal": "Resuscitation",
+          "publicationDate": "2026 Aug",
+          "authors": [
+            "Kolstad V",
+            "Hoven E",
+            "Buskov F",
+            "Eilevstjønn J",
+            "Meinich-Bache Ø",
+            "Engan K"
+          ],
+          "abstract": "AIMS: Newborn resuscitation guidelines recommend stimulation as a first step in non-breathing newborns to facilitate spontaneous breathing. We aimed to evaluate the extent of stimulation in the delivery room, heart rate (HR) responses to stimulation, and association between bradycardia (HR <100 beats per minute (bpm) ≥10 s) in the first minute after birth and the need for positive pressure ventilation (PPV) versus stimulation alone.\nMETHOD: A prospective observational study conducted at tertiary level Stavanger University Hospital, Norway, September 2022-July 2024 including newborns with gestational age ≥34 weeks. Stimulation was registered from thermal videos in the delivery room and visible light cameras over resuscitaires. HR was obtained using dry-electrode ECG.\nRESULTS: 449 included newborns had thermal videos ± visible light video and HR data. 70/449 (16%) newborns did not receive any resuscitative interventions, 345/449 (77%) received stimulation alone, 14/449 (3.1%) received continuous positive airway pressure, and 20/449 (4.4%) received PPV. We observed a HR increase of median 7 bpm among newborns with HR <140 bpm at start stimulation (p < 0.001). Newborns with bradycardia in the first minute after birth had four-fold likelihood of requiring PPV versus tactile stimulation alone (OR 4.81 95% CI 1.39-15.3, p = 0.009).\nCONCLUSION: Tactile stimulation is widely applied during neonatal transition. We observed an increase in HR in relation to tactile stimulation, especially among newborns with HR <140 bpm at start stimulation. Newborns with bradycardia (HR <100 bpm ≥10 s) in the first minute after birth had a four-fold likelihood of requiring PPV versus tactile stimulation alone.",
+          "doi": "10.1016/j.resuscitation.2026.111144",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42173429/"
+        },
+        {
+          "pmid": "41995635",
+          "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
+          "journal": "Ann Thorac Surg",
+          "publicationDate": "2028 Mar 23",
+          "authors": [
+            "Won D",
+            "Bolling SF",
+            "Romano MA",
+            "Johnston DR",
+            "Ailawadi G",
+            "Mehta CK"
+          ],
+          "abstract": "BACKGROUND: Although transcatheter mitral valve-in-valve replacement (mViV) is safe, long-term outcomes compared with reoperative surgical mitral valve replacement (rSMVR) remains unknown. This study compared long-term outcomes between mViV and rSMVR in patients with failing mitral bioprostheses.\nMETHODS: This retrospective, cohort study analyzed patients undergoing mViV or rSMVR for failing bioprosthetic mitral valves without active endocarditis at 2 quaternary care centers from 2004 to 2023. Primary end points included 30-day Mitral Valve Academic Research Consortium (MVARC) procedural success, 5-year cumulative incidence of death, freedom from reintervention, and cumulative incidence of heart failure. Echocardiographic evaluation of mean mitral valve gradients was assessed at baseline and 5-year follow-up.\nRESULTS: Of 229 patients (90 rSMVR, 139 mViV; mean age, 66.0 vs 68.7 years), MVARC 30-day outcomes were similar except for higher prolonged ventilation with rSMVR. At 5 years, rSMVR had significantly lower mortality (20.3% vs 40.9%; P = .01) and lower mean (standard deviation) mitral gradients (immediate postprocedure: 5.1 [2.3] mm Hg vs 7.8 [3.0] mm Hg; 5-year: 5.3 [2.0] mm Hg vs 9.8 [5.3] mm Hg; P < .001). Freedom from mitral valve reintervention (5.8% vs 6.1%; P = .97) and cumulative heart failure incidence (14.3% vs 22.9%; P = .17) were similar.\nCONCLUSIONS: Although mViV demonstrated comparable 30-day MVARC outcomes, rSMVR was associated with superior long-term survival and hemodynamic durability among patients deemed appropriate surgical candidates by a multidisciplinary heart team. Treatment decisions should balance short-term risk with long-term outcomes.",
+          "doi": "10.1016/j.athoracsur.2026.03.032",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41995635/"
+        },
+        {
+          "pmid": "42448377",
+          "title": "Sepsis: NHS to offer wearable tech to at-risk patients to reduce deaths.",
+          "journal": "BMJ",
+          "publicationDate": "2026 Jul 14",
+          "authors": [
+            "Iacobucci G"
+          ],
+          "abstract": "",
+          "doi": "10.1136/bmj-2026-100285",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42448377/"
+        },
+        {
+          "pmid": "42448169",
+          "title": "Beyond Dogma and Data: What I Learned after 50 Years of Cardiac Surgery.",
+          "journal": "J Thorac Cardiovasc Surg",
+          "publicationDate": "2026 Jul 14",
+          "authors": [
+            "David TE"
+          ],
+          "abstract": "",
+          "doi": "10.1016/j.jtcvs.2026.06.024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42448169/"
+        },
+        {
+          "pmid": "42448168",
+          "title": "Factors associated with acute intestinal ischemia after cardiac surgery: A propensity score-matched study.",
+          "journal": "J Thorac Cardiovasc Surg",
+          "publicationDate": "2026 Jul 14",
+          "authors": [
+            "Rømer V",
+            "Holbek BL",
+            "Linde JJ",
+            "Brandtzäg A",
+            "Resch T",
+            "Millarch A"
+          ],
+          "abstract": "OBJECTIVES: Acute intestinal ischemia from cardiac surgery is rare but highly lethal. Conventional risk models lack preoperative markers reflecting splanchnic arterial capacity. We hypothesized that subclinical abdominal atherosclerosis predisposes to perioperative intestinal ischemia and introduced a novel radiological measurement-the Total Enteric Cross-Sectional Artery-area (TECSA)-to quantify anatomical obstruction of intestinal flow capacity.\nMETHODS: In this retrospective, propensity score-matched study, we identified 53 cases of acute intestinal ischemia among 9,301 cardiac surgery patients during years 2016-2024. Ten cases were excluded for aortic dissection (n=9) and transplantation surgery (n=1). The remaining 43 cases were compared with 86 matched controls. Minimal luminal cross-sectional areas of the coeliac trunk, superior and inferior mesenteric, and internal iliac arteries were measured on CT-angiograms and indexed to body surface area to derive TECSA. Abdominal aortic and splanchnic calcium-scores and stenoses were also assessed. Associations were analyzed using multivariable logistic regression with multiple imputations.\nRESULTS: TECSA was lower in cases compared with controls (median 59 versus 92 mm 2 /m 2 , p<0.001). TECSA in the lowest quartile (≤61.5 mm 2 /m 2 ) was independently associated with high odds of intestinal ischemia (adjusted OR 8.10, 95% CI 1.58-41.41). High abdominal aortic calcium-score was associated with intestinal ischemia in a sensitivity analysis (≥10,559; adjusted OR 6.13, 95% CI 1.29-29.21). Coeliac trunk stenosis showed a weak association among complete cases only.\nCONCLUSIONS: Low TECSA and high abdominal aortic calcium-score identify patients at risk of acute intestinal ischemia. TECSA represents a novel, physiologically grounded, and reproducible radiological measurement for risk stratification in cardiac surgery.",
+          "doi": "10.1016/j.jtcvs.2026.07.001",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42448168/"
+        },
+        {
+          "pmid": "42448167",
+          "title": "Commentary: Why do we still not know what causes vasoplegia?: On: Galloway AC et al. Proteomic, Transcriptomic, and Metabolic Mediators of Post-Cardiopulmonary Bypass Vasoplegia Syndrome. JTCVS in press.",
+          "journal": "J Thorac Cardiovasc Surg",
+          "publicationDate": "2026 Jul 14",
+          "authors": [
+            "Sellke FW"
+          ],
+          "abstract": "",
+          "doi": "10.1016/j.jtcvs.2026.07.003",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42448167/"
+        }
+      ],
+      "importantArticles": [
+        {
+          "pmid": "40119480",
+          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
+          "journal": "J Intensive Care",
+          "publicationDate": "2025 Mar 21",
+          "authors": [
+            "Nakamura K",
+            "Yamamoto R",
+            "Higashibeppu N",
+            "Yoshida M",
+            "Tatsumi H",
+            "Shimizu Y"
+          ],
+          "abstract": "Nutrition therapy is important in the management of critically ill patients and is continuously evolving as new evidence emerges. The Japanese Critical Care Nutrition Guideline 2024 (JCCNG 2024) is specific to Japan and is the latest set of clinical practice guidelines for nutrition therapy in critical care that was revised from JCCNG 2016 by the Japanese Society of Intensive Care Medicine. An English version of these guidelines was created based on the contents of the original Japanese version. These guidelines were developed to help health care providers understand and provide nutrition therapy that will improve the outcomes of children and adults admitted to intensive care units or requiring intensive care, regardless of the disease. The intended users of these guidelines are all healthcare professionals involved in intensive care, including those who are not familiar with nutrition therapy. JCCNG 2024 consists of 37 clinical questions and 24 recommendations, covering immunomodulation therapy, nutrition therapy for special conditions, and nutrition therapy for children. These guidelines were developed in accordance with the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) system by experts from various healthcare professionals related to nutrition therapy and/or critical care. All GRADE-based recommendations, good practice statements (GPS), future research questions, and answers to background questions were finalized by consensus using the modified Delphi method. Strong recommendations for adults include early enteral nutrition (EN) within 48 h and the provision of pre/synbiotics. Weak recommendations for adults include the use of a nutrition protocol, EN rather than parenteral nutrition, the provision of higher protein doses, post-pyloric EN, continuous EN, omega-3 fatty acid-enriched EN, the provision of probiotics, and indirect calorimetry use. Weak recommendations for children include early EN within 48 h, bolus EN, and energy/protein-dense EN formulas. A nutritional assessment is recommended by GPS for both adults and children. JCCNG 2024 will be disseminated through educational activities mainly by the JCCNG Committee at various scientific meetings and seminars. Since studies on nutritional treatment for critically ill patients are being reported worldwide, these guidelines will be revised in 4 to 6 years. We hope that these guidelines will be used in clinical practice for critically ill patients and in future research.",
+          "doi": "10.1186/s40560-025-00785-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40119480/"
+        },
+        {
+          "pmid": "40668437",
+          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 Jul 16",
+          "authors": [
+            "Jourdain M",
+            "Chatti IG",
+            "Housni B",
+            "Jaquet P",
+            "Jezequel M",
+            "Kane O"
+          ],
+          "abstract": "BACKGROUND: Although largely used, the place of extracorporeal renal replacement therapy (RRT) in acute kidney injury (AKI) in intensive care unit (ICU) patients has yet to be clarified. The French Intensive Care Society (Société de Réanimation de Langue Française, SRLF) and the French Pediatric Group of Intensive Care and Emergency (Groupe Francophone de Réanimation et d'Urgence Pédiatrique, GFRUP) organized a consensus conference in November 2024.\nMETHODS: A committee, without any conflict of interest (CoI) on the subject, defined seven generic questions and drew up a list of sub questions according to the population, intervention, comparison and outcomes (PICO) model. An independent work group reviewed literature using predefined keywords. The quality of the data was assessed using the GRADE methodology. Eighteen experts in the field from both societies proposed their own answers in a public session and answered questions from the jury (a panel of 14 critical-care medicine physicians and a nurse) and the public. The jury then met for 48 h to write out and vote on its recommendations.\nRESULTS: The panel provided 45 statements addressing seven questions. In patients, adults or children, admitted to the ICU with AKI (1) What are the indications for RRT, when should it be initiated, and within what timeframe? (2) What are the advantages/disadvantages of the different RRT modalities in ICU, and based on what criteria should they be chosen? (3) Which dose of dialysis should be prescribed for ICU patients? (4) How to prescribe, adjust and monitor each RRT technique? (5) Which vascular access technique should be preferred (insertion site, catheter type and length)? (6) How to prevent circuit thrombosis? (7) What are the criteria to consider weaning from RRT and how can it be achieved?\nCONCLUSIONS: These recommendations should optimize the prescription and use of RRT during AKI in ICUs for both adult and pediatric patients.",
+          "doi": "10.1186/s13613-025-01517-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40668437/"
+        },
+        {
+          "pmid": "40665004",
+          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 Jul 15",
+          "authors": [
+            "Reignier J",
+            "Gaillard-Le Roux B",
+            "Dequin PF",
+            "Bertoni Maluf VA",
+            "Bohe J",
+            "Casaer MP"
+          ],
+          "abstract": "The objective of this work was to develop guidelines for nutritional support in critically ill adults and children (excluding neonates and burn patients) unable to maintain an adequate oral intake. We aimed to provide up-to-date recommendations based on high-level evidence including the results of recent landmark randomized controlled trials. Experts from the French Intensive Care Society (SRLF), the French Society of Clinical Nutrition and Metabolism (SFNCM), and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP) used the GRADE methodology to develop the guidelines. Twenty-four Patient Intervention Comparator Outcome (PICO) questions were identified, resulting in 34 adult and 29 pediatric recommendations. Of the 34 recommendations for adults, three were based on high-level evidence, 12 on moderate-level evidence, and 19 on expert opinion. The corresponding numbers for the 29 pediatric recommendations were one, five, and 23. All recommendations achieved strong agreement among the experts. These guidelines emphasize the importance of individualized nutritional support strategies that incorporate recent high-quality evidence to optimize the outcomes of critically ill patients.",
+          "doi": "10.1186/s13613-025-01509-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40665004/"
+        },
+        {
+          "pmid": "40198815",
+          "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
+          "journal": "Eur Heart J Acute Cardiovasc Care",
+          "publicationDate": "2025 Aug 06",
+          "authors": [
+            "Kerneis M",
+            "Ammirati E",
+            "Delmas C",
+            "Heggermont W",
+            "Heymans S",
+            "Lenz M"
+          ],
+          "abstract": "Acute Myocarditis (AM) encompasses a broad spectrum of clinical presentations and causes. Despite the recent advances in cardiovascular imaging, pathology, virology, and genetics, specific therapies are still lacking. This collaborative review aims to analyse the current evidence to answer practical questions that physicians may face during the early management of patients presenting with an acute form of the disease, complicated or not. This review analyses current evidence to address practical questions posed by acute cardiovascular physicians during the early management of acute, or potentially, myocarditis. Based on the current literature, this review provides a step-by-step approach to treat AM patients from their admission in the cardiac intensive care unit (CICU) to discharge, by answering 10 clinical questions: Might this patient be suffering from an AM? Should I hospitalize this patient and, if so, where? Which cardiac imaging exam should I perform and what can I learn from it? Is this patient requiring an EMB? What should the non-invasive aetiological work-up be? Is her/his episode of AM of viral, toxic, or other origin? Does this patient need specific treatments or mechanical circulatory support? Is there an indication for guideline-directed medical heart failure treatment? When can the patient be discharged and resume physical activity? Notably, this review highlights the need to build a multidisciplinary response team to address the many diagnostic and therapeutic challenges of AM patients. It also points out the lack of evidence to guide the treatment of these patients.",
+          "doi": "10.1093/ehjacc/zuaf057",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40198815/"
+        },
+        {
+          "pmid": "40439782",
+          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 May 29",
+          "authors": [
+            "Mekontso Dessap A",
+            "Dauger S",
+            "Khellaf M",
+            "Agbakou M",
+            "Agut S",
+            "Angoulvant F"
+          ],
+          "abstract": "Forty-two questions were evaluated concerning management of emergencies and critical illnesses in paediatric and adult patients with sickle cell disease. The assessment covered the following areas: patient referral, vaso-occlusive crisis, acute chest syndrome, transfusion therapy, and priapism. The patient referral category included guidelines for admission to intensive care unit and management at specialized reference centers. The vaso-occlusive crisis topic encompassed pain management, hydration, incentive spirometry, and target oxygen saturation levels. For acute chest syndrome, the focus areas included imaging techniques such as lung ultrasound, computed tomography scans, and echocardiography; treatment with systemic corticosteroids; non-invasive ventilation; prophylactic and therapeutic anticoagulation; and procalcitonin and antibiotic therapy. The section on transfusion therapy addressed indications and methods of transfusion, as well as the diagnosis and prediction of delayed hemolytic transfusion reactions. A total of 45 recommendations were proposed, including 14 specific to adults, 13 specific to pediatrics, and 18 applicable to both adults and children, along with three therapeutic algorithms. The Grade of Recommendation Assessment, Development, and Evaluation (GRADE) methodology was adhered to throughout the process. Sixteen recommendations were based on a low level of evidence (GRADE 2+ or 2-), while 26 were based on evidence that could not be classified under the GRADE system and were therefore considered expert opinions. Finally, for three aspects of sickle cell disease management, the experts concluded that no reliable recommendations could be made based on the current state of knowledge. The recommendations and therapeutic algorithms received strong agreement from the experts.",
+          "doi": "10.1186/s13613-025-01479-3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40439782/"
+        }
+      ],
+      "articleSummaries": {
+        "40119480": {
+          "pmid": "40119480",
+          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
+          "generatedAt": "2026-06-11T01:17:01.751Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。"
+        },
+        "40198815": {
+          "pmid": "40198815",
+          "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
+          "generatedAt": "2026-06-26T22:38:58.615Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。"
+        },
+        "40439782": {
+          "pmid": "40439782",
+          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
+          "generatedAt": "2026-06-11T01:17:26.413Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。"
+        },
+        "40665004": {
+          "pmid": "40665004",
+          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
+          "generatedAt": "2026-06-11T01:17:13.713Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。"
+        },
+        "40668437": {
+          "pmid": "40668437",
+          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
+          "generatedAt": "2026-06-11T01:17:36.989Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。"
+        },
+        "41995635": {
+          "pmid": "41995635",
+          "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
+          "generatedAt": "2026-06-15T23:56:51.310Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。"
+        },
+        "42173429": {
+          "pmid": "42173429",
+          "title": "Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.",
+          "generatedAt": "2026-06-26T22:39:22.763Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。"
+        },
+        "42190900": {
+          "pmid": "42190900",
+          "title": "Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.",
+          "generatedAt": "2026-07-14T03:59:25.152Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。"
+        },
+        "42190905": {
+          "pmid": "42190905",
+          "title": "Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.",
+          "generatedAt": "2026-07-14T03:59:10.623Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:"
+        },
+        "42242271": {
+          "pmid": "42242271",
+          "title": "Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.",
+          "generatedAt": "2026-07-14T03:58:57.937Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。"
+        },
+        "42302804": {
+          "pmid": "42302804",
+          "title": "Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.",
+          "generatedAt": "2026-07-14T03:58:42.032Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。"
+        }
+      }
+    },
     {
       "date": "2026-07-14",
       "generatedAt": "2026-07-14T03:57:49.705Z",
@@ -2128,9 +2446,9 @@
       ]
     }
   ],
-  "lastAutoRunAt": "2026-07-14T03:57:49.705Z",
-  "lastAutoRunDate": "2026-07-14",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42302804: 順次AI要約済み / PMID 42242271: 順次AI要約済み / PMID 42190905: 順次AI要約済み / PMID 42190900: 順次AI要約済み / 順次AI要約: 4件追加 / 11/15件済み",
-  "lastImportantRunAt": "2026-07-14T03:57:49.705Z",
+  "lastAutoRunAt": "2026-07-15T06:20:31.354Z",
+  "lastAutoRunDate": "2026-07-15",
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42448377: AI要約失敗 (AI接続エラー) / PMID 42448169: AI要約失敗 (AI接続エラー) / PMID 42448168: AI要約失敗 (AI接続エラー) / PMID 42448167: AI要約失敗 (AI接続エラー) / 順次AI要約: 0件追加 / 11/15件済み",
+  "lastImportantRunAt": "2026-07-15T06:20:31.354Z",
   "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 4件"
 }
