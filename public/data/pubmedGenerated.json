@@ -106,6 +106,56 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/41995635/"
       },
       {
+        "pmid": "42461379",
+        "title": "Acute Kidney Injury After Pediatric Heart Transplant: The Impact of Intraoperative Hemodynamics Using High-Fidelity Data.",
+        "journal": "Pediatr Cardiol",
+        "publicationDate": "2026 Jul 16",
+        "authors": [
+          "Cummins M",
+          "Madden B",
+          "Thrush PT",
+          "Basu R",
+          "Loomba RS"
+        ],
+        "abstract": "Acute kidney injury is a frequent complication after pediatric heart transplant and is associated with long-term renal dysfunction and mortality. Factors associated with acute kidney injury have been studied; however, the role of intraoperative physiologic monitoring, particularly renal near infrared spectroscopy, remains incompletely understood. This study aimed to evaluate the association between intraoperative hemodynamic markers with the development of postoperative acute kidney injury in pediatric heart transplant recipients. This was a single-center retrospective study of pediatric patients undergoing orthotopic heart transplantation between 2021 and 2024. Percent change from baseline for various intraoperative hemodynamic indices were collected. Discriminative ability of individual predictors was assessed using receiver operating curve analysis. A multivariable random forest classifier incorporating patient characteristics, operative variables, and intraoperative physiologic changes was developed using fivefold cross-validation, and partial dependence plots were generated for all independent variables. Eighty-four patients were included; 65 (77%) developed postoperative acute kidney injury. Receiver operating curve analysis demonstrated that percent change in renal near infrared spectroscopy was significantly associated with acute kidney injury (area under the curve 0.67, p < 0.01), with an optimal cutoff at a 29% decrease from baseline. Percent change in mean arterial pressure showed modest discrimination (area under the curve 0.61, p = 0.08), while central venous pressure, cardiopulmonary bypass time, and ischemic time were not independently discriminative. The random forest model demonstrated good performance (area under the curve 0.67; Brier score 0.33). Renal near infrared spectroscopy change was the most important predictor, followed by mean arterial pressure change, and weight. Partial dependence analysis identified inflection points at approximately 30% decrease in renal near infrared spectroscopy associated with increased probability of acute kidney injury. In pediatric heart transplant recipients, renal near infrared spectroscopy demonstrated the strongest discriminative ability for postoperative acute kidney injury and outperforms traditional hemodynamic and operative variables. Renal near infrared spectroscopy may serve as a high-fidelity, real-time physiologic marker to identify patients at elevated risk for renal injury and represents a potential target for intraoperative management strategies.",
+        "doi": "10.1007/s00246-026-04377-y",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42461379/"
+      },
+      {
+        "pmid": "42461091",
+        "title": "Safety of Delayed Venoarterial Extracorporeal Membrane Oxygenation Decannulation in Pediatric Patients.",
+        "journal": "World J Pediatr Congenit Heart Surg",
+        "publicationDate": "2026 Jul 16",
+        "authors": [
+          "Ali W",
+          "Lutfi R",
+          "Friedman ML",
+          "Gray BW",
+          "Jayasimha K",
+          "Alhaffar O"
+        ],
+        "abstract": "BackgroundOptimal timing of venoarterial extracorporeal membrane oxygenation (VA-ECMO) decannulation in pediatric patients with congenital or acquired heart disease remains challenging, particularly when myocardial recovery is uncertain. Some centers delay decannulation after successful separation from ECMO to allow extended observation while maintaining cannula access.MethodsWe conducted a single-center retrospective study of patients <18 years of age who underwent delayed VA-ECMO decannulation between 2021 and 2024. Following successful separation from ECMO, cannulas were maintained under standardized anticoagulation, surveillance, and multidisciplinary oversight. Clinical outcomes, procedural complications, vascular findings, and neurologic monitoring results were evaluated.ResultsFifty-seven patients were included (40% [23/57] female; median age 1.6 months [IQR 0.5-5.3]; median weight 3.7 kg [IQR 3.2-5.4]). Most of the patients had congenital heart disease (49/57, 86%), including 53% (30/57) with single-ventricle physiology, and 72% (41/57) who required postoperative ECMO. Median ECMO duration was 107.1 h (IQR 85.7-166.8), and the median interval between ECMO separation and decannulation was 24.6 h (IQR 20.8-28.8). One patient required reinstitution of ECMO prior to decannulation. No major bleeding events, cannula-site infections, or clinically apparent intraluminal thrombosis occurred during the delayed interval. Postdecannulation imaging identified internal jugular vein thrombosis in a subset of patients, most of which resolved on follow-up. Neurologic monitoring revealed no new abnormalities attributable to the delayed decannulation period.ConclusionIn pediatric cardiac patients with complex anatomy and uncertain myocardial recovery, delayed VA-ECMO decannulation is safe and feasible. This strategy may provide a controlled transition off mechanical support in selected high-risk patients. Prospective multicenter studies comparing delayed and immediate decannulation strategies are needed.",
+        "doi": "10.1177/21501351261458298",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42461091/"
+      },
+      {
+        "pmid": "42461087",
+        "title": "Minimally Invasive Congenital Cardiac Surgery in Morocco: Outcomes and Technical Refinements.",
+        "journal": "World J Pediatr Congenit Heart Surg",
+        "publicationDate": "2026 Jul 16",
+        "authors": [
+          "Zalikatou AB",
+          "Son M",
+          "Dicko A",
+          "Benbakh S",
+          "Mardouli ME",
+          "Zouizra Z"
+        ],
+        "abstract": "BackgroundMinimally invasive approaches are increasingly used in congenital cardiac surgery; however, their application remains challenging, particularly in pediatric patients. We report clinical outcomes and technical refinements for minimally invasive congenital cardiac surgery.MethodsThis prospective observational single-center study included 31 patients who underwent minimally invasive congenital cardiac surgery for atrial septal defects, ventricular septal defects, partial atrioventricular septal defects, and other selected lesions using cardiopulmonary bypass between January 2024 and January 2025. Patient selection was based on lesion complexity and anatomical accessibility. Data included demographic characteristics, echocardiographic findings, surgical approach, cannulation strategy, operative times, and postoperative outcomes.ResultsThe study population consisted of 23 females and 8 males, with a median age of 145 months (range: 8-672) and a median weight of 32.5 kg (range: 9-89). Femoral arterial cannulation was performed in 27 patients, with combined femoral and internal jugular venous cannulation used when bicaval drainage was required. Mean aortic cross-clamp time was 51.2 min (range: 20-139). Extubation within 3 h was achieved in 93.5% (29/31) of patients. Mean intensive care unit stay and hospital stay were 2.06 days (range: 1-5) and 6.29 days (range: 4-15), respectively. There was no operative mortality and no conversion to median sternotomy. One of 31 patients (3.2%) developed postoperative atrioventricular block requiring permanent pacemaker implantation. Follow-up of at least 12 months shows satisfactory surgical results.ConclusionsMinimally invasive congenital cardiac surgery is feasible and safe in selected patients. These approaches should be considered as part of a modern congenital cardiac surgery program.",
+        "doi": "10.1177/21501351261460042",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42461087/"
+      },
+      {
         "pmid": "42457242",
         "title": "Epidural analgesia in labour and neonatal and childhood outcomes: national population based cohort study.",
         "journal": "BMJ",
@@ -121,67 +171,16 @@
         "abstract": "OBJECTIVES: To examine whether epidural analgesia in labour is associated with neonatal neurological morbidity, other neonatal morbidity, neonatal sepsis, low Apgar score, neonatal mortality, and childhood cerebral palsy.\nDESIGN: National population based cohort study.\nSETTING: All NHS hospitals in Scotland, using Scottish NHS administrative linked data.\nPARTICIPANTS: 495 695 women in labour with a singleton pregnancy between 24+0 and 42+6 weeks' gestation delivering vaginally or via unplanned caesarean birth between 1 January 2007 and 31 December 2019.\nMAIN OUTCOME MEASURES: The primary outcome was neonatal neurological morbidity defined using ICD-10 codes as one or more of hypoxic ischaemic encephalopathy, neonatal seizures, intraventricular haemorrhage, intraventricular infarction, periventricular leukomalacia, meningitis, encephalitis, kernicterus, hypotonia, birth asphyxia, or other cerebral diagnosis occurring within 28 days of birth. Secondary outcomes were other neonatal morbidity (one or more of acidosis at birth (cord artery pH <7.10), traumatic birth injury, brachial plexus injury, necrotising enterocolitis, respiratory distress syndrome, respiratory failure, pneumothorax, hypoglycaemia, or hypothermia), neonatal sepsis, Apgar score <4 at five minutes following birth, neonatal mortality, and cerebral palsy diagnosed at any point during childhood.\nRESULTS: Of the 495 695 women, 114 897 (23.2%) had epidural analgesia in labour. Neonatal neurological morbidity occurred in 434 babies (0.9 per 1000 births, 95% confidence interval (CI) 0.8 to 1.0). No association was found between epidural analgesia in labour and neonatal neurological morbidity (adjusted relative risk 0.87, 95% CI 0.68 to 1.12), other severe neonatal morbidity (1.17, 0.90 to 1.51), neonatal sepsis (1.11, 0.90 to 1.37), Apgar score <4 at five minutes (0.97, 0.87 to 1.09), neonatal mortality at 28 days (0.81, 0.62 to 1.06), or cerebral palsy in childhood (0.80, 0.60 to 1.06). Findings were consistent across subgroups including women considered to have high risk pregnancies, preterm births, and across different modes of birth.\nCONCLUSION: Epidural analgesia during labour was not associated with clinically significant risks of harm to newborn babies or children, including risks of neonatal morbidity, death, or cerebral palsy. These findings have important policy implications, and support widening availability and equitable access to epidural analgesia as a safe component of intrapartum care.",
         "doi": "10.1136/bmj-2026-343320",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42457242/"
-      },
-      {
-        "pmid": "42456800",
-        "title": "Proteomic, Transcriptomic, and Metabolic Mediators of Post-Cardiopulmonary Bypass Vasoplegia Syndrome.",
-        "journal": "J Thorac Cardiovasc Surg",
-        "publicationDate": "2026 Jul 15",
-        "authors": [
-          "Galloway A",
-          "Magro C",
-          "Goparaju C",
-          "Phillips K",
-          "Tokoro K",
-          "Zhou H"
-        ],
-        "abstract": "OBJECTIVE: Post-cardiopulmonary bypass (post-CPB) vasoplegia syndrome (VS) is associated with a dysregulated inflammatory response and a higher morbidity and mortality, but the molecular pathways involved have been incompletely identified. We used multiplexed proteomic and transcriptomic analyses and targeted biochemical assays to identify the inflammatory and metabolic mediators that characterize post-CPB VS.\nMETHODS: 16 matched pairs of VS+ and VS- patients were analyzed pre-CPB and post-CPB for comparative proteomic and transcriptomic differences, with gene ontology (GO) pathway enrichment. Circulating NO metabolites (NOx), acetylcholine (ACh), and choline acetyltransferase (ChAT) levels were measured and correlated with VS.\nRESULTS: Baseline proteomic analysis demonstrated elevated TNF, IL-1R1 and IL-17RA in VS+ patients, with the activation of inflammatory cytokine, leukocyte activation, and NO biosynthesis pathways. Analysis of temporal pre-to-post-CPB proteomic changes in VS+ patients demonstrated post-CPB elevation IL17A, CXCL2, and VEGFR/FLT, and decreased immune resolving proteins. Post-CPB proteomic analysis demonstrated differential activation of leukocyte trafficking, T-cell differentiation, IL-6, and IL-17 pathways in VS+ patients. Transcriptomic analysis demonstrated post-CPB activation of cellular response to hypoxia, cellular stress response, and decreased response to angiotensin pathways. Circulating NOx, ACh, and ChAT levels were elevated pre-CPB in VS+ patients and increased further post-CPB. Pre-CPB ACh had a 99% AUC correlation with post-CPB VS+.\nCONCLUSIONS: We demonstrated increased baseline cardiovascular inflammation in VS+ patients, which predisposed them to a dysregulated response to CPB, and we identified CPB-induced activation of IL-17 skewed multi-cytokine inflammatory pathways and endothelial activation as mechanistic mediators of post-CPB VS. Circulating ACh was identified as a potential biomarker.",
-        "doi": "10.1016/j.jtcvs.2026.06.026",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42456800/"
-      },
-      {
-        "pmid": "42456111",
-        "title": "Effect of Early Administration of Shenfu Injection on Hemodynamics in Septic Patients: A Multicenter, Randomized, Controlled Trial.",
-        "journal": "Crit Care Med",
-        "publicationDate": "2026 Jul 15",
-        "authors": [
-          "Xiong Y",
-          "Zhang D",
-          "Dong H",
-          "Ye M",
-          "Dai J",
-          "Li L"
-        ],
-        "abstract": "OBJECTIVES: To evaluate the effect of early administration of Shenfu injection (SFI) on hemodynamics and clinical outcomes in ICU patients with sepsis.\nDESIGN: Prospective, multicenter randomized controlled trial.\nSETTING: Four tertiary care hospitals located in central China.\nPATIENTS: ICU patients 18-75 years old who met the Sepsis-3 diagnostic criteria.\nINTERVENTIONS: Eligible septic patients were randomized to the SFI group or the control group, receiving either SFI or normal saline at a rate of 20 mL/hr in 5 hours from the time of sepsis diagnosis, bid for 3 consecutive days.\nMEASUREMENTS AND MAIN RESULTS: The primary outcome was the amount of vasopressors administration (calculated as the norepinephrine equivalents [NEEs]). A total of 172 patients were enrolled, with 86 assigned to the SFI group and 86 to the control group. Compared with the control group, the SFI group had no significant improvement in total NEE doses (22.00 [16.00-29.50] vs. 20.00 [12.50-28.50]; p = 0.16). However, compared with the control group, the SFI group showed significantly lower mortality both during ICU stay (3.5% vs. 11.6%; p = 0.04) and 28 days after treatment (15.1% vs. 27.9%; p = 0.04). The SFI group also exhibited a significant improvement in sublingual microcirculation indicators compared with control group. No significant drug-related adverse events were noted in either group.\nCONCLUSIONS: The early administration of SFI did not decrease the dosage of vasopressors. The secondary outcomes suggested a potential decrease in mortality and possible improvement in microcirculation, findings that require further validation.",
-        "doi": "10.1097/CCM.0000000000007269",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42456111/"
-      },
-      {
-        "pmid": "42456091",
-        "title": "Lidocaine Versus Amiodarone in Patients With Shockable Out-of-Hospital Cardiac Arrest: A Target Trial Emulation.",
-        "journal": "Crit Care Med",
-        "publicationDate": "2026 Jul 15",
-        "authors": [
-          "Gelbenegger G",
-          "Cheskes S",
-          "Drennan IR",
-          "Lin S",
-          "Jilma B",
-          "Zeitlinger M"
-        ],
-        "abstract": "OBJECTIVES: Amiodarone or lidocaine are recommended for the treatment of shockable out-of-hospital cardiac arrest (OHCA). Previous comparisons between the two antiarrhythmic drugs were inconclusive.\nDESIGN: This analysis included data from the Resuscitation Outcomes Consortium Cardiac Epidemiologic Registry 3 (2011-2015). A target trial framework was used to overcome confounding inherent in observational comparisons.\nSETTING: Data from patients with OHCA were prospectively collected by emergency medical services (EMS) at multiple North American sites.\nPATIENTS: Adults with nontraumatic OHCA and an initial shockable rhythm who received at least three defibrillation attempts were included. Time zero was defined as first antiarrhythmic drug administration, at which eligibility criteria had to be met.\nINTERVENTIONS: Two antiarrhythmic treatment strategies were compared: lidocaine vs. amiodarone.\nMEASUREMENTS AND MAIN RESULTS: The primary outcome was survival to hospital discharge. The key secondary outcome was favorable neurologic outcome at discharge (modified Rankin scale score of 3 or less). Group differences were adjusted using inverse probability weighting (key covariates: age, sex, location of OHCA, witness status, bystander resuscitation, automated external defibrillator shock, elapsed time from call to advanced life support arrival/first EMS shock/advanced airway, intraosseous access) and a multiple logistic regression model. Of 2451 patients included, 987 received lidocaine and 1464 received amiodarone. The adjusted percentage point difference in survival to hospital discharge was 2.8% favoring lidocaine (95% CI, -0.6 to 6.2); the estimated survival probabilities were 26.2% (275/987) with lidocaine and 23.5% (329/1464) with amiodarone. No difference was observed in the estimated probability of favorable neurologic outcome at discharge between the lidocaine group (17.7%) and the amiodarone group (16.2%) (adjusted difference, 1.5%; 95% CI, -1.5 to 4.5).\nCONCLUSIONS: No statistically significant difference in survival or favorable neurologic outcome was observed between lidocaine and amiodarone; however, the wide CIs cannot exclude a clinically meaningful benefit for lidocaine. These findings are consistent with randomized controlled trials, but residual confounding cannot be excluded.",
-        "doi": "10.1097/CCM.0000000000007265",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42456091/"
       }
     ]
   },
   "summaryByAlert": {
     "focused": "## PICU/CICU重点\n\n### 1. Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.\nPMID 42302804 / Lancet Child Adolesc Health / 2026 Aug\n要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。\n\n### 2. Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.\nPMID 42242271 / Lancet Child Adolesc Health / 2026 Aug\n要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。\n\n### 3. Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.\nPMID 42190905 / J Pediatr / 2026 Aug\n- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:\n\n### 4. Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.\nPMID 42190900 / J Pediatr / 2026 Aug\n要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。\n\n### 5. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。",
-    "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。"
+    "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Acute Kidney Injury After Pediatric Heart Transplant: The Impact of Intraoperative Hemodynamics Using High-Fidelity Data.\nPMID 42461379 / Pediatr Cardiol / 2026 Jul 16\n- 要点: 小児心臓移植後の急性腎不全（AKI）は、術中血行動態指標と関連しており、高フィデリティデータを用いた解析がその予測に貢献した。  \n- PICU/CICUでの意味: 術中血行動態モニタリングの重要性が強調され、AKIリスク評価に役立つ可能性がある。  \n- 注意点: 売り上げデータベースに基づく retrospective 研究であり、単一施設での結果であるため、一般化には注意が必要。\n\n### 3. Safety of Delayed Venoarterial Extracorporeal Membrane Oxygenation Decannulation in Pediatric Patients.\nPMID 42461091 / World J Pediatr Congenit Heart Surg / 2026 Jul 16\n- 要点: 延期されたVA-ECMOデカンulationは小児患者において安全性が確認された。  \n- PICU/CICUでの意味: 心機能回復が不確実な場合でも、ECMO離脱後の観察期間を延長する戦略として有用である可能性。  \n- 注意点: 単一施設の後ろ向き研究であり、標準化された抗凝固・監視プロトコルの重要性が示唆される。\n\n### 4. Minimally Invasive Congenital Cardiac Surgery in Morocco: Outcomes and Technical Refinements.\nPMID 42461087 / World J Pediatr Congenit Heart Surg / 2026 Jul 16\n- 要点: モロッコにおける小児先天性心疾患に対する最小侵襲手術の臨床結果と技術的改善が報告され、フェムローラル cannulation とバイカバルドレインのための組み合わせ cannulation 策が用いられた。  \n- PICU/CICUでの意味: 資源制約下での最小侵襲手術の実施可能性を示唆するが、術後管理の詳細なデータは不足している。  \n- 注意点: 抽象のみに基づくため、術後合併症やICU滞在期間などの重要な情報は含まれていない。\n\n### 5. Epidural analgesia in labour and neonatal and childhood outcomes: national population based cohort study.\nPMID 42457242 / BMJ / 2026 Jul 15\n要点: 妊娠中の分娩時の epidural 植入は、新生児神経学的合併症や小児期脳性麻痺などの主要な出生後合併症との関連性を示唆しなかった。  \nPICU/CICUでの意味: epidural 植入は新生児の神経学的合併症のリスクに影響を与えない可能性があり、PICU/CICUへの入院要因として直接的な関連性は確認されなかった。  \n注意点: 観察研究であり、因果関係の証明には至らず、出生前後の他の要因の調整が限られている可能性がある。"
   },
   "fetchedAtByAlert": {
-    "focused": "2026-07-16T12:34:52.999Z",
-    "broad": "2026-07-16T12:34:52.999Z"
+    "focused": "2026-07-16T23:01:20.274Z",
+    "broad": "2026-07-16T23:01:20.274Z"
   },
   "importantArticles": [
     {
@@ -219,6 +218,23 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40668437/"
     },
     {
+      "pmid": "40439782",
+      "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
+      "journal": "Ann Intensive Care",
+      "publicationDate": "2025 May 29",
+      "authors": [
+        "Mekontso Dessap A",
+        "Dauger S",
+        "Khellaf M",
+        "Agbakou M",
+        "Agut S",
+        "Angoulvant F"
+      ],
+      "abstract": "Forty-two questions were evaluated concerning management of emergencies and critical illnesses in paediatric and adult patients with sickle cell disease. The assessment covered the following areas: patient referral, vaso-occlusive crisis, acute chest syndrome, transfusion therapy, and priapism. The patient referral category included guidelines for admission to intensive care unit and management at specialized reference centers. The vaso-occlusive crisis topic encompassed pain management, hydration, incentive spirometry, and target oxygen saturation levels. For acute chest syndrome, the focus areas included imaging techniques such as lung ultrasound, computed tomography scans, and echocardiography; treatment with systemic corticosteroids; non-invasive ventilation; prophylactic and therapeutic anticoagulation; and procalcitonin and antibiotic therapy. The section on transfusion therapy addressed indications and methods of transfusion, as well as the diagnosis and prediction of delayed hemolytic transfusion reactions. A total of 45 recommendations were proposed, including 14 specific to adults, 13 specific to pediatrics, and 18 applicable to both adults and children, along with three therapeutic algorithms. The Grade of Recommendation Assessment, Development, and Evaluation (GRADE) methodology was adhered to throughout the process. Sixteen recommendations were based on a low level of evidence (GRADE 2+ or 2-), while 26 were based on evidence that could not be classified under the GRADE system and were therefore considered expert opinions. Finally, for three aspects of sickle cell disease management, the experts concluded that no reliable recommendations could be made based on the current state of knowledge. The recommendations and therapeutic algorithms received strong agreement from the experts.",
+      "doi": "10.1186/s13613-025-01479-3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40439782/"
+    },
+    {
       "pmid": "40665004",
       "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
       "journal": "Ann Intensive Care",
@@ -251,27 +267,10 @@
       "abstract": "Acute Myocarditis (AM) encompasses a broad spectrum of clinical presentations and causes. Despite the recent advances in cardiovascular imaging, pathology, virology, and genetics, specific therapies are still lacking. This collaborative review aims to analyse the current evidence to answer practical questions that physicians may face during the early management of patients presenting with an acute form of the disease, complicated or not. This review analyses current evidence to address practical questions posed by acute cardiovascular physicians during the early management of acute, or potentially, myocarditis. Based on the current literature, this review provides a step-by-step approach to treat AM patients from their admission in the cardiac intensive care unit (CICU) to discharge, by answering 10 clinical questions: Might this patient be suffering from an AM? Should I hospitalize this patient and, if so, where? Which cardiac imaging exam should I perform and what can I learn from it? Is this patient requiring an EMB? What should the non-invasive aetiological work-up be? Is her/his episode of AM of viral, toxic, or other origin? Does this patient need specific treatments or mechanical circulatory support? Is there an indication for guideline-directed medical heart failure treatment? When can the patient be discharged and resume physical activity? Notably, this review highlights the need to build a multidisciplinary response team to address the many diagnostic and therapeutic challenges of AM patients. It also points out the lack of evidence to guide the treatment of these patients.",
       "doi": "10.1093/ehjacc/zuaf057",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40198815/"
-    },
-    {
-      "pmid": "40439782",
-      "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
-      "journal": "Ann Intensive Care",
-      "publicationDate": "2025 May 29",
-      "authors": [
-        "Mekontso Dessap A",
-        "Dauger S",
-        "Khellaf M",
-        "Agbakou M",
-        "Agut S",
-        "Angoulvant F"
-      ],
-      "abstract": "Forty-two questions were evaluated concerning management of emergencies and critical illnesses in paediatric and adult patients with sickle cell disease. The assessment covered the following areas: patient referral, vaso-occlusive crisis, acute chest syndrome, transfusion therapy, and priapism. The patient referral category included guidelines for admission to intensive care unit and management at specialized reference centers. The vaso-occlusive crisis topic encompassed pain management, hydration, incentive spirometry, and target oxygen saturation levels. For acute chest syndrome, the focus areas included imaging techniques such as lung ultrasound, computed tomography scans, and echocardiography; treatment with systemic corticosteroids; non-invasive ventilation; prophylactic and therapeutic anticoagulation; and procalcitonin and antibiotic therapy. The section on transfusion therapy addressed indications and methods of transfusion, as well as the diagnosis and prediction of delayed hemolytic transfusion reactions. A total of 45 recommendations were proposed, including 14 specific to adults, 13 specific to pediatrics, and 18 applicable to both adults and children, along with three therapeutic algorithms. The Grade of Recommendation Assessment, Development, and Evaluation (GRADE) methodology was adhered to throughout the process. Sixteen recommendations were based on a low level of evidence (GRADE 2+ or 2-), while 26 were based on evidence that could not be classified under the GRADE system and were therefore considered expert opinions. Finally, for three aspects of sickle cell disease management, the experts concluded that no reliable recommendations could be made based on the current state of knowledge. The recommendations and therapeutic algorithms received strong agreement from the experts.",
-      "doi": "10.1186/s13613-025-01479-3",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40439782/"
     }
   ],
-  "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 4. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n### 5. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。",
-  "importantFetchedAt": "2026-07-16T12:34:52.999Z",
+  "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。",
+  "importantFetchedAt": "2026-07-16T23:01:20.274Z",
   "articleSummariesByPmid": {
     "39208447": {
       "pmid": "39208447",
@@ -433,13 +432,41 @@
       "generatedAt": "2026-07-14T03:58:42.032Z",
       "model": "qwen3:8b",
       "summary": "要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。"
+    },
+    "42457242": {
+      "pmid": "42457242",
+      "title": "Epidural analgesia in labour and neonatal and childhood outcomes: national population based cohort study.",
+      "generatedAt": "2026-07-16T23:02:21.754Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 妊娠中の分娩時の epidural 植入は、新生児神経学的合併症や小児期脳性麻痺などの主要な出生後合併症との関連性を示唆しなかった。  \nPICU/CICUでの意味: epidural 植入は新生児の神経学的合併症のリスクに影響を与えない可能性があり、PICU/CICUへの入院要因として直接的な関連性は確認されなかった。  \n注意点: 観察研究であり、因果関係の証明には至らず、出生前後の他の要因の調整が限られている可能性がある。"
+    },
+    "42461087": {
+      "pmid": "42461087",
+      "title": "Minimally Invasive Congenital Cardiac Surgery in Morocco: Outcomes and Technical Refinements.",
+      "generatedAt": "2026-07-16T23:02:06.181Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: モロッコにおける小児先天性心疾患に対する最小侵襲手術の臨床結果と技術的改善が報告され、フェムローラル cannulation とバイカバルドレインのための組み合わせ cannulation 策が用いられた。  \n- PICU/CICUでの意味: 資源制約下での最小侵襲手術の実施可能性を示唆するが、術後管理の詳細なデータは不足している。  \n- 注意点: 抽象のみに基づくため、術後合併症やICU滞在期間などの重要な情報は含まれていない。"
+    },
+    "42461091": {
+      "pmid": "42461091",
+      "title": "Safety of Delayed Venoarterial Extracorporeal Membrane Oxygenation Decannulation in Pediatric Patients.",
+      "generatedAt": "2026-07-16T23:01:52.897Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: 延期されたVA-ECMOデカンulationは小児患者において安全性が確認された。  \n- PICU/CICUでの意味: 心機能回復が不確実な場合でも、ECMO離脱後の観察期間を延長する戦略として有用である可能性。  \n- 注意点: 単一施設の後ろ向き研究であり、標準化された抗凝固・監視プロトコルの重要性が示唆される。"
+    },
+    "42461379": {
+      "pmid": "42461379",
+      "title": "Acute Kidney Injury After Pediatric Heart Transplant: The Impact of Intraoperative Hemodynamics Using High-Fidelity Data.",
+      "generatedAt": "2026-07-16T23:01:43.802Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: 小児心臓移植後の急性腎不全（AKI）は、術中血行動態指標と関連しており、高フィデリティデータを用いた解析がその予測に貢献した。  \n- PICU/CICUでの意味: 術中血行動態モニタリングの重要性が強調され、AKIリスク評価に役立つ可能性がある。  \n- 注意点: 売り上げデータベースに基づく retrospective 研究であり、単一施設での結果であるため、一般化には注意が必要。"
     }
   },
   "dailyDigests": [
     {
       "date": "2026-07-16",
-      "generatedAt": "2026-07-16T12:34:52.999Z",
-      "summary": "## 今日の順次AI要約\n\n取得候補 15件 / AI要約済み 11件 / 未要約 4件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 4. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n### 5. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n## PICU/CICU重点\n\n### 1. Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.\nPMID 42302804 / Lancet Child Adolesc Health / 2026 Aug\n要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。\n\n### 2. Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.\nPMID 42242271 / Lancet Child Adolesc Health / 2026 Aug\n要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。\n\n### 3. Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.\nPMID 42190905 / J Pediatr / 2026 Aug\n- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:\n\n### 4. Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.\nPMID 42190900 / J Pediatr / 2026 Aug\n要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。\n\n### 5. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。",
+      "generatedAt": "2026-07-16T23:01:20.274Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 15件 / AI要約済み 15件 / 未要約 0件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n## PICU/CICU重点\n\n### 1. Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.\nPMID 42302804 / Lancet Child Adolesc Health / 2026 Aug\n要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。\n\n### 2. Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.\nPMID 42242271 / Lancet Child Adolesc Health / 2026 Aug\n要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。\n\n### 3. Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.\nPMID 42190905 / J Pediatr / 2026 Aug\n- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:\n\n### 4. Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.\nPMID 42190900 / J Pediatr / 2026 Aug\n要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。\n\n### 5. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Acute Kidney Injury After Pediatric Heart Transplant: The Impact of Intraoperative Hemodynamics Using High-Fidelity Data.\nPMID 42461379 / Pediatr Cardiol / 2026 Jul 16\n- 要点: 小児心臓移植後の急性腎不全（AKI）は、術中血行動態指標と関連しており、高フィデリティデータを用いた解析がその予測に貢献した。  \n- PICU/CICUでの意味: 術中血行動態モニタリングの重要性が強調され、AKIリスク評価に役立つ可能性がある。  \n- 注意点: 売り上げデータベースに基づく retrospective 研究であり、単一施設での結果であるため、一般化には注意が必要。\n\n### 3. Safety of Delayed Venoarterial Extracorporeal Membrane Oxygenation Decannulation in Pediatric Patients.\nPMID 42461091 / World J Pediatr Congenit Heart Surg / 2026 Jul 16\n- 要点: 延期されたVA-ECMOデカンulationは小児患者において安全性が確認された。  \n- PICU/CICUでの意味: 心機能回復が不確実な場合でも、ECMO離脱後の観察期間を延長する戦略として有用である可能性。  \n- 注意点: 単一施設の後ろ向き研究であり、標準化された抗凝固・監視プロトコルの重要性が示唆される。\n\n### 4. Minimally Invasive Congenital Cardiac Surgery in Morocco: Outcomes and Technical Refinements.\nPMID 42461087 / World J Pediatr Congenit Heart Surg / 2026 Jul 16\n- 要点: モロッコにおける小児先天性心疾患に対する最小侵襲手術の臨床結果と技術的改善が報告され、フェムローラル cannulation とバイカバルドレインのための組み合わせ cannulation 策が用いられた。  \n- PICU/CICUでの意味: 資源制約下での最小侵襲手術の実施可能性を示唆するが、術後管理の詳細なデータは不足している。  \n- 注意点: 抽象のみに基づくため、術後合併症やICU滞在期間などの重要な情報は含まれていない。\n\n### 5. Epidural analgesia in labour and neonatal and childhood outcomes: national population based cohort study.\nPMID 42457242 / BMJ / 2026 Jul 15\n要点: 妊娠中の分娩時の epidural 植入は、新生児神経学的合併症や小児期脳性麻痺などの主要な出生後合併症との関連性を示唆しなかった。  \nPICU/CICUでの意味: epidural 植入は新生児の神経学的合併症のリスクに影響を与えない可能性があり、PICU/CICUへの入院要因として直接的な関連性は確認されなかった。  \n注意点: 観察研究であり、因果関係の証明には至らず、出生前後の他の要因の調整が限られている可能性がある。",
       "articles": [
         {
           "pmid": "42302804",
@@ -544,6 +571,56 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41995635/"
         },
         {
+          "pmid": "42461379",
+          "title": "Acute Kidney Injury After Pediatric Heart Transplant: The Impact of Intraoperative Hemodynamics Using High-Fidelity Data.",
+          "journal": "Pediatr Cardiol",
+          "publicationDate": "2026 Jul 16",
+          "authors": [
+            "Cummins M",
+            "Madden B",
+            "Thrush PT",
+            "Basu R",
+            "Loomba RS"
+          ],
+          "abstract": "Acute kidney injury is a frequent complication after pediatric heart transplant and is associated with long-term renal dysfunction and mortality. Factors associated with acute kidney injury have been studied; however, the role of intraoperative physiologic monitoring, particularly renal near infrared spectroscopy, remains incompletely understood. This study aimed to evaluate the association between intraoperative hemodynamic markers with the development of postoperative acute kidney injury in pediatric heart transplant recipients. This was a single-center retrospective study of pediatric patients undergoing orthotopic heart transplantation between 2021 and 2024. Percent change from baseline for various intraoperative hemodynamic indices were collected. Discriminative ability of individual predictors was assessed using receiver operating curve analysis. A multivariable random forest classifier incorporating patient characteristics, operative variables, and intraoperative physiologic changes was developed using fivefold cross-validation, and partial dependence plots were generated for all independent variables. Eighty-four patients were included; 65 (77%) developed postoperative acute kidney injury. Receiver operating curve analysis demonstrated that percent change in renal near infrared spectroscopy was significantly associated with acute kidney injury (area under the curve 0.67, p < 0.01), with an optimal cutoff at a 29% decrease from baseline. Percent change in mean arterial pressure showed modest discrimination (area under the curve 0.61, p = 0.08), while central venous pressure, cardiopulmonary bypass time, and ischemic time were not independently discriminative. The random forest model demonstrated good performance (area under the curve 0.67; Brier score 0.33). Renal near infrared spectroscopy change was the most important predictor, followed by mean arterial pressure change, and weight. Partial dependence analysis identified inflection points at approximately 30% decrease in renal near infrared spectroscopy associated with increased probability of acute kidney injury. In pediatric heart transplant recipients, renal near infrared spectroscopy demonstrated the strongest discriminative ability for postoperative acute kidney injury and outperforms traditional hemodynamic and operative variables. Renal near infrared spectroscopy may serve as a high-fidelity, real-time physiologic marker to identify patients at elevated risk for renal injury and represents a potential target for intraoperative management strategies.",
+          "doi": "10.1007/s00246-026-04377-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42461379/"
+        },
+        {
+          "pmid": "42461091",
+          "title": "Safety of Delayed Venoarterial Extracorporeal Membrane Oxygenation Decannulation in Pediatric Patients.",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Jul 16",
+          "authors": [
+            "Ali W",
+            "Lutfi R",
+            "Friedman ML",
+            "Gray BW",
+            "Jayasimha K",
+            "Alhaffar O"
+          ],
+          "abstract": "BackgroundOptimal timing of venoarterial extracorporeal membrane oxygenation (VA-ECMO) decannulation in pediatric patients with congenital or acquired heart disease remains challenging, particularly when myocardial recovery is uncertain. Some centers delay decannulation after successful separation from ECMO to allow extended observation while maintaining cannula access.MethodsWe conducted a single-center retrospective study of patients <18 years of age who underwent delayed VA-ECMO decannulation between 2021 and 2024. Following successful separation from ECMO, cannulas were maintained under standardized anticoagulation, surveillance, and multidisciplinary oversight. Clinical outcomes, procedural complications, vascular findings, and neurologic monitoring results were evaluated.ResultsFifty-seven patients were included (40% [23/57] female; median age 1.6 months [IQR 0.5-5.3]; median weight 3.7 kg [IQR 3.2-5.4]). Most of the patients had congenital heart disease (49/57, 86%), including 53% (30/57) with single-ventricle physiology, and 72% (41/57) who required postoperative ECMO. Median ECMO duration was 107.1 h (IQR 85.7-166.8), and the median interval between ECMO separation and decannulation was 24.6 h (IQR 20.8-28.8). One patient required reinstitution of ECMO prior to decannulation. No major bleeding events, cannula-site infections, or clinically apparent intraluminal thrombosis occurred during the delayed interval. Postdecannulation imaging identified internal jugular vein thrombosis in a subset of patients, most of which resolved on follow-up. Neurologic monitoring revealed no new abnormalities attributable to the delayed decannulation period.ConclusionIn pediatric cardiac patients with complex anatomy and uncertain myocardial recovery, delayed VA-ECMO decannulation is safe and feasible. This strategy may provide a controlled transition off mechanical support in selected high-risk patients. Prospective multicenter studies comparing delayed and immediate decannulation strategies are needed.",
+          "doi": "10.1177/21501351261458298",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42461091/"
+        },
+        {
+          "pmid": "42461087",
+          "title": "Minimally Invasive Congenital Cardiac Surgery in Morocco: Outcomes and Technical Refinements.",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Jul 16",
+          "authors": [
+            "Zalikatou AB",
+            "Son M",
+            "Dicko A",
+            "Benbakh S",
+            "Mardouli ME",
+            "Zouizra Z"
+          ],
+          "abstract": "BackgroundMinimally invasive approaches are increasingly used in congenital cardiac surgery; however, their application remains challenging, particularly in pediatric patients. We report clinical outcomes and technical refinements for minimally invasive congenital cardiac surgery.MethodsThis prospective observational single-center study included 31 patients who underwent minimally invasive congenital cardiac surgery for atrial septal defects, ventricular septal defects, partial atrioventricular septal defects, and other selected lesions using cardiopulmonary bypass between January 2024 and January 2025. Patient selection was based on lesion complexity and anatomical accessibility. Data included demographic characteristics, echocardiographic findings, surgical approach, cannulation strategy, operative times, and postoperative outcomes.ResultsThe study population consisted of 23 females and 8 males, with a median age of 145 months (range: 8-672) and a median weight of 32.5 kg (range: 9-89). Femoral arterial cannulation was performed in 27 patients, with combined femoral and internal jugular venous cannulation used when bicaval drainage was required. Mean aortic cross-clamp time was 51.2 min (range: 20-139). Extubation within 3 h was achieved in 93.5% (29/31) of patients. Mean intensive care unit stay and hospital stay were 2.06 days (range: 1-5) and 6.29 days (range: 4-15), respectively. There was no operative mortality and no conversion to median sternotomy. One of 31 patients (3.2%) developed postoperative atrioventricular block requiring permanent pacemaker implantation. Follow-up of at least 12 months shows satisfactory surgical results.ConclusionsMinimally invasive congenital cardiac surgery is feasible and safe in selected patients. These approaches should be considered as part of a modern congenital cardiac surgery program.",
+          "doi": "10.1177/21501351261460042",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42461087/"
+        },
+        {
           "pmid": "42457242",
           "title": "Epidural analgesia in labour and neonatal and childhood outcomes: national population based cohort study.",
           "journal": "BMJ",
@@ -559,57 +636,6 @@
           "abstract": "OBJECTIVES: To examine whether epidural analgesia in labour is associated with neonatal neurological morbidity, other neonatal morbidity, neonatal sepsis, low Apgar score, neonatal mortality, and childhood cerebral palsy.\nDESIGN: National population based cohort study.\nSETTING: All NHS hospitals in Scotland, using Scottish NHS administrative linked data.\nPARTICIPANTS: 495 695 women in labour with a singleton pregnancy between 24+0 and 42+6 weeks' gestation delivering vaginally or via unplanned caesarean birth between 1 January 2007 and 31 December 2019.\nMAIN OUTCOME MEASURES: The primary outcome was neonatal neurological morbidity defined using ICD-10 codes as one or more of hypoxic ischaemic encephalopathy, neonatal seizures, intraventricular haemorrhage, intraventricular infarction, periventricular leukomalacia, meningitis, encephalitis, kernicterus, hypotonia, birth asphyxia, or other cerebral diagnosis occurring within 28 days of birth. Secondary outcomes were other neonatal morbidity (one or more of acidosis at birth (cord artery pH <7.10), traumatic birth injury, brachial plexus injury, necrotising enterocolitis, respiratory distress syndrome, respiratory failure, pneumothorax, hypoglycaemia, or hypothermia), neonatal sepsis, Apgar score <4 at five minutes following birth, neonatal mortality, and cerebral palsy diagnosed at any point during childhood.\nRESULTS: Of the 495 695 women, 114 897 (23.2%) had epidural analgesia in labour. Neonatal neurological morbidity occurred in 434 babies (0.9 per 1000 births, 95% confidence interval (CI) 0.8 to 1.0). No association was found between epidural analgesia in labour and neonatal neurological morbidity (adjusted relative risk 0.87, 95% CI 0.68 to 1.12), other severe neonatal morbidity (1.17, 0.90 to 1.51), neonatal sepsis (1.11, 0.90 to 1.37), Apgar score <4 at five minutes (0.97, 0.87 to 1.09), neonatal mortality at 28 days (0.81, 0.62 to 1.06), or cerebral palsy in childhood (0.80, 0.60 to 1.06). Findings were consistent across subgroups including women considered to have high risk pregnancies, preterm births, and across different modes of birth.\nCONCLUSION: Epidural analgesia during labour was not associated with clinically significant risks of harm to newborn babies or children, including risks of neonatal morbidity, death, or cerebral palsy. These findings have important policy implications, and support widening availability and equitable access to epidural analgesia as a safe component of intrapartum care.",
           "doi": "10.1136/bmj-2026-343320",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42457242/"
-        },
-        {
-          "pmid": "42456800",
-          "title": "Proteomic, Transcriptomic, and Metabolic Mediators of Post-Cardiopulmonary Bypass Vasoplegia Syndrome.",
-          "journal": "J Thorac Cardiovasc Surg",
-          "publicationDate": "2026 Jul 15",
-          "authors": [
-            "Galloway A",
-            "Magro C",
-            "Goparaju C",
-            "Phillips K",
-            "Tokoro K",
-            "Zhou H"
-          ],
-          "abstract": "OBJECTIVE: Post-cardiopulmonary bypass (post-CPB) vasoplegia syndrome (VS) is associated with a dysregulated inflammatory response and a higher morbidity and mortality, but the molecular pathways involved have been incompletely identified. We used multiplexed proteomic and transcriptomic analyses and targeted biochemical assays to identify the inflammatory and metabolic mediators that characterize post-CPB VS.\nMETHODS: 16 matched pairs of VS+ and VS- patients were analyzed pre-CPB and post-CPB for comparative proteomic and transcriptomic differences, with gene ontology (GO) pathway enrichment. Circulating NO metabolites (NOx), acetylcholine (ACh), and choline acetyltransferase (ChAT) levels were measured and correlated with VS.\nRESULTS: Baseline proteomic analysis demonstrated elevated TNF, IL-1R1 and IL-17RA in VS+ patients, with the activation of inflammatory cytokine, leukocyte activation, and NO biosynthesis pathways. Analysis of temporal pre-to-post-CPB proteomic changes in VS+ patients demonstrated post-CPB elevation IL17A, CXCL2, and VEGFR/FLT, and decreased immune resolving proteins. Post-CPB proteomic analysis demonstrated differential activation of leukocyte trafficking, T-cell differentiation, IL-6, and IL-17 pathways in VS+ patients. Transcriptomic analysis demonstrated post-CPB activation of cellular response to hypoxia, cellular stress response, and decreased response to angiotensin pathways. Circulating NOx, ACh, and ChAT levels were elevated pre-CPB in VS+ patients and increased further post-CPB. Pre-CPB ACh had a 99% AUC correlation with post-CPB VS+.\nCONCLUSIONS: We demonstrated increased baseline cardiovascular inflammation in VS+ patients, which predisposed them to a dysregulated response to CPB, and we identified CPB-induced activation of IL-17 skewed multi-cytokine inflammatory pathways and endothelial activation as mechanistic mediators of post-CPB VS. Circulating ACh was identified as a potential biomarker.",
-          "doi": "10.1016/j.jtcvs.2026.06.026",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42456800/"
-        },
-        {
-          "pmid": "42456111",
-          "title": "Effect of Early Administration of Shenfu Injection on Hemodynamics in Septic Patients: A Multicenter, Randomized, Controlled Trial.",
-          "journal": "Crit Care Med",
-          "publicationDate": "2026 Jul 15",
-          "authors": [
-            "Xiong Y",
-            "Zhang D",
-            "Dong H",
-            "Ye M",
-            "Dai J",
-            "Li L"
-          ],
-          "abstract": "OBJECTIVES: To evaluate the effect of early administration of Shenfu injection (SFI) on hemodynamics and clinical outcomes in ICU patients with sepsis.\nDESIGN: Prospective, multicenter randomized controlled trial.\nSETTING: Four tertiary care hospitals located in central China.\nPATIENTS: ICU patients 18-75 years old who met the Sepsis-3 diagnostic criteria.\nINTERVENTIONS: Eligible septic patients were randomized to the SFI group or the control group, receiving either SFI or normal saline at a rate of 20 mL/hr in 5 hours from the time of sepsis diagnosis, bid for 3 consecutive days.\nMEASUREMENTS AND MAIN RESULTS: The primary outcome was the amount of vasopressors administration (calculated as the norepinephrine equivalents [NEEs]). A total of 172 patients were enrolled, with 86 assigned to the SFI group and 86 to the control group. Compared with the control group, the SFI group had no significant improvement in total NEE doses (22.00 [16.00-29.50] vs. 20.00 [12.50-28.50]; p = 0.16). However, compared with the control group, the SFI group showed significantly lower mortality both during ICU stay (3.5% vs. 11.6%; p = 0.04) and 28 days after treatment (15.1% vs. 27.9%; p = 0.04). The SFI group also exhibited a significant improvement in sublingual microcirculation indicators compared with control group. No significant drug-related adverse events were noted in either group.\nCONCLUSIONS: The early administration of SFI did not decrease the dosage of vasopressors. The secondary outcomes suggested a potential decrease in mortality and possible improvement in microcirculation, findings that require further validation.",
-          "doi": "10.1097/CCM.0000000000007269",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42456111/"
-        },
-        {
-          "pmid": "42456091",
-          "title": "Lidocaine Versus Amiodarone in Patients With Shockable Out-of-Hospital Cardiac Arrest: A Target Trial Emulation.",
-          "journal": "Crit Care Med",
-          "publicationDate": "2026 Jul 15",
-          "authors": [
-            "Gelbenegger G",
-            "Cheskes S",
-            "Drennan IR",
-            "Lin S",
-            "Jilma B",
-            "Zeitlinger M"
-          ],
-          "abstract": "OBJECTIVES: Amiodarone or lidocaine are recommended for the treatment of shockable out-of-hospital cardiac arrest (OHCA). Previous comparisons between the two antiarrhythmic drugs were inconclusive.\nDESIGN: This analysis included data from the Resuscitation Outcomes Consortium Cardiac Epidemiologic Registry 3 (2011-2015). A target trial framework was used to overcome confounding inherent in observational comparisons.\nSETTING: Data from patients with OHCA were prospectively collected by emergency medical services (EMS) at multiple North American sites.\nPATIENTS: Adults with nontraumatic OHCA and an initial shockable rhythm who received at least three defibrillation attempts were included. Time zero was defined as first antiarrhythmic drug administration, at which eligibility criteria had to be met.\nINTERVENTIONS: Two antiarrhythmic treatment strategies were compared: lidocaine vs. amiodarone.\nMEASUREMENTS AND MAIN RESULTS: The primary outcome was survival to hospital discharge. The key secondary outcome was favorable neurologic outcome at discharge (modified Rankin scale score of 3 or less). Group differences were adjusted using inverse probability weighting (key covariates: age, sex, location of OHCA, witness status, bystander resuscitation, automated external defibrillator shock, elapsed time from call to advanced life support arrival/first EMS shock/advanced airway, intraosseous access) and a multiple logistic regression model. Of 2451 patients included, 987 received lidocaine and 1464 received amiodarone. The adjusted percentage point difference in survival to hospital discharge was 2.8% favoring lidocaine (95% CI, -0.6 to 6.2); the estimated survival probabilities were 26.2% (275/987) with lidocaine and 23.5% (329/1464) with amiodarone. No difference was observed in the estimated probability of favorable neurologic outcome at discharge between the lidocaine group (17.7%) and the amiodarone group (16.2%) (adjusted difference, 1.5%; 95% CI, -1.5 to 4.5).\nCONCLUSIONS: No statistically significant difference in survival or favorable neurologic outcome was observed between lidocaine and amiodarone; however, the wide CIs cannot exclude a clinically meaningful benefit for lidocaine. These findings are consistent with randomized controlled trials, but residual confounding cannot be excluded.",
-          "doi": "10.1097/CCM.0000000000007265",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42456091/"
         }
       ],
       "importantArticles": [
@@ -648,6 +674,23 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/40668437/"
         },
         {
+          "pmid": "40439782",
+          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 May 29",
+          "authors": [
+            "Mekontso Dessap A",
+            "Dauger S",
+            "Khellaf M",
+            "Agbakou M",
+            "Agut S",
+            "Angoulvant F"
+          ],
+          "abstract": "Forty-two questions were evaluated concerning management of emergencies and critical illnesses in paediatric and adult patients with sickle cell disease. The assessment covered the following areas: patient referral, vaso-occlusive crisis, acute chest syndrome, transfusion therapy, and priapism. The patient referral category included guidelines for admission to intensive care unit and management at specialized reference centers. The vaso-occlusive crisis topic encompassed pain management, hydration, incentive spirometry, and target oxygen saturation levels. For acute chest syndrome, the focus areas included imaging techniques such as lung ultrasound, computed tomography scans, and echocardiography; treatment with systemic corticosteroids; non-invasive ventilation; prophylactic and therapeutic anticoagulation; and procalcitonin and antibiotic therapy. The section on transfusion therapy addressed indications and methods of transfusion, as well as the diagnosis and prediction of delayed hemolytic transfusion reactions. A total of 45 recommendations were proposed, including 14 specific to adults, 13 specific to pediatrics, and 18 applicable to both adults and children, along with three therapeutic algorithms. The Grade of Recommendation Assessment, Development, and Evaluation (GRADE) methodology was adhered to throughout the process. Sixteen recommendations were based on a low level of evidence (GRADE 2+ or 2-), while 26 were based on evidence that could not be classified under the GRADE system and were therefore considered expert opinions. Finally, for three aspects of sickle cell disease management, the experts concluded that no reliable recommendations could be made based on the current state of knowledge. The recommendations and therapeutic algorithms received strong agreement from the experts.",
+          "doi": "10.1186/s13613-025-01479-3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40439782/"
+        },
+        {
           "pmid": "40665004",
           "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
           "journal": "Ann Intensive Care",
@@ -680,23 +723,6 @@
           "abstract": "Acute Myocarditis (AM) encompasses a broad spectrum of clinical presentations and causes. Despite the recent advances in cardiovascular imaging, pathology, virology, and genetics, specific therapies are still lacking. This collaborative review aims to analyse the current evidence to answer practical questions that physicians may face during the early management of patients presenting with an acute form of the disease, complicated or not. This review analyses current evidence to address practical questions posed by acute cardiovascular physicians during the early management of acute, or potentially, myocarditis. Based on the current literature, this review provides a step-by-step approach to treat AM patients from their admission in the cardiac intensive care unit (CICU) to discharge, by answering 10 clinical questions: Might this patient be suffering from an AM? Should I hospitalize this patient and, if so, where? Which cardiac imaging exam should I perform and what can I learn from it? Is this patient requiring an EMB? What should the non-invasive aetiological work-up be? Is her/his episode of AM of viral, toxic, or other origin? Does this patient need specific treatments or mechanical circulatory support? Is there an indication for guideline-directed medical heart failure treatment? When can the patient be discharged and resume physical activity? Notably, this review highlights the need to build a multidisciplinary response team to address the many diagnostic and therapeutic challenges of AM patients. It also points out the lack of evidence to guide the treatment of these patients.",
           "doi": "10.1093/ehjacc/zuaf057",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40198815/"
-        },
-        {
-          "pmid": "40439782",
-          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
-          "journal": "Ann Intensive Care",
-          "publicationDate": "2025 May 29",
-          "authors": [
-            "Mekontso Dessap A",
-            "Dauger S",
-            "Khellaf M",
-            "Agbakou M",
-            "Agut S",
-            "Angoulvant F"
-          ],
-          "abstract": "Forty-two questions were evaluated concerning management of emergencies and critical illnesses in paediatric and adult patients with sickle cell disease. The assessment covered the following areas: patient referral, vaso-occlusive crisis, acute chest syndrome, transfusion therapy, and priapism. The patient referral category included guidelines for admission to intensive care unit and management at specialized reference centers. The vaso-occlusive crisis topic encompassed pain management, hydration, incentive spirometry, and target oxygen saturation levels. For acute chest syndrome, the focus areas included imaging techniques such as lung ultrasound, computed tomography scans, and echocardiography; treatment with systemic corticosteroids; non-invasive ventilation; prophylactic and therapeutic anticoagulation; and procalcitonin and antibiotic therapy. The section on transfusion therapy addressed indications and methods of transfusion, as well as the diagnosis and prediction of delayed hemolytic transfusion reactions. A total of 45 recommendations were proposed, including 14 specific to adults, 13 specific to pediatrics, and 18 applicable to both adults and children, along with three therapeutic algorithms. The Grade of Recommendation Assessment, Development, and Evaluation (GRADE) methodology was adhered to throughout the process. Sixteen recommendations were based on a low level of evidence (GRADE 2+ or 2-), while 26 were based on evidence that could not be classified under the GRADE system and were therefore considered expert opinions. Finally, for three aspects of sickle cell disease management, the experts concluded that no reliable recommendations could be made based on the current state of knowledge. The recommendations and therapeutic algorithms received strong agreement from the experts.",
-          "doi": "10.1186/s13613-025-01479-3",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40439782/"
         }
       ],
       "articleSummaries": {
@@ -776,6 +802,34 @@
           "generatedAt": "2026-07-14T03:58:42.032Z",
           "model": "qwen3:8b",
           "summary": "要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。"
+        },
+        "42457242": {
+          "pmid": "42457242",
+          "title": "Epidural analgesia in labour and neonatal and childhood outcomes: national population based cohort study.",
+          "generatedAt": "2026-07-16T23:02:21.754Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 妊娠中の分娩時の epidural 植入は、新生児神経学的合併症や小児期脳性麻痺などの主要な出生後合併症との関連性を示唆しなかった。  \nPICU/CICUでの意味: epidural 植入は新生児の神経学的合併症のリスクに影響を与えない可能性があり、PICU/CICUへの入院要因として直接的な関連性は確認されなかった。  \n注意点: 観察研究であり、因果関係の証明には至らず、出生前後の他の要因の調整が限られている可能性がある。"
+        },
+        "42461087": {
+          "pmid": "42461087",
+          "title": "Minimally Invasive Congenital Cardiac Surgery in Morocco: Outcomes and Technical Refinements.",
+          "generatedAt": "2026-07-16T23:02:06.181Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: モロッコにおける小児先天性心疾患に対する最小侵襲手術の臨床結果と技術的改善が報告され、フェムローラル cannulation とバイカバルドレインのための組み合わせ cannulation 策が用いられた。  \n- PICU/CICUでの意味: 資源制約下での最小侵襲手術の実施可能性を示唆するが、術後管理の詳細なデータは不足している。  \n- 注意点: 抽象のみに基づくため、術後合併症やICU滞在期間などの重要な情報は含まれていない。"
+        },
+        "42461091": {
+          "pmid": "42461091",
+          "title": "Safety of Delayed Venoarterial Extracorporeal Membrane Oxygenation Decannulation in Pediatric Patients.",
+          "generatedAt": "2026-07-16T23:01:52.897Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 延期されたVA-ECMOデカンulationは小児患者において安全性が確認された。  \n- PICU/CICUでの意味: 心機能回復が不確実な場合でも、ECMO離脱後の観察期間を延長する戦略として有用である可能性。  \n- 注意点: 単一施設の後ろ向き研究であり、標準化された抗凝固・監視プロトコルの重要性が示唆される。"
+        },
+        "42461379": {
+          "pmid": "42461379",
+          "title": "Acute Kidney Injury After Pediatric Heart Transplant: The Impact of Intraoperative Hemodynamics Using High-Fidelity Data.",
+          "generatedAt": "2026-07-16T23:01:43.802Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 小児心臓移植後の急性腎不全（AKI）は、術中血行動態指標と関連しており、高フィデリティデータを用いた解析がその予測に貢献した。  \n- PICU/CICUでの意味: 術中血行動態モニタリングの重要性が強調され、AKIリスク評価に役立つ可能性がある。  \n- 注意点: 売り上げデータベースに基づく retrospective 研究であり、単一施設での結果であるため、一般化には注意が必要。"
         }
       }
     },
@@ -2804,9 +2858,9 @@
       ]
     }
   ],
-  "lastAutoRunAt": "2026-07-16T12:34:52.999Z",
+  "lastAutoRunAt": "2026-07-16T23:01:20.274Z",
   "lastAutoRunDate": "2026-07-16",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42457242: AI要約失敗 (AI接続エラー) / PMID 42456800: AI要約失敗 (AI接続エラー) / PMID 42456111: AI要約失敗 (AI接続エラー) / PMID 42456091: AI要約失敗 (AI接続エラー) / 順次AI要約: 0件追加 / 11/15件済み",
-  "lastImportantRunAt": "2026-07-16T12:34:52.999Z",
-  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 4件"
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42461379: 順次AI要約済み / PMID 42461091: 順次AI要約済み / PMID 42461087: 順次AI要約済み / PMID 42457242: 順次AI要約済み / 順次AI要約: 4件追加 / 15/15件済み",
+  "lastImportantRunAt": "2026-07-16T23:01:20.274Z",
+  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 0件"
 }
