@@ -106,6 +106,35 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/41995635/"
       },
       {
+        "pmid": "42471239",
+        "title": "Cold Exposure, Sunlight, and Particulate Matter in Acute Heart Failure: Signals and Uncertainties.",
+        "journal": "Eur Heart J Acute Cardiovasc Care",
+        "publicationDate": "2026 Jul 19",
+        "authors": [
+          "Münzel T",
+          "Kuntic M",
+          "Daiber A"
+        ],
+        "abstract": "",
+        "doi": "10.1093/ehjacc/zuag095",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42471239/"
+      },
+      {
+        "pmid": "42470615",
+        "title": "Methodological Considerations in Interpreting Inflammatory Mediator Profiles Following Pediatric Cardiopulmonary Bypass Prime Exposure.",
+        "journal": "World J Pediatr Congenit Heart Surg",
+        "publicationDate": "2026 Jul 18",
+        "authors": [
+          "Thakkar R",
+          "Raina D",
+          "Maji C",
+          "Anjum V"
+        ],
+        "abstract": "",
+        "doi": "10.1177/21501351261450092",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42470615/"
+      },
+      {
         "pmid": "42341796",
         "title": "Safety, pharmacokinetics, and exploratory efficacy of the oral ghrelin receptor agonist AC01 in heart failure with reduced ejection fraction (GOAL-HF1): a randomised, double-blind, placebo-controlled, phase 1b/2a study.",
         "journal": "Lancet",
@@ -138,47 +167,16 @@
         "abstract": "BACKGROUND: The aim of this study was to compare the clinical characteristics, treatments and outcomes of immunocompromised patients with viral severe acute respiratory infections (SARI), to those of immunocompetent patients admitted to an intensive care unit (ICU) across Australia.\nMETHODS: Retrospective analysis of a prospective, nation-wide, observational registry of 46 ICUs from June 2022 to August 2025. Critically ill adults (age ≥ 18) with laboratory-confirmed viral SARI were included. Immunocompromised status was defined by the presence of any one of the following: chronic immunosuppression, malignant neoplasm, AIDS/HIV, or organ transplantation. Associations between immunocompromised status and in-hospital mortality were evaluated using mixed-effects logistic regression models. Competing risks regression (Fine and Gray models) was used to assess the association between immunocompromised status and risk of hospital discharge within 30 days.\nRESULTS: Among 4,703 patients with viral SARI who were admitted to ICUs, immunocompromised patients accounted for 908 (19.3%) cases. Immunocompromised patients were older (median age 67 vs. 62 years), more comorbid (31.4% vs. 22.5% with ≥ 3 comorbidities), and more frequently admitted with COVID-19 (51.1% vs. 34.5%); (p < 0.001 for all). Immunocompromised patients received more treatment, including antivirals (67.3% vs. 57.7%), and corticosteroids (81.7% vs. 72%) and had higher in-hospital mortality (22.7% vs. 13.1%); (p < 0.01 for all). After adjusting for demographics, comorbidities, vaccination status (where available), ICU interventions and treatments, immunocompromised status was independently associated with nearly double the odds of in-hospital mortality (adjusted OR 1.93, 95% CI 1.57-2.37).\nCONCLUSIONS: In this study, we found that immunocompromised patients accounted for approximately one-fifth of critically ill viral SARI patients and had nearly twice the odds of in-hospital mortality, when compared to those that were immunocompetent. Targeted public health campaigns and improved treatment strategies may be warranted for this population.",
         "doi": "10.1186/s13054-026-06192-6",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42469923/"
-      },
-      {
-        "pmid": "42469893",
-        "title": "BMI-dependent norepinephrine trajectories during vasopressin therapy in septic shock persist independent of weight-normalization and body composition.",
-        "journal": "Crit Care",
-        "publicationDate": "2026 Jul 17",
-        "authors": [
-          "Melchers M",
-          "Pickkers P",
-          "van Zanten ARH"
-        ],
-        "abstract": "",
-        "doi": "10.1186/s13054-026-06147-x",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42469893/"
-      },
-      {
-        "pmid": "42469875",
-        "title": "A local complication-prevention pathway for Impella-supported cardiogenic shock: a single-center experience.",
-        "journal": "Crit Care",
-        "publicationDate": "2026 Jul 17",
-        "authors": [
-          "Kanenawa K",
-          "Isotani A",
-          "Matsui K",
-          "Miyamoto K",
-          "Miyahara K",
-          "Oyanagi N"
-        ],
-        "abstract": "",
-        "doi": "10.1186/s13054-026-06202-7",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42469875/"
       }
     ]
   },
   "summaryByAlert": {
     "focused": "## PICU/CICU重点\n\n### 1. Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.\nPMID 42302804 / Lancet Child Adolesc Health / 2026 Aug\n要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。\n\n### 2. Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.\nPMID 42242271 / Lancet Child Adolesc Health / 2026 Aug\n要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。\n\n### 3. Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.\nPMID 42190905 / J Pediatr / 2026 Aug\n- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:\n\n### 4. Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.\nPMID 42190900 / J Pediatr / 2026 Aug\n要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。\n\n### 5. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。",
-    "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Safety, pharmacokinetics, and exploratory efficacy of the oral ghrelin receptor agonist AC01 in heart failure with reduced ejection fraction (GOAL-HF1): a randomised, double-blind, placebo-controlled, phase 1b/2a study.\nPMID 42341796 / Lancet / 2026 Jul 18\n- 要点: AC01はHFrEF患者において安全性と耐容性が確認され、探索的効果の兆候が示唆された。  \n- PICU/CICUでの意味: 成人HFrEFの治療に向けた新薬の評価が進むが、小児患者への適用は未検証。  \n- 注意点: 研究は探索的であり、薬物動態や効果は成人データに限られ、小児での臨床応用にはさらなる検証が必要。\n\n### 3. Immunocompromised patients with viral severe acute respiratory infection in intensive care: an Australia wide, retrospective, observational study.\nPMID 42469923 / Crit Care / 2026 Jul 17\n- 要点: 免疫不全患者では、ウイルス性SARIのICU入院患者において、入院死亡率が高く、ICU滞在期間が長かった。  \n- PICU/CICUでの意味: 成人データに基づくため、小児患者への直接的な適用は限定的だが、重症化リスクの認識に参考となる。  \n- 注意点: 観察研究であり、小児データは含まれず、免疫不全の定義や治療戦略の違いが結果に影響する可能性がある。\n\n### 4. BMI-dependent norepinephrine trajectories during vasopressin therapy in septic shock persist independent of weight-normalization and body composition.\nPMID 42469893 / Crit Care / 2026 Jul 17\n要点: 腹腔内圧の変化に伴うnorepinephrineの経時的変化は、体重正規化や身体組成を調整してもBMI依存的に続く可能性がある。  \nPICU/CICUでの意味: 体重調整や身体組成を考慮しても、BMIがnorepinephrineの経時的変化に影響を与える可能性があるため、重症感染症における血管活性薬管理に注意が必要。  \n注意点: 抽象が利用できず、研究の詳細や臨床への適用可能性が不明。特に児童における適用にはさらなる検証が必要。\n\n### 5. A local complication-prevention pathway for Impella-supported cardiogenic shock: a single-center experience.\nPMID 42469875 / Crit Care / 2026 Jul 17\n要点: 本研究では、Impellaを用いた心因性ショックの局所合併症予防のための経路を単施設で検討した。  \nPICU/CICUでの意味: 小児心不全患者におけるImpella導入時の合併症管理戦略の参考となる可能性がある。  \n注意点: 抽象が提供されていないため、単施設経験に基づく結果であり、広範な臨床実践への直接的な適用は限定的である。"
+    "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Cold Exposure, Sunlight, and Particulate Matter in Acute Heart Failure: Signals and Uncertainties.\nPMID 42471239 / Eur Heart J Acute Cardiovasc Care / 2026 Jul 19\n要点: この研究では、冷暴露、日光、粒子状物質が急性心不全に与える影響について検討され、その関連性と不確実性が指摘されている。  \nPICU/CICUでの意味: 成人における急性心不全の環境要因の検討であり、小児患者への直接的な適用は限定的である可能性がある。  \n注意点: 抽象が利用できず、研究対象が成人であることから、小児における臨床的意義は不明である。\n\n### 3. Methodological Considerations in Interpreting Inflammatory Mediator Profiles Following Pediatric Cardiopulmonary Bypass Prime Exposure.\nPMID 42470615 / World J Pediatr Congenit Heart Surg / 2026 Jul 18\n要点: この研究は、小児心肺バイパスプライム曝露後の炎症媒体プロファイルを解釈するための方法論的考慮点を検討している。  \nPICU/CICUでの意味: 炎症媒体の測定結果を正確に解釈するための方法論的アプローチは、小児心臓外科手術後の炎症反応評価に重要な影響を与える可能性がある。  \n注意点: 抽象が利用できないため、研究の詳細な臨床的意義や実践への影響は限定的であるが、方法論的アプローチの重要性が強調されている。\n\n### 4. Safety, pharmacokinetics, and exploratory efficacy of the oral ghrelin receptor agonist AC01 in heart failure with reduced ejection fraction (GOAL-HF1): a randomised, double-blind, placebo-controlled, phase 1b/2a study.\nPMID 42341796 / Lancet / 2026 Jul 18\n- 要点: AC01はHFrEF患者において安全性と耐容性が確認され、探索的効果の兆候が示唆された。  \n- PICU/CICUでの意味: 成人HFrEFの治療に向けた新薬の評価が進むが、小児患者への適用は未検証。  \n- 注意点: 研究は探索的であり、薬物動態や効果は成人データに限られ、小児での臨床応用にはさらなる検証が必要。\n\n### 5. Immunocompromised patients with viral severe acute respiratory infection in intensive care: an Australia wide, retrospective, observational study.\nPMID 42469923 / Crit Care / 2026 Jul 17\n- 要点: 免疫不全患者では、ウイルス性SARIのICU入院患者において、入院死亡率が高く、ICU滞在期間が長かった。  \n- PICU/CICUでの意味: 成人データに基づくため、小児患者への直接的な適用は限定的だが、重症化リスクの認識に参考となる。  \n- 注意点: 観察研究であり、小児データは含まれず、免疫不全の定義や治療戦略の違いが結果に影響する可能性がある。"
   },
   "fetchedAtByAlert": {
-    "focused": "2026-07-19T02:29:12.022Z",
-    "broad": "2026-07-19T02:29:12.022Z"
+    "focused": "2026-07-19T22:57:57.177Z",
+    "broad": "2026-07-19T22:57:57.177Z"
   },
   "importantArticles": [
     {
@@ -268,7 +266,7 @@
     }
   ],
   "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。",
-  "importantFetchedAt": "2026-07-19T02:29:12.022Z",
+  "importantFetchedAt": "2026-07-19T22:57:57.177Z",
   "articleSummariesByPmid": {
     "39208447": {
       "pmid": "39208447",
@@ -507,13 +505,27 @@
       "generatedAt": "2026-07-19T02:29:38.816Z",
       "model": "qwen3:8b",
       "summary": "- 要点: 免疫不全患者では、ウイルス性SARIのICU入院患者において、入院死亡率が高く、ICU滞在期間が長かった。  \n- PICU/CICUでの意味: 成人データに基づくため、小児患者への直接的な適用は限定的だが、重症化リスクの認識に参考となる。  \n- 注意点: 観察研究であり、小児データは含まれず、免疫不全の定義や治療戦略の違いが結果に影響する可能性がある。"
+    },
+    "42470615": {
+      "pmid": "42470615",
+      "title": "Methodological Considerations in Interpreting Inflammatory Mediator Profiles Following Pediatric Cardiopulmonary Bypass Prime Exposure.",
+      "generatedAt": "2026-07-19T22:58:32.907Z",
+      "model": "qwen3:8b",
+      "summary": "要点: この研究は、小児心肺バイパスプライム曝露後の炎症媒体プロファイルを解釈するための方法論的考慮点を検討している。  \nPICU/CICUでの意味: 炎症媒体の測定結果を正確に解釈するための方法論的アプローチは、小児心臓外科手術後の炎症反応評価に重要な影響を与える可能性がある。  \n注意点: 抽象が利用できないため、研究の詳細な臨床的意義や実践への影響は限定的であるが、方法論的アプローチの重要性が強調されている。"
+    },
+    "42471239": {
+      "pmid": "42471239",
+      "title": "Cold Exposure, Sunlight, and Particulate Matter in Acute Heart Failure: Signals and Uncertainties.",
+      "generatedAt": "2026-07-19T22:58:21.642Z",
+      "model": "qwen3:8b",
+      "summary": "要点: この研究では、冷暴露、日光、粒子状物質が急性心不全に与える影響について検討され、その関連性と不確実性が指摘されている。  \nPICU/CICUでの意味: 成人における急性心不全の環境要因の検討であり、小児患者への直接的な適用は限定的である可能性がある。  \n注意点: 抽象が利用できず、研究対象が成人であることから、小児における臨床的意義は不明である。"
     }
   },
   "dailyDigests": [
     {
       "date": "2026-07-19",
-      "generatedAt": "2026-07-19T02:29:12.022Z",
-      "summary": "## 今日の順次AI要約\n\n取得候補 15件 / AI要約済み 15件 / 未要約 0件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n## PICU/CICU重点\n\n### 1. Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.\nPMID 42302804 / Lancet Child Adolesc Health / 2026 Aug\n要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。\n\n### 2. Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.\nPMID 42242271 / Lancet Child Adolesc Health / 2026 Aug\n要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。\n\n### 3. Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.\nPMID 42190905 / J Pediatr / 2026 Aug\n- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:\n\n### 4. Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.\nPMID 42190900 / J Pediatr / 2026 Aug\n要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。\n\n### 5. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Safety, pharmacokinetics, and exploratory efficacy of the oral ghrelin receptor agonist AC01 in heart failure with reduced ejection fraction (GOAL-HF1): a randomised, double-blind, placebo-controlled, phase 1b/2a study.\nPMID 42341796 / Lancet / 2026 Jul 18\n- 要点: AC01はHFrEF患者において安全性と耐容性が確認され、探索的効果の兆候が示唆された。  \n- PICU/CICUでの意味: 成人HFrEFの治療に向けた新薬の評価が進むが、小児患者への適用は未検証。  \n- 注意点: 研究は探索的であり、薬物動態や効果は成人データに限られ、小児での臨床応用にはさらなる検証が必要。\n\n### 3. Immunocompromised patients with viral severe acute respiratory infection in intensive care: an Australia wide, retrospective, observational study.\nPMID 42469923 / Crit Care / 2026 Jul 17\n- 要点: 免疫不全患者では、ウイルス性SARIのICU入院患者において、入院死亡率が高く、ICU滞在期間が長かった。  \n- PICU/CICUでの意味: 成人データに基づくため、小児患者への直接的な適用は限定的だが、重症化リスクの認識に参考となる。  \n- 注意点: 観察研究であり、小児データは含まれず、免疫不全の定義や治療戦略の違いが結果に影響する可能性がある。\n\n### 4. BMI-dependent norepinephrine trajectories during vasopressin therapy in septic shock persist independent of weight-normalization and body composition.\nPMID 42469893 / Crit Care / 2026 Jul 17\n要点: 腹腔内圧の変化に伴うnorepinephrineの経時的変化は、体重正規化や身体組成を調整してもBMI依存的に続く可能性がある。  \nPICU/CICUでの意味: 体重調整や身体組成を考慮しても、BMIがnorepinephrineの経時的変化に影響を与える可能性があるため、重症感染症における血管活性薬管理に注意が必要。  \n注意点: 抽象が利用できず、研究の詳細や臨床への適用可能性が不明。特に児童における適用にはさらなる検証が必要。\n\n### 5. A local complication-prevention pathway for Impella-supported cardiogenic shock: a single-center experience.\nPMID 42469875 / Crit Care / 2026 Jul 17\n要点: 本研究では、Impellaを用いた心因性ショックの局所合併症予防のための経路を単施設で検討した。  \nPICU/CICUでの意味: 小児心不全患者におけるImpella導入時の合併症管理戦略の参考となる可能性がある。  \n注意点: 抽象が提供されていないため、単施設経験に基づく結果であり、広範な臨床実践への直接的な適用は限定的である。",
+      "generatedAt": "2026-07-19T22:57:57.177Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 15件 / AI要約済み 15件 / 未要約 0件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n## PICU/CICU重点\n\n### 1. Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.\nPMID 42302804 / Lancet Child Adolesc Health / 2026 Aug\n要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。\n\n### 2. Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.\nPMID 42242271 / Lancet Child Adolesc Health / 2026 Aug\n要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。\n\n### 3. Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.\nPMID 42190905 / J Pediatr / 2026 Aug\n- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:\n\n### 4. Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.\nPMID 42190900 / J Pediatr / 2026 Aug\n要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。\n\n### 5. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Cold Exposure, Sunlight, and Particulate Matter in Acute Heart Failure: Signals and Uncertainties.\nPMID 42471239 / Eur Heart J Acute Cardiovasc Care / 2026 Jul 19\n要点: この研究では、冷暴露、日光、粒子状物質が急性心不全に与える影響について検討され、その関連性と不確実性が指摘されている。  \nPICU/CICUでの意味: 成人における急性心不全の環境要因の検討であり、小児患者への直接的な適用は限定的である可能性がある。  \n注意点: 抽象が利用できず、研究対象が成人であることから、小児における臨床的意義は不明である。\n\n### 3. Methodological Considerations in Interpreting Inflammatory Mediator Profiles Following Pediatric Cardiopulmonary Bypass Prime Exposure.\nPMID 42470615 / World J Pediatr Congenit Heart Surg / 2026 Jul 18\n要点: この研究は、小児心肺バイパスプライム曝露後の炎症媒体プロファイルを解釈するための方法論的考慮点を検討している。  \nPICU/CICUでの意味: 炎症媒体の測定結果を正確に解釈するための方法論的アプローチは、小児心臓外科手術後の炎症反応評価に重要な影響を与える可能性がある。  \n注意点: 抽象が利用できないため、研究の詳細な臨床的意義や実践への影響は限定的であるが、方法論的アプローチの重要性が強調されている。\n\n### 4. Safety, pharmacokinetics, and exploratory efficacy of the oral ghrelin receptor agonist AC01 in heart failure with reduced ejection fraction (GOAL-HF1): a randomised, double-blind, placebo-controlled, phase 1b/2a study.\nPMID 42341796 / Lancet / 2026 Jul 18\n- 要点: AC01はHFrEF患者において安全性と耐容性が確認され、探索的効果の兆候が示唆された。  \n- PICU/CICUでの意味: 成人HFrEFの治療に向けた新薬の評価が進むが、小児患者への適用は未検証。  \n- 注意点: 研究は探索的であり、薬物動態や効果は成人データに限られ、小児での臨床応用にはさらなる検証が必要。\n\n### 5. Immunocompromised patients with viral severe acute respiratory infection in intensive care: an Australia wide, retrospective, observational study.\nPMID 42469923 / Crit Care / 2026 Jul 17\n- 要点: 免疫不全患者では、ウイルス性SARIのICU入院患者において、入院死亡率が高く、ICU滞在期間が長かった。  \n- PICU/CICUでの意味: 成人データに基づくため、小児患者への直接的な適用は限定的だが、重症化リスクの認識に参考となる。  \n- 注意点: 観察研究であり、小児データは含まれず、免疫不全の定義や治療戦略の違いが結果に影響する可能性がある。",
       "articles": [
         {
           "pmid": "42302804",
@@ -618,6 +630,35 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41995635/"
         },
         {
+          "pmid": "42471239",
+          "title": "Cold Exposure, Sunlight, and Particulate Matter in Acute Heart Failure: Signals and Uncertainties.",
+          "journal": "Eur Heart J Acute Cardiovasc Care",
+          "publicationDate": "2026 Jul 19",
+          "authors": [
+            "Münzel T",
+            "Kuntic M",
+            "Daiber A"
+          ],
+          "abstract": "",
+          "doi": "10.1093/ehjacc/zuag095",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42471239/"
+        },
+        {
+          "pmid": "42470615",
+          "title": "Methodological Considerations in Interpreting Inflammatory Mediator Profiles Following Pediatric Cardiopulmonary Bypass Prime Exposure.",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Jul 18",
+          "authors": [
+            "Thakkar R",
+            "Raina D",
+            "Maji C",
+            "Anjum V"
+          ],
+          "abstract": "",
+          "doi": "10.1177/21501351261450092",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42470615/"
+        },
+        {
           "pmid": "42341796",
           "title": "Safety, pharmacokinetics, and exploratory efficacy of the oral ghrelin receptor agonist AC01 in heart failure with reduced ejection fraction (GOAL-HF1): a randomised, double-blind, placebo-controlled, phase 1b/2a study.",
           "journal": "Lancet",
@@ -650,37 +691,6 @@
           "abstract": "BACKGROUND: The aim of this study was to compare the clinical characteristics, treatments and outcomes of immunocompromised patients with viral severe acute respiratory infections (SARI), to those of immunocompetent patients admitted to an intensive care unit (ICU) across Australia.\nMETHODS: Retrospective analysis of a prospective, nation-wide, observational registry of 46 ICUs from June 2022 to August 2025. Critically ill adults (age ≥ 18) with laboratory-confirmed viral SARI were included. Immunocompromised status was defined by the presence of any one of the following: chronic immunosuppression, malignant neoplasm, AIDS/HIV, or organ transplantation. Associations between immunocompromised status and in-hospital mortality were evaluated using mixed-effects logistic regression models. Competing risks regression (Fine and Gray models) was used to assess the association between immunocompromised status and risk of hospital discharge within 30 days.\nRESULTS: Among 4,703 patients with viral SARI who were admitted to ICUs, immunocompromised patients accounted for 908 (19.3%) cases. Immunocompromised patients were older (median age 67 vs. 62 years), more comorbid (31.4% vs. 22.5% with ≥ 3 comorbidities), and more frequently admitted with COVID-19 (51.1% vs. 34.5%); (p < 0.001 for all). Immunocompromised patients received more treatment, including antivirals (67.3% vs. 57.7%), and corticosteroids (81.7% vs. 72%) and had higher in-hospital mortality (22.7% vs. 13.1%); (p < 0.01 for all). After adjusting for demographics, comorbidities, vaccination status (where available), ICU interventions and treatments, immunocompromised status was independently associated with nearly double the odds of in-hospital mortality (adjusted OR 1.93, 95% CI 1.57-2.37).\nCONCLUSIONS: In this study, we found that immunocompromised patients accounted for approximately one-fifth of critically ill viral SARI patients and had nearly twice the odds of in-hospital mortality, when compared to those that were immunocompetent. Targeted public health campaigns and improved treatment strategies may be warranted for this population.",
           "doi": "10.1186/s13054-026-06192-6",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42469923/"
-        },
-        {
-          "pmid": "42469893",
-          "title": "BMI-dependent norepinephrine trajectories during vasopressin therapy in septic shock persist independent of weight-normalization and body composition.",
-          "journal": "Crit Care",
-          "publicationDate": "2026 Jul 17",
-          "authors": [
-            "Melchers M",
-            "Pickkers P",
-            "van Zanten ARH"
-          ],
-          "abstract": "",
-          "doi": "10.1186/s13054-026-06147-x",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42469893/"
-        },
-        {
-          "pmid": "42469875",
-          "title": "A local complication-prevention pathway for Impella-supported cardiogenic shock: a single-center experience.",
-          "journal": "Crit Care",
-          "publicationDate": "2026 Jul 17",
-          "authors": [
-            "Kanenawa K",
-            "Isotani A",
-            "Matsui K",
-            "Miyamoto K",
-            "Miyahara K",
-            "Oyanagi N"
-          ],
-          "abstract": "",
-          "doi": "10.1186/s13054-026-06202-7",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42469875/"
         }
       ],
       "importantArticles": [
@@ -855,26 +865,26 @@
           "model": "qwen3:8b",
           "summary": "- 要点: AC01はHFrEF患者において安全性と耐容性が確認され、探索的効果の兆候が示唆された。  \n- PICU/CICUでの意味: 成人HFrEFの治療に向けた新薬の評価が進むが、小児患者への適用は未検証。  \n- 注意点: 研究は探索的であり、薬物動態や効果は成人データに限られ、小児での臨床応用にはさらなる検証が必要。"
         },
-        "42469875": {
-          "pmid": "42469875",
-          "title": "A local complication-prevention pathway for Impella-supported cardiogenic shock: a single-center experience.",
-          "generatedAt": "2026-07-19T02:30:01.568Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 本研究では、Impellaを用いた心因性ショックの局所合併症予防のための経路を単施設で検討した。  \nPICU/CICUでの意味: 小児心不全患者におけるImpella導入時の合併症管理戦略の参考となる可能性がある。  \n注意点: 抽象が提供されていないため、単施設経験に基づく結果であり、広範な臨床実践への直接的な適用は限定的である。"
-        },
-        "42469893": {
-          "pmid": "42469893",
-          "title": "BMI-dependent norepinephrine trajectories during vasopressin therapy in septic shock persist independent of weight-normalization and body composition.",
-          "generatedAt": "2026-07-19T02:29:53.687Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 腹腔内圧の変化に伴うnorepinephrineの経時的変化は、体重正規化や身体組成を調整してもBMI依存的に続く可能性がある。  \nPICU/CICUでの意味: 体重調整や身体組成を考慮しても、BMIがnorepinephrineの経時的変化に影響を与える可能性があるため、重症感染症における血管活性薬管理に注意が必要。  \n注意点: 抽象が利用できず、研究の詳細や臨床への適用可能性が不明。特に児童における適用にはさらなる検証が必要。"
-        },
         "42469923": {
           "pmid": "42469923",
           "title": "Immunocompromised patients with viral severe acute respiratory infection in intensive care: an Australia wide, retrospective, observational study.",
           "generatedAt": "2026-07-19T02:29:38.816Z",
           "model": "qwen3:8b",
           "summary": "- 要点: 免疫不全患者では、ウイルス性SARIのICU入院患者において、入院死亡率が高く、ICU滞在期間が長かった。  \n- PICU/CICUでの意味: 成人データに基づくため、小児患者への直接的な適用は限定的だが、重症化リスクの認識に参考となる。  \n- 注意点: 観察研究であり、小児データは含まれず、免疫不全の定義や治療戦略の違いが結果に影響する可能性がある。"
+        },
+        "42470615": {
+          "pmid": "42470615",
+          "title": "Methodological Considerations in Interpreting Inflammatory Mediator Profiles Following Pediatric Cardiopulmonary Bypass Prime Exposure.",
+          "generatedAt": "2026-07-19T22:58:32.907Z",
+          "model": "qwen3:8b",
+          "summary": "要点: この研究は、小児心肺バイパスプライム曝露後の炎症媒体プロファイルを解釈するための方法論的考慮点を検討している。  \nPICU/CICUでの意味: 炎症媒体の測定結果を正確に解釈するための方法論的アプローチは、小児心臓外科手術後の炎症反応評価に重要な影響を与える可能性がある。  \n注意点: 抽象が利用できないため、研究の詳細な臨床的意義や実践への影響は限定的であるが、方法論的アプローチの重要性が強調されている。"
+        },
+        "42471239": {
+          "pmid": "42471239",
+          "title": "Cold Exposure, Sunlight, and Particulate Matter in Acute Heart Failure: Signals and Uncertainties.",
+          "generatedAt": "2026-07-19T22:58:21.642Z",
+          "model": "qwen3:8b",
+          "summary": "要点: この研究では、冷暴露、日光、粒子状物質が急性心不全に与える影響について検討され、その関連性と不確実性が指摘されている。  \nPICU/CICUでの意味: 成人における急性心不全の環境要因の検討であり、小児患者への直接的な適用は限定的である可能性がある。  \n注意点: 抽象が利用できず、研究対象が成人であることから、小児における臨床的意義は不明である。"
         }
       }
     },
@@ -3639,9 +3649,9 @@
       ]
     }
   ],
-  "lastAutoRunAt": "2026-07-19T02:29:12.022Z",
+  "lastAutoRunAt": "2026-07-19T22:57:57.177Z",
   "lastAutoRunDate": "2026-07-19",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42469923: 順次AI要約済み / PMID 42469893: 順次AI要約済み / PMID 42469875: 順次AI要約済み / 順次AI要約: 3件追加 / 15/15件済み",
-  "lastImportantRunAt": "2026-07-19T02:29:12.022Z",
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42471239: 順次AI要約済み / PMID 42470615: 順次AI要約済み / 順次AI要約: 2件追加 / 15/15件済み",
+  "lastImportantRunAt": "2026-07-19T22:57:57.177Z",
   "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 0件"
 }
