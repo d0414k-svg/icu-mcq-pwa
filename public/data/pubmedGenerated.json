@@ -106,77 +106,82 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/41995635/"
       },
       {
-        "pmid": "42471239",
-        "title": "Cold Exposure, Sunlight, and Particulate Matter in Acute Heart Failure: Signals and Uncertainties.",
-        "journal": "Eur Heart J Acute Cardiovasc Care",
-        "publicationDate": "2026 Jul 19",
+        "pmid": "42479534",
+        "title": "Socioeconomic Disparities and the Role of Comorbidity in Hospital Mortality: A Dutch Nationwide Critical Care Cohort Study.",
+        "journal": "Crit Care Med",
+        "publicationDate": "2026 Jul 21",
         "authors": [
-          "Münzel T",
-          "Kuntic M",
-          "Daiber A"
+          "de Kok JWTM",
+          "Koornneef DJM",
+          "Termorshuizen F",
+          "Schnabel RM",
+          "van der Horst ICC",
+          "de Keizer NF"
         ],
-        "abstract": "",
-        "doi": "10.1093/ehjacc/zuag095",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42471239/"
+        "abstract": "OBJECTIVES: Lower socioeconomic status (SES) is associated with a higher prevalence of comorbidities and mortality. The association between SES and mortality, as well as the effect-modifying role of specific comorbidities, are not yet fully understood within the critical care context of insurance-based universal healthcare systems. To inform health policy and practice, we examined socioeconomic disparities in Dutch ICU admissions, considering comorbidities in the context of hospital mortality.\nDESIGN: Nationwide retrospective cohort study.\nSETTING: All 79 Dutch ICUs were included.\nPATIENTS: We used data from 588,568 ICU admissions (2014-2022) linked with household-level SES data.\nINTERVENTIONS: None.\nMEASUREMENTS AND MAIN RESULTS: We used mixed-effects logistic regression models to investigate the association between SES quintiles and hospital mortality. We adjusted models for age, sex, year of admission, acute physiologic derangement, and comorbidities. Also, we investigated the effect-modifying role of seven comorbidities: respiratory insufficiency, renal insufficiency, cancer, cardiovascular insufficiency, diabetes mellitus, cirrhosis, and immunological insufficiency. Unadjusted odds ratios (ORs) for hospital mortality were higher among patients with lower SES. After adjustment, SES quintiles remained significantly different from the middle quintile, with attenuated ORs (95% CI): 1.6 (1.5-1.6), 1.1 (1.0-1.1), 1.0 (0.9-1.0), and 0.9 (0.9-1.0), respectively. The association was most pronounced in the lowest SES quintile and persisted in patients with and without specific comorbidities.\nCONCLUSIONS: ICU patients with a lower SES face poorer survival prospects, irrespective of comorbidities. This highlights the persistent health disparities that may influence ICU outcomes. SES should be considered for interpreting outcome measures, designing healthcare policies, and targeting interventions to improve health equity.",
+        "doi": "10.1097/CCM.0000000000007271",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42479534/"
       },
       {
-        "pmid": "42470615",
-        "title": "Methodological Considerations in Interpreting Inflammatory Mediator Profiles Following Pediatric Cardiopulmonary Bypass Prime Exposure.",
-        "journal": "World J Pediatr Congenit Heart Surg",
-        "publicationDate": "2026 Jul 18",
+        "pmid": "42479503",
+        "title": "Health-Economic Value of Transvenous Diaphragm Neurostimulation in Ventilator Weaning.",
+        "journal": "Crit Care Med",
+        "publicationDate": "2026 Jul 21",
         "authors": [
-          "Thakkar R",
-          "Raina D",
-          "Maji C",
-          "Anjum V"
+          "Pietzsch JB",
+          "Ryschon AM",
+          "Mehta N",
+          "Ways JP",
+          "Ataya A",
+          "Criner GJ"
         ],
-        "abstract": "",
-        "doi": "10.1177/21501351261450092",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42470615/"
+        "abstract": "OBJECTIVES: Prolonged mechanical ventilation presents a substantial clinical and economic burden. Transvenous diaphragm neurostimulation (tDNS) has demonstrated an increased rate of successful weaning and reduced duration of ventilation among mechanically ventilated patients. This exploratory analysis sought to quantify the potential short-term health-economic implications in the acute hospital setting, as well as potential lifetime benefits resulting from improved weaning in mechanically ventilated patients receiving tDNS compared with the standard of care (SoC).\nDESIGN, SETTING, PATIENTS: A cost-consequence analysis was conducted, reporting short-term economic outcomes for tDNS- vs. SoC-treatment strategies in a U.S. setting, based on recent clinical data from the RESCUE-3 randomized trial and real-world claims data. A lifetime projection model informed long-term survival and quality-of-life implications in an exploratory analysis. The primary outcomes included stakeholder-specific incremental costs and quality-adjusted life-year (QALY) gain with tDNS. Extensive sensitivity analyses and validations were performed.\nINTERVENTIONS: None.\nMEASUREMENT AND MAIN RESULTS: Under the base case assumptions, a 2.8-day reduction in mechanical ventilation utilization and 10.5% greater weaning success led to projected cost savings of $12,102 in the acute setting and $11,999 in the long-term care hospital setting, before consideration of tDNS cost. Favorable cost savings materialized across sensitivity analyses employing a range of clinical and cost assumptions. An increase in acute weaning with tDNS may lead to 0.10-0.68 QALYs gained over patients' remaining lifetime.\nCONCLUSIONS: Based on these exploratory findings, improved weaning rates with tDNS will likely lead to meaningful cost savings in acute and long-term care settings, and concurrent long-term QALY gains that, depending on therapy cost, may render tDNS a cost-effective, high-value intervention. Future lifetime cost-effectiveness analyses are warranted.",
+        "doi": "10.1097/CCM.0000000000007262",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42479503/"
       },
       {
-        "pmid": "42341796",
-        "title": "Safety, pharmacokinetics, and exploratory efficacy of the oral ghrelin receptor agonist AC01 in heart failure with reduced ejection fraction (GOAL-HF1): a randomised, double-blind, placebo-controlled, phase 1b/2a study.",
-        "journal": "Lancet",
-        "publicationDate": "2026 Jul 18",
+        "pmid": "42479496",
+        "title": "Psychometric Properties of the Patient Dignity Inventory in a Longitudinal Cohort of Acute Respiratory Failure Survivors.",
+        "journal": "Crit Care Med",
+        "publicationDate": "2026 Jul 21",
         "authors": [
-          "Lund LH",
-          "Barandiarán Aizpurua A",
-          "Bollano E",
-          "Braun O",
-          "Brouwer JLP",
-          "Buikema JW"
+          "Federico LE",
+          "Kwiatkowski C",
+          "Dine CJ",
+          "Lu Y",
+          "Prasad TV",
+          "Dress E"
         ],
-        "abstract": "BACKGROUND: The central problem in heart failure with reduced ejection fraction (HFrEF) is reduced contractility. Existing inotropes are associated with adverse effects. In this exploratory study, we aimed to assess the safety and tolerability of AC01, a novel oral calcium-sensitising inotrope and ghrelin receptor agonist, in patients with HFrEF.\nMETHODS: In this phase 1b/2a, randomised, double-blind, placebo-controlled study, adults aged 18-80 years with heart failure for at least 6 months and an ejection fraction of 40% or lower were enrolled at 14 sites in the Netherlands, the UK, Sweden, and Italy. All patients had a transvenous implantable cardioverter defibrillator for primary prevention, with back-up pacing to protect against excessive bradycardia. Other eligibility criteria included sinus rhythm or permanent, persistent, or paroxysmal atrial fibrillation or flutter (only allowed in phase 2a), with a mean resting heart rate of 55-90 beats per min. Randomisation used permuted blocks, with block sizes of four for phase 1b and three for phase 2a. In phase 1b, patients were enrolled in four sequential dose cohorts and randomly assigned 3:1 to ascending doses of AC01 (0·1 mg, 0·3 mg, 1·0 mg, or 3·0 mg) or placebo twice daily for 7 days. In phase 2a, patients were randomly assigned 1:1:1 to parallel groups receiving 1·0 mg AC01, 3·0 mg AC01 (1·0 mg AC01 on days 1 and 2 and 3·0 mg thereafter), or placebo orally twice daily for 28 days. Patients, study personnel, outcomes assessors, those analysing the data, and the sponsor were masked to treatment assignment. The primary outcome was safety and tolerability. Safety was monitored by physical examination, vital signs, safety laboratory assessments, and 12-lead electrocardiograms (ECGs) periodically during the treatment period and until the end-of-study visit (day 12 in phase 1b and day 42 in phase 2a), and cardiac rhythm was continuously monitored remotely using a patch device until day 9 in phase 1b and until day 4 in phase 2a. Adverse or unexpected events, signs, or symptoms were recorded. This study is registered with ClinicalTrials.gov, NCT05642507, and has been completed.\nFINDINGS: Between Feb 23, 2023, and Aug 28, 2025, 58 patients (53 [91%] male and five [9%] female patients with a median age of 66·0 years [IQR 60·3-72·0]) were randomly assigned: 32 in phase 1b and 26 in phase 2a. In phase 1b, four cohorts of eight patients were enrolled; in each cohort, six patients were allocated to AC01 and two to placebo, with AC01 dose cohorts of 0·1 mg, 0·3 mg, 1·0 mg, and 3·0 mg. In phase 2a, nine patients were allocated to 1·0 mg AC01, eight to 3·0 mg AC01, and nine to placebo. There were 12 AC01-related adverse events in phase 1b and 18 in phase 2a. There were no AC01-related serious adverse events; one treatment-related serious adverse event of increased high-sensitivity cardiac troponin I concentration occurred in a patient receiving placebo in phase 1b. Mild or moderate treatment-emergent adverse events were reported in 33 (80%) of 41 patients receiving AC01 and 12 (71%) of 17 patients receiving placebo. The most common treatment-emergent adverse events were hypotension, non-sustained ventricular tachycardia, dyspnoea, hyperglycaemia, dizziness or vertigo, and headache. ECG data showed no apparent signs of tachycardia, new-onset tachyarrhythmias, myocardial ischaemia, or morphological or conduction abnormalities. No case of symptomatic hypotension was reported, and there were no apparent effects of AC01 on high-sensitivity cardiac troponin I or NT-proBNP. There were no deaths during the study.\nINTERPRETATION: In patients with HFrEF, AC01 over 28 days appeared safe and well tolerated, and no major harms were identified in this early-phase study. These findings support further investigations of AC01 in larger studies.\nFUNDING: AnaCardio.",
-        "doi": "10.1016/S0140-6736(26)00904-9",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42341796/"
+        "abstract": "OBJECTIVES: Although greater than 50% of acute respiratory failure (ARF) survivors develop postintensive care syndrome, dignity-centered interventions-shown to improve psychosocial and existential outcomes in other longitudinally impaired populations-remain largely unexplored in ARF survivorship. We aimed to validate the Patient Dignity Inventory (PDI) among ARF survivors by evaluating internal consistency and generalizability and establishing a minimal clinically important difference (MCID).\nDESIGN/SETTING/PATIENTS: Prospective cohort study (June 2022 to April 2023) of mechanically ventilated (≥24 h) adults in four University of Pennsylvania hospitals' ICUs.\nINTERVENTIONS: None.\nMEASUREMENTS AND MAIN RESULTS: Patients completed the PDI within 1 month of ICU discharge and at 3, 6, and 12 months. We assessed internal consistency using Cronbach's alpha (reliability of questions measuring the same construct; range 0-1) and exploratory factor analysis to identify dignity-related distress domains. We evaluated generalizability using multilevel mixed-effects modeling to estimate variance attributable to patients, questions, and timepoints, which informed phi coefficient calculation (score consistency; range 0-1). We calculated MCID by averaging anchor-based (EuroQol-5 Dimension MCID = 0.11 from baseline to 12 months) and distribution-based (average of se of the mean, 0.3 × sd, and 5% of baseline score range) estimates.Of 967 eligible patients, 103 patients (11%) enrolled at baseline, with 70% retention at 12 months. PDI demonstrated excellent internal consistency across timepoints (Cronbach's alpha = 0.94-0.96). Factor analysis identified 2-3 factors per timepoint, with physical, psychologic, and cognitive impairments predominating early, and existential and interpersonal concerns increasing longitudinally. Seventy-five percent of score variance was attributable to patient differences and 25% to timepoint, yielding phi = 0.93 (excellent consistency).\nCONCLUSIONS: The PDI is a valid, reliable instrument for assessing dignity among ARF survivors longitudinally, demonstrating excellent internal consistency and generalizability, providing a foundation for designing and evaluating dignity-centered interventions addressing ARF survivors' evolving needs.",
+        "doi": "10.1097/CCM.0000000000007272",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42479496/"
       },
       {
-        "pmid": "42469923",
-        "title": "Immunocompromised patients with viral severe acute respiratory infection in intensive care: an Australia wide, retrospective, observational study.",
-        "journal": "Crit Care",
-        "publicationDate": "2026 Jul 17",
+        "pmid": "42479190",
+        "title": "Perceptions on Accessible Mentorship and Barriers to Subspecialty Training: A Comparison Study in URiM and Non-URiM Pediatric Cardiology Trainees.",
+        "journal": "Pediatr Cardiol",
+        "publicationDate": "2026 Jul 21",
         "authors": [
-          "Hastak P",
-          "Andersen CR",
-          "Wah W",
-          "Ng SJ",
-          "Udy AA",
-          "Sasson SC"
+          "Cox OM",
+          "Yalavarthi P",
+          "Duimstra A",
+          "Lowery R",
+          "Yu S",
+          "Goldberg CS"
         ],
-        "abstract": "BACKGROUND: The aim of this study was to compare the clinical characteristics, treatments and outcomes of immunocompromised patients with viral severe acute respiratory infections (SARI), to those of immunocompetent patients admitted to an intensive care unit (ICU) across Australia.\nMETHODS: Retrospective analysis of a prospective, nation-wide, observational registry of 46 ICUs from June 2022 to August 2025. Critically ill adults (age ≥ 18) with laboratory-confirmed viral SARI were included. Immunocompromised status was defined by the presence of any one of the following: chronic immunosuppression, malignant neoplasm, AIDS/HIV, or organ transplantation. Associations between immunocompromised status and in-hospital mortality were evaluated using mixed-effects logistic regression models. Competing risks regression (Fine and Gray models) was used to assess the association between immunocompromised status and risk of hospital discharge within 30 days.\nRESULTS: Among 4,703 patients with viral SARI who were admitted to ICUs, immunocompromised patients accounted for 908 (19.3%) cases. Immunocompromised patients were older (median age 67 vs. 62 years), more comorbid (31.4% vs. 22.5% with ≥ 3 comorbidities), and more frequently admitted with COVID-19 (51.1% vs. 34.5%); (p < 0.001 for all). Immunocompromised patients received more treatment, including antivirals (67.3% vs. 57.7%), and corticosteroids (81.7% vs. 72%) and had higher in-hospital mortality (22.7% vs. 13.1%); (p < 0.01 for all). After adjusting for demographics, comorbidities, vaccination status (where available), ICU interventions and treatments, immunocompromised status was independently associated with nearly double the odds of in-hospital mortality (adjusted OR 1.93, 95% CI 1.57-2.37).\nCONCLUSIONS: In this study, we found that immunocompromised patients accounted for approximately one-fifth of critically ill viral SARI patients and had nearly twice the odds of in-hospital mortality, when compared to those that were immunocompetent. Targeted public health campaigns and improved treatment strategies may be warranted for this population.",
-        "doi": "10.1186/s13054-026-06192-6",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42469923/"
+        "abstract": "Physicians who are underrepresented in medicine (URiMs), defined by the Association of American Medical Colleges as Black, Hispanic, and Native American, are significantly underrepresented in pediatric cardiology. This project, to identify improvement opportunities in recruitment and retention, examined the impact of mentorship, subspecialty exposure, specialty culture, and financial constraints on URiMs' decisions to enter pediatric cardiology. A cross-sectional survey was distributed primarily through the Society of Pediatric Cardiology Training Program Directors (SPCTPD) from 10/1/24 - 2/17/25. Participants included fellows and those recently matched into fellowship. Of 109 survey responses during the study period, 5 (4.6%) were excluded due to incomplete responses, and 104 were included in the final analysis. URiMs accounted for 19 (18.3%) of the respondents. Compared to other trainees, URiMs decided on subspecialty training prior to residency (p = 0.03). They were more likely to seek out mentors who shared similar racial/ethnic backgrounds (p = 0.0002) but had difficulty finding such mentors (p < 0.0001). URiMs were more likely to have made trade-offs in career aspirations due to concerns about medical school debt (p = 0.002) and low financial compensation in pediatrics (p = 0.004). Furthermore, URiM trainees were more likely to express concern that their racial/ethnic background influenced experiences within a subspecialty rotation (p = 0.001). URiM trainees face unique challenges in accessing culturally congruent mentorship, navigating financial constraints, and finding inclusive training environments. Strengthening early mentorship, developing targeted financial support programs, and fostering an affirming specialty culture are essential strategies to promote demographic heterogeneity within pediatric cardiology and, ultimately, mitigate disparities in pediatric patient outcomes.",
+        "doi": "10.1007/s00246-026-04385-y",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42479190/"
       }
     ]
   },
   "summaryByAlert": {
     "focused": "## PICU/CICU重点\n\n### 1. Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.\nPMID 42302804 / Lancet Child Adolesc Health / 2026 Aug\n要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。\n\n### 2. Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.\nPMID 42242271 / Lancet Child Adolesc Health / 2026 Aug\n要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。\n\n### 3. Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.\nPMID 42190905 / J Pediatr / 2026 Aug\n- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:\n\n### 4. Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.\nPMID 42190900 / J Pediatr / 2026 Aug\n要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。\n\n### 5. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。",
-    "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Cold Exposure, Sunlight, and Particulate Matter in Acute Heart Failure: Signals and Uncertainties.\nPMID 42471239 / Eur Heart J Acute Cardiovasc Care / 2026 Jul 19\n要点: この研究では、冷暴露、日光、粒子状物質が急性心不全に与える影響について検討され、その関連性と不確実性が指摘されている。  \nPICU/CICUでの意味: 成人における急性心不全の環境要因の検討であり、小児患者への直接的な適用は限定的である可能性がある。  \n注意点: 抽象が利用できず、研究対象が成人であることから、小児における臨床的意義は不明である。\n\n### 3. Methodological Considerations in Interpreting Inflammatory Mediator Profiles Following Pediatric Cardiopulmonary Bypass Prime Exposure.\nPMID 42470615 / World J Pediatr Congenit Heart Surg / 2026 Jul 18\n要点: この研究は、小児心肺バイパスプライム曝露後の炎症媒体プロファイルを解釈するための方法論的考慮点を検討している。  \nPICU/CICUでの意味: 炎症媒体の測定結果を正確に解釈するための方法論的アプローチは、小児心臓外科手術後の炎症反応評価に重要な影響を与える可能性がある。  \n注意点: 抽象が利用できないため、研究の詳細な臨床的意義や実践への影響は限定的であるが、方法論的アプローチの重要性が強調されている。\n\n### 4. Safety, pharmacokinetics, and exploratory efficacy of the oral ghrelin receptor agonist AC01 in heart failure with reduced ejection fraction (GOAL-HF1): a randomised, double-blind, placebo-controlled, phase 1b/2a study.\nPMID 42341796 / Lancet / 2026 Jul 18\n- 要点: AC01はHFrEF患者において安全性と耐容性が確認され、探索的効果の兆候が示唆された。  \n- PICU/CICUでの意味: 成人HFrEFの治療に向けた新薬の評価が進むが、小児患者への適用は未検証。  \n- 注意点: 研究は探索的であり、薬物動態や効果は成人データに限られ、小児での臨床応用にはさらなる検証が必要。\n\n### 5. Immunocompromised patients with viral severe acute respiratory infection in intensive care: an Australia wide, retrospective, observational study.\nPMID 42469923 / Crit Care / 2026 Jul 17\n- 要点: 免疫不全患者では、ウイルス性SARIのICU入院患者において、入院死亡率が高く、ICU滞在期間が長かった。  \n- PICU/CICUでの意味: 成人データに基づくため、小児患者への直接的な適用は限定的だが、重症化リスクの認識に参考となる。  \n- 注意点: 観察研究であり、小児データは含まれず、免疫不全の定義や治療戦略の違いが結果に影響する可能性がある。"
+    "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Socioeconomic Disparities and the Role of Comorbidity in Hospital Mortality: A Dutch Nationwide Critical Care Cohort Study.\nPMID 42479534 / Crit Care Med / 2026 Jul 21\n要点: 低所得層は合併症の有無にかかわらずICU入院後の死亡率が高く、特定の合併症がこの関連性を強化することが示唆された。  \nPICU/CICUでの意味: 社会経済的地位と合併症の相互作用が、小児重症患者の予後評価に影響を与える可能性を示唆しており、資源配分や公平性の向上に参考となる。  \n注意点: 抽象のみに基づくため、詳細な臨床的意義や介入戦略については論文本文を参照すること。\n\n### 3. Health-Economic Value of Transvenous Diaphragm Neurostimulation in Ventilator Weaning.\nPMID 42479503 / Crit Care Med / 2026 Jul 21\n要点: tDNSは機械換気患者の脱離成功率を向上させ、短期的な経済的メリットを示唆しているが、長期的な効果は推定に基づく。  \nPICU/CICUでの意味: 機械換気中の患者において、tDNSの導入が呼吸器使用期間の短縮とコスト削減に寄与する可能性がある。  \n注意点: 経済的評価は推定データに基づくため、臨床実践への直接的な影響は明確でない。\n\n### 4. Psychometric Properties of the Patient Dignity Inventory in a Longitudinal Cohort of Acute Respiratory Failure Survivors.\nPMID 42479496 / Crit Care Med / 2026 Jul 21\n要点: ARF生存者における患者尊厳インベントリ（PDI）の信頼性と臨床的意義の検証が行われた。  \nPICU/CICUでの意味: 成人ARF患者におけるPDIの妥当性評価は、小児患者への適用にはさらなる研究が求められる。  \n注意点: 研究は成人対象であり、小児患者への直接的な適用可能性は不明。抽象のみに基づくため、詳細な臨床的意義は限定的。\n\n### 5. Perceptions on Accessible Mentorship and Barriers to Subspecialty Training: A Comparison Study in URiM and Non-URiM Pediatric Cardiology Trainees.\nPMID 42479190 / Pediatr Cardiol / 2026 Jul 21\n要点: 少数派医師（URiM）は、専門分野選択をより早く行い、同人種のメンターを求める傾向があるが、その獲得に困難を抱えている。  \nPICU/CICUでの意味: トレーニング環境におけるメンタリングの質や多様性が、専門分野の選択と維持に影響を与える可能性を示唆している。  \n注意点: 結果は観察研究であり、因果関係の証明には至っておらず、臨床実践への直接的な影響は限定的である。"
   },
   "fetchedAtByAlert": {
-    "focused": "2026-07-19T22:57:57.177Z",
-    "broad": "2026-07-19T22:57:57.177Z"
+    "focused": "2026-07-21T23:04:32.932Z",
+    "broad": "2026-07-21T23:04:32.932Z"
   },
   "importantArticles": [
     {
@@ -266,7 +271,7 @@
     }
   ],
   "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。",
-  "importantFetchedAt": "2026-07-19T22:57:57.177Z",
+  "importantFetchedAt": "2026-07-21T23:04:32.932Z",
   "articleSummariesByPmid": {
     "39208447": {
       "pmid": "39208447",
@@ -519,9 +524,408 @@
       "generatedAt": "2026-07-19T22:58:21.642Z",
       "model": "qwen3:8b",
       "summary": "要点: この研究では、冷暴露、日光、粒子状物質が急性心不全に与える影響について検討され、その関連性と不確実性が指摘されている。  \nPICU/CICUでの意味: 成人における急性心不全の環境要因の検討であり、小児患者への直接的な適用は限定的である可能性がある。  \n注意点: 抽象が利用できず、研究対象が成人であることから、小児における臨床的意義は不明である。"
+    },
+    "42479190": {
+      "pmid": "42479190",
+      "title": "Perceptions on Accessible Mentorship and Barriers to Subspecialty Training: A Comparison Study in URiM and Non-URiM Pediatric Cardiology Trainees.",
+      "generatedAt": "2026-07-21T23:05:40.790Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 少数派医師（URiM）は、専門分野選択をより早く行い、同人種のメンターを求める傾向があるが、その獲得に困難を抱えている。  \nPICU/CICUでの意味: トレーニング環境におけるメンタリングの質や多様性が、専門分野の選択と維持に影響を与える可能性を示唆している。  \n注意点: 結果は観察研究であり、因果関係の証明には至っておらず、臨床実践への直接的な影響は限定的である。"
+    },
+    "42479496": {
+      "pmid": "42479496",
+      "title": "Psychometric Properties of the Patient Dignity Inventory in a Longitudinal Cohort of Acute Respiratory Failure Survivors.",
+      "generatedAt": "2026-07-21T23:05:27.315Z",
+      "model": "qwen3:8b",
+      "summary": "要点: ARF生存者における患者尊厳インベントリ（PDI）の信頼性と臨床的意義の検証が行われた。  \nPICU/CICUでの意味: 成人ARF患者におけるPDIの妥当性評価は、小児患者への適用にはさらなる研究が求められる。  \n注意点: 研究は成人対象であり、小児患者への直接的な適用可能性は不明。抽象のみに基づくため、詳細な臨床的意義は限定的。"
+    },
+    "42479503": {
+      "pmid": "42479503",
+      "title": "Health-Economic Value of Transvenous Diaphragm Neurostimulation in Ventilator Weaning.",
+      "generatedAt": "2026-07-21T23:05:12.783Z",
+      "model": "qwen3:8b",
+      "summary": "要点: tDNSは機械換気患者の脱離成功率を向上させ、短期的な経済的メリットを示唆しているが、長期的な効果は推定に基づく。  \nPICU/CICUでの意味: 機械換気中の患者において、tDNSの導入が呼吸器使用期間の短縮とコスト削減に寄与する可能性がある。  \n注意点: 経済的評価は推定データに基づくため、臨床実践への直接的な影響は明確でない。"
+    },
+    "42479534": {
+      "pmid": "42479534",
+      "title": "Socioeconomic Disparities and the Role of Comorbidity in Hospital Mortality: A Dutch Nationwide Critical Care Cohort Study.",
+      "generatedAt": "2026-07-21T23:05:01.576Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 低所得層は合併症の有無にかかわらずICU入院後の死亡率が高く、特定の合併症がこの関連性を強化することが示唆された。  \nPICU/CICUでの意味: 社会経済的地位と合併症の相互作用が、小児重症患者の予後評価に影響を与える可能性を示唆しており、資源配分や公平性の向上に参考となる。  \n注意点: 抽象のみに基づくため、詳細な臨床的意義や介入戦略については論文本文を参照すること。"
     }
   },
   "dailyDigests": [
+    {
+      "date": "2026-07-21",
+      "generatedAt": "2026-07-21T23:04:32.932Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 15件 / AI要約済み 15件 / 未要約 0件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n## PICU/CICU重点\n\n### 1. Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.\nPMID 42302804 / Lancet Child Adolesc Health / 2026 Aug\n要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。\n\n### 2. Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.\nPMID 42242271 / Lancet Child Adolesc Health / 2026 Aug\n要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。\n\n### 3. Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.\nPMID 42190905 / J Pediatr / 2026 Aug\n- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:\n\n### 4. Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.\nPMID 42190900 / J Pediatr / 2026 Aug\n要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。\n\n### 5. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Socioeconomic Disparities and the Role of Comorbidity in Hospital Mortality: A Dutch Nationwide Critical Care Cohort Study.\nPMID 42479534 / Crit Care Med / 2026 Jul 21\n要点: 低所得層は合併症の有無にかかわらずICU入院後の死亡率が高く、特定の合併症がこの関連性を強化することが示唆された。  \nPICU/CICUでの意味: 社会経済的地位と合併症の相互作用が、小児重症患者の予後評価に影響を与える可能性を示唆しており、資源配分や公平性の向上に参考となる。  \n注意点: 抽象のみに基づくため、詳細な臨床的意義や介入戦略については論文本文を参照すること。\n\n### 3. Health-Economic Value of Transvenous Diaphragm Neurostimulation in Ventilator Weaning.\nPMID 42479503 / Crit Care Med / 2026 Jul 21\n要点: tDNSは機械換気患者の脱離成功率を向上させ、短期的な経済的メリットを示唆しているが、長期的な効果は推定に基づく。  \nPICU/CICUでの意味: 機械換気中の患者において、tDNSの導入が呼吸器使用期間の短縮とコスト削減に寄与する可能性がある。  \n注意点: 経済的評価は推定データに基づくため、臨床実践への直接的な影響は明確でない。\n\n### 4. Psychometric Properties of the Patient Dignity Inventory in a Longitudinal Cohort of Acute Respiratory Failure Survivors.\nPMID 42479496 / Crit Care Med / 2026 Jul 21\n要点: ARF生存者における患者尊厳インベントリ（PDI）の信頼性と臨床的意義の検証が行われた。  \nPICU/CICUでの意味: 成人ARF患者におけるPDIの妥当性評価は、小児患者への適用にはさらなる研究が求められる。  \n注意点: 研究は成人対象であり、小児患者への直接的な適用可能性は不明。抽象のみに基づくため、詳細な臨床的意義は限定的。\n\n### 5. Perceptions on Accessible Mentorship and Barriers to Subspecialty Training: A Comparison Study in URiM and Non-URiM Pediatric Cardiology Trainees.\nPMID 42479190 / Pediatr Cardiol / 2026 Jul 21\n要点: 少数派医師（URiM）は、専門分野選択をより早く行い、同人種のメンターを求める傾向があるが、その獲得に困難を抱えている。  \nPICU/CICUでの意味: トレーニング環境におけるメンタリングの質や多様性が、専門分野の選択と維持に影響を与える可能性を示唆している。  \n注意点: 結果は観察研究であり、因果関係の証明には至っておらず、臨床実践への直接的な影響は限定的である。",
+      "articles": [
+        {
+          "pmid": "42302804",
+          "title": "Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.",
+          "journal": "Lancet Child Adolesc Health",
+          "publicationDate": "2026 Aug",
+          "authors": [
+            "Carlsen EM",
+            "Hansen BM",
+            "Dungu KHS",
+            "Lindhard MS",
+            "Gudiksen A",
+            "Aunsholt L"
+          ],
+          "abstract": "BACKGROUND: Suspicion of early-onset sepsis (EOS) is a major contributor to antibiotic use in late-preterm and term-born neonates. We aimed to evaluate whether a clinically guided, individualised approach to treatment duration could safely reduce antibiotic exposure compared with standard care.\nMETHODS: This nationwide, multicentre, open-label, randomised, controlled, non-inferiority trial included late-preterm and term-born neonates (aged 0-3 days, gestational age 35 weeks or more, birthweight 2000 g or more) with culture-negative early-onset sepsis (probable EOS), defined as continuation of antibiotic treatment beyond 36-48 h based on clinical signs of or maternal risk factors for infection in combination with elevated C-reactive protein and symptom onset less than 72 h after birth. Neonates were ineligible if they met the criteria for discontinuing antibiotics before 48 h. Participants were randomised (1:1) to individualised or standard treatment. In the individualised group, antibiotic treatment was discontinued after 24 h without clinical signs of infection, provided that C-reactive protein was declining to ≤30 mg/L. Standard treatment was 5-7 days. The coprimary outcomes were readmission due to bacterial infection (non-inferiority margin 4%) and total antibiotic duration (superiority assessment), performed on both intention-to-treat and per-protocol populations. Safety was assessed in all included neonates. This study was registered with ClinicalTrials.gov (NCT05329701) and is completed.\nFINDINGS: Between April 22, 2022, and April 5, 2025, 493 (61%) of 811 eligible neonates were randomly assigned to individualised (n=246) or standard (n=247) duration. Antibiotic therapy was initiated at a median of 22·5 h (IQR 14·4-28·0) after birth in the individualised group and 24·5 h (16·6-28·0) in the standard group. Readmission due to bacterial infection occurred in two (1%) of 246 neonates in the individualised group and one (<1%) of 247 in the standard group (risk difference 0·4% [95% CI -1·5 to 2·6]; p non-inferiority =0·0032). Median total antibiotic treatment within 28 days was 2·8 days (IQR 2·4-3·4) in the individualised group and 6·8 days (6·6-7·0) in the standard group (difference 4·0 days [95% CI 3·8-4·1]; p<0·0001). No serious adverse events occurred in the individualised group and one (<1%) occurred in the standard group (risk difference -0·4% [95% CI -2·3 to 1·1]). Per-protocol results were consistent.\nINTERPRETATION: In neonates with probable EOS, a clinically guided, individualised treatment strategy was non-inferior to standard therapy with respect to infection-related readmission and reduced treatment duration to a median of 3 days. These findings support reduced antibiotic use through individualised treatment duration strategies.\nFUNDING: Copenhagen University Hospital Rigshospitalet Research Fund, Innovation Fund Denmark, and Greater Copenhagen Health Science Partners.",
+          "doi": "10.1016/S2352-4642(26)00118-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42302804/"
+        },
+        {
+          "pmid": "42242271",
+          "title": "Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.",
+          "journal": "Lancet Child Adolesc Health",
+          "publicationDate": "2026 Aug",
+          "authors": [
+            "Martinez TA",
+            "Francis KL",
+            "Kamlin O",
+            "Shalish W",
+            "Sant'Anna G",
+            "Hodgson KA"
+          ],
+          "abstract": "BACKGROUND: To survive, infants born before 26 weeks' gestation require respiratory assistance immediately after birth. However, the respiratory trajectories of these most preterm infants are not well delineated. We aimed to describe the early respiratory trajectories of infants born before 26 weeks' gestation who received surfactant during their initial neonatal intensive care admission.\nMETHODS: This study was a post-hoc exploratory analysis of PLUSS, a randomised controlled trial comparing intratracheal budesonide mixed with surfactant versus surfactant alone. Infants were recruited from 21 neonatal intensive care units in Australia, New Zealand, Canada, and Singapore. Infants born before 28 weeks' gestation and aged less than 48 h were eligible if (1) they were mechanically ventilated, or (2) they were receiving non-invasive respiratory support and there was a clinical decision to treat with surfactant. For this analysis, only infants born before 26 weeks' gestation were included, and treatment and control groups were combined. We aimed to describe early respiratory trajectories, including the levels of respiratory support and oxygen administered during the first 14 days, and respiratory outcomes at 28 postnatal days and 36 weeks' and 40 weeks' postmenstrual age. The main in-hospital respiratory outcomes were the timing and success of the first extubation, the durations of respiratory support, including oxygen requirements, and outcomes at hospital discharge, such as duration of hospital stay and discharge home on oxygen. PLUSS is registered with the Australian New Zealand Clinical Trials Registry (ACTRN12617000322336), and follow-up is ongoing.\nFINDINGS: Between Jan 4, 2018, and March 27, 2023, 1062 infants were recruited to the PLUSS trial, of whom 601 were born before 26 weeks' gestation. 131 (97%) of 135 infants born at 22-23 weeks' gestation were intubated at birth, compared with 163 (74%) of 220 infants born at 24 weeks and 157 (64%) of 246 infants born at 25 weeks. The median postnatal age at first extubation ranged from 15 days (IQR 8-26) in infants born at 22-23 weeks' gestation to 6 days (2-18) in those born at 24 weeks and 3 days (1-10) in those born at 25 weeks. 54 (66%) of 82 infants born at 22-23 weeks' gestation required reintubation, compared with 80 (51%) of 158 infants born at 24 weeks and 72 (38%) of 189 infants born at 25 weeks. The median duration of mechanical ventilation in infants who survived to 36 weeks' postmenstrual age was 36 days (IQR 23-49) in those born at 22-23 weeks' gestation, 26 days (14-39) in those born at 24 weeks, and 12 days (3-27) in those born at 25 weeks. At 40 weeks' postmenstrual age, nine (11%) of 83 surviving infants born at 22-23 weeks' gestation were discharged home, and 63 (85%) of 74 infants still in the hospital were receiving oxygen or respiratory support. By contrast, 36 (23%) of 160 surviving infants born at 24 weeks and 61 (30%) of 204 born at 25 weeks were discharged home, and 97 (78%) of 124 in-hospital infants born at 24 weeks and 79 (55%) of 143 in-hospital infants born at 25 weeks required oxygen or respiratory support.\nINTERPRETATION: The most preterm infants born at the margins of viability require intensive and prolonged respiratory support. Knowledge of the respiratory trajectories in surfactant-treated infants born before 26 weeks' gestation could assist clinicians in family consultations while also guiding future randomised controlled trials.\nFUNDING: National Health and Medical Research Council, Australia; Chiesi Farmaceutici.",
+          "doi": "10.1016/S2352-4642(26)00094-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42242271/"
+        },
+        {
+          "pmid": "42190905",
+          "title": "Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.",
+          "journal": "J Pediatr",
+          "publicationDate": "2026 Aug",
+          "authors": [
+            "DiPrisco B",
+            "Brinker K",
+            "Coyle M",
+            "DuPont T",
+            "Hanin M",
+            "House M"
+          ],
+          "abstract": "OBJECTIVE: To evaluate neurodevelopmental care practices for patients with grade 3 bronchopulmonary dysplasia (BPD), specifically the relationships between frequency of developmental therapies and types of developmentally supportive equipment provided to patients and the patient's current level of respiratory support, while still in the neonatal intensive care unit (NICU).\nSTUDY DESIGN: Cross-sectional study of 22 NICUs in the BPD Collaborative, including all eligible infants in each NICU with grade 3 BPD who had never been discharged home. We collected data about current respiratory support, neurodevelopmental therapies, and availability of developmentally supportive equipment in patients' rooms through the medical records and interviews with bedside nurses.\nRESULTS: For this study 141 infants were included (median postmenstrual age 49 weeks, IQR 43-60 weeks). The majority (65.2%) were receiving invasive ventilation. Respiratory support was significantly associated with any physical therapy (P = .008) or speech therapy (P < .001) and total number of completed therapy sessions in the prior 48 hours (P < .001). Availability of developmentally supportive equipment in an infant's room was also significantly associated with respiratory support. Patients with tracheostomies had a notably higher count of many different types of developmentally supportive equipment in their rooms than those infants with endotracheal tubes and those receiving noninvasive respiratory support. The majority of nurses reported having time to support their patients' development (80%), but fewer than half the infants regularly experienced reading (37%) or singing (46%).\nCONCLUSIONS: Developmental supports for infants with grade 3 BPD vary based on respiratory support and across institutions. Infants with tracheostomies have more opportunities for developmentally supportive activities. These data can be used to benchmark care practices across institutions and guide prospective studies to standardize developmental care and improve outcomes in infants with grade 3 BPD.",
+          "doi": "10.1016/j.jpeds.2026.115157",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42190905/"
+        },
+        {
+          "pmid": "42190900",
+          "title": "Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.",
+          "journal": "J Pediatr",
+          "publicationDate": "2026 Aug",
+          "authors": [
+            "Sutyla RF",
+            "Young KA",
+            "Dhar S",
+            "Nanduri N",
+            "Barton SJ",
+            "Lemmon M"
+          ],
+          "abstract": "OBJECTIVE: To evaluate the language used to discuss a child's disability and understand themes related to its use.\nSTUDY DESIGN: This descriptive qualitative study was embedded in a qualitative study examining family meeting dynamics and decision-making in pediatric and neonatal intensive care units. Family meetings involved an infant 1 year old or younger and were held to discuss neurologic prognosis or goals of care. We performed a secondary, post hoc analysis of family meeting content to characterize language used to discuss current and/or future disability.\nRESULTS: A total of 68 family meetings were screened; 45 (66%) included disability language. Disability was referenced by explicitly naming disability, sharing information about disability characteristics, and using problematic language. We identified 5 themes that further characterized disability language: (1) euphemisms for disability, (2) invoking the healthy other, (3) the intersection between quality of life and disability, (4) using the medical model to contextualize disability, and (5) disability's impact on the child's family.\nCONCLUSIONS: The language used by family members and clinicians to discuss and contextualize disability provides important insight into how disability is addressed in pediatric and neonatal intensive care units. These findings emphasize the importance of including topics related to disability in medical education and can inform further work to develop training tools to aid pediatric clinicians in discussing disability effectively.",
+          "doi": "10.1016/j.jpeds.2026.115160",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42190900/"
+        },
+        {
+          "pmid": "42173429",
+          "title": "Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.",
+          "journal": "Resuscitation",
+          "publicationDate": "2026 Aug",
+          "authors": [
+            "Kolstad V",
+            "Hoven E",
+            "Buskov F",
+            "Eilevstjønn J",
+            "Meinich-Bache Ø",
+            "Engan K"
+          ],
+          "abstract": "AIMS: Newborn resuscitation guidelines recommend stimulation as a first step in non-breathing newborns to facilitate spontaneous breathing. We aimed to evaluate the extent of stimulation in the delivery room, heart rate (HR) responses to stimulation, and association between bradycardia (HR <100 beats per minute (bpm) ≥10 s) in the first minute after birth and the need for positive pressure ventilation (PPV) versus stimulation alone.\nMETHOD: A prospective observational study conducted at tertiary level Stavanger University Hospital, Norway, September 2022-July 2024 including newborns with gestational age ≥34 weeks. Stimulation was registered from thermal videos in the delivery room and visible light cameras over resuscitaires. HR was obtained using dry-electrode ECG.\nRESULTS: 449 included newborns had thermal videos ± visible light video and HR data. 70/449 (16%) newborns did not receive any resuscitative interventions, 345/449 (77%) received stimulation alone, 14/449 (3.1%) received continuous positive airway pressure, and 20/449 (4.4%) received PPV. We observed a HR increase of median 7 bpm among newborns with HR <140 bpm at start stimulation (p < 0.001). Newborns with bradycardia in the first minute after birth had four-fold likelihood of requiring PPV versus tactile stimulation alone (OR 4.81 95% CI 1.39-15.3, p = 0.009).\nCONCLUSION: Tactile stimulation is widely applied during neonatal transition. We observed an increase in HR in relation to tactile stimulation, especially among newborns with HR <140 bpm at start stimulation. Newborns with bradycardia (HR <100 bpm ≥10 s) in the first minute after birth had a four-fold likelihood of requiring PPV versus tactile stimulation alone.",
+          "doi": "10.1016/j.resuscitation.2026.111144",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42173429/"
+        },
+        {
+          "pmid": "41995635",
+          "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
+          "journal": "Ann Thorac Surg",
+          "publicationDate": "2028 Mar 23",
+          "authors": [
+            "Won D",
+            "Bolling SF",
+            "Romano MA",
+            "Johnston DR",
+            "Ailawadi G",
+            "Mehta CK"
+          ],
+          "abstract": "BACKGROUND: Although transcatheter mitral valve-in-valve replacement (mViV) is safe, long-term outcomes compared with reoperative surgical mitral valve replacement (rSMVR) remains unknown. This study compared long-term outcomes between mViV and rSMVR in patients with failing mitral bioprostheses.\nMETHODS: This retrospective, cohort study analyzed patients undergoing mViV or rSMVR for failing bioprosthetic mitral valves without active endocarditis at 2 quaternary care centers from 2004 to 2023. Primary end points included 30-day Mitral Valve Academic Research Consortium (MVARC) procedural success, 5-year cumulative incidence of death, freedom from reintervention, and cumulative incidence of heart failure. Echocardiographic evaluation of mean mitral valve gradients was assessed at baseline and 5-year follow-up.\nRESULTS: Of 229 patients (90 rSMVR, 139 mViV; mean age, 66.0 vs 68.7 years), MVARC 30-day outcomes were similar except for higher prolonged ventilation with rSMVR. At 5 years, rSMVR had significantly lower mortality (20.3% vs 40.9%; P = .01) and lower mean (standard deviation) mitral gradients (immediate postprocedure: 5.1 [2.3] mm Hg vs 7.8 [3.0] mm Hg; 5-year: 5.3 [2.0] mm Hg vs 9.8 [5.3] mm Hg; P < .001). Freedom from mitral valve reintervention (5.8% vs 6.1%; P = .97) and cumulative heart failure incidence (14.3% vs 22.9%; P = .17) were similar.\nCONCLUSIONS: Although mViV demonstrated comparable 30-day MVARC outcomes, rSMVR was associated with superior long-term survival and hemodynamic durability among patients deemed appropriate surgical candidates by a multidisciplinary heart team. Treatment decisions should balance short-term risk with long-term outcomes.",
+          "doi": "10.1016/j.athoracsur.2026.03.032",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41995635/"
+        },
+        {
+          "pmid": "42479534",
+          "title": "Socioeconomic Disparities and the Role of Comorbidity in Hospital Mortality: A Dutch Nationwide Critical Care Cohort Study.",
+          "journal": "Crit Care Med",
+          "publicationDate": "2026 Jul 21",
+          "authors": [
+            "de Kok JWTM",
+            "Koornneef DJM",
+            "Termorshuizen F",
+            "Schnabel RM",
+            "van der Horst ICC",
+            "de Keizer NF"
+          ],
+          "abstract": "OBJECTIVES: Lower socioeconomic status (SES) is associated with a higher prevalence of comorbidities and mortality. The association between SES and mortality, as well as the effect-modifying role of specific comorbidities, are not yet fully understood within the critical care context of insurance-based universal healthcare systems. To inform health policy and practice, we examined socioeconomic disparities in Dutch ICU admissions, considering comorbidities in the context of hospital mortality.\nDESIGN: Nationwide retrospective cohort study.\nSETTING: All 79 Dutch ICUs were included.\nPATIENTS: We used data from 588,568 ICU admissions (2014-2022) linked with household-level SES data.\nINTERVENTIONS: None.\nMEASUREMENTS AND MAIN RESULTS: We used mixed-effects logistic regression models to investigate the association between SES quintiles and hospital mortality. We adjusted models for age, sex, year of admission, acute physiologic derangement, and comorbidities. Also, we investigated the effect-modifying role of seven comorbidities: respiratory insufficiency, renal insufficiency, cancer, cardiovascular insufficiency, diabetes mellitus, cirrhosis, and immunological insufficiency. Unadjusted odds ratios (ORs) for hospital mortality were higher among patients with lower SES. After adjustment, SES quintiles remained significantly different from the middle quintile, with attenuated ORs (95% CI): 1.6 (1.5-1.6), 1.1 (1.0-1.1), 1.0 (0.9-1.0), and 0.9 (0.9-1.0), respectively. The association was most pronounced in the lowest SES quintile and persisted in patients with and without specific comorbidities.\nCONCLUSIONS: ICU patients with a lower SES face poorer survival prospects, irrespective of comorbidities. This highlights the persistent health disparities that may influence ICU outcomes. SES should be considered for interpreting outcome measures, designing healthcare policies, and targeting interventions to improve health equity.",
+          "doi": "10.1097/CCM.0000000000007271",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42479534/"
+        },
+        {
+          "pmid": "42479503",
+          "title": "Health-Economic Value of Transvenous Diaphragm Neurostimulation in Ventilator Weaning.",
+          "journal": "Crit Care Med",
+          "publicationDate": "2026 Jul 21",
+          "authors": [
+            "Pietzsch JB",
+            "Ryschon AM",
+            "Mehta N",
+            "Ways JP",
+            "Ataya A",
+            "Criner GJ"
+          ],
+          "abstract": "OBJECTIVES: Prolonged mechanical ventilation presents a substantial clinical and economic burden. Transvenous diaphragm neurostimulation (tDNS) has demonstrated an increased rate of successful weaning and reduced duration of ventilation among mechanically ventilated patients. This exploratory analysis sought to quantify the potential short-term health-economic implications in the acute hospital setting, as well as potential lifetime benefits resulting from improved weaning in mechanically ventilated patients receiving tDNS compared with the standard of care (SoC).\nDESIGN, SETTING, PATIENTS: A cost-consequence analysis was conducted, reporting short-term economic outcomes for tDNS- vs. SoC-treatment strategies in a U.S. setting, based on recent clinical data from the RESCUE-3 randomized trial and real-world claims data. A lifetime projection model informed long-term survival and quality-of-life implications in an exploratory analysis. The primary outcomes included stakeholder-specific incremental costs and quality-adjusted life-year (QALY) gain with tDNS. Extensive sensitivity analyses and validations were performed.\nINTERVENTIONS: None.\nMEASUREMENT AND MAIN RESULTS: Under the base case assumptions, a 2.8-day reduction in mechanical ventilation utilization and 10.5% greater weaning success led to projected cost savings of $12,102 in the acute setting and $11,999 in the long-term care hospital setting, before consideration of tDNS cost. Favorable cost savings materialized across sensitivity analyses employing a range of clinical and cost assumptions. An increase in acute weaning with tDNS may lead to 0.10-0.68 QALYs gained over patients' remaining lifetime.\nCONCLUSIONS: Based on these exploratory findings, improved weaning rates with tDNS will likely lead to meaningful cost savings in acute and long-term care settings, and concurrent long-term QALY gains that, depending on therapy cost, may render tDNS a cost-effective, high-value intervention. Future lifetime cost-effectiveness analyses are warranted.",
+          "doi": "10.1097/CCM.0000000000007262",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42479503/"
+        },
+        {
+          "pmid": "42479496",
+          "title": "Psychometric Properties of the Patient Dignity Inventory in a Longitudinal Cohort of Acute Respiratory Failure Survivors.",
+          "journal": "Crit Care Med",
+          "publicationDate": "2026 Jul 21",
+          "authors": [
+            "Federico LE",
+            "Kwiatkowski C",
+            "Dine CJ",
+            "Lu Y",
+            "Prasad TV",
+            "Dress E"
+          ],
+          "abstract": "OBJECTIVES: Although greater than 50% of acute respiratory failure (ARF) survivors develop postintensive care syndrome, dignity-centered interventions-shown to improve psychosocial and existential outcomes in other longitudinally impaired populations-remain largely unexplored in ARF survivorship. We aimed to validate the Patient Dignity Inventory (PDI) among ARF survivors by evaluating internal consistency and generalizability and establishing a minimal clinically important difference (MCID).\nDESIGN/SETTING/PATIENTS: Prospective cohort study (June 2022 to April 2023) of mechanically ventilated (≥24 h) adults in four University of Pennsylvania hospitals' ICUs.\nINTERVENTIONS: None.\nMEASUREMENTS AND MAIN RESULTS: Patients completed the PDI within 1 month of ICU discharge and at 3, 6, and 12 months. We assessed internal consistency using Cronbach's alpha (reliability of questions measuring the same construct; range 0-1) and exploratory factor analysis to identify dignity-related distress domains. We evaluated generalizability using multilevel mixed-effects modeling to estimate variance attributable to patients, questions, and timepoints, which informed phi coefficient calculation (score consistency; range 0-1). We calculated MCID by averaging anchor-based (EuroQol-5 Dimension MCID = 0.11 from baseline to 12 months) and distribution-based (average of se of the mean, 0.3 × sd, and 5% of baseline score range) estimates.Of 967 eligible patients, 103 patients (11%) enrolled at baseline, with 70% retention at 12 months. PDI demonstrated excellent internal consistency across timepoints (Cronbach's alpha = 0.94-0.96). Factor analysis identified 2-3 factors per timepoint, with physical, psychologic, and cognitive impairments predominating early, and existential and interpersonal concerns increasing longitudinally. Seventy-five percent of score variance was attributable to patient differences and 25% to timepoint, yielding phi = 0.93 (excellent consistency).\nCONCLUSIONS: The PDI is a valid, reliable instrument for assessing dignity among ARF survivors longitudinally, demonstrating excellent internal consistency and generalizability, providing a foundation for designing and evaluating dignity-centered interventions addressing ARF survivors' evolving needs.",
+          "doi": "10.1097/CCM.0000000000007272",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42479496/"
+        },
+        {
+          "pmid": "42479190",
+          "title": "Perceptions on Accessible Mentorship and Barriers to Subspecialty Training: A Comparison Study in URiM and Non-URiM Pediatric Cardiology Trainees.",
+          "journal": "Pediatr Cardiol",
+          "publicationDate": "2026 Jul 21",
+          "authors": [
+            "Cox OM",
+            "Yalavarthi P",
+            "Duimstra A",
+            "Lowery R",
+            "Yu S",
+            "Goldberg CS"
+          ],
+          "abstract": "Physicians who are underrepresented in medicine (URiMs), defined by the Association of American Medical Colleges as Black, Hispanic, and Native American, are significantly underrepresented in pediatric cardiology. This project, to identify improvement opportunities in recruitment and retention, examined the impact of mentorship, subspecialty exposure, specialty culture, and financial constraints on URiMs' decisions to enter pediatric cardiology. A cross-sectional survey was distributed primarily through the Society of Pediatric Cardiology Training Program Directors (SPCTPD) from 10/1/24 - 2/17/25. Participants included fellows and those recently matched into fellowship. Of 109 survey responses during the study period, 5 (4.6%) were excluded due to incomplete responses, and 104 were included in the final analysis. URiMs accounted for 19 (18.3%) of the respondents. Compared to other trainees, URiMs decided on subspecialty training prior to residency (p = 0.03). They were more likely to seek out mentors who shared similar racial/ethnic backgrounds (p = 0.0002) but had difficulty finding such mentors (p < 0.0001). URiMs were more likely to have made trade-offs in career aspirations due to concerns about medical school debt (p = 0.002) and low financial compensation in pediatrics (p = 0.004). Furthermore, URiM trainees were more likely to express concern that their racial/ethnic background influenced experiences within a subspecialty rotation (p = 0.001). URiM trainees face unique challenges in accessing culturally congruent mentorship, navigating financial constraints, and finding inclusive training environments. Strengthening early mentorship, developing targeted financial support programs, and fostering an affirming specialty culture are essential strategies to promote demographic heterogeneity within pediatric cardiology and, ultimately, mitigate disparities in pediatric patient outcomes.",
+          "doi": "10.1007/s00246-026-04385-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42479190/"
+        }
+      ],
+      "importantArticles": [
+        {
+          "pmid": "40119480",
+          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
+          "journal": "J Intensive Care",
+          "publicationDate": "2025 Mar 21",
+          "authors": [
+            "Nakamura K",
+            "Yamamoto R",
+            "Higashibeppu N",
+            "Yoshida M",
+            "Tatsumi H",
+            "Shimizu Y"
+          ],
+          "abstract": "Nutrition therapy is important in the management of critically ill patients and is continuously evolving as new evidence emerges. The Japanese Critical Care Nutrition Guideline 2024 (JCCNG 2024) is specific to Japan and is the latest set of clinical practice guidelines for nutrition therapy in critical care that was revised from JCCNG 2016 by the Japanese Society of Intensive Care Medicine. An English version of these guidelines was created based on the contents of the original Japanese version. These guidelines were developed to help health care providers understand and provide nutrition therapy that will improve the outcomes of children and adults admitted to intensive care units or requiring intensive care, regardless of the disease. The intended users of these guidelines are all healthcare professionals involved in intensive care, including those who are not familiar with nutrition therapy. JCCNG 2024 consists of 37 clinical questions and 24 recommendations, covering immunomodulation therapy, nutrition therapy for special conditions, and nutrition therapy for children. These guidelines were developed in accordance with the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) system by experts from various healthcare professionals related to nutrition therapy and/or critical care. All GRADE-based recommendations, good practice statements (GPS), future research questions, and answers to background questions were finalized by consensus using the modified Delphi method. Strong recommendations for adults include early enteral nutrition (EN) within 48 h and the provision of pre/synbiotics. Weak recommendations for adults include the use of a nutrition protocol, EN rather than parenteral nutrition, the provision of higher protein doses, post-pyloric EN, continuous EN, omega-3 fatty acid-enriched EN, the provision of probiotics, and indirect calorimetry use. Weak recommendations for children include early EN within 48 h, bolus EN, and energy/protein-dense EN formulas. A nutritional assessment is recommended by GPS for both adults and children. JCCNG 2024 will be disseminated through educational activities mainly by the JCCNG Committee at various scientific meetings and seminars. Since studies on nutritional treatment for critically ill patients are being reported worldwide, these guidelines will be revised in 4 to 6 years. We hope that these guidelines will be used in clinical practice for critically ill patients and in future research.",
+          "doi": "10.1186/s40560-025-00785-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40119480/"
+        },
+        {
+          "pmid": "40668437",
+          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 Jul 16",
+          "authors": [
+            "Jourdain M",
+            "Chatti IG",
+            "Housni B",
+            "Jaquet P",
+            "Jezequel M",
+            "Kane O"
+          ],
+          "abstract": "BACKGROUND: Although largely used, the place of extracorporeal renal replacement therapy (RRT) in acute kidney injury (AKI) in intensive care unit (ICU) patients has yet to be clarified. The French Intensive Care Society (Société de Réanimation de Langue Française, SRLF) and the French Pediatric Group of Intensive Care and Emergency (Groupe Francophone de Réanimation et d'Urgence Pédiatrique, GFRUP) organized a consensus conference in November 2024.\nMETHODS: A committee, without any conflict of interest (CoI) on the subject, defined seven generic questions and drew up a list of sub questions according to the population, intervention, comparison and outcomes (PICO) model. An independent work group reviewed literature using predefined keywords. The quality of the data was assessed using the GRADE methodology. Eighteen experts in the field from both societies proposed their own answers in a public session and answered questions from the jury (a panel of 14 critical-care medicine physicians and a nurse) and the public. The jury then met for 48 h to write out and vote on its recommendations.\nRESULTS: The panel provided 45 statements addressing seven questions. In patients, adults or children, admitted to the ICU with AKI (1) What are the indications for RRT, when should it be initiated, and within what timeframe? (2) What are the advantages/disadvantages of the different RRT modalities in ICU, and based on what criteria should they be chosen? (3) Which dose of dialysis should be prescribed for ICU patients? (4) How to prescribe, adjust and monitor each RRT technique? (5) Which vascular access technique should be preferred (insertion site, catheter type and length)? (6) How to prevent circuit thrombosis? (7) What are the criteria to consider weaning from RRT and how can it be achieved?\nCONCLUSIONS: These recommendations should optimize the prescription and use of RRT during AKI in ICUs for both adult and pediatric patients.",
+          "doi": "10.1186/s13613-025-01517-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40668437/"
+        },
+        {
+          "pmid": "40439782",
+          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 May 29",
+          "authors": [
+            "Mekontso Dessap A",
+            "Dauger S",
+            "Khellaf M",
+            "Agbakou M",
+            "Agut S",
+            "Angoulvant F"
+          ],
+          "abstract": "Forty-two questions were evaluated concerning management of emergencies and critical illnesses in paediatric and adult patients with sickle cell disease. The assessment covered the following areas: patient referral, vaso-occlusive crisis, acute chest syndrome, transfusion therapy, and priapism. The patient referral category included guidelines for admission to intensive care unit and management at specialized reference centers. The vaso-occlusive crisis topic encompassed pain management, hydration, incentive spirometry, and target oxygen saturation levels. For acute chest syndrome, the focus areas included imaging techniques such as lung ultrasound, computed tomography scans, and echocardiography; treatment with systemic corticosteroids; non-invasive ventilation; prophylactic and therapeutic anticoagulation; and procalcitonin and antibiotic therapy. The section on transfusion therapy addressed indications and methods of transfusion, as well as the diagnosis and prediction of delayed hemolytic transfusion reactions. A total of 45 recommendations were proposed, including 14 specific to adults, 13 specific to pediatrics, and 18 applicable to both adults and children, along with three therapeutic algorithms. The Grade of Recommendation Assessment, Development, and Evaluation (GRADE) methodology was adhered to throughout the process. Sixteen recommendations were based on a low level of evidence (GRADE 2+ or 2-), while 26 were based on evidence that could not be classified under the GRADE system and were therefore considered expert opinions. Finally, for three aspects of sickle cell disease management, the experts concluded that no reliable recommendations could be made based on the current state of knowledge. The recommendations and therapeutic algorithms received strong agreement from the experts.",
+          "doi": "10.1186/s13613-025-01479-3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40439782/"
+        },
+        {
+          "pmid": "40665004",
+          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 Jul 15",
+          "authors": [
+            "Reignier J",
+            "Gaillard-Le Roux B",
+            "Dequin PF",
+            "Bertoni Maluf VA",
+            "Bohe J",
+            "Casaer MP"
+          ],
+          "abstract": "The objective of this work was to develop guidelines for nutritional support in critically ill adults and children (excluding neonates and burn patients) unable to maintain an adequate oral intake. We aimed to provide up-to-date recommendations based on high-level evidence including the results of recent landmark randomized controlled trials. Experts from the French Intensive Care Society (SRLF), the French Society of Clinical Nutrition and Metabolism (SFNCM), and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP) used the GRADE methodology to develop the guidelines. Twenty-four Patient Intervention Comparator Outcome (PICO) questions were identified, resulting in 34 adult and 29 pediatric recommendations. Of the 34 recommendations for adults, three were based on high-level evidence, 12 on moderate-level evidence, and 19 on expert opinion. The corresponding numbers for the 29 pediatric recommendations were one, five, and 23. All recommendations achieved strong agreement among the experts. These guidelines emphasize the importance of individualized nutritional support strategies that incorporate recent high-quality evidence to optimize the outcomes of critically ill patients.",
+          "doi": "10.1186/s13613-025-01509-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40665004/"
+        },
+        {
+          "pmid": "40198815",
+          "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
+          "journal": "Eur Heart J Acute Cardiovasc Care",
+          "publicationDate": "2025 Aug 06",
+          "authors": [
+            "Kerneis M",
+            "Ammirati E",
+            "Delmas C",
+            "Heggermont W",
+            "Heymans S",
+            "Lenz M"
+          ],
+          "abstract": "Acute Myocarditis (AM) encompasses a broad spectrum of clinical presentations and causes. Despite the recent advances in cardiovascular imaging, pathology, virology, and genetics, specific therapies are still lacking. This collaborative review aims to analyse the current evidence to answer practical questions that physicians may face during the early management of patients presenting with an acute form of the disease, complicated or not. This review analyses current evidence to address practical questions posed by acute cardiovascular physicians during the early management of acute, or potentially, myocarditis. Based on the current literature, this review provides a step-by-step approach to treat AM patients from their admission in the cardiac intensive care unit (CICU) to discharge, by answering 10 clinical questions: Might this patient be suffering from an AM? Should I hospitalize this patient and, if so, where? Which cardiac imaging exam should I perform and what can I learn from it? Is this patient requiring an EMB? What should the non-invasive aetiological work-up be? Is her/his episode of AM of viral, toxic, or other origin? Does this patient need specific treatments or mechanical circulatory support? Is there an indication for guideline-directed medical heart failure treatment? When can the patient be discharged and resume physical activity? Notably, this review highlights the need to build a multidisciplinary response team to address the many diagnostic and therapeutic challenges of AM patients. It also points out the lack of evidence to guide the treatment of these patients.",
+          "doi": "10.1093/ehjacc/zuaf057",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40198815/"
+        }
+      ],
+      "articleSummaries": {
+        "40119480": {
+          "pmid": "40119480",
+          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
+          "generatedAt": "2026-06-11T01:17:01.751Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。"
+        },
+        "40198815": {
+          "pmid": "40198815",
+          "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
+          "generatedAt": "2026-06-26T22:38:58.615Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。"
+        },
+        "40439782": {
+          "pmid": "40439782",
+          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
+          "generatedAt": "2026-06-11T01:17:26.413Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。"
+        },
+        "40665004": {
+          "pmid": "40665004",
+          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
+          "generatedAt": "2026-06-11T01:17:13.713Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。"
+        },
+        "40668437": {
+          "pmid": "40668437",
+          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
+          "generatedAt": "2026-06-11T01:17:36.989Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。"
+        },
+        "41995635": {
+          "pmid": "41995635",
+          "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
+          "generatedAt": "2026-06-15T23:56:51.310Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。"
+        },
+        "42173429": {
+          "pmid": "42173429",
+          "title": "Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.",
+          "generatedAt": "2026-06-26T22:39:22.763Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。"
+        },
+        "42190900": {
+          "pmid": "42190900",
+          "title": "Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.",
+          "generatedAt": "2026-07-14T03:59:25.152Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。"
+        },
+        "42190905": {
+          "pmid": "42190905",
+          "title": "Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.",
+          "generatedAt": "2026-07-14T03:59:10.623Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:"
+        },
+        "42242271": {
+          "pmid": "42242271",
+          "title": "Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.",
+          "generatedAt": "2026-07-14T03:58:57.937Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。"
+        },
+        "42302804": {
+          "pmid": "42302804",
+          "title": "Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.",
+          "generatedAt": "2026-07-14T03:58:42.032Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。"
+        },
+        "42479190": {
+          "pmid": "42479190",
+          "title": "Perceptions on Accessible Mentorship and Barriers to Subspecialty Training: A Comparison Study in URiM and Non-URiM Pediatric Cardiology Trainees.",
+          "generatedAt": "2026-07-21T23:05:40.790Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 少数派医師（URiM）は、専門分野選択をより早く行い、同人種のメンターを求める傾向があるが、その獲得に困難を抱えている。  \nPICU/CICUでの意味: トレーニング環境におけるメンタリングの質や多様性が、専門分野の選択と維持に影響を与える可能性を示唆している。  \n注意点: 結果は観察研究であり、因果関係の証明には至っておらず、臨床実践への直接的な影響は限定的である。"
+        },
+        "42479496": {
+          "pmid": "42479496",
+          "title": "Psychometric Properties of the Patient Dignity Inventory in a Longitudinal Cohort of Acute Respiratory Failure Survivors.",
+          "generatedAt": "2026-07-21T23:05:27.315Z",
+          "model": "qwen3:8b",
+          "summary": "要点: ARF生存者における患者尊厳インベントリ（PDI）の信頼性と臨床的意義の検証が行われた。  \nPICU/CICUでの意味: 成人ARF患者におけるPDIの妥当性評価は、小児患者への適用にはさらなる研究が求められる。  \n注意点: 研究は成人対象であり、小児患者への直接的な適用可能性は不明。抽象のみに基づくため、詳細な臨床的意義は限定的。"
+        },
+        "42479503": {
+          "pmid": "42479503",
+          "title": "Health-Economic Value of Transvenous Diaphragm Neurostimulation in Ventilator Weaning.",
+          "generatedAt": "2026-07-21T23:05:12.783Z",
+          "model": "qwen3:8b",
+          "summary": "要点: tDNSは機械換気患者の脱離成功率を向上させ、短期的な経済的メリットを示唆しているが、長期的な効果は推定に基づく。  \nPICU/CICUでの意味: 機械換気中の患者において、tDNSの導入が呼吸器使用期間の短縮とコスト削減に寄与する可能性がある。  \n注意点: 経済的評価は推定データに基づくため、臨床実践への直接的な影響は明確でない。"
+        },
+        "42479534": {
+          "pmid": "42479534",
+          "title": "Socioeconomic Disparities and the Role of Comorbidity in Hospital Mortality: A Dutch Nationwide Critical Care Cohort Study.",
+          "generatedAt": "2026-07-21T23:05:01.576Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 低所得層は合併症の有無にかかわらずICU入院後の死亡率が高く、特定の合併症がこの関連性を強化することが示唆された。  \nPICU/CICUでの意味: 社会経済的地位と合併症の相互作用が、小児重症患者の予後評価に影響を与える可能性を示唆しており、資源配分や公平性の向上に参考となる。  \n注意点: 抽象のみに基づくため、詳細な臨床的意義や介入戦略については論文本文を参照すること。"
+        }
+      }
+    },
     {
       "date": "2026-07-19",
       "generatedAt": "2026-07-19T22:57:57.177Z",
@@ -3649,9 +4053,9 @@
       ]
     }
   ],
-  "lastAutoRunAt": "2026-07-19T22:57:57.177Z",
-  "lastAutoRunDate": "2026-07-19",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42471239: 順次AI要約済み / PMID 42470615: 順次AI要約済み / 順次AI要約: 2件追加 / 15/15件済み",
-  "lastImportantRunAt": "2026-07-19T22:57:57.177Z",
+  "lastAutoRunAt": "2026-07-21T23:04:32.932Z",
+  "lastAutoRunDate": "2026-07-21",
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42479534: 順次AI要約済み / PMID 42479503: 順次AI要約済み / PMID 42479496: 順次AI要約済み / PMID 42479190: 順次AI要約済み / 順次AI要約: 4件追加 / 15/15件済み",
+  "lastImportantRunAt": "2026-07-21T23:04:32.932Z",
   "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 0件"
 }
