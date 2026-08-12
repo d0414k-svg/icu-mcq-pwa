@@ -172,12 +172,12 @@
     ]
   },
   "summaryByAlert": {
-    "focused": "",
-    "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。"
+    "focused": "## PICU/CICU重点\n\n### 1. Efficacy and safety of risdiplam in patients with type 1 spinal muscular atrophy: a 3-year open-label extension of the two-part, phase 2 FIREFISH trial.\nPMID 42385757 / Lancet Child Adolesc Health / 2026 Sep\n- 要点: risdiplamの3年間の長期的な安全性と効果が確認され、1〜7月齢のタイプ1脊髄筋萎縮症（SMA）患者において継続的な運動機能改善が観察された。  \n- PICU/CICUでの意味: SMA患者における呼吸機能の維持や重症度管理に資する長期的な治療効果の確認が可能となった。  \n- 注意点: 研究はオープンラベル設計であり、臨床実践への直接的な推奨には注意が必要。\n\n### 2. The Phoenix criteria for paediatric sepsis: 2 years on.\nPMID 42309093 / Lancet Child Adolesc Health / 2026 Sep\n要点: 本研究は、小児感染症におけるPhoenix基準の2年間の実践状況を評価している。  \nPICU/CICUでの意味: Phoenix基準は小児敗血症の早期識別と管理に向けたガイドラインとして継続的に検討されている。  \n注意点: 抽象が提供されていないため、内容はタイトルと雑誌情報に限られる。\n\n### 3. The American Society of ExtraCorporeal Technology Standards and Guidelines for Pediatric and Congenital Perfusion Practice: 2025 Update.\nPMID 42099109 / World J Pediatr Congenit Heart Surg / 2026 Sep\n- 要点: 2025年版のガイドラインは、最新の文献と臨床実践に基づき、小児・先天性ペリフェーションの基準とガイドラインを再評価・更新した。  \n- PICU/CICUでの意味: 小児心臓外科手術や重症患者管理におけるペリフェーションプロトコルの最適化に向けた基準の明確化が期待される。  \n- 注意点: 抽象のみのため、詳細な実践的指針や臨床影響は記載されていない。\n\n### 4. A Rare Case of Aortic Atresia and Interrupted Aortic Arch Type B Survival, Anatomic Importance of a Vertebral Artery and the Circle of Willis, a Case Report and Review of the Literature.\nPMID 41823263 / World J Pediatr Congenit Heart Surg / 2026 Sep\n要点: Type B型中断性主動脈弓伴主動脈閉鎖の極めてまれな症例で、脳・冠脈への灌流は左頚動脈を介して維持された。  \nPICU/CICUでの意味: 頸動脈系とWillis環の解剖的重要性が、急性循環障害時の灌流維持に示唆される。  \n注意点: 場合によっては胸腔内に代替循環経路が存在しない可能性に留意し、術前評価が重要である。",
+    "broad": "## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. The American Society of ExtraCorporeal Technology Standards and Guidelines for Pediatric and Congenital Perfusion Practice: 2025 Update.\nPMID 42099109 / World J Pediatr Congenit Heart Surg / 2026 Sep\n- 要点: 2025年版のガイドラインは、最新の文献と臨床実践に基づき、小児・先天性ペリフェーションの基準とガイドラインを再評価・更新した。  \n- PICU/CICUでの意味: 小児心臓外科手術や重症患者管理におけるペリフェーションプロトコルの最適化に向けた基準の明確化が期待される。  \n- 注意点: 抽象のみのため、詳細な実践的指針や臨床影響は記載されていない。\n\n### 3. A Rare Case of Aortic Atresia and Interrupted Aortic Arch Type B Survival, Anatomic Importance of a Vertebral Artery and the Circle of Willis, a Case Report and Review of the Literature.\nPMID 41823263 / World J Pediatr Congenit Heart Surg / 2026 Sep\n要点: Type B型中断性主動脈弓伴主動脈閉鎖の極めてまれな症例で、脳・冠脈への灌流は左頚動脈を介して維持された。  \nPICU/CICUでの意味: 頸動脈系とWillis環の解剖的重要性が、急性循環障害時の灌流維持に示唆される。  \n注意点: 場合によっては胸腔内に代替循環経路が存在しない可能性に留意し、術前評価が重要である。"
   },
   "fetchedAtByAlert": {
-    "focused": "2026-08-12T18:17:35.667Z",
-    "broad": "2026-08-12T18:17:35.667Z"
+    "focused": "2026-08-12T22:45:23.563Z",
+    "broad": "2026-08-12T22:45:23.563Z"
   },
   "importantArticles": [
     {
@@ -267,7 +267,7 @@
     }
   ],
   "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 4. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。",
-  "importantFetchedAt": "2026-08-12T18:17:35.667Z",
+  "importantFetchedAt": "2026-08-12T22:45:23.563Z",
   "articleSummariesByPmid": {
     "39208447": {
       "pmid": "39208447",
@@ -360,6 +360,13 @@
       "model": "qwen3:8b",
       "summary": "- 要点: 救助呼吸（RB-CPR）の減少が小児溺水による救命救急の30日死亡率に負の影響を及ぼす可能性を示唆する。  \n- PICU/CICUでの意味: 溺水による救命救急の予後改善には、 bystander CPRにおける救助呼吸の維持が重要である。  \n- 注意点: 結果は抽象のみに基づくため、因果関係や臨床実践への直接的影響は限定的。"
     },
+    "41823263": {
+      "pmid": "41823263",
+      "title": "A Rare Case of Aortic Atresia and Interrupted Aortic Arch Type B Survival, Anatomic Importance of a Vertebral Artery and the Circle of Willis, a Case Report and Review of the Literature.",
+      "generatedAt": "2026-08-12T22:46:18.450Z",
+      "model": "qwen3:8b",
+      "summary": "要点: Type B型中断性主動脈弓伴主動脈閉鎖の極めてまれな症例で、脳・冠脈への灌流は左頚動脈を介して維持された。  \nPICU/CICUでの意味: 頸動脈系とWillis環の解剖的重要性が、急性循環障害時の灌流維持に示唆される。  \n注意点: 場合によっては胸腔内に代替循環経路が存在しない可能性に留意し、術前評価が重要である。"
+    },
     "41833793": {
       "pmid": "41833793",
       "title": "A New Treatment Paradigm for Tetralogy of Fallot/Absent Pulmonary Valve with Significant Airway Compromise: Addressing the Airway First.",
@@ -422,6 +429,13 @@
       "generatedAt": "2026-07-23T23:01:54.004Z",
       "model": "qwen3:8b",
       "summary": "- 要点: 閉鎖的胸膜技術は、開放的胸膜技術と比較して術後肺炎合併症のリスク低下と関連する可能性が示唆された。  \n- PICU/CICUでの意味: 小児患者における胸骨切開後の呼吸器合併症予防に向けた術中胸膜管理の選択肢として検討される可能性がある。  \n- 注意点: 結果は抽象のみに基づくため、臨床実践への直接的な影響は限定的で、さらなる研究が求められる。"
+    },
+    "42099109": {
+      "pmid": "42099109",
+      "title": "The American Society of ExtraCorporeal Technology Standards and Guidelines for Pediatric and Congenital Perfusion Practice: 2025 Update.",
+      "generatedAt": "2026-08-12T22:46:08.544Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: 2025年版のガイドラインは、最新の文献と臨床実践に基づき、小児・先天性ペリフェーションの基準とガイドラインを再評価・更新した。  \n- PICU/CICUでの意味: 小児心臓外科手術や重症患者管理におけるペリフェーションプロトコルの最適化に向けた基準の明確化が期待される。  \n- 注意点: 抽象のみのため、詳細な実践的指針や臨床影響は記載されていない。"
     },
     "42134562": {
       "pmid": "42134562",
@@ -486,12 +500,26 @@
       "model": "qwen3:8b",
       "summary": "要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。"
     },
+    "42309093": {
+      "pmid": "42309093",
+      "title": "The Phoenix criteria for paediatric sepsis: 2 years on.",
+      "generatedAt": "2026-08-12T22:45:58.198Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 本研究は、小児感染症におけるPhoenix基準の2年間の実践状況を評価している。  \nPICU/CICUでの意味: Phoenix基準は小児敗血症の早期識別と管理に向けたガイドラインとして継続的に検討されている。  \n注意点: 抽象が提供されていないため、内容はタイトルと雑誌情報に限られる。"
+    },
     "42341796": {
       "pmid": "42341796",
       "title": "Safety, pharmacokinetics, and exploratory efficacy of the oral ghrelin receptor agonist AC01 in heart failure with reduced ejection fraction (GOAL-HF1): a randomised, double-blind, placebo-controlled, phase 1b/2a study.",
       "generatedAt": "2026-07-17T22:54:43.254Z",
       "model": "qwen3:8b",
       "summary": "- 要点: AC01はHFrEF患者において安全性と耐容性が確認され、探索的効果の兆候が示唆された。  \n- PICU/CICUでの意味: 成人HFrEFの治療に向けた新薬の評価が進むが、小児患者への適用は未検証。  \n- 注意点: 研究は探索的であり、薬物動態や効果は成人データに限られ、小児での臨床応用にはさらなる検証が必要。"
+    },
+    "42385757": {
+      "pmid": "42385757",
+      "title": "Efficacy and safety of risdiplam in patients with type 1 spinal muscular atrophy: a 3-year open-label extension of the two-part, phase 2 FIREFISH trial.",
+      "generatedAt": "2026-08-12T22:45:47.789Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: risdiplamの3年間の長期的な安全性と効果が確認され、1〜7月齢のタイプ1脊髄筋萎縮症（SMA）患者において継続的な運動機能改善が観察された。  \n- PICU/CICUでの意味: SMA患者における呼吸機能の維持や重症度管理に資する長期的な治療効果の確認が可能となった。  \n- 注意点: 研究はオープンラベル設計であり、臨床実践への直接的な推奨には注意が必要。"
     },
     "42457242": {
       "pmid": "42457242",
@@ -686,8 +714,8 @@
   "dailyDigests": [
     {
       "date": "2026-08-12",
-      "generatedAt": "2026-08-12T18:17:35.667Z",
-      "summary": "## 今日の順次AI要約\n\n取得候補 12件 / AI要約済み 6件 / 未要約 6件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 4. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。",
+      "generatedAt": "2026-08-12T22:45:23.563Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 12件 / AI要約済み 10件 / 未要約 2件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 4. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n## PICU/CICU重点\n\n### 1. Efficacy and safety of risdiplam in patients with type 1 spinal muscular atrophy: a 3-year open-label extension of the two-part, phase 2 FIREFISH trial.\nPMID 42385757 / Lancet Child Adolesc Health / 2026 Sep\n- 要点: risdiplamの3年間の長期的な安全性と効果が確認され、1〜7月齢のタイプ1脊髄筋萎縮症（SMA）患者において継続的な運動機能改善が観察された。  \n- PICU/CICUでの意味: SMA患者における呼吸機能の維持や重症度管理に資する長期的な治療効果の確認が可能となった。  \n- 注意点: 研究はオープンラベル設計であり、臨床実践への直接的な推奨には注意が必要。\n\n### 2. The Phoenix criteria for paediatric sepsis: 2 years on.\nPMID 42309093 / Lancet Child Adolesc Health / 2026 Sep\n要点: 本研究は、小児感染症におけるPhoenix基準の2年間の実践状況を評価している。  \nPICU/CICUでの意味: Phoenix基準は小児敗血症の早期識別と管理に向けたガイドラインとして継続的に検討されている。  \n注意点: 抽象が提供されていないため、内容はタイトルと雑誌情報に限られる。\n\n### 3. The American Society of ExtraCorporeal Technology Standards and Guidelines for Pediatric and Congenital Perfusion Practice: 2025 Update.\nPMID 42099109 / World J Pediatr Congenit Heart Surg / 2026 Sep\n- 要点: 2025年版のガイドラインは、最新の文献と臨床実践に基づき、小児・先天性ペリフェーションの基準とガイドラインを再評価・更新した。  \n- PICU/CICUでの意味: 小児心臓外科手術や重症患者管理におけるペリフェーションプロトコルの最適化に向けた基準の明確化が期待される。  \n- 注意点: 抽象のみのため、詳細な実践的指針や臨床影響は記載されていない。\n\n### 4. A Rare Case of Aortic Atresia and Interrupted Aortic Arch Type B Survival, Anatomic Importance of a Vertebral Artery and the Circle of Willis, a Case Report and Review of the Literature.\nPMID 41823263 / World J Pediatr Congenit Heart Surg / 2026 Sep\n要点: Type B型中断性主動脈弓伴主動脈閉鎖の極めてまれな症例で、脳・冠脈への灌流は左頚動脈を介して維持された。  \nPICU/CICUでの意味: 頸動脈系とWillis環の解剖的重要性が、急性循環障害時の灌流維持に示唆される。  \n注意点: 場合によっては胸腔内に代替循環経路が存在しない可能性に留意し、術前評価が重要である。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. The American Society of ExtraCorporeal Technology Standards and Guidelines for Pediatric and Congenital Perfusion Practice: 2025 Update.\nPMID 42099109 / World J Pediatr Congenit Heart Surg / 2026 Sep\n- 要点: 2025年版のガイドラインは、最新の文献と臨床実践に基づき、小児・先天性ペリフェーションの基準とガイドラインを再評価・更新した。  \n- PICU/CICUでの意味: 小児心臓外科手術や重症患者管理におけるペリフェーションプロトコルの最適化に向けた基準の明確化が期待される。  \n- 注意点: 抽象のみのため、詳細な実践的指針や臨床影響は記載されていない。\n\n### 3. A Rare Case of Aortic Atresia and Interrupted Aortic Arch Type B Survival, Anatomic Importance of a Vertebral Artery and the Circle of Willis, a Case Report and Review of the Literature.\nPMID 41823263 / World J Pediatr Congenit Heart Surg / 2026 Sep\n要点: Type B型中断性主動脈弓伴主動脈閉鎖の極めてまれな症例で、脳・冠脈への灌流は左頚動脈を介して維持された。  \nPICU/CICUでの意味: 頸動脈系とWillis環の解剖的重要性が、急性循環障害時の灌流維持に示唆される。  \n注意点: 場合によっては胸腔内に代替循環経路が存在しない可能性に留意し、術前評価が重要である。",
       "articles": [
         {
           "pmid": "42385757",
@@ -928,12 +956,40 @@
           "model": "qwen3:8b",
           "summary": "- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。"
         },
+        "41823263": {
+          "pmid": "41823263",
+          "title": "A Rare Case of Aortic Atresia and Interrupted Aortic Arch Type B Survival, Anatomic Importance of a Vertebral Artery and the Circle of Willis, a Case Report and Review of the Literature.",
+          "generatedAt": "2026-08-12T22:46:18.450Z",
+          "model": "qwen3:8b",
+          "summary": "要点: Type B型中断性主動脈弓伴主動脈閉鎖の極めてまれな症例で、脳・冠脈への灌流は左頚動脈を介して維持された。  \nPICU/CICUでの意味: 頸動脈系とWillis環の解剖的重要性が、急性循環障害時の灌流維持に示唆される。  \n注意点: 場合によっては胸腔内に代替循環経路が存在しない可能性に留意し、術前評価が重要である。"
+        },
         "41995635": {
           "pmid": "41995635",
           "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
           "generatedAt": "2026-06-15T23:56:51.310Z",
           "model": "qwen3:8b",
           "summary": "- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。"
+        },
+        "42099109": {
+          "pmid": "42099109",
+          "title": "The American Society of ExtraCorporeal Technology Standards and Guidelines for Pediatric and Congenital Perfusion Practice: 2025 Update.",
+          "generatedAt": "2026-08-12T22:46:08.544Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 2025年版のガイドラインは、最新の文献と臨床実践に基づき、小児・先天性ペリフェーションの基準とガイドラインを再評価・更新した。  \n- PICU/CICUでの意味: 小児心臓外科手術や重症患者管理におけるペリフェーションプロトコルの最適化に向けた基準の明確化が期待される。  \n- 注意点: 抽象のみのため、詳細な実践的指針や臨床影響は記載されていない。"
+        },
+        "42309093": {
+          "pmid": "42309093",
+          "title": "The Phoenix criteria for paediatric sepsis: 2 years on.",
+          "generatedAt": "2026-08-12T22:45:58.198Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 本研究は、小児感染症におけるPhoenix基準の2年間の実践状況を評価している。  \nPICU/CICUでの意味: Phoenix基準は小児敗血症の早期識別と管理に向けたガイドラインとして継続的に検討されている。  \n注意点: 抽象が提供されていないため、内容はタイトルと雑誌情報に限られる。"
+        },
+        "42385757": {
+          "pmid": "42385757",
+          "title": "Efficacy and safety of risdiplam in patients with type 1 spinal muscular atrophy: a 3-year open-label extension of the two-part, phase 2 FIREFISH trial.",
+          "generatedAt": "2026-08-12T22:45:47.789Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: risdiplamの3年間の長期的な安全性と効果が確認され、1〜7月齢のタイプ1脊髄筋萎縮症（SMA）患者において継続的な運動機能改善が観察された。  \n- PICU/CICUでの意味: SMA患者における呼吸機能の維持や重症度管理に資する長期的な治療効果の確認が可能となった。  \n- 注意点: 研究はオープンラベル設計であり、臨床実践への直接的な推奨には注意が必要。"
         }
       }
     },
@@ -5654,9 +5710,9 @@
       }
     }
   ],
-  "lastAutoRunAt": "2026-08-12T18:17:35.667Z",
+  "lastAutoRunAt": "2026-08-12T22:45:23.563Z",
   "lastAutoRunDate": "2026-08-12",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42385757: AI要約失敗 (AI接続エラー) / PMID 42309093: AI要約失敗 (AI接続エラー) / PMID 42099109: AI要約失敗 (AI接続エラー) / PMID 41823263: AI要約失敗 (AI接続エラー) / 順次AI要約: 0件追加 / 6/12件済み",
-  "lastImportantRunAt": "2026-08-12T18:17:35.667Z",
-  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 6件"
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42385757: 順次AI要約済み / PMID 42309093: 順次AI要約済み / PMID 42099109: 順次AI要約済み / PMID 41823263: 順次AI要約済み / 順次AI要約: 4件追加 / 10/12件済み",
+  "lastImportantRunAt": "2026-08-12T22:45:23.563Z",
+  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 2件"
 }
