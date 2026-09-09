@@ -2,174 +2,182 @@
   "articlesByAlert": {
     "focused": [
       {
-        "pmid": "42709749",
-        "title": "Specialty-Based Variation in Prostaglandin E1 Use for Neonates With dextro-Transposition of the Great Arteries: An International Cross-Sectional Survey of Neonatologists and Pediatric Cardiac Intensivists.",
-        "journal": "World J Pediatr Congenit Heart Surg",
-        "publicationDate": "2026 Sep 08",
+        "pmid": "42714881",
+        "title": "Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.",
+        "journal": "JAMA",
+        "publicationDate": "2026 Sep 09",
         "authors": [
-          "Morag S",
-          "Lowenthal A",
-          "Abuelhija H",
-          "Pollak U"
+          "Peart SR",
+          "Manley BJ",
+          "Cheong JLY",
+          "Oei JL",
+          "Grobler AC",
+          "Moore CL"
         ],
-        "abstract": "OBJECTIVES: To assess international practice patterns for prostaglandin E1 (PGE1) initiation and dosing in neonates with dextro-transposition of the great arteries (d-TGA) and to evaluate whether these practices differ by clinical specialty.\nMETHODS: We conducted an international, cross-sectional, web-based survey of neonatologists and pediatric cardiac intensivists involved in stabilizing neonates with d-TGA. The survey assessed strategies for routine versus selective PGE1 initiation, oxygen saturation thresholds, starting dose, and maximum dose policies. The primary outcome was self-reported routine PGE1 initiation. Categorical variables were compared using χ 2 tests, and multivariable logistic regression analysis identified independent predictors of routine initiation, adjusting for specialty, region, experience, cardiology availability, institutional protocols, and sex.\nRESULTS: A total of 526 clinicians responded (282 neonatologists and 244 intensivists; 65.8% response rate). Neonatologists more frequently reported routine PGE1 initiation than cardiac intensivists (84.0% vs 58.6%, P < .001). Starting dose selection differed by specialty ( P < .001), whereas oxygen saturation thresholds did not ( P = .436). In adjusted analysis, cardiac intensivists were less likely than neonatologists to report routine initiation (adjusted OR 0.15, 95% CI 0.05-0.45).\nCONCLUSIONS: Substantial specialty-based variation exists in PGE1 initiation and dosing for neonatal d-TGA stabilization. Because both routine and selective strategies have plausible physiologic rationale, this heterogeneity should be interpreted as hypothesis-generating, identifying the interspecialty divide as a priority target for prospective, outcome-linked comparative-effectiveness research that should precede any consensus recommendation. Limitations include the survey design, collinearity between specialty and care setting, and lack of patient-level outcome data.",
-        "doi": "10.1177/21501351261472476",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42709749/"
+        "abstract": "IMPORTANCE: The optimal initial fraction of inspired oxygen (Fio2) for delivery room resuscitation of neonates born at 32 to 35 weeks' gestation is unknown.\nOBJECTIVE: To compare outcomes for neonates born at 32 to 35 weeks' gestation when initiating resuscitation with Fio2 0.30 vs 0.21.\nDESIGN, SETTING, AND PARTICIPANTS: Unblinded, cluster randomized crossover trial in 26 Australian maternity hospitals, including tertiary, nontertiary, metropolitan, regional, public, and private sites, using a waiver of informed consent. All neonates born at participating sites at 32 to 35 weeks' gestation without known major congenital anomalies who commenced respiratory support within 3 minutes of birth were enrolled from December 2022 to September 2025, with final follow-up in March 2026. Statistical analysis was conducted on October 29, 2025.\nINTERVENTION: Sites were randomly assigned to provide initial Fio2 of either 0.30 or 0.21 during the first 3 minutes of delivery room respiratory support. Sites crossed over to provide the alternative initial Fio2 halfway through their recruitment period.\nMAIN OUTCOMES AND MEASURES: The primary outcome was ongoing respiratory support when leaving the delivery room. Twelve secondary outcomes evaluated delivery room treatments and respiratory support until discharge.\nRESULTS: A total of 1818 eligible newborns (mean gestational age, 34.1 weeks; mean birth weight, 2165 g; 44.7% female) were included. Ongoing respiratory support when leaving the delivery room occurred in 700 of 964 newborns (72.6%) randomized to receive Fio2 0.30 and 626 of 854 newborns (73.3%) randomized to receive Fio2 0.21 (risk difference, -0.83 [95% CI, -4.33 to 2.67]). Of the 12 secondary outcomes, 10 were not significantly different between newborns randomized to receive Fio2 0.30 vs 0.21, while 2 were. Newborns randomized to receive Fio2 0.30 were less likely to receive higher levels of support in the delivery room, including noninvasive positive pressure ventilation (606 of 964 [62.9%] vs 560 of 854 [65.6%]), endotracheal or supraglottic airway ventilation (20 of 964 [2.1%] vs 24 of 854 [2.8%]), or cardiac compressions or epinephrine (19 of 964 [2.0%] vs 25 of 854 [2.9%]; proportional odds ratio, 0.70 [95% CI, 0.52-0.95]). Fewer newborns in the Fio2 0.30 group received endotracheal ventilation beyond the delivery room (61 of 959 [6.4%] vs 79 of 852 [9.3%]; risk ratio, 0.69 [95% CI, 0.47-0.91]).\nCONCLUSIONS AND RELEVANCE: For neonates born at 32 to 35 weeks' gestation, there was no difference between those commencing resuscitation with Fio2 0.30 vs Fio2 0.21 in the proportion still receiving respiratory support when leaving the delivery room.\nTRIAL REGISTRATION: anzctr.org.au Identifier: ACTRN12621001267842.",
+        "doi": "10.1001/jama.2026.14201",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42714881/"
       },
       {
-        "pmid": "42709730",
-        "title": "Unveiling the Healthcare Journey of Patients with Hypoplastic Left Heart Syndrome: From Birth to Adulthood.",
-        "journal": "World J Pediatr Congenit Heart Surg",
-        "publicationDate": "2026 Sep 08",
+        "pmid": "42714563",
+        "title": "Accelerated Aging Fontan Phenotype Is Associated With Systemic Right Ventricles and Adverse Hemodynamics.",
+        "journal": "J Am Heart Assoc",
+        "publicationDate": "2026 Sep 09",
         "authors": [
-          "Mehdizadeh-Shrifi A",
-          "Faateh M",
-          "Turner D",
-          "Kulshrestha K",
-          "Heydarian HC",
-          "Hossain MM"
+          "Woo JP",
+          "Vincent AGB",
+          "Kushwaha A",
+          "Gan S",
+          "Ichimura S",
+          "Egorova AD"
         ],
-        "abstract": "ObjectiveWhile many studies view patients with hypoplastic left heart syndrome (HLHS) through the lens of financial burden, an overall sense of the medical burden of these patients has rarely been reported. We sought to introduce a granular analysis of the medical burden of patients with HLHS to capture a view of their journey to adulthood.MethodsChildren with HLHS (≤18 years) born from 2004 to 2008 with 18 years of follow-up were identified in the Pediatric Health Information System (PHIS). Children who did not have 18 years of complete follow-up were excluded.ResultsBy 1 year of age, a child with HLHS had a total median number of visits of 4 (3-6), length of stay (LOS) of 52 days (d) (29-87), 2 (1-3) cardiac catheterizations, 55 (42-74) unique drugs, and 4% cardiac transplant prevalence. By 5 years of age, a child with HLHS had a total number of visits of 10 (6-18), LOS of 73d (46-119), 3 (2-6) cardiac catheterizations, 89 (70-132) unique drugs, and a 10% cardiac transplant prevalence. By 10 years of age, a child with HLHS had a total number of visits of 18 (8-35), LOS of 85d (54-147), 5 (3-8) cardiac catheterizations, 120 (97-178) unique drugs, and an11% cardiac transplant prevalence. By 18 years of age, an adult with HLHS had a total number of visits of 44 (17-80), LOS of 154d (83-264), 9 (5-12) cardiac catheterizations, 139 (127-220) unique drugs, and a 19% cardiac transplant prevalence.ConclusionThe present report offers detailed insight into the medical burden of patients with HLHS and can serve as a reference to inform patients and families of the journey.",
-        "doi": "10.1177/21501351261472468",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42709730/"
+        "abstract": "BACKGROUND: Accelerated biological aging occurs when biological age outpaces chronological age. Congenital heart disease is associated with an increased risk for age-related diseases. The role of biological aging in individuals with the most severe forms of congenital heart disease, those with a Fontan circulation, is not known.\nMETHODS: In this case-control study, we compared the telomere lengths of patients with Fontan circulation with controls and identified factors associated with an accelerated aging phenotype. Biological aging was assessed by leukocyte telomere length through quantitative polymerase chain reaction, expressed as telomeric DNA to single-copy gene ratio.\nRESULTS: Median age was 14.90 (interquartile range [IQR], 10.99-20.69) years in the Fontan cohort (N=90) and 15.20 (IQR, 11.11-16.42) years in controls (N=59). The Fontan cohort had shorter telomeres compared with controls (telomeric DNA to single-copy gene ratio, 1.04 [IQR, 0.96-1.14] versus 1.13 [IQR, 0.96-1.24]; P =0.021). Patients with systemic right ventricles had shorter telomeres (telomeric DNA to single-copy gene ratio, 1.02 [IQR, 0.93-1.08] versus 1.05 [IQR, 1.00-1.17]; P =0.047). Lower superior vena cava saturation (β=0.007 [95% CI, 0.002, 0.012]; P =0.013), lower cardiac index (β=0.06 [95% CI, 0.012-0.108]; P =0.016) and higher systemic vascular resistance (β=-0.007 [95% CI, -0.014 to -0.001]; P =0.023) were associated with shorter telomeres. At a median follow-up of 13.07 months, 46.7% of patients with telomere loss (>50 bp loss/y) experienced an increase in comorbidities, compared with just 20.5% in those with no change or an increase in telomere length ( P <0.001).\nCONCLUSIONS: Individuals with a Fontan circulation have shorter telomeres compared with controls, mirroring an accelerated aging phenotype. This is more pronounced in patients with a systemic right ventricle, those with adverse hemodynamics, and is associated with having a higher burden of comorbidities. Understanding accelerated biological aging will allow for the development of therapies aimed at slowing age-related decline.",
+        "doi": "10.1161/JAHA.125.048352",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42714563/"
       },
       {
-        "pmid": "42709694",
-        "title": "Factors Associated With Mortality in Patients Requiring Extracorporeal Membrane Oxygenation Following the Norwood Procedure: A Systematic Review and Meta-Analysis.",
-        "journal": "World J Pediatr Congenit Heart Surg",
-        "publicationDate": "2026 Sep 08",
+        "pmid": "42714453",
+        "title": "Association Between Nonsyndromic Congenital Heart Disease and Childhood Cancer in a Population-Based, Retrospective Cohort of 11 Million Children.",
+        "journal": "J Am Heart Assoc",
+        "publicationDate": "2026 Sep 09",
         "authors": [
-          "Almehandi A",
-          "Ali Y",
-          "Alhajri M",
-          "Altarkait A",
-          "Alenezi M",
-          "Diniz L"
+          "Schraw JM",
+          "Mims KC",
+          "Stephens SB",
+          "Rasmussen SA",
+          "Mason EJ",
+          "Desrosiers TA"
         ],
-        "abstract": "IntroductionExtracorporeal membrane oxygenation (ECMO) is becoming more prevalent post-Norwood procedure, and its use has been linked to reduced survival, with wide variability between centres. The reasons for this variability, particularly the roles of anatomy, surgical technique and ECMO indication, remain poorly understood. This study examines associated factors with survival to discharge in patients undergoing post-Norwood ECMO.MethodsWe systematically searched PubMed, EMBASE, Cochrane Central and Web of Science for relevant variables. The analysed variables included operative parameters, ECMO variables and postoperative complications during ECMO support post-Norwood procedure. Statistical analyses were performed using RevMan 5.4 to calculate pooled risk ratios, odds ratios (OR) or mean differences (MD) with 95% confidence intervals (CIs) using random-effects models.ResultsA total of 8 studies were included (1614 neonates; 41% post-Norwood ECMO survivors). Cardiopulmonary bypass and ECMO durations were significantly longer in the non-survivor group (MD = -24.33, CI = -39.19 to -9.47, p = .001) and (MD = -42.76, CI = -51.65 to -33.87, p < .00001),respectively. ECMO indications and cannulation technique were similar between the groups. Important complications such as bleeding (OR = 0.67, p = .003), neurological injury (OR = 0.55, p < .0001), arrhythmia (OR = 0.45, p < .00001) and cardiac tamponade (OR = 0.49, p = .03) were all significantly greater in the cohort of neonates that did not survive to discharge.ConclusionFor infants requiring ECMO support following the Norwood procedure, longer cardiopulmonary bypass times and longer ECMO duration were observed among neonates who did not survive to discharge. ECMO indications showed no clear association with survival. There was a significantly higher incidence of bleeding, neurological injury, and arrhythmia in the non-survivor cohort.",
-        "doi": "10.1177/21501351261472471",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42709694/"
+        "abstract": "BACKGROUND: Epidemiologic studies have demonstrated associations between congenital heart disease (CHD) and childhood cancer. However, these assessments have not fully accounted for the pathogenetic and clinical heterogeneity of CHD, limiting their capacity to inform pathogenetic studies and the clinical management of children with CHD.\nMETHODS: To achieve a more detailed understanding of cancer risk in children with nonsyndromic CHD, we evaluated 60 cardiac lesions in 7 categories in a cohort of 11 million children from Massachusetts, North Carolina, Oklahoma, and Texas. We used Cox proportional hazards regression to estimate the hazard ratios (HRs) and 95% CIs of cancer in children with each lesion relative to children without congenital anomalies when there were ≥3 co-occurring cases.\nRESULTS: We identified 74 755 children with CHD and observed increased hazards for several malignancies. Notable associations included aortic arch obstruction-lymphoma (HR, 12.7 [95% CI, 4.9-31.0]); single-ventricle disease-lymphoma (HR, 9.7 [95% CI, 3.8-24.4]); complex atrioventricular septal defect-leukemia (HR, 8.05 [95% CI, 2.8-23.0]); ventricular septal defect-hepatoblastoma (HR, 11.2 [95% CI, 5.9-21.1]); and conotruncal defects-neuroblastoma (HR, 6.4 [95% CI, 1.9-22.2]). The cumulative incidence of cancer was <1% for all CHD groups evaluated.\nCONCLUSIONS: Cancer incidence in children with nonsyndromic CHD was generally low. However, we identified >5-fold increases in the hazard of hepatoblastoma, neuroblastoma, leukemia, and lymphoma in children with certain lesions. Our findings may assist in generating hypotheses about the causes of cancer in children with CHD.",
+        "doi": "10.1161/JAHA.125.050164",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42714453/"
       },
       {
-        "pmid": "42709454",
-        "title": "RSV Bivalent Prefusion F Protein Vaccine in Pregnancy and Protection Against RSV-Associated Illness in Infants: A Systematic Review and Meta-Analysis.",
-        "journal": "JAMA Pediatr",
-        "publicationDate": "2026 Sep 08",
+        "pmid": "42714413",
+        "title": "Prescription Patterns of Cardiovascular Medications in the Adolescent and Adult Population With Fontan Circulation-A Report From the Multicenter Single Ventricle Outcomes Network.",
+        "journal": "J Am Heart Assoc",
+        "publicationDate": "2026 Sep 09",
         "authors": [
-          "Batool R",
-          "Wang R",
-          "Obeid H",
-          "Kollmann TR",
-          "Langley JM",
-          "Lavoie PM"
+          "Freddo AM",
+          "Ahmed H",
+          "Edelson JB",
+          "Partington S",
+          "Ruckdeschel E",
+          "Tsao AL"
         ],
-        "abstract": "IMPORTANCE: The respiratory syncytial virus (RSV) bivalent prefusion F protein vaccine (RSVpreF) administered during pregnancy has demonstrated efficacy in protecting infants against early-life RSV disease in the pivotal clinical trial.\nOBJECTIVE: To conduct a systematic review and meta-analysis to synthesize real-world evidence on the effectiveness of RSVpreF in preventing RSV-associated lower respiratory tract infection (LRTI) in infants.\nDATA SOURCES: PubMed, Scopus, and Europe PMC were searched from January 1, 2020, through January 30, 2026.\nSTUDY SELECTION: A total of 1144 studies were initially identified. Eligible were nonrandomized studies reporting the effectiveness of RSVpreF vaccine in pregnancy in the prevention of RSV-associated LRTI in infants.\nDATA EXTRACTION AND SYNTHESIS: All studies were screened independently by 2 reviewers. Data were extracted on RSV-associated outcomes among infants born to women who received RSVpreF vaccination during pregnancy and infants born to unvaccinated women.\nMAIN OUTCOMES AND MEASURES: The primary outcome was RSV-associated LRTI hospitalization. Odds ratios (ORs) were pooled using random-effects meta-analysis with the Hartung-Knapp adjustment and Sidik-Jonkman estimator. Vaccine effectiveness against RSV-associated LRTI hospitalization was calculated as (1 - OR) × 100% and assessed in infants from birth to age 3 months and from birth to 6 months, separately. The limited available data precluded meta-analysis of effectiveness against the secondary outcomes of RSV-associated emergency department visits, intensive care unit admissions, and death.\nRESULTS: A total of 7 studies were included, comprising 7112 infants, of whom 2684 were born to vaccinated mothers. The studies collected data from January 2024 through April 2025 from Argentina, the UK, and the US. Pooled vaccine effectiveness against RSV-associated LRTI hospitalization was 82% (95% CI, 81%-82%; 3 studies, 4397 participants; I2 = 0%) in infants from birth to 3 months and 78% (95% CI, 70%-84%; 6 studies, 3008 participants; I2 = 18.7%) in infants from birth to 6 months, when mothers were vaccinated 14 days or more before delivery.\nCONCLUSIONS AND RELEVANCE: The results of this systematic review and meta-analysis suggest that postimplementation data support the effectiveness of RSVpreF in pregnancy for the prevention of RSV-associated LRTI hospitalization during the first 6 months of life. The results support the introduction of RSVpreF into routine antenatal immunization programs.",
-        "doi": "10.1001/jamapediatrics.2026.4074",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42709454/"
+        "abstract": "BACKGROUND: There are limited data on prescription patterns in adolescents and adults with Fontan circulation.\nMETHODS: We conducted a retrospective analysis of patients 13 years of age and older enrolled between 2022 and 2024 in the Fontan Outcomes Network (now SV-ONE [Single Ventricle Outcomes Network]) who had undergone Fontan operation without subsequent Fontan takedown or heart transplantation. Demographics, clinical variables, and medications prescribed were assessed. Logistic regression was used to identify factors associated with prescribed cardiac medications.\nRESULTS: There were 639 patients (age range 13-67 years, 55.6% male, 81.1% White race, 46.8% dominant left ventricle) enrolled at 16 centers. The most frequently prescribed medication classes were antiplatelets (75.6%) and renin-angiotensin system inhibitors (55.9%). Direct oral anticoagulant prescription (15.0%) exceeded that of warfarin (11.6%). SGLT2 (sodium glucose cotransporter 2) inhibitors were prescribed to 6.3% of patients, and angiotensin receptor/neprilysin inhibitors were prescribed to 2.2%. Moderate or severely decreased systolic ventricular function was most strongly associated with prescription of digoxin (odds ratio [OR], 4.2 [95% CI, 2.1-8.3]). Protein losing enteropathy was most strongly associated with prescription of diuretics (OR, 22.9 [95% CI, 8.1-64.9]), mineralocorticoid receptor agonists (OR, 5.3 [95% CI, 2.4-11.8]), and pulmonary vasodilators (OR, 5.2 [95% CI, 2.5-10.8]).\nCONCLUSIONS: In a multicenter cohort of adolescents and adults with Fontan circulation, medications indicated for biventricular heart failure with reduced ejection fraction are often used despite an absence of supportive evidence in this distinct circulation. Future prospective analysis may provide further insight into shifting prescribing patterns and response to therapy.",
+        "doi": "10.1161/JAHA.126.049422",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42714413/"
       },
       {
-        "pmid": "42708397",
-        "title": "Left ventricular rotational mechanics in children with dilated cardiomyopathy: reverse apical rotation indicates a poor prognosis.",
-        "journal": "Cardiol Young",
-        "publicationDate": "2026 Sep 08",
+        "pmid": "42714410",
+        "title": "Increasing Overall Rates of Prenatal Diagnosis Benefit Previously Disadvantaged Anatomic and Sociodemographic Subgroups.",
+        "journal": "J Am Heart Assoc",
+        "publicationDate": "2026 Sep 09",
         "authors": [
-          "Montero AE",
-          "Sivasubramanian D",
-          "O'Connor M",
-          "Banerjee A"
+          "Gentles TL",
+          "Watkins S",
+          "Perry D",
+          "de Laat M",
+          "Crengle S",
+          "Bloomfield F"
         ],
-        "abstract": "Twenty-three patients with dilated cardiomyopathy were recruited and compared with 10 age-and sex-matched controls using 2D-speckle tracking images of the apex and base of the left ventricle. Follow-up was performed after a period of 6 years. Ten patients with dilated cardiomyopathy presented with diminished rotation and 13 patients presented with reverse apical rotation, which was associated with poorer outcomes.",
-        "doi": "10.1017/S1047951126123920",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42708397/"
+        "abstract": "BACKGROUND: To understand which sociodemographic and anatomic groups have benefited from increases in prenatal diagnosis (PND) of congenital heart disease (CHD), we compared factors associated with overall and earlier (≤22 weeks) PND from 2006 to 2019.\nMETHODS: A New Zealand population-based cohort study of all major CHD (death or intervention by 1 year) from 20 weeks' gestation. National cardiac, mortality and governmental data sets were linked for case ascertainment and to obtain the type and timing of diagnosis, maternal age, ethnicity, New Zealand Index of Socioeconomic Deprivation quintile, and domicile.\nRESULTS: The relative increase in PND between the first and last 5 years was greatest in critical CHD subtypes (death or intervention <1 month), particularly coarctation (124%), d-transposition (78%) and conotruncal anomalies (71%), and in previously disadvantaged groups including indigenous Māori (104%), Pacific (53%), New Zealand Index of Socioeconomic Deprivation quintile 5 (most deprived) (79%) and remote domicile (73%). When adjusted for anatomic factors, PND in the first 5 years was associated with ethnicity (Asian, risk ratio [RR] 1.35, 1.05-2.1.73; European, RR 1.33, 1.11-1.61 versus Māori), New Zealand Index of Socioeconomic Deprivation quintile 1-4 versus 5 (RR 1.27, 1.07-1.50) and domicile in major metropolitan areas (RR 1.18, 1.01-1.37). These factors were not associated with PND in later years. Earlier PND was associated with ethnicity, New Zealand Index of Socioeconomic Deprivation and domicile in the first 5 years and with ethnicity and time of obstetric booking in the last 5 years.\nCONCLUSIONS: An increase in PND has benefited previously disadvantaged sociodemographic groups and cardiac conditions where a delayed diagnosis is most threatening to life. Persistent associations between earlier PND and sociodemographic factors require further investigation.",
+        "doi": "10.1161/JAHA.125.048735",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42714410/"
       }
     ],
     "broad": [
       {
-        "pmid": "42709749",
-        "title": "Specialty-Based Variation in Prostaglandin E1 Use for Neonates With dextro-Transposition of the Great Arteries: An International Cross-Sectional Survey of Neonatologists and Pediatric Cardiac Intensivists.",
-        "journal": "World J Pediatr Congenit Heart Surg",
-        "publicationDate": "2026 Sep 08",
+        "pmid": "42670979",
+        "title": "Complete Revascularization Guided by Functional Coronary Angiography in STEMI.",
+        "journal": "N Engl J Med",
+        "publicationDate": "2026 Sep 10",
         "authors": [
-          "Morag S",
-          "Lowenthal A",
-          "Abuelhija H",
-          "Pollak U"
+          "Biscaglia S",
+          "Erriquez A",
+          "Colaiori I",
+          "Hakeem A",
+          "Mantovani F",
+          "Menozzi M"
         ],
-        "abstract": "OBJECTIVES: To assess international practice patterns for prostaglandin E1 (PGE1) initiation and dosing in neonates with dextro-transposition of the great arteries (d-TGA) and to evaluate whether these practices differ by clinical specialty.\nMETHODS: We conducted an international, cross-sectional, web-based survey of neonatologists and pediatric cardiac intensivists involved in stabilizing neonates with d-TGA. The survey assessed strategies for routine versus selective PGE1 initiation, oxygen saturation thresholds, starting dose, and maximum dose policies. The primary outcome was self-reported routine PGE1 initiation. Categorical variables were compared using χ 2 tests, and multivariable logistic regression analysis identified independent predictors of routine initiation, adjusting for specialty, region, experience, cardiology availability, institutional protocols, and sex.\nRESULTS: A total of 526 clinicians responded (282 neonatologists and 244 intensivists; 65.8% response rate). Neonatologists more frequently reported routine PGE1 initiation than cardiac intensivists (84.0% vs 58.6%, P < .001). Starting dose selection differed by specialty ( P < .001), whereas oxygen saturation thresholds did not ( P = .436). In adjusted analysis, cardiac intensivists were less likely than neonatologists to report routine initiation (adjusted OR 0.15, 95% CI 0.05-0.45).\nCONCLUSIONS: Substantial specialty-based variation exists in PGE1 initiation and dosing for neonatal d-TGA stabilization. Because both routine and selective strategies have plausible physiologic rationale, this heterogeneity should be interpreted as hypothesis-generating, identifying the interspecialty divide as a priority target for prospective, outcome-linked comparative-effectiveness research that should precede any consensus recommendation. Limitations include the survey design, collinearity between specialty and care setting, and lack of patient-level outcome data.",
-        "doi": "10.1177/21501351261472476",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42709749/"
+        "abstract": "BACKGROUND: Complete coronary-artery revascularization is recommended in patients with ST-segment elevation myocardial infarction (STEMI) and multivessel disease, but the preferred strategy for identifying nonculprit lesions that warrant treatment remains uncertain.\nMETHODS: In this international, randomized trial, we assigned patients with STEMI and multivessel disease in whom the culprit lesion had been successfully treated to undergo complete coronary-artery revascularization guided by functional coronary angiography (physiology-guided group) or by conventional angiography (angiography-guided group). The primary outcome was a composite of death from any cause, myocardial infarction, cerebrovascular accident (stroke or transient ischemic attack), or ischemia-driven revascularization, assessed in a time-to-event analysis. The primary safety outcome was a composite of contrast-associated acute kidney injury or major bleeding.\nRESULTS: A total of 1823 patients underwent randomization; 913 were assigned to the physiology-guided group and 910 assigned to the angiography-guided group. The median age of the patients was 66 years (interquartile range, 58 to 76), and 24% were women. At a median follow-up of 17.9 months, a primary-outcome event had occurred in 81 patients (8.9%) in the physiology-guided group and in 125 patients (13.7%) in the angiography-guided group (hazard ratio, 0.62; 95% confidence interval [CI], 0.47 to 0.83; P<0.001). A primary-safety-outcome event occurred in 42 patients (4.6%) in the physiology-guided group and in 65 patients (7.1%) in the angiography-guided group (hazard ratio, 0.63; 95% CI, 0.43 to 0.93; P = 0.02).\nCONCLUSIONS: In patients with STEMI and multivessel coronary artery disease, a strategy of complete coronary-artery revascularization guided by functional coronary angiography resulted in a lower risk of a primary-outcome event (death, myocardial infarction, cerebrovascular accident, or ischemia-driven revascularization) than a strategy guided by conventional angiography. (Funded by the Italian Health Ministry and others; AIR-STEMI ClinicalTrials.gov number, NCT05818475.).",
+        "doi": "10.1056/NEJMoa2605373",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42670979/"
       },
       {
-        "pmid": "42709694",
-        "title": "Factors Associated With Mortality in Patients Requiring Extracorporeal Membrane Oxygenation Following the Norwood Procedure: A Systematic Review and Meta-Analysis.",
-        "journal": "World J Pediatr Congenit Heart Surg",
-        "publicationDate": "2026 Sep 08",
+        "pmid": "42714881",
+        "title": "Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.",
+        "journal": "JAMA",
+        "publicationDate": "2026 Sep 09",
         "authors": [
-          "Almehandi A",
-          "Ali Y",
-          "Alhajri M",
-          "Altarkait A",
-          "Alenezi M",
-          "Diniz L"
+          "Peart SR",
+          "Manley BJ",
+          "Cheong JLY",
+          "Oei JL",
+          "Grobler AC",
+          "Moore CL"
         ],
-        "abstract": "IntroductionExtracorporeal membrane oxygenation (ECMO) is becoming more prevalent post-Norwood procedure, and its use has been linked to reduced survival, with wide variability between centres. The reasons for this variability, particularly the roles of anatomy, surgical technique and ECMO indication, remain poorly understood. This study examines associated factors with survival to discharge in patients undergoing post-Norwood ECMO.MethodsWe systematically searched PubMed, EMBASE, Cochrane Central and Web of Science for relevant variables. The analysed variables included operative parameters, ECMO variables and postoperative complications during ECMO support post-Norwood procedure. Statistical analyses were performed using RevMan 5.4 to calculate pooled risk ratios, odds ratios (OR) or mean differences (MD) with 95% confidence intervals (CIs) using random-effects models.ResultsA total of 8 studies were included (1614 neonates; 41% post-Norwood ECMO survivors). Cardiopulmonary bypass and ECMO durations were significantly longer in the non-survivor group (MD = -24.33, CI = -39.19 to -9.47, p = .001) and (MD = -42.76, CI = -51.65 to -33.87, p < .00001),respectively. ECMO indications and cannulation technique were similar between the groups. Important complications such as bleeding (OR = 0.67, p = .003), neurological injury (OR = 0.55, p < .0001), arrhythmia (OR = 0.45, p < .00001) and cardiac tamponade (OR = 0.49, p = .03) were all significantly greater in the cohort of neonates that did not survive to discharge.ConclusionFor infants requiring ECMO support following the Norwood procedure, longer cardiopulmonary bypass times and longer ECMO duration were observed among neonates who did not survive to discharge. ECMO indications showed no clear association with survival. There was a significantly higher incidence of bleeding, neurological injury, and arrhythmia in the non-survivor cohort.",
-        "doi": "10.1177/21501351261472471",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42709694/"
+        "abstract": "IMPORTANCE: The optimal initial fraction of inspired oxygen (Fio2) for delivery room resuscitation of neonates born at 32 to 35 weeks' gestation is unknown.\nOBJECTIVE: To compare outcomes for neonates born at 32 to 35 weeks' gestation when initiating resuscitation with Fio2 0.30 vs 0.21.\nDESIGN, SETTING, AND PARTICIPANTS: Unblinded, cluster randomized crossover trial in 26 Australian maternity hospitals, including tertiary, nontertiary, metropolitan, regional, public, and private sites, using a waiver of informed consent. All neonates born at participating sites at 32 to 35 weeks' gestation without known major congenital anomalies who commenced respiratory support within 3 minutes of birth were enrolled from December 2022 to September 2025, with final follow-up in March 2026. Statistical analysis was conducted on October 29, 2025.\nINTERVENTION: Sites were randomly assigned to provide initial Fio2 of either 0.30 or 0.21 during the first 3 minutes of delivery room respiratory support. Sites crossed over to provide the alternative initial Fio2 halfway through their recruitment period.\nMAIN OUTCOMES AND MEASURES: The primary outcome was ongoing respiratory support when leaving the delivery room. Twelve secondary outcomes evaluated delivery room treatments and respiratory support until discharge.\nRESULTS: A total of 1818 eligible newborns (mean gestational age, 34.1 weeks; mean birth weight, 2165 g; 44.7% female) were included. Ongoing respiratory support when leaving the delivery room occurred in 700 of 964 newborns (72.6%) randomized to receive Fio2 0.30 and 626 of 854 newborns (73.3%) randomized to receive Fio2 0.21 (risk difference, -0.83 [95% CI, -4.33 to 2.67]). Of the 12 secondary outcomes, 10 were not significantly different between newborns randomized to receive Fio2 0.30 vs 0.21, while 2 were. Newborns randomized to receive Fio2 0.30 were less likely to receive higher levels of support in the delivery room, including noninvasive positive pressure ventilation (606 of 964 [62.9%] vs 560 of 854 [65.6%]), endotracheal or supraglottic airway ventilation (20 of 964 [2.1%] vs 24 of 854 [2.8%]), or cardiac compressions or epinephrine (19 of 964 [2.0%] vs 25 of 854 [2.9%]; proportional odds ratio, 0.70 [95% CI, 0.52-0.95]). Fewer newborns in the Fio2 0.30 group received endotracheal ventilation beyond the delivery room (61 of 959 [6.4%] vs 79 of 852 [9.3%]; risk ratio, 0.69 [95% CI, 0.47-0.91]).\nCONCLUSIONS AND RELEVANCE: For neonates born at 32 to 35 weeks' gestation, there was no difference between those commencing resuscitation with Fio2 0.30 vs Fio2 0.21 in the proportion still receiving respiratory support when leaving the delivery room.\nTRIAL REGISTRATION: anzctr.org.au Identifier: ACTRN12621001267842.",
+        "doi": "10.1001/jama.2026.14201",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42714881/"
       },
       {
-        "pmid": "42708882",
-        "title": "Supplemental oxygen in acute heart failure: is less more?",
-        "journal": "Eur Heart J Acute Cardiovasc Care",
-        "publicationDate": "2026 Sep 08",
+        "pmid": "42714594",
+        "title": "Underrepresentation of Women Among Left Ventricular Assist Device Recipients Despite Comparable Outcomes.",
+        "journal": "J Am Heart Assoc",
+        "publicationDate": "2026 Sep 09",
         "authors": [
-          "Galluzzo A",
-          "Thevathasan T"
+          "Divya A",
+          "Dalal N"
         ],
         "abstract": "",
-        "doi": "10.1093/ehjacc/zuag117",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42708882/"
+        "doi": "10.1161/JAHA.126.052701",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42714594/"
       },
       {
-        "pmid": "42708397",
-        "title": "Left ventricular rotational mechanics in children with dilated cardiomyopathy: reverse apical rotation indicates a poor prognosis.",
-        "journal": "Cardiol Young",
-        "publicationDate": "2026 Sep 08",
+        "pmid": "42714589",
+        "title": "Cognition and Heart Failure Subtypes: A Large Health Care System Real-World Cohort.",
+        "journal": "J Am Heart Assoc",
+        "publicationDate": "2026 Sep 09",
         "authors": [
-          "Montero AE",
-          "Sivasubramanian D",
-          "O'Connor M",
-          "Banerjee A"
+          "Satyadev N",
+          "Lasiichuk I",
+          "Shourav MMI",
+          "Vallamchetla S",
+          "McGrath C",
+          "Monsanto MA"
         ],
-        "abstract": "Twenty-three patients with dilated cardiomyopathy were recruited and compared with 10 age-and sex-matched controls using 2D-speckle tracking images of the apex and base of the left ventricle. Follow-up was performed after a period of 6 years. Ten patients with dilated cardiomyopathy presented with diminished rotation and 13 patients presented with reverse apical rotation, which was associated with poorer outcomes.",
-        "doi": "10.1017/S1047951126123920",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42708397/"
+        "abstract": "BACKGROUND: Studies suggest that hypoperfusion from heart failure (HF) may contribute to cognitive decline. However, the relationship between the HF subtypes and cognition remains poorly described in real-world populations.\nMETHODS: We conducted a cross-sectional study of patients aged ≥18 years seen at the Mayo Clinic in 2022 who underwent echocardiogram and cognitive assessment within 1 year. HF was classified per the 2022 American Heart Association as no HF, HF with preserved ejection fraction (EF), HF with mildly reduced EF, and HF with reduced EF. Cognitive impairment was categorized using the Montreal Cognitive Assessment score as normal (≥26), mild (18-25), and moderate to severe (<18). Linear regression assessed EF-Montreal Cognitive Assessment correlation and logistic regression the association between HF subtypes and cognitive dysfunction, adjusting for age, sex, race, and vascular risk factors.\nRESULTS: A total of 1592 patients met inclusion criteria (mean age, 75.7±13.8 years; 48.5% women). Lower EF was associated with worse cognitive performance (postadjustment β=0.033, P =0.013). Patients with HF with reduced EF and patients with HF with preserved EF had significantly lower Montreal Cognitive Assessment scores than those without HF (17.6±6.2 and 18.9±5.8 versus 19.9±6.0, P <0.001). The prevalence of moderate to severe cognitive impairment was highest in HF with reduced EF (43.3%), followed by HF with preserved EF (34.4%), no heart failure (28.6%), and HF with mildly reduced EF (23.4%) (adjusted trend P =0.032).\nCONCLUSIONS: HF, independent of ejection fraction alone, is associated with cognitive impairment. Further studies should confirm these findings and evaluate the impact of interventions targeting EF and HF subtypes on cognitive outcomes.",
+        "doi": "10.1161/JAHA.126.051559",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42714589/"
       },
       {
-        "pmid": "42708210",
-        "title": "Arrhythmic Risk Stratification According to LGE Corridors and Genetics in Nonischemic Dilated Cardiomyopathy.",
-        "journal": "Circulation",
-        "publicationDate": "2026 Sep 08",
+        "pmid": "42714579",
+        "title": "Mechanical Circulatory Support for Complex High-Risk Indicated Percutaneous Coronary Intervention: Network Meta-Analysis of Randomized Trials.",
+        "journal": "J Am Heart Assoc",
+        "publicationDate": "2026 Sep 09",
         "authors": [
-          "Ramos-López N",
-          "Mora-Ayestarán N",
-          "Ochoa JP",
-          "Claver E",
-          "Gómez González C",
-          "Poel E"
+          "Bujak K",
+          "Laudani C",
+          "Giacoppo D",
+          "Spagnolo M",
+          "Mauro MS",
+          "Cutore L"
         ],
-        "abstract": "BACKGROUND: Fibrosis assessed through late gadolinium enhancement (LGE) in cardiac magnetic resonance imaging and genetics have emerged as risk markers of ventricular arrhythmias in nonischemic dilated cardiomyopathy. Conduction corridors detected within LGE (ie, LGE corridors) have been associated with ventricular arrhythmias in ischemic cardiomyopathy. This study sought to evaluate major ventricular arrhythmic events (MVAs) according to the presence of LGE corridors combined with high-risk genotypes (HRGs) in nonischemic dilated cardiomyopathy.\nMETHODS: We studied consecutive patients with nonischemic dilated cardiomyopathy from 22 European centers who had undergone genetic testing and cardiac magnetic resonance imaging.\nRESULTS: Among 925 patients (mean age, 54.5 years [interquartile range, 43.7-63.9 years]; 64% men; mean left ventricular ejection fraction, 37.6% [26.9%-44.8%]; LGE in 24.3%), LGE corridors were present in 160 patients (17.3%), and HRG in 119 (12.9%). After a median follow-up of 5.4 years (interquartile range, 3.3-7.7), 95 patients (10.3%) experienced an MVA. In multivariable competing-risk analysis adjusted for left ventricular ejection fraction and extent of LGE, the number of LGE corridors and HRGs were independently associated with MVA (subdistribution hazard ratio, 1.25 [95% CI, 1.11-1.42]; P <0.001; and subdistribution hazard ratio, 2.28 [95% CI, 1.32-3.96]; P =0.003, respectively). An optimal cutoff of ≥4 LGE corridors predicted MVA. A stepwise risk stratification algorithm to predict MVA integrating LGE, the presence of ≥4 LGE corridors, and HRG outperformed left ventricular ejection fraction ≤35%-based classification proposed in guidelines (5-year time-dependent area under the curve, 0.72 [95% CI, 0.65-0.78] versus 0.57 [95% CI, 0.51-0.64]; P =0.001), showing a progressive increase in arrhythmic risk across categories (Gray test P <0.001), and allowing clinically meaningful arrhythmic risk classification.\nCONCLUSIONS: LGE corridors and HRGs provide additive value for arrhythmic risk stratification in patients with nonischemic dilated cardiomyopathy. These findings support MVA multiparametric prediction over the traditional left ventricular ejection fraction ≤35% threshold.",
-        "doi": "10.1161/CIRCULATIONAHA.126.080608",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42708210/"
+        "abstract": "BACKGROUND: Mechanical circulatory support (MCS) is increasingly used during complex high-risk indicated percutaneous coronary intervention, yet whether different support strategies improve clinical outcomes remains uncertain. We sought to compare the efficacy and safety of individual MCS strategies with standard care and with each other at short- and long-term follow-up.\nMETHODS: This frequentist random-effects network meta-analysis included randomized trials of patients undergoing nonemergent complex high-risk indicated percutaneous coronary intervention and comparing percutaneous left ventricular assist devices, intra-aortic balloon pump, venoarterial extracorporeal membrane oxygenation, or standard care. The primary efficacy outcome was major adverse cardiovascular events. Secondary outcomes included death, myocardial infarction, stroke, or repeat revascularization, and periprocedural major adverse events.\nRESULTS: Eight trials (n=1856) were included. At 30 days, no MCS was associated with lower major adverse cardiovascular events compared with standard care, though percutaneous left ventricular assist devices (risk ratio [RR] 0.30, 95% CI 0.10-0.90) and intra-aortic balloon pump (RR 0.26, 95% CI 0.07-0.90) reduced periprocedural major adverse events. At a weighted mean of 10.8 months, no significant differences in major adverse cardiovascular events were observed with percutaneous left ventricular assist devices (incidence rate ratio 0.79; 95% CI 0.47-1.35), intra-aortic balloon pump (incidence rate ratio 0.89, 95% CI 0.52-1.54), or venoarterial extracorporeal membrane oxygenation (incidence rate ratio 1.47, 95% CI 0.64-3.40) compared with standard care. Consistently, no MCS strategy reduced death, myocardial infarction, stroke, or repeat revascularization.\nCONCLUSIONS: Among patients undergoing complex high-risk indicated percutaneous coronary intervention, MCS did not improve clinical outcomes, despite fewer periprocedural adverse events with percutaneous left ventricular assist devices and intra-aortic balloon pump. These findings do not support routine prophylactic use and suggest that MCS should be limited to selected patients.",
+        "doi": "10.1161/JAHA.126.052609",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42714579/"
       }
     ]
   },
   "summaryByAlert": {
-    "focused": "## PICU/CICU重点\n\n### 1. Specialty-Based Variation in Prostaglandin E1 Use for Neonates With dextro-Transposition of the Great Arteries: An International Cross-Sectional Survey of Neonatologists and Pediatric Cardiac Intensivists.\nPMID 42709749 / World J Pediatr Congenit Heart Surg / 2026 Sep 08\n要点: 専門分野によって新生児d-TGA患者におけるプロスタグランジンE1（PGE1）の開始・投与量に差が存在する。  \nPICU/CICUでの意味: 専門分野ごとのPGE1使用基準の違いは、治療の一貫性や患者アウトカムに影響を与える可能性がある。  \n注意点: 自己報告に基づく調査であり、臨床結果への影響は検証されていない。\n\n### 2. Unveiling the Healthcare Journey of Patients with Hypoplastic Left Heart Syndrome: From Birth to Adulthood.\nPMID 42709730 / World J Pediatr Congenit Heart Surg / 2026 Sep 08\n要点:  \nHLHS患者の医療負担は年齢とともに増加し、18年間のフォローアップで入院回数、ステイ日数、薬剤数、心臓移植率が顕著に上昇した。  \n\nPICU/CICUでの意味:  \nHLHS患者は長期的なICUリソース利用と頻繁な介入を必要とし、年齢とともに医療負担が増加するため、継続的な管理計画が求められる。  \n\n注意点:  \n要約はアブストラクトのみに基づくため、詳細なデータや臨床的因果関係の検証はされていない。\n\n### 3. Factors Associated With Mortality in Patients Requiring Extracorporeal Membrane Oxygenation Following the Norwood Procedure: A Systematic Review and Meta-Analysis.\nPMID 42709694 / World J Pediatr Congenit Heart Surg / 2026 Sep 08\n要点: ノルウェード手術後のECMO施行において、生存に関連する要因として、心肺バypass時間やECMO施行時間の延長が示唆された。  \nPICU/CICUでの意味: ノルウェード手術後のECMO管理において、術中・術後の時間経過をモニタリングし、リスクファクターを評価する必要性が強調される。  \n注意点: 抽象のみに基づくため、具体的な臨床指針への直接的な適用は限定的であり、さらなる研究が求められる。",
-    "broad": "## 主要誌横断\n\n### 1. Specialty-Based Variation in Prostaglandin E1 Use for Neonates With dextro-Transposition of the Great Arteries: An International Cross-Sectional Survey of Neonatologists and Pediatric Cardiac Intensivists.\nPMID 42709749 / World J Pediatr Congenit Heart Surg / 2026 Sep 08\n要点: 専門分野によって新生児d-TGA患者におけるプロスタグランジンE1（PGE1）の開始・投与量に差が存在する。  \nPICU/CICUでの意味: 専門分野ごとのPGE1使用基準の違いは、治療の一貫性や患者アウトカムに影響を与える可能性がある。  \n注意点: 自己報告に基づく調査であり、臨床結果への影響は検証されていない。\n\n### 2. Factors Associated With Mortality in Patients Requiring Extracorporeal Membrane Oxygenation Following the Norwood Procedure: A Systematic Review and Meta-Analysis.\nPMID 42709694 / World J Pediatr Congenit Heart Surg / 2026 Sep 08\n要点: ノルウェード手術後のECMO施行において、生存に関連する要因として、心肺バypass時間やECMO施行時間の延長が示唆された。  \nPICU/CICUでの意味: ノルウェード手術後のECMO管理において、術中・術後の時間経過をモニタリングし、リスクファクターを評価する必要性が強調される。  \n注意点: 抽象のみに基づくため、具体的な臨床指針への直接的な適用は限定的であり、さらなる研究が求められる。"
+    "focused": "## PICU/CICU重点\n\n### 1. Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.\nPMID 42714881 / JAMA / 2026 Sep 09\n- 要点: 32〜35週齢の早産児の出生時の初期酸素投与濃度（FIO2 0.30 vs 0.21）の比較試験で、呼吸支援継続率が主要評価項目として検討された。  \n- PICU/CICUでの意味: 出生時の酸素管理戦略が早産児の呼吸支援継続に影響を与える可能性を示唆し、初期介入の検討に参考となる。  \n- 注意点: 抽象のみに基づくため、結果の詳細や臨床的意義の明確な結論は得られていない。\n\n### 2. Accelerated Aging Fontan Phenotype Is Associated With Systemic Right Ventricles and Adverse Hemodynamics.\nPMID 42714563 / J Am Heart Assoc / 2026 Sep 09\n- 要点: Fontan循環患者では加速度老化が認められ、特に系統的右心室を持つ患者でテロメア長が短縮していた。  \n- PICU/CICUでの意味: 系統的右心室を有するFontan患者では悪化する血動態と加速度老化の関連性を意識し、テロメア長などのバイオマーカーの評価が重要となる可能性。  \n- 注意点: 研究はテロメア長を基準とし、臨床的介入への直接的結論は得られていない。\n\n### 3. Association Between Nonsyndromic Congenital Heart Disease and Childhood Cancer in a Population-Based, Retrospective Cohort of 11 Million Children.\nPMID 42714453 / J Am Heart Assoc / 2026 Sep 09\n要点: 無症候性先天性心疾患（CHD）の特定の心臓異所（例：大動脈弓閉塞、単心室疾患）と小児がん（リンパ腫、白血病など）との関連が、1100万人規模のコホートで観察された。  \nPICU/CICUでの意味: 特定のCHD疾患を持つ小児ではがんリスクが上昇しており、ICUでの長期管理においてがんスクリーニングの検討が求められる可能性がある。  \n注意点: 観察研究であり因果関係は示されておらず、臨床的ガイドラインへの直接的な影響は限定的である。\n\n### 4. Prescription Patterns of Cardiovascular Medications in the Adolescent and Adult Population With Fontan Circulation-A Report From the Multicenter Single Ventricle Outcomes Network.\nPMID 42714413 / J Am Heart Assoc / 2026 Sep 09\n- 要点: 13歳以上のFontan循環を持つ成人患者において、抗血小板薬（75.6%）およびレニン-アンジオテンシン系阻害薬（55.9%）が最も頻繁に処方され、DOACの処方がwarfarinより多かった。  \n- PICU/CICUでの意味: Fontan手術後患者の抗凝固療法や心不全管理において、薬物選択の参考となるが、小児期のデータは限られている。  \n- 注意点: 抽象のみに基づく報告であり、小児患者への直接的な臨床的意義は不明。",
+    "broad": "## 主要誌横断\n\n### 2. Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.\nPMID 42714881 / JAMA / 2026 Sep 09\n- 要点: 32〜35週齢の早産児の出生時の初期酸素投与濃度（FIO2 0.30 vs 0.21）の比較試験で、呼吸支援継続率が主要評価項目として検討された。  \n- PICU/CICUでの意味: 出生時の酸素管理戦略が早産児の呼吸支援継続に影響を与える可能性を示唆し、初期介入の検討に参考となる。  \n- 注意点: 抽象のみに基づくため、結果の詳細や臨床的意義の明確な結論は得られていない。"
   },
   "fetchedAtByAlert": {
-    "focused": "2026-09-09T00:03:28.987Z",
-    "broad": "2026-09-09T00:03:28.987Z"
+    "focused": "2026-09-09T23:55:49.667Z",
+    "broad": "2026-09-09T23:55:49.667Z"
   },
   "importantArticles": [
     {
@@ -259,7 +267,7 @@
     }
   ],
   "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.\nPMID 41870559 / Intensive Care Med / 2026 May\n- 要点: 2026年版の小児用敗血症・敗血性ショック管理ガイドラインが更新され、国際的な専門家によるエビデンスベースの推奨事項が示されている。  \n- PICU/CICUでの意味: 小児重症患者における敗血症・敗血性ショックの管理に際して、最新のエビデンスと統合的アプローチに基づく臨床ガイドラインが提供される。  \n- 注意点: 抽象のみに基づくため、詳細な実践的ガイドライン内容は論文本文を参照すること。\n\n### 3. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。",
-  "importantFetchedAt": "2026-09-09T00:03:28.987Z",
+  "importantFetchedAt": "2026-09-09T23:55:49.667Z",
   "articleSummariesByPmid": {
     "39208447": {
       "pmid": "39208447",
@@ -729,124 +737,190 @@
       "generatedAt": "2026-09-09T00:04:36.488Z",
       "model": "qwen3:8b",
       "summary": "要点: 専門分野によって新生児d-TGA患者におけるプロスタグランジンE1（PGE1）の開始・投与量に差が存在する。  \nPICU/CICUでの意味: 専門分野ごとのPGE1使用基準の違いは、治療の一貫性や患者アウトカムに影響を与える可能性がある。  \n注意点: 自己報告に基づく調査であり、臨床結果への影響は検証されていない。"
+    },
+    "42714413": {
+      "pmid": "42714413",
+      "title": "Prescription Patterns of Cardiovascular Medications in the Adolescent and Adult Population With Fontan Circulation-A Report From the Multicenter Single Ventricle Outcomes Network.",
+      "generatedAt": "2026-09-09T23:56:51.801Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: 13歳以上のFontan循環を持つ成人患者において、抗血小板薬（75.6%）およびレニン-アンジオテンシン系阻害薬（55.9%）が最も頻繁に処方され、DOACの処方がwarfarinより多かった。  \n- PICU/CICUでの意味: Fontan手術後患者の抗凝固療法や心不全管理において、薬物選択の参考となるが、小児期のデータは限られている。  \n- 注意点: 抽象のみに基づく報告であり、小児患者への直接的な臨床的意義は不明。"
+    },
+    "42714453": {
+      "pmid": "42714453",
+      "title": "Association Between Nonsyndromic Congenital Heart Disease and Childhood Cancer in a Population-Based, Retrospective Cohort of 11 Million Children.",
+      "generatedAt": "2026-09-09T23:56:37.483Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 無症候性先天性心疾患（CHD）の特定の心臓異所（例：大動脈弓閉塞、単心室疾患）と小児がん（リンパ腫、白血病など）との関連が、1100万人規模のコホートで観察された。  \nPICU/CICUでの意味: 特定のCHD疾患を持つ小児ではがんリスクが上昇しており、ICUでの長期管理においてがんスクリーニングの検討が求められる可能性がある。  \n注意点: 観察研究であり因果関係は示されておらず、臨床的ガイドラインへの直接的な影響は限定的である。"
+    },
+    "42714563": {
+      "pmid": "42714563",
+      "title": "Accelerated Aging Fontan Phenotype Is Associated With Systemic Right Ventricles and Adverse Hemodynamics.",
+      "generatedAt": "2026-09-09T23:56:24.531Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: Fontan循環患者では加速度老化が認められ、特に系統的右心室を持つ患者でテロメア長が短縮していた。  \n- PICU/CICUでの意味: 系統的右心室を有するFontan患者では悪化する血動態と加速度老化の関連性を意識し、テロメア長などのバイオマーカーの評価が重要となる可能性。  \n- 注意点: 研究はテロメア長を基準とし、臨床的介入への直接的結論は得られていない。"
+    },
+    "42714881": {
+      "pmid": "42714881",
+      "title": "Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.",
+      "generatedAt": "2026-09-09T23:56:15.239Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: 32〜35週齢の早産児の出生時の初期酸素投与濃度（FIO2 0.30 vs 0.21）の比較試験で、呼吸支援継続率が主要評価項目として検討された。  \n- PICU/CICUでの意味: 出生時の酸素管理戦略が早産児の呼吸支援継続に影響を与える可能性を示唆し、初期介入の検討に参考となる。  \n- 注意点: 抽象のみに基づくため、結果の詳細や臨床的意義の明確な結論は得られていない。"
     }
   },
   "dailyDigests": [
     {
       "date": "2026-09-09",
-      "generatedAt": "2026-09-09T00:03:28.987Z",
-      "summary": "## 今日の順次AI要約\n\n取得候補 12件 / AI要約済み 8件 / 未要約 4件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.\nPMID 41870559 / Intensive Care Med / 2026 May\n- 要点: 2026年版の小児用敗血症・敗血性ショック管理ガイドラインが更新され、国際的な専門家によるエビデンスベースの推奨事項が示されている。  \n- PICU/CICUでの意味: 小児重症患者における敗血症・敗血性ショックの管理に際して、最新のエビデンスと統合的アプローチに基づく臨床ガイドラインが提供される。  \n- 注意点: 抽象のみに基づくため、詳細な実践的ガイドライン内容は論文本文を参照すること。\n\n### 3. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n## PICU/CICU重点\n\n### 1. Specialty-Based Variation in Prostaglandin E1 Use for Neonates With dextro-Transposition of the Great Arteries: An International Cross-Sectional Survey of Neonatologists and Pediatric Cardiac Intensivists.\nPMID 42709749 / World J Pediatr Congenit Heart Surg / 2026 Sep 08\n要点: 専門分野によって新生児d-TGA患者におけるプロスタグランジンE1（PGE1）の開始・投与量に差が存在する。  \nPICU/CICUでの意味: 専門分野ごとのPGE1使用基準の違いは、治療の一貫性や患者アウトカムに影響を与える可能性がある。  \n注意点: 自己報告に基づく調査であり、臨床結果への影響は検証されていない。\n\n### 2. Unveiling the Healthcare Journey of Patients with Hypoplastic Left Heart Syndrome: From Birth to Adulthood.\nPMID 42709730 / World J Pediatr Congenit Heart Surg / 2026 Sep 08\n要点:  \nHLHS患者の医療負担は年齢とともに増加し、18年間のフォローアップで入院回数、ステイ日数、薬剤数、心臓移植率が顕著に上昇した。  \n\nPICU/CICUでの意味:  \nHLHS患者は長期的なICUリソース利用と頻繁な介入を必要とし、年齢とともに医療負担が増加するため、継続的な管理計画が求められる。  \n\n注意点:  \n要約はアブストラクトのみに基づくため、詳細なデータや臨床的因果関係の検証はされていない。\n\n### 3. Factors Associated With Mortality in Patients Requiring Extracorporeal Membrane Oxygenation Following the Norwood Procedure: A Systematic Review and Meta-Analysis.\nPMID 42709694 / World J Pediatr Congenit Heart Surg / 2026 Sep 08\n要点: ノルウェード手術後のECMO施行において、生存に関連する要因として、心肺バypass時間やECMO施行時間の延長が示唆された。  \nPICU/CICUでの意味: ノルウェード手術後のECMO管理において、術中・術後の時間経過をモニタリングし、リスクファクターを評価する必要性が強調される。  \n注意点: 抽象のみに基づくため、具体的な臨床指針への直接的な適用は限定的であり、さらなる研究が求められる。\n\n## 主要誌横断\n\n### 1. Specialty-Based Variation in Prostaglandin E1 Use for Neonates With dextro-Transposition of the Great Arteries: An International Cross-Sectional Survey of Neonatologists and Pediatric Cardiac Intensivists.\nPMID 42709749 / World J Pediatr Congenit Heart Surg / 2026 Sep 08\n要点: 専門分野によって新生児d-TGA患者におけるプロスタグランジンE1（PGE1）の開始・投与量に差が存在する。  \nPICU/CICUでの意味: 専門分野ごとのPGE1使用基準の違いは、治療の一貫性や患者アウトカムに影響を与える可能性がある。  \n注意点: 自己報告に基づく調査であり、臨床結果への影響は検証されていない。\n\n### 2. Factors Associated With Mortality in Patients Requiring Extracorporeal Membrane Oxygenation Following the Norwood Procedure: A Systematic Review and Meta-Analysis.\nPMID 42709694 / World J Pediatr Congenit Heart Surg / 2026 Sep 08\n要点: ノルウェード手術後のECMO施行において、生存に関連する要因として、心肺バypass時間やECMO施行時間の延長が示唆された。  \nPICU/CICUでの意味: ノルウェード手術後のECMO管理において、術中・術後の時間経過をモニタリングし、リスクファクターを評価する必要性が強調される。  \n注意点: 抽象のみに基づくため、具体的な臨床指針への直接的な適用は限定的であり、さらなる研究が求められる。",
+      "generatedAt": "2026-09-09T23:55:49.667Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 14件 / AI要約済み 9件 / 未要約 5件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.\nPMID 41870559 / Intensive Care Med / 2026 May\n- 要点: 2026年版の小児用敗血症・敗血性ショック管理ガイドラインが更新され、国際的な専門家によるエビデンスベースの推奨事項が示されている。  \n- PICU/CICUでの意味: 小児重症患者における敗血症・敗血性ショックの管理に際して、最新のエビデンスと統合的アプローチに基づく臨床ガイドラインが提供される。  \n- 注意点: 抽象のみに基づくため、詳細な実践的ガイドライン内容は論文本文を参照すること。\n\n### 3. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n## PICU/CICU重点\n\n### 1. Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.\nPMID 42714881 / JAMA / 2026 Sep 09\n- 要点: 32〜35週齢の早産児の出生時の初期酸素投与濃度（FIO2 0.30 vs 0.21）の比較試験で、呼吸支援継続率が主要評価項目として検討された。  \n- PICU/CICUでの意味: 出生時の酸素管理戦略が早産児の呼吸支援継続に影響を与える可能性を示唆し、初期介入の検討に参考となる。  \n- 注意点: 抽象のみに基づくため、結果の詳細や臨床的意義の明確な結論は得られていない。\n\n### 2. Accelerated Aging Fontan Phenotype Is Associated With Systemic Right Ventricles and Adverse Hemodynamics.\nPMID 42714563 / J Am Heart Assoc / 2026 Sep 09\n- 要点: Fontan循環患者では加速度老化が認められ、特に系統的右心室を持つ患者でテロメア長が短縮していた。  \n- PICU/CICUでの意味: 系統的右心室を有するFontan患者では悪化する血動態と加速度老化の関連性を意識し、テロメア長などのバイオマーカーの評価が重要となる可能性。  \n- 注意点: 研究はテロメア長を基準とし、臨床的介入への直接的結論は得られていない。\n\n### 3. Association Between Nonsyndromic Congenital Heart Disease and Childhood Cancer in a Population-Based, Retrospective Cohort of 11 Million Children.\nPMID 42714453 / J Am Heart Assoc / 2026 Sep 09\n要点: 無症候性先天性心疾患（CHD）の特定の心臓異所（例：大動脈弓閉塞、単心室疾患）と小児がん（リンパ腫、白血病など）との関連が、1100万人規模のコホートで観察された。  \nPICU/CICUでの意味: 特定のCHD疾患を持つ小児ではがんリスクが上昇しており、ICUでの長期管理においてがんスクリーニングの検討が求められる可能性がある。  \n注意点: 観察研究であり因果関係は示されておらず、臨床的ガイドラインへの直接的な影響は限定的である。\n\n### 4. Prescription Patterns of Cardiovascular Medications in the Adolescent and Adult Population With Fontan Circulation-A Report From the Multicenter Single Ventricle Outcomes Network.\nPMID 42714413 / J Am Heart Assoc / 2026 Sep 09\n- 要点: 13歳以上のFontan循環を持つ成人患者において、抗血小板薬（75.6%）およびレニン-アンジオテンシン系阻害薬（55.9%）が最も頻繁に処方され、DOACの処方がwarfarinより多かった。  \n- PICU/CICUでの意味: Fontan手術後患者の抗凝固療法や心不全管理において、薬物選択の参考となるが、小児期のデータは限られている。  \n- 注意点: 抽象のみに基づく報告であり、小児患者への直接的な臨床的意義は不明。\n\n## 主要誌横断\n\n### 2. Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.\nPMID 42714881 / JAMA / 2026 Sep 09\n- 要点: 32〜35週齢の早産児の出生時の初期酸素投与濃度（FIO2 0.30 vs 0.21）の比較試験で、呼吸支援継続率が主要評価項目として検討された。  \n- PICU/CICUでの意味: 出生時の酸素管理戦略が早産児の呼吸支援継続に影響を与える可能性を示唆し、初期介入の検討に参考となる。  \n- 注意点: 抽象のみに基づくため、結果の詳細や臨床的意義の明確な結論は得られていない。",
       "articles": [
         {
-          "pmid": "42709749",
-          "title": "Specialty-Based Variation in Prostaglandin E1 Use for Neonates With dextro-Transposition of the Great Arteries: An International Cross-Sectional Survey of Neonatologists and Pediatric Cardiac Intensivists.",
-          "journal": "World J Pediatr Congenit Heart Surg",
-          "publicationDate": "2026 Sep 08",
+          "pmid": "42714881",
+          "title": "Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.",
+          "journal": "JAMA",
+          "publicationDate": "2026 Sep 09",
           "authors": [
-            "Morag S",
-            "Lowenthal A",
-            "Abuelhija H",
-            "Pollak U"
+            "Peart SR",
+            "Manley BJ",
+            "Cheong JLY",
+            "Oei JL",
+            "Grobler AC",
+            "Moore CL"
           ],
-          "abstract": "OBJECTIVES: To assess international practice patterns for prostaglandin E1 (PGE1) initiation and dosing in neonates with dextro-transposition of the great arteries (d-TGA) and to evaluate whether these practices differ by clinical specialty.\nMETHODS: We conducted an international, cross-sectional, web-based survey of neonatologists and pediatric cardiac intensivists involved in stabilizing neonates with d-TGA. The survey assessed strategies for routine versus selective PGE1 initiation, oxygen saturation thresholds, starting dose, and maximum dose policies. The primary outcome was self-reported routine PGE1 initiation. Categorical variables were compared using χ 2 tests, and multivariable logistic regression analysis identified independent predictors of routine initiation, adjusting for specialty, region, experience, cardiology availability, institutional protocols, and sex.\nRESULTS: A total of 526 clinicians responded (282 neonatologists and 244 intensivists; 65.8% response rate). Neonatologists more frequently reported routine PGE1 initiation than cardiac intensivists (84.0% vs 58.6%, P < .001). Starting dose selection differed by specialty ( P < .001), whereas oxygen saturation thresholds did not ( P = .436). In adjusted analysis, cardiac intensivists were less likely than neonatologists to report routine initiation (adjusted OR 0.15, 95% CI 0.05-0.45).\nCONCLUSIONS: Substantial specialty-based variation exists in PGE1 initiation and dosing for neonatal d-TGA stabilization. Because both routine and selective strategies have plausible physiologic rationale, this heterogeneity should be interpreted as hypothesis-generating, identifying the interspecialty divide as a priority target for prospective, outcome-linked comparative-effectiveness research that should precede any consensus recommendation. Limitations include the survey design, collinearity between specialty and care setting, and lack of patient-level outcome data.",
-          "doi": "10.1177/21501351261472476",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42709749/"
+          "abstract": "IMPORTANCE: The optimal initial fraction of inspired oxygen (Fio2) for delivery room resuscitation of neonates born at 32 to 35 weeks' gestation is unknown.\nOBJECTIVE: To compare outcomes for neonates born at 32 to 35 weeks' gestation when initiating resuscitation with Fio2 0.30 vs 0.21.\nDESIGN, SETTING, AND PARTICIPANTS: Unblinded, cluster randomized crossover trial in 26 Australian maternity hospitals, including tertiary, nontertiary, metropolitan, regional, public, and private sites, using a waiver of informed consent. All neonates born at participating sites at 32 to 35 weeks' gestation without known major congenital anomalies who commenced respiratory support within 3 minutes of birth were enrolled from December 2022 to September 2025, with final follow-up in March 2026. Statistical analysis was conducted on October 29, 2025.\nINTERVENTION: Sites were randomly assigned to provide initial Fio2 of either 0.30 or 0.21 during the first 3 minutes of delivery room respiratory support. Sites crossed over to provide the alternative initial Fio2 halfway through their recruitment period.\nMAIN OUTCOMES AND MEASURES: The primary outcome was ongoing respiratory support when leaving the delivery room. Twelve secondary outcomes evaluated delivery room treatments and respiratory support until discharge.\nRESULTS: A total of 1818 eligible newborns (mean gestational age, 34.1 weeks; mean birth weight, 2165 g; 44.7% female) were included. Ongoing respiratory support when leaving the delivery room occurred in 700 of 964 newborns (72.6%) randomized to receive Fio2 0.30 and 626 of 854 newborns (73.3%) randomized to receive Fio2 0.21 (risk difference, -0.83 [95% CI, -4.33 to 2.67]). Of the 12 secondary outcomes, 10 were not significantly different between newborns randomized to receive Fio2 0.30 vs 0.21, while 2 were. Newborns randomized to receive Fio2 0.30 were less likely to receive higher levels of support in the delivery room, including noninvasive positive pressure ventilation (606 of 964 [62.9%] vs 560 of 854 [65.6%]), endotracheal or supraglottic airway ventilation (20 of 964 [2.1%] vs 24 of 854 [2.8%]), or cardiac compressions or epinephrine (19 of 964 [2.0%] vs 25 of 854 [2.9%]; proportional odds ratio, 0.70 [95% CI, 0.52-0.95]). Fewer newborns in the Fio2 0.30 group received endotracheal ventilation beyond the delivery room (61 of 959 [6.4%] vs 79 of 852 [9.3%]; risk ratio, 0.69 [95% CI, 0.47-0.91]).\nCONCLUSIONS AND RELEVANCE: For neonates born at 32 to 35 weeks' gestation, there was no difference between those commencing resuscitation with Fio2 0.30 vs Fio2 0.21 in the proportion still receiving respiratory support when leaving the delivery room.\nTRIAL REGISTRATION: anzctr.org.au Identifier: ACTRN12621001267842.",
+          "doi": "10.1001/jama.2026.14201",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714881/"
         },
         {
-          "pmid": "42709730",
-          "title": "Unveiling the Healthcare Journey of Patients with Hypoplastic Left Heart Syndrome: From Birth to Adulthood.",
-          "journal": "World J Pediatr Congenit Heart Surg",
-          "publicationDate": "2026 Sep 08",
+          "pmid": "42714563",
+          "title": "Accelerated Aging Fontan Phenotype Is Associated With Systemic Right Ventricles and Adverse Hemodynamics.",
+          "journal": "J Am Heart Assoc",
+          "publicationDate": "2026 Sep 09",
           "authors": [
-            "Mehdizadeh-Shrifi A",
-            "Faateh M",
-            "Turner D",
-            "Kulshrestha K",
-            "Heydarian HC",
-            "Hossain MM"
+            "Woo JP",
+            "Vincent AGB",
+            "Kushwaha A",
+            "Gan S",
+            "Ichimura S",
+            "Egorova AD"
           ],
-          "abstract": "ObjectiveWhile many studies view patients with hypoplastic left heart syndrome (HLHS) through the lens of financial burden, an overall sense of the medical burden of these patients has rarely been reported. We sought to introduce a granular analysis of the medical burden of patients with HLHS to capture a view of their journey to adulthood.MethodsChildren with HLHS (≤18 years) born from 2004 to 2008 with 18 years of follow-up were identified in the Pediatric Health Information System (PHIS). Children who did not have 18 years of complete follow-up were excluded.ResultsBy 1 year of age, a child with HLHS had a total median number of visits of 4 (3-6), length of stay (LOS) of 52 days (d) (29-87), 2 (1-3) cardiac catheterizations, 55 (42-74) unique drugs, and 4% cardiac transplant prevalence. By 5 years of age, a child with HLHS had a total number of visits of 10 (6-18), LOS of 73d (46-119), 3 (2-6) cardiac catheterizations, 89 (70-132) unique drugs, and a 10% cardiac transplant prevalence. By 10 years of age, a child with HLHS had a total number of visits of 18 (8-35), LOS of 85d (54-147), 5 (3-8) cardiac catheterizations, 120 (97-178) unique drugs, and an11% cardiac transplant prevalence. By 18 years of age, an adult with HLHS had a total number of visits of 44 (17-80), LOS of 154d (83-264), 9 (5-12) cardiac catheterizations, 139 (127-220) unique drugs, and a 19% cardiac transplant prevalence.ConclusionThe present report offers detailed insight into the medical burden of patients with HLHS and can serve as a reference to inform patients and families of the journey.",
-          "doi": "10.1177/21501351261472468",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42709730/"
+          "abstract": "BACKGROUND: Accelerated biological aging occurs when biological age outpaces chronological age. Congenital heart disease is associated with an increased risk for age-related diseases. The role of biological aging in individuals with the most severe forms of congenital heart disease, those with a Fontan circulation, is not known.\nMETHODS: In this case-control study, we compared the telomere lengths of patients with Fontan circulation with controls and identified factors associated with an accelerated aging phenotype. Biological aging was assessed by leukocyte telomere length through quantitative polymerase chain reaction, expressed as telomeric DNA to single-copy gene ratio.\nRESULTS: Median age was 14.90 (interquartile range [IQR], 10.99-20.69) years in the Fontan cohort (N=90) and 15.20 (IQR, 11.11-16.42) years in controls (N=59). The Fontan cohort had shorter telomeres compared with controls (telomeric DNA to single-copy gene ratio, 1.04 [IQR, 0.96-1.14] versus 1.13 [IQR, 0.96-1.24]; P =0.021). Patients with systemic right ventricles had shorter telomeres (telomeric DNA to single-copy gene ratio, 1.02 [IQR, 0.93-1.08] versus 1.05 [IQR, 1.00-1.17]; P =0.047). Lower superior vena cava saturation (β=0.007 [95% CI, 0.002, 0.012]; P =0.013), lower cardiac index (β=0.06 [95% CI, 0.012-0.108]; P =0.016) and higher systemic vascular resistance (β=-0.007 [95% CI, -0.014 to -0.001]; P =0.023) were associated with shorter telomeres. At a median follow-up of 13.07 months, 46.7% of patients with telomere loss (>50 bp loss/y) experienced an increase in comorbidities, compared with just 20.5% in those with no change or an increase in telomere length ( P <0.001).\nCONCLUSIONS: Individuals with a Fontan circulation have shorter telomeres compared with controls, mirroring an accelerated aging phenotype. This is more pronounced in patients with a systemic right ventricle, those with adverse hemodynamics, and is associated with having a higher burden of comorbidities. Understanding accelerated biological aging will allow for the development of therapies aimed at slowing age-related decline.",
+          "doi": "10.1161/JAHA.125.048352",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714563/"
         },
         {
-          "pmid": "42709694",
-          "title": "Factors Associated With Mortality in Patients Requiring Extracorporeal Membrane Oxygenation Following the Norwood Procedure: A Systematic Review and Meta-Analysis.",
-          "journal": "World J Pediatr Congenit Heart Surg",
-          "publicationDate": "2026 Sep 08",
+          "pmid": "42714453",
+          "title": "Association Between Nonsyndromic Congenital Heart Disease and Childhood Cancer in a Population-Based, Retrospective Cohort of 11 Million Children.",
+          "journal": "J Am Heart Assoc",
+          "publicationDate": "2026 Sep 09",
           "authors": [
-            "Almehandi A",
-            "Ali Y",
-            "Alhajri M",
-            "Altarkait A",
-            "Alenezi M",
-            "Diniz L"
+            "Schraw JM",
+            "Mims KC",
+            "Stephens SB",
+            "Rasmussen SA",
+            "Mason EJ",
+            "Desrosiers TA"
           ],
-          "abstract": "IntroductionExtracorporeal membrane oxygenation (ECMO) is becoming more prevalent post-Norwood procedure, and its use has been linked to reduced survival, with wide variability between centres. The reasons for this variability, particularly the roles of anatomy, surgical technique and ECMO indication, remain poorly understood. This study examines associated factors with survival to discharge in patients undergoing post-Norwood ECMO.MethodsWe systematically searched PubMed, EMBASE, Cochrane Central and Web of Science for relevant variables. The analysed variables included operative parameters, ECMO variables and postoperative complications during ECMO support post-Norwood procedure. Statistical analyses were performed using RevMan 5.4 to calculate pooled risk ratios, odds ratios (OR) or mean differences (MD) with 95% confidence intervals (CIs) using random-effects models.ResultsA total of 8 studies were included (1614 neonates; 41% post-Norwood ECMO survivors). Cardiopulmonary bypass and ECMO durations were significantly longer in the non-survivor group (MD = -24.33, CI = -39.19 to -9.47, p = .001) and (MD = -42.76, CI = -51.65 to -33.87, p < .00001),respectively. ECMO indications and cannulation technique were similar between the groups. Important complications such as bleeding (OR = 0.67, p = .003), neurological injury (OR = 0.55, p < .0001), arrhythmia (OR = 0.45, p < .00001) and cardiac tamponade (OR = 0.49, p = .03) were all significantly greater in the cohort of neonates that did not survive to discharge.ConclusionFor infants requiring ECMO support following the Norwood procedure, longer cardiopulmonary bypass times and longer ECMO duration were observed among neonates who did not survive to discharge. ECMO indications showed no clear association with survival. There was a significantly higher incidence of bleeding, neurological injury, and arrhythmia in the non-survivor cohort.",
-          "doi": "10.1177/21501351261472471",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42709694/"
+          "abstract": "BACKGROUND: Epidemiologic studies have demonstrated associations between congenital heart disease (CHD) and childhood cancer. However, these assessments have not fully accounted for the pathogenetic and clinical heterogeneity of CHD, limiting their capacity to inform pathogenetic studies and the clinical management of children with CHD.\nMETHODS: To achieve a more detailed understanding of cancer risk in children with nonsyndromic CHD, we evaluated 60 cardiac lesions in 7 categories in a cohort of 11 million children from Massachusetts, North Carolina, Oklahoma, and Texas. We used Cox proportional hazards regression to estimate the hazard ratios (HRs) and 95% CIs of cancer in children with each lesion relative to children without congenital anomalies when there were ≥3 co-occurring cases.\nRESULTS: We identified 74 755 children with CHD and observed increased hazards for several malignancies. Notable associations included aortic arch obstruction-lymphoma (HR, 12.7 [95% CI, 4.9-31.0]); single-ventricle disease-lymphoma (HR, 9.7 [95% CI, 3.8-24.4]); complex atrioventricular septal defect-leukemia (HR, 8.05 [95% CI, 2.8-23.0]); ventricular septal defect-hepatoblastoma (HR, 11.2 [95% CI, 5.9-21.1]); and conotruncal defects-neuroblastoma (HR, 6.4 [95% CI, 1.9-22.2]). The cumulative incidence of cancer was <1% for all CHD groups evaluated.\nCONCLUSIONS: Cancer incidence in children with nonsyndromic CHD was generally low. However, we identified >5-fold increases in the hazard of hepatoblastoma, neuroblastoma, leukemia, and lymphoma in children with certain lesions. Our findings may assist in generating hypotheses about the causes of cancer in children with CHD.",
+          "doi": "10.1161/JAHA.125.050164",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714453/"
         },
         {
-          "pmid": "42709454",
-          "title": "RSV Bivalent Prefusion F Protein Vaccine in Pregnancy and Protection Against RSV-Associated Illness in Infants: A Systematic Review and Meta-Analysis.",
-          "journal": "JAMA Pediatr",
-          "publicationDate": "2026 Sep 08",
+          "pmid": "42714413",
+          "title": "Prescription Patterns of Cardiovascular Medications in the Adolescent and Adult Population With Fontan Circulation-A Report From the Multicenter Single Ventricle Outcomes Network.",
+          "journal": "J Am Heart Assoc",
+          "publicationDate": "2026 Sep 09",
           "authors": [
-            "Batool R",
-            "Wang R",
-            "Obeid H",
-            "Kollmann TR",
-            "Langley JM",
-            "Lavoie PM"
+            "Freddo AM",
+            "Ahmed H",
+            "Edelson JB",
+            "Partington S",
+            "Ruckdeschel E",
+            "Tsao AL"
           ],
-          "abstract": "IMPORTANCE: The respiratory syncytial virus (RSV) bivalent prefusion F protein vaccine (RSVpreF) administered during pregnancy has demonstrated efficacy in protecting infants against early-life RSV disease in the pivotal clinical trial.\nOBJECTIVE: To conduct a systematic review and meta-analysis to synthesize real-world evidence on the effectiveness of RSVpreF in preventing RSV-associated lower respiratory tract infection (LRTI) in infants.\nDATA SOURCES: PubMed, Scopus, and Europe PMC were searched from January 1, 2020, through January 30, 2026.\nSTUDY SELECTION: A total of 1144 studies were initially identified. Eligible were nonrandomized studies reporting the effectiveness of RSVpreF vaccine in pregnancy in the prevention of RSV-associated LRTI in infants.\nDATA EXTRACTION AND SYNTHESIS: All studies were screened independently by 2 reviewers. Data were extracted on RSV-associated outcomes among infants born to women who received RSVpreF vaccination during pregnancy and infants born to unvaccinated women.\nMAIN OUTCOMES AND MEASURES: The primary outcome was RSV-associated LRTI hospitalization. Odds ratios (ORs) were pooled using random-effects meta-analysis with the Hartung-Knapp adjustment and Sidik-Jonkman estimator. Vaccine effectiveness against RSV-associated LRTI hospitalization was calculated as (1 - OR) × 100% and assessed in infants from birth to age 3 months and from birth to 6 months, separately. The limited available data precluded meta-analysis of effectiveness against the secondary outcomes of RSV-associated emergency department visits, intensive care unit admissions, and death.\nRESULTS: A total of 7 studies were included, comprising 7112 infants, of whom 2684 were born to vaccinated mothers. The studies collected data from January 2024 through April 2025 from Argentina, the UK, and the US. Pooled vaccine effectiveness against RSV-associated LRTI hospitalization was 82% (95% CI, 81%-82%; 3 studies, 4397 participants; I2 = 0%) in infants from birth to 3 months and 78% (95% CI, 70%-84%; 6 studies, 3008 participants; I2 = 18.7%) in infants from birth to 6 months, when mothers were vaccinated 14 days or more before delivery.\nCONCLUSIONS AND RELEVANCE: The results of this systematic review and meta-analysis suggest that postimplementation data support the effectiveness of RSVpreF in pregnancy for the prevention of RSV-associated LRTI hospitalization during the first 6 months of life. The results support the introduction of RSVpreF into routine antenatal immunization programs.",
-          "doi": "10.1001/jamapediatrics.2026.4074",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42709454/"
+          "abstract": "BACKGROUND: There are limited data on prescription patterns in adolescents and adults with Fontan circulation.\nMETHODS: We conducted a retrospective analysis of patients 13 years of age and older enrolled between 2022 and 2024 in the Fontan Outcomes Network (now SV-ONE [Single Ventricle Outcomes Network]) who had undergone Fontan operation without subsequent Fontan takedown or heart transplantation. Demographics, clinical variables, and medications prescribed were assessed. Logistic regression was used to identify factors associated with prescribed cardiac medications.\nRESULTS: There were 639 patients (age range 13-67 years, 55.6% male, 81.1% White race, 46.8% dominant left ventricle) enrolled at 16 centers. The most frequently prescribed medication classes were antiplatelets (75.6%) and renin-angiotensin system inhibitors (55.9%). Direct oral anticoagulant prescription (15.0%) exceeded that of warfarin (11.6%). SGLT2 (sodium glucose cotransporter 2) inhibitors were prescribed to 6.3% of patients, and angiotensin receptor/neprilysin inhibitors were prescribed to 2.2%. Moderate or severely decreased systolic ventricular function was most strongly associated with prescription of digoxin (odds ratio [OR], 4.2 [95% CI, 2.1-8.3]). Protein losing enteropathy was most strongly associated with prescription of diuretics (OR, 22.9 [95% CI, 8.1-64.9]), mineralocorticoid receptor agonists (OR, 5.3 [95% CI, 2.4-11.8]), and pulmonary vasodilators (OR, 5.2 [95% CI, 2.5-10.8]).\nCONCLUSIONS: In a multicenter cohort of adolescents and adults with Fontan circulation, medications indicated for biventricular heart failure with reduced ejection fraction are often used despite an absence of supportive evidence in this distinct circulation. Future prospective analysis may provide further insight into shifting prescribing patterns and response to therapy.",
+          "doi": "10.1161/JAHA.126.049422",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714413/"
         },
         {
-          "pmid": "42708397",
-          "title": "Left ventricular rotational mechanics in children with dilated cardiomyopathy: reverse apical rotation indicates a poor prognosis.",
-          "journal": "Cardiol Young",
-          "publicationDate": "2026 Sep 08",
+          "pmid": "42714410",
+          "title": "Increasing Overall Rates of Prenatal Diagnosis Benefit Previously Disadvantaged Anatomic and Sociodemographic Subgroups.",
+          "journal": "J Am Heart Assoc",
+          "publicationDate": "2026 Sep 09",
           "authors": [
-            "Montero AE",
-            "Sivasubramanian D",
-            "O'Connor M",
-            "Banerjee A"
+            "Gentles TL",
+            "Watkins S",
+            "Perry D",
+            "de Laat M",
+            "Crengle S",
+            "Bloomfield F"
           ],
-          "abstract": "Twenty-three patients with dilated cardiomyopathy were recruited and compared with 10 age-and sex-matched controls using 2D-speckle tracking images of the apex and base of the left ventricle. Follow-up was performed after a period of 6 years. Ten patients with dilated cardiomyopathy presented with diminished rotation and 13 patients presented with reverse apical rotation, which was associated with poorer outcomes.",
-          "doi": "10.1017/S1047951126123920",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42708397/"
+          "abstract": "BACKGROUND: To understand which sociodemographic and anatomic groups have benefited from increases in prenatal diagnosis (PND) of congenital heart disease (CHD), we compared factors associated with overall and earlier (≤22 weeks) PND from 2006 to 2019.\nMETHODS: A New Zealand population-based cohort study of all major CHD (death or intervention by 1 year) from 20 weeks' gestation. National cardiac, mortality and governmental data sets were linked for case ascertainment and to obtain the type and timing of diagnosis, maternal age, ethnicity, New Zealand Index of Socioeconomic Deprivation quintile, and domicile.\nRESULTS: The relative increase in PND between the first and last 5 years was greatest in critical CHD subtypes (death or intervention <1 month), particularly coarctation (124%), d-transposition (78%) and conotruncal anomalies (71%), and in previously disadvantaged groups including indigenous Māori (104%), Pacific (53%), New Zealand Index of Socioeconomic Deprivation quintile 5 (most deprived) (79%) and remote domicile (73%). When adjusted for anatomic factors, PND in the first 5 years was associated with ethnicity (Asian, risk ratio [RR] 1.35, 1.05-2.1.73; European, RR 1.33, 1.11-1.61 versus Māori), New Zealand Index of Socioeconomic Deprivation quintile 1-4 versus 5 (RR 1.27, 1.07-1.50) and domicile in major metropolitan areas (RR 1.18, 1.01-1.37). These factors were not associated with PND in later years. Earlier PND was associated with ethnicity, New Zealand Index of Socioeconomic Deprivation and domicile in the first 5 years and with ethnicity and time of obstetric booking in the last 5 years.\nCONCLUSIONS: An increase in PND has benefited previously disadvantaged sociodemographic groups and cardiac conditions where a delayed diagnosis is most threatening to life. Persistent associations between earlier PND and sociodemographic factors require further investigation.",
+          "doi": "10.1161/JAHA.125.048735",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714410/"
         },
         {
-          "pmid": "42708882",
-          "title": "Supplemental oxygen in acute heart failure: is less more?",
-          "journal": "Eur Heart J Acute Cardiovasc Care",
-          "publicationDate": "2026 Sep 08",
+          "pmid": "42670979",
+          "title": "Complete Revascularization Guided by Functional Coronary Angiography in STEMI.",
+          "journal": "N Engl J Med",
+          "publicationDate": "2026 Sep 10",
           "authors": [
-            "Galluzzo A",
-            "Thevathasan T"
+            "Biscaglia S",
+            "Erriquez A",
+            "Colaiori I",
+            "Hakeem A",
+            "Mantovani F",
+            "Menozzi M"
+          ],
+          "abstract": "BACKGROUND: Complete coronary-artery revascularization is recommended in patients with ST-segment elevation myocardial infarction (STEMI) and multivessel disease, but the preferred strategy for identifying nonculprit lesions that warrant treatment remains uncertain.\nMETHODS: In this international, randomized trial, we assigned patients with STEMI and multivessel disease in whom the culprit lesion had been successfully treated to undergo complete coronary-artery revascularization guided by functional coronary angiography (physiology-guided group) or by conventional angiography (angiography-guided group). The primary outcome was a composite of death from any cause, myocardial infarction, cerebrovascular accident (stroke or transient ischemic attack), or ischemia-driven revascularization, assessed in a time-to-event analysis. The primary safety outcome was a composite of contrast-associated acute kidney injury or major bleeding.\nRESULTS: A total of 1823 patients underwent randomization; 913 were assigned to the physiology-guided group and 910 assigned to the angiography-guided group. The median age of the patients was 66 years (interquartile range, 58 to 76), and 24% were women. At a median follow-up of 17.9 months, a primary-outcome event had occurred in 81 patients (8.9%) in the physiology-guided group and in 125 patients (13.7%) in the angiography-guided group (hazard ratio, 0.62; 95% confidence interval [CI], 0.47 to 0.83; P<0.001). A primary-safety-outcome event occurred in 42 patients (4.6%) in the physiology-guided group and in 65 patients (7.1%) in the angiography-guided group (hazard ratio, 0.63; 95% CI, 0.43 to 0.93; P = 0.02).\nCONCLUSIONS: In patients with STEMI and multivessel coronary artery disease, a strategy of complete coronary-artery revascularization guided by functional coronary angiography resulted in a lower risk of a primary-outcome event (death, myocardial infarction, cerebrovascular accident, or ischemia-driven revascularization) than a strategy guided by conventional angiography. (Funded by the Italian Health Ministry and others; AIR-STEMI ClinicalTrials.gov number, NCT05818475.).",
+          "doi": "10.1056/NEJMoa2605373",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42670979/"
+        },
+        {
+          "pmid": "42714594",
+          "title": "Underrepresentation of Women Among Left Ventricular Assist Device Recipients Despite Comparable Outcomes.",
+          "journal": "J Am Heart Assoc",
+          "publicationDate": "2026 Sep 09",
+          "authors": [
+            "Divya A",
+            "Dalal N"
           ],
           "abstract": "",
-          "doi": "10.1093/ehjacc/zuag117",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42708882/"
+          "doi": "10.1161/JAHA.126.052701",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714594/"
         },
         {
-          "pmid": "42708210",
-          "title": "Arrhythmic Risk Stratification According to LGE Corridors and Genetics in Nonischemic Dilated Cardiomyopathy.",
-          "journal": "Circulation",
-          "publicationDate": "2026 Sep 08",
+          "pmid": "42714589",
+          "title": "Cognition and Heart Failure Subtypes: A Large Health Care System Real-World Cohort.",
+          "journal": "J Am Heart Assoc",
+          "publicationDate": "2026 Sep 09",
           "authors": [
-            "Ramos-López N",
-            "Mora-Ayestarán N",
-            "Ochoa JP",
-            "Claver E",
-            "Gómez González C",
-            "Poel E"
+            "Satyadev N",
+            "Lasiichuk I",
+            "Shourav MMI",
+            "Vallamchetla S",
+            "McGrath C",
+            "Monsanto MA"
           ],
-          "abstract": "BACKGROUND: Fibrosis assessed through late gadolinium enhancement (LGE) in cardiac magnetic resonance imaging and genetics have emerged as risk markers of ventricular arrhythmias in nonischemic dilated cardiomyopathy. Conduction corridors detected within LGE (ie, LGE corridors) have been associated with ventricular arrhythmias in ischemic cardiomyopathy. This study sought to evaluate major ventricular arrhythmic events (MVAs) according to the presence of LGE corridors combined with high-risk genotypes (HRGs) in nonischemic dilated cardiomyopathy.\nMETHODS: We studied consecutive patients with nonischemic dilated cardiomyopathy from 22 European centers who had undergone genetic testing and cardiac magnetic resonance imaging.\nRESULTS: Among 925 patients (mean age, 54.5 years [interquartile range, 43.7-63.9 years]; 64% men; mean left ventricular ejection fraction, 37.6% [26.9%-44.8%]; LGE in 24.3%), LGE corridors were present in 160 patients (17.3%), and HRG in 119 (12.9%). After a median follow-up of 5.4 years (interquartile range, 3.3-7.7), 95 patients (10.3%) experienced an MVA. In multivariable competing-risk analysis adjusted for left ventricular ejection fraction and extent of LGE, the number of LGE corridors and HRGs were independently associated with MVA (subdistribution hazard ratio, 1.25 [95% CI, 1.11-1.42]; P <0.001; and subdistribution hazard ratio, 2.28 [95% CI, 1.32-3.96]; P =0.003, respectively). An optimal cutoff of ≥4 LGE corridors predicted MVA. A stepwise risk stratification algorithm to predict MVA integrating LGE, the presence of ≥4 LGE corridors, and HRG outperformed left ventricular ejection fraction ≤35%-based classification proposed in guidelines (5-year time-dependent area under the curve, 0.72 [95% CI, 0.65-0.78] versus 0.57 [95% CI, 0.51-0.64]; P =0.001), showing a progressive increase in arrhythmic risk across categories (Gray test P <0.001), and allowing clinically meaningful arrhythmic risk classification.\nCONCLUSIONS: LGE corridors and HRGs provide additive value for arrhythmic risk stratification in patients with nonischemic dilated cardiomyopathy. These findings support MVA multiparametric prediction over the traditional left ventricular ejection fraction ≤35% threshold.",
-          "doi": "10.1161/CIRCULATIONAHA.126.080608",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42708210/"
+          "abstract": "BACKGROUND: Studies suggest that hypoperfusion from heart failure (HF) may contribute to cognitive decline. However, the relationship between the HF subtypes and cognition remains poorly described in real-world populations.\nMETHODS: We conducted a cross-sectional study of patients aged ≥18 years seen at the Mayo Clinic in 2022 who underwent echocardiogram and cognitive assessment within 1 year. HF was classified per the 2022 American Heart Association as no HF, HF with preserved ejection fraction (EF), HF with mildly reduced EF, and HF with reduced EF. Cognitive impairment was categorized using the Montreal Cognitive Assessment score as normal (≥26), mild (18-25), and moderate to severe (<18). Linear regression assessed EF-Montreal Cognitive Assessment correlation and logistic regression the association between HF subtypes and cognitive dysfunction, adjusting for age, sex, race, and vascular risk factors.\nRESULTS: A total of 1592 patients met inclusion criteria (mean age, 75.7±13.8 years; 48.5% women). Lower EF was associated with worse cognitive performance (postadjustment β=0.033, P =0.013). Patients with HF with reduced EF and patients with HF with preserved EF had significantly lower Montreal Cognitive Assessment scores than those without HF (17.6±6.2 and 18.9±5.8 versus 19.9±6.0, P <0.001). The prevalence of moderate to severe cognitive impairment was highest in HF with reduced EF (43.3%), followed by HF with preserved EF (34.4%), no heart failure (28.6%), and HF with mildly reduced EF (23.4%) (adjusted trend P =0.032).\nCONCLUSIONS: HF, independent of ejection fraction alone, is associated with cognitive impairment. Further studies should confirm these findings and evaluate the impact of interventions targeting EF and HF subtypes on cognitive outcomes.",
+          "doi": "10.1161/JAHA.126.051559",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714589/"
+        },
+        {
+          "pmid": "42714579",
+          "title": "Mechanical Circulatory Support for Complex High-Risk Indicated Percutaneous Coronary Intervention: Network Meta-Analysis of Randomized Trials.",
+          "journal": "J Am Heart Assoc",
+          "publicationDate": "2026 Sep 09",
+          "authors": [
+            "Bujak K",
+            "Laudani C",
+            "Giacoppo D",
+            "Spagnolo M",
+            "Mauro MS",
+            "Cutore L"
+          ],
+          "abstract": "BACKGROUND: Mechanical circulatory support (MCS) is increasingly used during complex high-risk indicated percutaneous coronary intervention, yet whether different support strategies improve clinical outcomes remains uncertain. We sought to compare the efficacy and safety of individual MCS strategies with standard care and with each other at short- and long-term follow-up.\nMETHODS: This frequentist random-effects network meta-analysis included randomized trials of patients undergoing nonemergent complex high-risk indicated percutaneous coronary intervention and comparing percutaneous left ventricular assist devices, intra-aortic balloon pump, venoarterial extracorporeal membrane oxygenation, or standard care. The primary efficacy outcome was major adverse cardiovascular events. Secondary outcomes included death, myocardial infarction, stroke, or repeat revascularization, and periprocedural major adverse events.\nRESULTS: Eight trials (n=1856) were included. At 30 days, no MCS was associated with lower major adverse cardiovascular events compared with standard care, though percutaneous left ventricular assist devices (risk ratio [RR] 0.30, 95% CI 0.10-0.90) and intra-aortic balloon pump (RR 0.26, 95% CI 0.07-0.90) reduced periprocedural major adverse events. At a weighted mean of 10.8 months, no significant differences in major adverse cardiovascular events were observed with percutaneous left ventricular assist devices (incidence rate ratio 0.79; 95% CI 0.47-1.35), intra-aortic balloon pump (incidence rate ratio 0.89, 95% CI 0.52-1.54), or venoarterial extracorporeal membrane oxygenation (incidence rate ratio 1.47, 95% CI 0.64-3.40) compared with standard care. Consistently, no MCS strategy reduced death, myocardial infarction, stroke, or repeat revascularization.\nCONCLUSIONS: Among patients undergoing complex high-risk indicated percutaneous coronary intervention, MCS did not improve clinical outcomes, despite fewer periprocedural adverse events with percutaneous left ventricular assist devices and intra-aortic balloon pump. These findings do not support routine prophylactic use and suggest that MCS should be limited to selected patients.",
+          "doi": "10.1161/JAHA.126.052609",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714579/"
         }
       ],
       "importantArticles": [
@@ -972,26 +1046,33 @@
           "model": "qwen3:8b",
           "summary": "- 要点: 2026年版の小児用敗血症・敗血性ショック管理ガイドラインが更新され、国際的な専門家によるエビデンスベースの推奨事項が示されている。  \n- PICU/CICUでの意味: 小児重症患者における敗血症・敗血性ショックの管理に際して、最新のエビデンスと統合的アプローチに基づく臨床ガイドラインが提供される。  \n- 注意点: 抽象のみに基づくため、詳細な実践的ガイドライン内容は論文本文を参照すること。"
         },
-        "42709694": {
-          "pmid": "42709694",
-          "title": "Factors Associated With Mortality in Patients Requiring Extracorporeal Membrane Oxygenation Following the Norwood Procedure: A Systematic Review and Meta-Analysis.",
-          "generatedAt": "2026-09-09T00:06:18.377Z",
+        "42714413": {
+          "pmid": "42714413",
+          "title": "Prescription Patterns of Cardiovascular Medications in the Adolescent and Adult Population With Fontan Circulation-A Report From the Multicenter Single Ventricle Outcomes Network.",
+          "generatedAt": "2026-09-09T23:56:51.801Z",
           "model": "qwen3:8b",
-          "summary": "要点: ノルウェード手術後のECMO施行において、生存に関連する要因として、心肺バypass時間やECMO施行時間の延長が示唆された。  \nPICU/CICUでの意味: ノルウェード手術後のECMO管理において、術中・術後の時間経過をモニタリングし、リスクファクターを評価する必要性が強調される。  \n注意点: 抽象のみに基づくため、具体的な臨床指針への直接的な適用は限定的であり、さらなる研究が求められる。"
+          "summary": "- 要点: 13歳以上のFontan循環を持つ成人患者において、抗血小板薬（75.6%）およびレニン-アンジオテンシン系阻害薬（55.9%）が最も頻繁に処方され、DOACの処方がwarfarinより多かった。  \n- PICU/CICUでの意味: Fontan手術後患者の抗凝固療法や心不全管理において、薬物選択の参考となるが、小児期のデータは限られている。  \n- 注意点: 抽象のみに基づく報告であり、小児患者への直接的な臨床的意義は不明。"
         },
-        "42709730": {
-          "pmid": "42709730",
-          "title": "Unveiling the Healthcare Journey of Patients with Hypoplastic Left Heart Syndrome: From Birth to Adulthood.",
-          "generatedAt": "2026-09-09T00:05:41.441Z",
+        "42714453": {
+          "pmid": "42714453",
+          "title": "Association Between Nonsyndromic Congenital Heart Disease and Childhood Cancer in a Population-Based, Retrospective Cohort of 11 Million Children.",
+          "generatedAt": "2026-09-09T23:56:37.483Z",
           "model": "qwen3:8b",
-          "summary": "要点:  \nHLHS患者の医療負担は年齢とともに増加し、18年間のフォローアップで入院回数、ステイ日数、薬剤数、心臓移植率が顕著に上昇した。  \n\nPICU/CICUでの意味:  \nHLHS患者は長期的なICUリソース利用と頻繁な介入を必要とし、年齢とともに医療負担が増加するため、継続的な管理計画が求められる。  \n\n注意点:  \n要約はアブストラクトのみに基づくため、詳細なデータや臨床的因果関係の検証はされていない。"
+          "summary": "要点: 無症候性先天性心疾患（CHD）の特定の心臓異所（例：大動脈弓閉塞、単心室疾患）と小児がん（リンパ腫、白血病など）との関連が、1100万人規模のコホートで観察された。  \nPICU/CICUでの意味: 特定のCHD疾患を持つ小児ではがんリスクが上昇しており、ICUでの長期管理においてがんスクリーニングの検討が求められる可能性がある。  \n注意点: 観察研究であり因果関係は示されておらず、臨床的ガイドラインへの直接的な影響は限定的である。"
         },
-        "42709749": {
-          "pmid": "42709749",
-          "title": "Specialty-Based Variation in Prostaglandin E1 Use for Neonates With dextro-Transposition of the Great Arteries: An International Cross-Sectional Survey of Neonatologists and Pediatric Cardiac Intensivists.",
-          "generatedAt": "2026-09-09T00:04:36.488Z",
+        "42714563": {
+          "pmid": "42714563",
+          "title": "Accelerated Aging Fontan Phenotype Is Associated With Systemic Right Ventricles and Adverse Hemodynamics.",
+          "generatedAt": "2026-09-09T23:56:24.531Z",
           "model": "qwen3:8b",
-          "summary": "要点: 専門分野によって新生児d-TGA患者におけるプロスタグランジンE1（PGE1）の開始・投与量に差が存在する。  \nPICU/CICUでの意味: 専門分野ごとのPGE1使用基準の違いは、治療の一貫性や患者アウトカムに影響を与える可能性がある。  \n注意点: 自己報告に基づく調査であり、臨床結果への影響は検証されていない。"
+          "summary": "- 要点: Fontan循環患者では加速度老化が認められ、特に系統的右心室を持つ患者でテロメア長が短縮していた。  \n- PICU/CICUでの意味: 系統的右心室を有するFontan患者では悪化する血動態と加速度老化の関連性を意識し、テロメア長などのバイオマーカーの評価が重要となる可能性。  \n- 注意点: 研究はテロメア長を基準とし、臨床的介入への直接的結論は得られていない。"
+        },
+        "42714881": {
+          "pmid": "42714881",
+          "title": "Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.",
+          "generatedAt": "2026-09-09T23:56:15.239Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 32〜35週齢の早産児の出生時の初期酸素投与濃度（FIO2 0.30 vs 0.21）の比較試験で、呼吸支援継続率が主要評価項目として検討された。  \n- PICU/CICUでの意味: 出生時の酸素管理戦略が早産児の呼吸支援継続に影響を与える可能性を示唆し、初期介入の検討に参考となる。  \n- 注意点: 抽象のみに基づくため、結果の詳細や臨床的意義の明確な結論は得られていない。"
         }
       }
     },
@@ -5622,9 +5703,9 @@
       }
     }
   ],
-  "lastAutoRunAt": "2026-09-09T00:03:28.987Z",
+  "lastAutoRunAt": "2026-09-09T23:55:49.667Z",
   "lastAutoRunDate": "2026-09-09",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 41870559: 順次AI要約済み / PMID 42709749: 順次AI要約済み / PMID 42709730: 順次AI要約済み / PMID 42709694: 順次AI要約済み / 順次AI要約: 4件追加 / 8/12件済み",
-  "lastImportantRunAt": "2026-09-09T00:03:28.987Z",
-  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 4件"
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42714881: 順次AI要約済み / PMID 42714563: 順次AI要約済み / PMID 42714453: 順次AI要約済み / PMID 42714413: 順次AI要約済み / 順次AI要約: 4件追加 / 9/14件済み",
+  "lastImportantRunAt": "2026-09-09T23:55:49.667Z",
+  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 5件"
 }
