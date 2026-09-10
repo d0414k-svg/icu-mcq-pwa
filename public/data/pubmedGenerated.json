@@ -2,182 +2,167 @@
   "articlesByAlert": {
     "focused": [
       {
-        "pmid": "42714881",
-        "title": "Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.",
-        "journal": "JAMA",
-        "publicationDate": "2026 Sep 09",
+        "pmid": "42720778",
+        "title": "Optimisation of an Algorithm for Fetal Strain by CMR and its Use in Suspected Coarctation of the Aorta.",
+        "journal": "Pediatr Cardiol",
+        "publicationDate": "2026 Sep 10",
         "authors": [
-          "Peart SR",
-          "Manley BJ",
-          "Cheong JLY",
-          "Oei JL",
-          "Grobler AC",
-          "Moore CL"
+          "Fricke K",
+          "Piek M",
+          "Heiberg E",
+          "Aletras A",
+          "Hedström E"
         ],
-        "abstract": "IMPORTANCE: The optimal initial fraction of inspired oxygen (Fio2) for delivery room resuscitation of neonates born at 32 to 35 weeks' gestation is unknown.\nOBJECTIVE: To compare outcomes for neonates born at 32 to 35 weeks' gestation when initiating resuscitation with Fio2 0.30 vs 0.21.\nDESIGN, SETTING, AND PARTICIPANTS: Unblinded, cluster randomized crossover trial in 26 Australian maternity hospitals, including tertiary, nontertiary, metropolitan, regional, public, and private sites, using a waiver of informed consent. All neonates born at participating sites at 32 to 35 weeks' gestation without known major congenital anomalies who commenced respiratory support within 3 minutes of birth were enrolled from December 2022 to September 2025, with final follow-up in March 2026. Statistical analysis was conducted on October 29, 2025.\nINTERVENTION: Sites were randomly assigned to provide initial Fio2 of either 0.30 or 0.21 during the first 3 minutes of delivery room respiratory support. Sites crossed over to provide the alternative initial Fio2 halfway through their recruitment period.\nMAIN OUTCOMES AND MEASURES: The primary outcome was ongoing respiratory support when leaving the delivery room. Twelve secondary outcomes evaluated delivery room treatments and respiratory support until discharge.\nRESULTS: A total of 1818 eligible newborns (mean gestational age, 34.1 weeks; mean birth weight, 2165 g; 44.7% female) were included. Ongoing respiratory support when leaving the delivery room occurred in 700 of 964 newborns (72.6%) randomized to receive Fio2 0.30 and 626 of 854 newborns (73.3%) randomized to receive Fio2 0.21 (risk difference, -0.83 [95% CI, -4.33 to 2.67]). Of the 12 secondary outcomes, 10 were not significantly different between newborns randomized to receive Fio2 0.30 vs 0.21, while 2 were. Newborns randomized to receive Fio2 0.30 were less likely to receive higher levels of support in the delivery room, including noninvasive positive pressure ventilation (606 of 964 [62.9%] vs 560 of 854 [65.6%]), endotracheal or supraglottic airway ventilation (20 of 964 [2.1%] vs 24 of 854 [2.8%]), or cardiac compressions or epinephrine (19 of 964 [2.0%] vs 25 of 854 [2.9%]; proportional odds ratio, 0.70 [95% CI, 0.52-0.95]). Fewer newborns in the Fio2 0.30 group received endotracheal ventilation beyond the delivery room (61 of 959 [6.4%] vs 79 of 852 [9.3%]; risk ratio, 0.69 [95% CI, 0.47-0.91]).\nCONCLUSIONS AND RELEVANCE: For neonates born at 32 to 35 weeks' gestation, there was no difference between those commencing resuscitation with Fio2 0.30 vs Fio2 0.21 in the proportion still receiving respiratory support when leaving the delivery room.\nTRIAL REGISTRATION: anzctr.org.au Identifier: ACTRN12621001267842.",
-        "doi": "10.1001/jama.2026.14201",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42714881/"
+        "abstract": "Prenatal diagnosis of coarctation of the aorta (CoA) remains challenging, with low detection rates and high false positive rates. It is unknown whether fetuses that develop postnatal CoA (true CoA) exhibit impaired ventricular strain prenatally or whether fetal cardiac magnetic resonance (CMR)-derived strain can improve diagnostic accuracy. In addition, fetal strain assessment by CMR requires optimisation and validation. Forty-two third-trimester fetuses underwent fetal CMR at 1.5 T with Doppler ultrasound gating. Left and right ventricular four-chamber strain were assessed using feature tracking and endocardial shortening, respectively. Strain analysis was optimised by adjusting contour stiffness and tracking distance parameters and comparing results with myocardial centreline shortening. Fetal echocardiographic markers associated with true CoA were also evaluated, including the mitral-to-tricuspid valve ratio (MV/TV), aortic isthmus-to-duct ratio (I/D), the combined I/D × MV/TV ratio, and the carotid-subclavian artery index (CSAI). Strain analysis was feasible in 35 fetuses (9 true CoA, 18 false positives, and 8 controls). LV and RV strain values were significantly affected by optimization settings. Although fetuses with true CoA showed a tendency toward lower LV strain, no significant differences in LV or RV strain were observed between groups (all p > 0.05). In contrast, echocardiographic ratios differed between groups (all p < 0.05). Fetal CMR-derived strain is highly dependent on analysis methodology, and values obtained using different techniques are not interchangeable. While echocardiographic markers were associated with outcome, overlap between groups limits their predictive value. In its current form, fetal CMR-derived strain does not improve prenatal CoA diagnosis beyond established echocardiographic markers.",
+        "doi": "10.1007/s00246-026-04475-x",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42720778/"
       },
       {
-        "pmid": "42714563",
-        "title": "Accelerated Aging Fontan Phenotype Is Associated With Systemic Right Ventricles and Adverse Hemodynamics.",
-        "journal": "J Am Heart Assoc",
-        "publicationDate": "2026 Sep 09",
+        "pmid": "42720777",
+        "title": "The Heart-Microbiome Axis: Emerging Relevance in Pediatric Cardiology.",
+        "journal": "Pediatr Cardiol",
+        "publicationDate": "2026 Sep 10",
         "authors": [
-          "Woo JP",
-          "Vincent AGB",
-          "Kushwaha A",
-          "Gan S",
-          "Ichimura S",
-          "Egorova AD"
+          "Kelleher S",
+          "McMahon CJ"
         ],
-        "abstract": "BACKGROUND: Accelerated biological aging occurs when biological age outpaces chronological age. Congenital heart disease is associated with an increased risk for age-related diseases. The role of biological aging in individuals with the most severe forms of congenital heart disease, those with a Fontan circulation, is not known.\nMETHODS: In this case-control study, we compared the telomere lengths of patients with Fontan circulation with controls and identified factors associated with an accelerated aging phenotype. Biological aging was assessed by leukocyte telomere length through quantitative polymerase chain reaction, expressed as telomeric DNA to single-copy gene ratio.\nRESULTS: Median age was 14.90 (interquartile range [IQR], 10.99-20.69) years in the Fontan cohort (N=90) and 15.20 (IQR, 11.11-16.42) years in controls (N=59). The Fontan cohort had shorter telomeres compared with controls (telomeric DNA to single-copy gene ratio, 1.04 [IQR, 0.96-1.14] versus 1.13 [IQR, 0.96-1.24]; P =0.021). Patients with systemic right ventricles had shorter telomeres (telomeric DNA to single-copy gene ratio, 1.02 [IQR, 0.93-1.08] versus 1.05 [IQR, 1.00-1.17]; P =0.047). Lower superior vena cava saturation (β=0.007 [95% CI, 0.002, 0.012]; P =0.013), lower cardiac index (β=0.06 [95% CI, 0.012-0.108]; P =0.016) and higher systemic vascular resistance (β=-0.007 [95% CI, -0.014 to -0.001]; P =0.023) were associated with shorter telomeres. At a median follow-up of 13.07 months, 46.7% of patients with telomere loss (>50 bp loss/y) experienced an increase in comorbidities, compared with just 20.5% in those with no change or an increase in telomere length ( P <0.001).\nCONCLUSIONS: Individuals with a Fontan circulation have shorter telomeres compared with controls, mirroring an accelerated aging phenotype. This is more pronounced in patients with a systemic right ventricle, those with adverse hemodynamics, and is associated with having a higher burden of comorbidities. Understanding accelerated biological aging will allow for the development of therapies aimed at slowing age-related decline.",
-        "doi": "10.1161/JAHA.125.048352",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42714563/"
+        "abstract": "The gut microbiome has emerged as an important regulator of cardiovascular physiology through interconnected metabolic, immune, inflammatory, and endocrine pathways. Although the gut-heart axis has been extensively investigated in adult cardiovascular disease, its relevance in paediatric cardiology is only beginning to be recognised. The dynamic development of the gut microbiome during early life, together with the unique physiological characteristics of congenital heart disease, chronic hypoxia, altered intestinal perfusion, repeated antibiotic exposure, and perioperative stress, creates a setting in which microbial perturbations may have important consequences for cardiovascular health. This review summarises current understanding of the gut microbiome-heart axis, including microbial metabolites, intestinal barrier dysfunction, immune signalling, and host-microbe interactions, while highlighting emerging evidence from paediatric populations. We discuss microbiome alterations associated with congenital heart disease, cardiopulmonary bypass, and early-life microbial programming, and review the potential of microbiota-targeted interventions as future therapeutic strategies. While experimental and observational studies support an important role for the gut microbiome in cardiovascular health, much of the mechanistic evidence remains derived from adult populations, and paediatric data are comparatively limited. Further longitudinal and interventional studies are required to determine whether modulation of the gut microbiome can improve cardiovascular outcomes in children.",
+        "doi": "10.1007/s00246-026-04449-z",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42720777/"
       },
       {
-        "pmid": "42714453",
-        "title": "Association Between Nonsyndromic Congenital Heart Disease and Childhood Cancer in a Population-Based, Retrospective Cohort of 11 Million Children.",
-        "journal": "J Am Heart Assoc",
-        "publicationDate": "2026 Sep 09",
+        "pmid": "42720776",
+        "title": "Echogenicities in the Fetal Heart: Echocardiographic Evaluation, Differential Diagnosis and Clinical Outcomes.",
+        "journal": "Pediatr Cardiol",
+        "publicationDate": "2026 Sep 10",
         "authors": [
-          "Schraw JM",
-          "Mims KC",
-          "Stephens SB",
-          "Rasmussen SA",
-          "Mason EJ",
-          "Desrosiers TA"
+          "Kirsh AJ",
+          "Miner SA",
+          "Freud LR",
+          "Nield LE"
         ],
-        "abstract": "BACKGROUND: Epidemiologic studies have demonstrated associations between congenital heart disease (CHD) and childhood cancer. However, these assessments have not fully accounted for the pathogenetic and clinical heterogeneity of CHD, limiting their capacity to inform pathogenetic studies and the clinical management of children with CHD.\nMETHODS: To achieve a more detailed understanding of cancer risk in children with nonsyndromic CHD, we evaluated 60 cardiac lesions in 7 categories in a cohort of 11 million children from Massachusetts, North Carolina, Oklahoma, and Texas. We used Cox proportional hazards regression to estimate the hazard ratios (HRs) and 95% CIs of cancer in children with each lesion relative to children without congenital anomalies when there were ≥3 co-occurring cases.\nRESULTS: We identified 74 755 children with CHD and observed increased hazards for several malignancies. Notable associations included aortic arch obstruction-lymphoma (HR, 12.7 [95% CI, 4.9-31.0]); single-ventricle disease-lymphoma (HR, 9.7 [95% CI, 3.8-24.4]); complex atrioventricular septal defect-leukemia (HR, 8.05 [95% CI, 2.8-23.0]); ventricular septal defect-hepatoblastoma (HR, 11.2 [95% CI, 5.9-21.1]); and conotruncal defects-neuroblastoma (HR, 6.4 [95% CI, 1.9-22.2]). The cumulative incidence of cancer was <1% for all CHD groups evaluated.\nCONCLUSIONS: Cancer incidence in children with nonsyndromic CHD was generally low. However, we identified >5-fold increases in the hazard of hepatoblastoma, neuroblastoma, leukemia, and lymphoma in children with certain lesions. Our findings may assist in generating hypotheses about the causes of cancer in children with CHD.",
-        "doi": "10.1161/JAHA.125.050164",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42714453/"
+        "abstract": "Intracardiac echogenicity during routine obstetric ultrasound may represent a benign finding or may indicate underlying pathology, from genetic syndromes to critical structural heart disease. Distinguishing benign intracardiac echogenic foci from pathology has important implications for parental counselling and decision-making. This review synthesizes current knowledge of the various etiologies of intracardiac echogenicity and outlines prognostic considerations to help guide clinical management.",
+        "doi": "10.1007/s00246-026-04461-3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42720776/"
       },
       {
-        "pmid": "42714413",
-        "title": "Prescription Patterns of Cardiovascular Medications in the Adolescent and Adult Population With Fontan Circulation-A Report From the Multicenter Single Ventricle Outcomes Network.",
-        "journal": "J Am Heart Assoc",
-        "publicationDate": "2026 Sep 09",
+        "pmid": "42720775",
+        "title": "Childhood Liver-Related Abnormalities After Fontan Completion: Evidence from a 20-Year Tertiary Centre Cohort.",
+        "journal": "Pediatr Cardiol",
+        "publicationDate": "2026 Sep 10",
         "authors": [
-          "Freddo AM",
-          "Ahmed H",
-          "Edelson JB",
-          "Partington S",
-          "Ruckdeschel E",
-          "Tsao AL"
+          "Gomes D",
+          "Sadek Y",
+          "Poole E",
+          "Crucean A",
+          "Gupte G",
+          "Ramcharan T"
         ],
-        "abstract": "BACKGROUND: There are limited data on prescription patterns in adolescents and adults with Fontan circulation.\nMETHODS: We conducted a retrospective analysis of patients 13 years of age and older enrolled between 2022 and 2024 in the Fontan Outcomes Network (now SV-ONE [Single Ventricle Outcomes Network]) who had undergone Fontan operation without subsequent Fontan takedown or heart transplantation. Demographics, clinical variables, and medications prescribed were assessed. Logistic regression was used to identify factors associated with prescribed cardiac medications.\nRESULTS: There were 639 patients (age range 13-67 years, 55.6% male, 81.1% White race, 46.8% dominant left ventricle) enrolled at 16 centers. The most frequently prescribed medication classes were antiplatelets (75.6%) and renin-angiotensin system inhibitors (55.9%). Direct oral anticoagulant prescription (15.0%) exceeded that of warfarin (11.6%). SGLT2 (sodium glucose cotransporter 2) inhibitors were prescribed to 6.3% of patients, and angiotensin receptor/neprilysin inhibitors were prescribed to 2.2%. Moderate or severely decreased systolic ventricular function was most strongly associated with prescription of digoxin (odds ratio [OR], 4.2 [95% CI, 2.1-8.3]). Protein losing enteropathy was most strongly associated with prescription of diuretics (OR, 22.9 [95% CI, 8.1-64.9]), mineralocorticoid receptor agonists (OR, 5.3 [95% CI, 2.4-11.8]), and pulmonary vasodilators (OR, 5.2 [95% CI, 2.5-10.8]).\nCONCLUSIONS: In a multicenter cohort of adolescents and adults with Fontan circulation, medications indicated for biventricular heart failure with reduced ejection fraction are often used despite an absence of supportive evidence in this distinct circulation. Future prospective analysis may provide further insight into shifting prescribing patterns and response to therapy.",
-        "doi": "10.1161/JAHA.126.049422",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42714413/"
+        "abstract": "Fontan-Associated Liver Disease (FALD) occurs due to increased venous pressures and reduced cardiac output that result following Fontan completion. This may eventually progress to fibrosis, cirrhosis and in some cases, hepatocellular carcinoma. There is currently no consensus regarding the age at which hepatic insult typically begins. Therefore, this study aimed to assess evidence of biochemical and ultrasound-based liver abnormalities to inform effective liver surveillance and follow-up protocols. We conducted a retrospective single-centre cohort study with serial cross-sectional analyses of 353 Fontan patients born between 2003 and 2022. Results from biochemical tests and ultrasound scans were used to assess post-Fontan liver function. Available paired comparisons between Liver tests (LTs) and platelets at pre-Fontan and at 5-, 10-, and 15-year post-Fontan were analysed, and abnormal values at each time point were recorded. Post-Fontan liver ultrasounds were also used to assess changes in liver structure. 82 liver ultrasounds (done at a median of 8 years post-Fontan) were available, with 59% exhibiting abnormal hepatic echotexture, and 3 cases of focal lesions. Pre-operative, 5-year, 10-year, and 15-year post-operative LTs were available in 155/353, 298/353, 166/353 and 51/353 patients, respectively. The proportions of abnormal LTs were 17%, 56%, 71% and 63%, respectively. Between pre-Fontan and 5 years post-Fontan, Bilirubin, ALT, and Platelets showed liver-related abnormal progressions. Biochemical and ultrasound data indicate that liver changes are detectable in childhood, but these findings should be interpreted cautiously due to incomplete data that preclude adequate longitudinal analysis. Current post-Fontan liver monitoring is limited, and our findings support the case for early structured liver surveillance in the paediatric population.",
+        "doi": "10.1007/s00246-026-04466-y",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42720775/"
       },
       {
-        "pmid": "42714410",
-        "title": "Increasing Overall Rates of Prenatal Diagnosis Benefit Previously Disadvantaged Anatomic and Sociodemographic Subgroups.",
-        "journal": "J Am Heart Assoc",
+        "pmid": "42716990",
+        "title": "Brain injury in congenital heart disease: pathophysiology, MRI patterns, and perioperative risk factors.",
+        "journal": "Pediatr Res",
         "publicationDate": "2026 Sep 09",
         "authors": [
-          "Gentles TL",
-          "Watkins S",
-          "Perry D",
-          "de Laat M",
-          "Crengle S",
-          "Bloomfield F"
+          "Dogan YE",
+          "Vargas-Boggiano DA",
+          "Bleiweis M",
+          "Philip J",
+          "Narasimhulu SS",
+          "Tuna I"
         ],
-        "abstract": "BACKGROUND: To understand which sociodemographic and anatomic groups have benefited from increases in prenatal diagnosis (PND) of congenital heart disease (CHD), we compared factors associated with overall and earlier (≤22 weeks) PND from 2006 to 2019.\nMETHODS: A New Zealand population-based cohort study of all major CHD (death or intervention by 1 year) from 20 weeks' gestation. National cardiac, mortality and governmental data sets were linked for case ascertainment and to obtain the type and timing of diagnosis, maternal age, ethnicity, New Zealand Index of Socioeconomic Deprivation quintile, and domicile.\nRESULTS: The relative increase in PND between the first and last 5 years was greatest in critical CHD subtypes (death or intervention <1 month), particularly coarctation (124%), d-transposition (78%) and conotruncal anomalies (71%), and in previously disadvantaged groups including indigenous Māori (104%), Pacific (53%), New Zealand Index of Socioeconomic Deprivation quintile 5 (most deprived) (79%) and remote domicile (73%). When adjusted for anatomic factors, PND in the first 5 years was associated with ethnicity (Asian, risk ratio [RR] 1.35, 1.05-2.1.73; European, RR 1.33, 1.11-1.61 versus Māori), New Zealand Index of Socioeconomic Deprivation quintile 1-4 versus 5 (RR 1.27, 1.07-1.50) and domicile in major metropolitan areas (RR 1.18, 1.01-1.37). These factors were not associated with PND in later years. Earlier PND was associated with ethnicity, New Zealand Index of Socioeconomic Deprivation and domicile in the first 5 years and with ethnicity and time of obstetric booking in the last 5 years.\nCONCLUSIONS: An increase in PND has benefited previously disadvantaged sociodemographic groups and cardiac conditions where a delayed diagnosis is most threatening to life. Persistent associations between earlier PND and sociodemographic factors require further investigation.",
-        "doi": "10.1161/JAHA.125.048735",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42714410/"
+        "abstract": "BACKGROUND: Congenital heart disease (CHD) affects approximately 1% of live births and remains a major cause of neonatal neurological morbidity. Despite advances in perioperative management, both pre- and postoperative brain injuries continue to occur frequently and contribute to adverse long-term neurodevelopmental outcomes. The aim of this review is to synthesize current MRI-based cohort studies to describe the prevalence and patterns of pre- and postoperative brain injury in CHD, elucidate the underlying pathophysiological mechanisms, and identify maternal-fetal, perioperative, and postoperative risk factors contributing to cerebral vulnerability. This review also aims to propose research strategies and clinical interventions that should be considered for their mitigation.\nMETHODS: This narrative review integrates evidence from 11 prospective and retrospective cohort studies published between 2016 and 2025, encompassing more than 1500 infants with CHD, to support the objectives outlined above.\nRESULTS: Preoperative brain injury is detected in 12-54% of neonates, most commonly manifesting as white matter injury (WMI), arterial ischemic stroke, or cerebral hemorrhage. Postoperative imaging reveals a predominance of WMI, focal infarctions, often thromboembolic in origin, microhemorrhages, and venous thrombosis. The underlying pathophysiology is multifactorial, involving chronic hypoxemia, impaired cerebral autoregulation, abnormal shunting physiology, hypoperfusion, ischemia-reperfusion, inflammation, and thromboembolism. Risk factors span the maternal-fetal environment (e.g., placental dysfunction, preeclampsia), perinatal and neonatal characteristics (male sex, prematurity, low birth weight), and procedural factors (surgical timing, cardiopulmonary bypass technique, hemodynamic instability, anticoagulation, and ECMO).\nCONCLUSION: Neonates with CHD are highly vulnerable to brain injury both before and after surgery, with WMI and ischemic stroke as the most frequent patterns. Advances in blood pressure management, tailored perfusion strategies, and optimized surgical timing have reduced postoperative injury rates, yet substantial risks persist. Future directions in neuroprotection for neonates with CHD include the development of antenatal interventions, individualized hemodynamic management targets, incorporation of multimodal neuromonitoring, implementation of risk-stratified anticoagulation strategies, and establishment of long-term neurodevelopmental surveillance programs to reduce cerebral morbidity and enhance overall outcomes.\nIMPACT: Brain damage in newborns with congenital heart disease often begins before surgery and continues at a high rate in the postoperative period. Contemporary MRI-based evidence reveals distinct patterns and timing of white matter injury, ischemia, and hemorrhage. This review synthesizes prenatal, perioperative, and postoperative mechanisms contributing to cerebral vulnerability. Findings support early risk stratification and precision neuroprotective strategies to improve long-term neurodevelopmental outcomes. This review integrates current MRI-based cohort data to clarify the mechanisms and risk factors in the prenatal, perioperative, and postoperative periods. It aims to provide the reader with an overview of all studies conducted on this topic in recent years.",
+        "doi": "10.1038/s41390-026-05454-x",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42716990/"
       }
     ],
     "broad": [
       {
-        "pmid": "42670979",
-        "title": "Complete Revascularization Guided by Functional Coronary Angiography in STEMI.",
-        "journal": "N Engl J Med",
+        "pmid": "42720939",
+        "title": "Digitalis Glycosides in Patients With Heart Failure-Reply.",
+        "journal": "JAMA",
         "publicationDate": "2026 Sep 10",
         "authors": [
-          "Biscaglia S",
-          "Erriquez A",
-          "Colaiori I",
-          "Hakeem A",
-          "Mantovani F",
-          "Menozzi M"
-        ],
-        "abstract": "BACKGROUND: Complete coronary-artery revascularization is recommended in patients with ST-segment elevation myocardial infarction (STEMI) and multivessel disease, but the preferred strategy for identifying nonculprit lesions that warrant treatment remains uncertain.\nMETHODS: In this international, randomized trial, we assigned patients with STEMI and multivessel disease in whom the culprit lesion had been successfully treated to undergo complete coronary-artery revascularization guided by functional coronary angiography (physiology-guided group) or by conventional angiography (angiography-guided group). The primary outcome was a composite of death from any cause, myocardial infarction, cerebrovascular accident (stroke or transient ischemic attack), or ischemia-driven revascularization, assessed in a time-to-event analysis. The primary safety outcome was a composite of contrast-associated acute kidney injury or major bleeding.\nRESULTS: A total of 1823 patients underwent randomization; 913 were assigned to the physiology-guided group and 910 assigned to the angiography-guided group. The median age of the patients was 66 years (interquartile range, 58 to 76), and 24% were women. At a median follow-up of 17.9 months, a primary-outcome event had occurred in 81 patients (8.9%) in the physiology-guided group and in 125 patients (13.7%) in the angiography-guided group (hazard ratio, 0.62; 95% confidence interval [CI], 0.47 to 0.83; P<0.001). A primary-safety-outcome event occurred in 42 patients (4.6%) in the physiology-guided group and in 65 patients (7.1%) in the angiography-guided group (hazard ratio, 0.63; 95% CI, 0.43 to 0.93; P = 0.02).\nCONCLUSIONS: In patients with STEMI and multivessel coronary artery disease, a strategy of complete coronary-artery revascularization guided by functional coronary angiography resulted in a lower risk of a primary-outcome event (death, myocardial infarction, cerebrovascular accident, or ischemia-driven revascularization) than a strategy guided by conventional angiography. (Funded by the Italian Health Ministry and others; AIR-STEMI ClinicalTrials.gov number, NCT05818475.).",
-        "doi": "10.1056/NEJMoa2605373",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42670979/"
-      },
-      {
-        "pmid": "42714881",
-        "title": "Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.",
-        "journal": "JAMA",
-        "publicationDate": "2026 Sep 09",
-        "authors": [
-          "Peart SR",
-          "Manley BJ",
-          "Cheong JLY",
-          "Oei JL",
-          "Grobler AC",
-          "Moore CL"
-        ],
-        "abstract": "IMPORTANCE: The optimal initial fraction of inspired oxygen (Fio2) for delivery room resuscitation of neonates born at 32 to 35 weeks' gestation is unknown.\nOBJECTIVE: To compare outcomes for neonates born at 32 to 35 weeks' gestation when initiating resuscitation with Fio2 0.30 vs 0.21.\nDESIGN, SETTING, AND PARTICIPANTS: Unblinded, cluster randomized crossover trial in 26 Australian maternity hospitals, including tertiary, nontertiary, metropolitan, regional, public, and private sites, using a waiver of informed consent. All neonates born at participating sites at 32 to 35 weeks' gestation without known major congenital anomalies who commenced respiratory support within 3 minutes of birth were enrolled from December 2022 to September 2025, with final follow-up in March 2026. Statistical analysis was conducted on October 29, 2025.\nINTERVENTION: Sites were randomly assigned to provide initial Fio2 of either 0.30 or 0.21 during the first 3 minutes of delivery room respiratory support. Sites crossed over to provide the alternative initial Fio2 halfway through their recruitment period.\nMAIN OUTCOMES AND MEASURES: The primary outcome was ongoing respiratory support when leaving the delivery room. Twelve secondary outcomes evaluated delivery room treatments and respiratory support until discharge.\nRESULTS: A total of 1818 eligible newborns (mean gestational age, 34.1 weeks; mean birth weight, 2165 g; 44.7% female) were included. Ongoing respiratory support when leaving the delivery room occurred in 700 of 964 newborns (72.6%) randomized to receive Fio2 0.30 and 626 of 854 newborns (73.3%) randomized to receive Fio2 0.21 (risk difference, -0.83 [95% CI, -4.33 to 2.67]). Of the 12 secondary outcomes, 10 were not significantly different between newborns randomized to receive Fio2 0.30 vs 0.21, while 2 were. Newborns randomized to receive Fio2 0.30 were less likely to receive higher levels of support in the delivery room, including noninvasive positive pressure ventilation (606 of 964 [62.9%] vs 560 of 854 [65.6%]), endotracheal or supraglottic airway ventilation (20 of 964 [2.1%] vs 24 of 854 [2.8%]), or cardiac compressions or epinephrine (19 of 964 [2.0%] vs 25 of 854 [2.9%]; proportional odds ratio, 0.70 [95% CI, 0.52-0.95]). Fewer newborns in the Fio2 0.30 group received endotracheal ventilation beyond the delivery room (61 of 959 [6.4%] vs 79 of 852 [9.3%]; risk ratio, 0.69 [95% CI, 0.47-0.91]).\nCONCLUSIONS AND RELEVANCE: For neonates born at 32 to 35 weeks' gestation, there was no difference between those commencing resuscitation with Fio2 0.30 vs Fio2 0.21 in the proportion still receiving respiratory support when leaving the delivery room.\nTRIAL REGISTRATION: anzctr.org.au Identifier: ACTRN12621001267842.",
-        "doi": "10.1001/jama.2026.14201",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42714881/"
-      },
-      {
-        "pmid": "42714594",
-        "title": "Underrepresentation of Women Among Left Ventricular Assist Device Recipients Despite Comparable Outcomes.",
-        "journal": "J Am Heart Assoc",
-        "publicationDate": "2026 Sep 09",
-        "authors": [
-          "Divya A",
-          "Dalal N"
+          "Damman K",
+          "van Veldhuisen DJ",
+          "van der Meer P"
         ],
         "abstract": "",
-        "doi": "10.1161/JAHA.126.052701",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42714594/"
+        "doi": "10.1001/jama.2026.14382",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42720939/"
       },
       {
-        "pmid": "42714589",
-        "title": "Cognition and Heart Failure Subtypes: A Large Health Care System Real-World Cohort.",
-        "journal": "J Am Heart Assoc",
-        "publicationDate": "2026 Sep 09",
+        "pmid": "42720938",
+        "title": "Digitalis Glycosides in Patients With Heart Failure.",
+        "journal": "JAMA",
+        "publicationDate": "2026 Sep 10",
         "authors": [
-          "Satyadev N",
-          "Lasiichuk I",
-          "Shourav MMI",
-          "Vallamchetla S",
-          "McGrath C",
-          "Monsanto MA"
+          "Culic V"
         ],
-        "abstract": "BACKGROUND: Studies suggest that hypoperfusion from heart failure (HF) may contribute to cognitive decline. However, the relationship between the HF subtypes and cognition remains poorly described in real-world populations.\nMETHODS: We conducted a cross-sectional study of patients aged ≥18 years seen at the Mayo Clinic in 2022 who underwent echocardiogram and cognitive assessment within 1 year. HF was classified per the 2022 American Heart Association as no HF, HF with preserved ejection fraction (EF), HF with mildly reduced EF, and HF with reduced EF. Cognitive impairment was categorized using the Montreal Cognitive Assessment score as normal (≥26), mild (18-25), and moderate to severe (<18). Linear regression assessed EF-Montreal Cognitive Assessment correlation and logistic regression the association between HF subtypes and cognitive dysfunction, adjusting for age, sex, race, and vascular risk factors.\nRESULTS: A total of 1592 patients met inclusion criteria (mean age, 75.7±13.8 years; 48.5% women). Lower EF was associated with worse cognitive performance (postadjustment β=0.033, P =0.013). Patients with HF with reduced EF and patients with HF with preserved EF had significantly lower Montreal Cognitive Assessment scores than those without HF (17.6±6.2 and 18.9±5.8 versus 19.9±6.0, P <0.001). The prevalence of moderate to severe cognitive impairment was highest in HF with reduced EF (43.3%), followed by HF with preserved EF (34.4%), no heart failure (28.6%), and HF with mildly reduced EF (23.4%) (adjusted trend P =0.032).\nCONCLUSIONS: HF, independent of ejection fraction alone, is associated with cognitive impairment. Further studies should confirm these findings and evaluate the impact of interventions targeting EF and HF subtypes on cognitive outcomes.",
-        "doi": "10.1161/JAHA.126.051559",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42714589/"
+        "abstract": "",
+        "doi": "10.1001/jama.2026.14379",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42720938/"
       },
       {
-        "pmid": "42714579",
-        "title": "Mechanical Circulatory Support for Complex High-Risk Indicated Percutaneous Coronary Intervention: Network Meta-Analysis of Randomized Trials.",
-        "journal": "J Am Heart Assoc",
-        "publicationDate": "2026 Sep 09",
+        "pmid": "42720777",
+        "title": "The Heart-Microbiome Axis: Emerging Relevance in Pediatric Cardiology.",
+        "journal": "Pediatr Cardiol",
+        "publicationDate": "2026 Sep 10",
         "authors": [
-          "Bujak K",
-          "Laudani C",
-          "Giacoppo D",
-          "Spagnolo M",
-          "Mauro MS",
-          "Cutore L"
+          "Kelleher S",
+          "McMahon CJ"
         ],
-        "abstract": "BACKGROUND: Mechanical circulatory support (MCS) is increasingly used during complex high-risk indicated percutaneous coronary intervention, yet whether different support strategies improve clinical outcomes remains uncertain. We sought to compare the efficacy and safety of individual MCS strategies with standard care and with each other at short- and long-term follow-up.\nMETHODS: This frequentist random-effects network meta-analysis included randomized trials of patients undergoing nonemergent complex high-risk indicated percutaneous coronary intervention and comparing percutaneous left ventricular assist devices, intra-aortic balloon pump, venoarterial extracorporeal membrane oxygenation, or standard care. The primary efficacy outcome was major adverse cardiovascular events. Secondary outcomes included death, myocardial infarction, stroke, or repeat revascularization, and periprocedural major adverse events.\nRESULTS: Eight trials (n=1856) were included. At 30 days, no MCS was associated with lower major adverse cardiovascular events compared with standard care, though percutaneous left ventricular assist devices (risk ratio [RR] 0.30, 95% CI 0.10-0.90) and intra-aortic balloon pump (RR 0.26, 95% CI 0.07-0.90) reduced periprocedural major adverse events. At a weighted mean of 10.8 months, no significant differences in major adverse cardiovascular events were observed with percutaneous left ventricular assist devices (incidence rate ratio 0.79; 95% CI 0.47-1.35), intra-aortic balloon pump (incidence rate ratio 0.89, 95% CI 0.52-1.54), or venoarterial extracorporeal membrane oxygenation (incidence rate ratio 1.47, 95% CI 0.64-3.40) compared with standard care. Consistently, no MCS strategy reduced death, myocardial infarction, stroke, or repeat revascularization.\nCONCLUSIONS: Among patients undergoing complex high-risk indicated percutaneous coronary intervention, MCS did not improve clinical outcomes, despite fewer periprocedural adverse events with percutaneous left ventricular assist devices and intra-aortic balloon pump. These findings do not support routine prophylactic use and suggest that MCS should be limited to selected patients.",
-        "doi": "10.1161/JAHA.126.052609",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42714579/"
+        "abstract": "The gut microbiome has emerged as an important regulator of cardiovascular physiology through interconnected metabolic, immune, inflammatory, and endocrine pathways. Although the gut-heart axis has been extensively investigated in adult cardiovascular disease, its relevance in paediatric cardiology is only beginning to be recognised. The dynamic development of the gut microbiome during early life, together with the unique physiological characteristics of congenital heart disease, chronic hypoxia, altered intestinal perfusion, repeated antibiotic exposure, and perioperative stress, creates a setting in which microbial perturbations may have important consequences for cardiovascular health. This review summarises current understanding of the gut microbiome-heart axis, including microbial metabolites, intestinal barrier dysfunction, immune signalling, and host-microbe interactions, while highlighting emerging evidence from paediatric populations. We discuss microbiome alterations associated with congenital heart disease, cardiopulmonary bypass, and early-life microbial programming, and review the potential of microbiota-targeted interventions as future therapeutic strategies. While experimental and observational studies support an important role for the gut microbiome in cardiovascular health, much of the mechanistic evidence remains derived from adult populations, and paediatric data are comparatively limited. Further longitudinal and interventional studies are required to determine whether modulation of the gut microbiome can improve cardiovascular outcomes in children.",
+        "doi": "10.1007/s00246-026-04449-z",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42720777/"
+      },
+      {
+        "pmid": "42720775",
+        "title": "Childhood Liver-Related Abnormalities After Fontan Completion: Evidence from a 20-Year Tertiary Centre Cohort.",
+        "journal": "Pediatr Cardiol",
+        "publicationDate": "2026 Sep 10",
+        "authors": [
+          "Gomes D",
+          "Sadek Y",
+          "Poole E",
+          "Crucean A",
+          "Gupte G",
+          "Ramcharan T"
+        ],
+        "abstract": "Fontan-Associated Liver Disease (FALD) occurs due to increased venous pressures and reduced cardiac output that result following Fontan completion. This may eventually progress to fibrosis, cirrhosis and in some cases, hepatocellular carcinoma. There is currently no consensus regarding the age at which hepatic insult typically begins. Therefore, this study aimed to assess evidence of biochemical and ultrasound-based liver abnormalities to inform effective liver surveillance and follow-up protocols. We conducted a retrospective single-centre cohort study with serial cross-sectional analyses of 353 Fontan patients born between 2003 and 2022. Results from biochemical tests and ultrasound scans were used to assess post-Fontan liver function. Available paired comparisons between Liver tests (LTs) and platelets at pre-Fontan and at 5-, 10-, and 15-year post-Fontan were analysed, and abnormal values at each time point were recorded. Post-Fontan liver ultrasounds were also used to assess changes in liver structure. 82 liver ultrasounds (done at a median of 8 years post-Fontan) were available, with 59% exhibiting abnormal hepatic echotexture, and 3 cases of focal lesions. Pre-operative, 5-year, 10-year, and 15-year post-operative LTs were available in 155/353, 298/353, 166/353 and 51/353 patients, respectively. The proportions of abnormal LTs were 17%, 56%, 71% and 63%, respectively. Between pre-Fontan and 5 years post-Fontan, Bilirubin, ALT, and Platelets showed liver-related abnormal progressions. Biochemical and ultrasound data indicate that liver changes are detectable in childhood, but these findings should be interpreted cautiously due to incomplete data that preclude adequate longitudinal analysis. Current post-Fontan liver monitoring is limited, and our findings support the case for early structured liver surveillance in the paediatric population.",
+        "doi": "10.1007/s00246-026-04466-y",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42720775/"
+      },
+      {
+        "pmid": "42720269",
+        "title": "Exercise stress echocardiography for diagnosis of heart failure with preserved ejection fraction: a multicentre study.",
+        "journal": "Eur Heart J",
+        "publicationDate": "2026 Sep 10",
+        "authors": [
+          "Harada T",
+          "Reddy YNV",
+          "Sorimachi H",
+          "Naser JA",
+          "Kazui S",
+          "Tada A"
+        ],
+        "abstract": "BACKGROUND AND AIMS: Exercise stress echocardiography is recommended as an alternative to invasive testing for diagnosing heart failure with preserved ejection fraction (HFpEF), but an evidence-based operational framework guiding its application is lacking.\nMETHODS: Patients with chronic unexplained dyspnoea underwent invasive haemodynamic exercise testing with simultaneous echocardiography to test the hypotheses that (i) the current diagnostic algorithms (H2FPEF, HFA-PEFF, and HFpEF-ABA scores) could be enhanced when combined with exercise echocardiography; and (ii) incorporating resting left atrial (LA) compliance (LA reservoir strain divided by E/e') could further improve diagnostic triage, using separate cut points optimizing sensitivity and specificity. Findings were then validated in an international multicentre cohort.\nRESULTS: Of 482 patients, HFpEF was present in 386 and non-cardiac dyspnoea in 96. Sensitivity to detect HFpEF was only 55%-60% and accuracy 61%-67% using individual diagnostic scores with currently recommended exercise echocardiography. Addition of abnormal resting LA compliance to exercise echocardiography increased sensitivity to 84%-85% but increased the false-positive rate to 31%-43%. Applying separate cut points that optimize specificity and sensitivity (either exercise E/e' ≥ 13.8 or resting LA compliance ≤1.6% to rule-in HFpEF; both exercise E/e' < 7.2 and resting LA compliance >4.4% to rule-out HFpEF, remaining patients indeterminate who require invasive testing) improved sensitivity to 95%-99% among definitively classified patients and reduced the number of patients that require invasive exercise testing from ∼60% to ∼30%. Findings were replicated in a multicentre, international validation cohort of patients undergoing rest-exercise echocardiography and invasive exercise testing.\nCONCLUSIONS: Currently used non-invasive approaches to HFpEF diagnosis have inadequate sensitivity, indicating that exercise echocardiography cannot supplant invasive testing. Addition of LA strain imaging with optimized rule-in or rule-out values improves diagnostic triage by expanding non-invasive rule-in/rule-out classifications while identifying patients who still require invasive testing in the evaluation of HFpEF.",
+        "doi": "10.1093/eurheartj/ehag716",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42720269/"
       }
     ]
   },
   "summaryByAlert": {
-    "focused": "## PICU/CICU重点\n\n### 1. Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.\nPMID 42714881 / JAMA / 2026 Sep 09\n- 要点: 32〜35週齢の早産児の出生時の初期酸素投与濃度（FIO2 0.30 vs 0.21）の比較試験で、呼吸支援継続率が主要評価項目として検討された。  \n- PICU/CICUでの意味: 出生時の酸素管理戦略が早産児の呼吸支援継続に影響を与える可能性を示唆し、初期介入の検討に参考となる。  \n- 注意点: 抽象のみに基づくため、結果の詳細や臨床的意義の明確な結論は得られていない。\n\n### 2. Accelerated Aging Fontan Phenotype Is Associated With Systemic Right Ventricles and Adverse Hemodynamics.\nPMID 42714563 / J Am Heart Assoc / 2026 Sep 09\n- 要点: Fontan循環患者では加速度老化が認められ、特に系統的右心室を持つ患者でテロメア長が短縮していた。  \n- PICU/CICUでの意味: 系統的右心室を有するFontan患者では悪化する血動態と加速度老化の関連性を意識し、テロメア長などのバイオマーカーの評価が重要となる可能性。  \n- 注意点: 研究はテロメア長を基準とし、臨床的介入への直接的結論は得られていない。\n\n### 3. Association Between Nonsyndromic Congenital Heart Disease and Childhood Cancer in a Population-Based, Retrospective Cohort of 11 Million Children.\nPMID 42714453 / J Am Heart Assoc / 2026 Sep 09\n要点: 無症候性先天性心疾患（CHD）の特定の心臓異所（例：大動脈弓閉塞、単心室疾患）と小児がん（リンパ腫、白血病など）との関連が、1100万人規模のコホートで観察された。  \nPICU/CICUでの意味: 特定のCHD疾患を持つ小児ではがんリスクが上昇しており、ICUでの長期管理においてがんスクリーニングの検討が求められる可能性がある。  \n注意点: 観察研究であり因果関係は示されておらず、臨床的ガイドラインへの直接的な影響は限定的である。\n\n### 4. Prescription Patterns of Cardiovascular Medications in the Adolescent and Adult Population With Fontan Circulation-A Report From the Multicenter Single Ventricle Outcomes Network.\nPMID 42714413 / J Am Heart Assoc / 2026 Sep 09\n- 要点: 13歳以上のFontan循環を持つ成人患者において、抗血小板薬（75.6%）およびレニン-アンジオテンシン系阻害薬（55.9%）が最も頻繁に処方され、DOACの処方がwarfarinより多かった。  \n- PICU/CICUでの意味: Fontan手術後患者の抗凝固療法や心不全管理において、薬物選択の参考となるが、小児期のデータは限られている。  \n- 注意点: 抽象のみに基づく報告であり、小児患者への直接的な臨床的意義は不明。",
-    "broad": "## 主要誌横断\n\n### 2. Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.\nPMID 42714881 / JAMA / 2026 Sep 09\n- 要点: 32〜35週齢の早産児の出生時の初期酸素投与濃度（FIO2 0.30 vs 0.21）の比較試験で、呼吸支援継続率が主要評価項目として検討された。  \n- PICU/CICUでの意味: 出生時の酸素管理戦略が早産児の呼吸支援継続に影響を与える可能性を示唆し、初期介入の検討に参考となる。  \n- 注意点: 抽象のみに基づくため、結果の詳細や臨床的意義の明確な結論は得られていない。"
+    "focused": "## PICU/CICU重点\n\n### 1. Optimisation of an Algorithm for Fetal Strain by CMR and its Use in Suspected Coarctation of the Aorta.\nPMID 42720778 / Pediatr Cardiol / 2026 Sep 10\n要点: 胎児心磁共鳴（CMR）による心室ストレイン評価が、先天性大動脈縮窄症（CoA）の診断精度向上に寄与する可能性を示唆しているが、臨床応用にはさらなる検証が必要。  \nPICU/CICUでの意味: 胎児期のCoA診断が早ければ、出生後の重症度管理に影響を与える可能性があるが、本研究は直接的なICU管理への応用は限定的。  \n注意点: 抽象のみに基づくため、検証例数が少なく（35例）、臨床実践への即時の応用は困難である。\n\n### 2. The Heart-Microbiome Axis: Emerging Relevance in Pediatric Cardiology.\nPMID 42720777 / Pediatr Cardiol / 2026 Sep 10\n要点: 腸内フローラは心血管生理に多大な影響を及ぼす可能性があり、小児循環器疾患におけるその意義が注目されている。  \nPICU/CICUでの意味: 抗生物質投与や心肺停止術などの治療介入が腸内フローラに影響を与える可能性があり、心血管健康に影響を及ぼすリスクがある。  \n注意点: 抽象のみに基づくため、臨床的因果関係や治療法への直接的な適用は限定的である。\n\n### 3. Echogenicities in the Fetal Heart: Echocardiographic Evaluation, Differential Diagnosis and Clinical Outcomes.\nPMID 42720776 / Pediatr Cardiol / 2026 Sep 10\n要点: 胎児心臓の異常エコーゲンシティは、良性 findings か病的疾患かの区別が臨床的意義を持つ。  \nPICU/CICUでの意味: 胎児期の心臓異常が新生児期の重症疾患に繋がる可能性があるため、注意深い評価が求められる。  \n注意点: 結論は文献レビューに基づくため、臨床実践への直接的なガイドラインにはならない。\n\n### 4. Childhood Liver-Related Abnormalities After Fontan Completion: Evidence from a 20-Year Tertiary Centre Cohort.\nPMID 42720775 / Pediatr Cardiol / 2026 Sep 10\n- 要点: Fontan完了後における肝臓異常は、肝機能検査および超音波検査で頻度的に検出され、肝線維化・肝硬変などの進行リスクが示唆された。  \n- PICU/CICUでの意味: Fontan手術後の肝臓監視プロトコルにおいて、生化学的指標と超音波検査の併用が重要であり、早期異常検出のための継続的フォローアップが推奨される。  \n- 注意点: 結果は単一施設のコホートデータに基づくため、一般化には注意が必要で、臨床的影響の評価は今後の研究に依存する。",
+    "broad": "## 主要誌横断\n\n### 3. The Heart-Microbiome Axis: Emerging Relevance in Pediatric Cardiology.\nPMID 42720777 / Pediatr Cardiol / 2026 Sep 10\n要点: 腸内フローラは心血管生理に多大な影響を及ぼす可能性があり、小児循環器疾患におけるその意義が注目されている。  \nPICU/CICUでの意味: 抗生物質投与や心肺停止術などの治療介入が腸内フローラに影響を与える可能性があり、心血管健康に影響を及ぼすリスクがある。  \n注意点: 抽象のみに基づくため、臨床的因果関係や治療法への直接的な適用は限定的である。\n\n### 4. Childhood Liver-Related Abnormalities After Fontan Completion: Evidence from a 20-Year Tertiary Centre Cohort.\nPMID 42720775 / Pediatr Cardiol / 2026 Sep 10\n- 要点: Fontan完了後における肝臓異常は、肝機能検査および超音波検査で頻度的に検出され、肝線維化・肝硬変などの進行リスクが示唆された。  \n- PICU/CICUでの意味: Fontan手術後の肝臓監視プロトコルにおいて、生化学的指標と超音波検査の併用が重要であり、早期異常検出のための継続的フォローアップが推奨される。  \n- 注意点: 結果は単一施設のコホートデータに基づくため、一般化には注意が必要で、臨床的影響の評価は今後の研究に依存する。"
   },
   "fetchedAtByAlert": {
-    "focused": "2026-09-09T23:55:49.667Z",
-    "broad": "2026-09-09T23:55:49.667Z"
+    "focused": "2026-09-10T23:51:41.688Z",
+    "broad": "2026-09-10T23:51:41.688Z"
   },
   "importantArticles": [
     {
@@ -267,7 +252,7 @@
     }
   ],
   "importantSummary": "## 重要候補\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.\nPMID 41870559 / Intensive Care Med / 2026 May\n- 要点: 2026年版の小児用敗血症・敗血性ショック管理ガイドラインが更新され、国際的な専門家によるエビデンスベースの推奨事項が示されている。  \n- PICU/CICUでの意味: 小児重症患者における敗血症・敗血性ショックの管理に際して、最新のエビデンスと統合的アプローチに基づく臨床ガイドラインが提供される。  \n- 注意点: 抽象のみに基づくため、詳細な実践的ガイドライン内容は論文本文を参照すること。\n\n### 3. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。",
-  "importantFetchedAt": "2026-09-09T23:55:49.667Z",
+  "importantFetchedAt": "2026-09-10T23:51:41.688Z",
   "articleSummariesByPmid": {
     "39208447": {
       "pmid": "39208447",
@@ -765,9 +750,317 @@
       "generatedAt": "2026-09-09T23:56:15.239Z",
       "model": "qwen3:8b",
       "summary": "- 要点: 32〜35週齢の早産児の出生時の初期酸素投与濃度（FIO2 0.30 vs 0.21）の比較試験で、呼吸支援継続率が主要評価項目として検討された。  \n- PICU/CICUでの意味: 出生時の酸素管理戦略が早産児の呼吸支援継続に影響を与える可能性を示唆し、初期介入の検討に参考となる。  \n- 注意点: 抽象のみに基づくため、結果の詳細や臨床的意義の明確な結論は得られていない。"
+    },
+    "42720775": {
+      "pmid": "42720775",
+      "title": "Childhood Liver-Related Abnormalities After Fontan Completion: Evidence from a 20-Year Tertiary Centre Cohort.",
+      "generatedAt": "2026-09-10T23:52:38.593Z",
+      "model": "qwen3:8b",
+      "summary": "- 要点: Fontan完了後における肝臓異常は、肝機能検査および超音波検査で頻度的に検出され、肝線維化・肝硬変などの進行リスクが示唆された。  \n- PICU/CICUでの意味: Fontan手術後の肝臓監視プロトコルにおいて、生化学的指標と超音波検査の併用が重要であり、早期異常検出のための継続的フォローアップが推奨される。  \n- 注意点: 結果は単一施設のコホートデータに基づくため、一般化には注意が必要で、臨床的影響の評価は今後の研究に依存する。"
+    },
+    "42720776": {
+      "pmid": "42720776",
+      "title": "Echogenicities in the Fetal Heart: Echocardiographic Evaluation, Differential Diagnosis and Clinical Outcomes.",
+      "generatedAt": "2026-09-10T23:52:25.528Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 胎児心臓の異常エコーゲンシティは、良性 findings か病的疾患かの区別が臨床的意義を持つ。  \nPICU/CICUでの意味: 胎児期の心臓異常が新生児期の重症疾患に繋がる可能性があるため、注意深い評価が求められる。  \n注意点: 結論は文献レビューに基づくため、臨床実践への直接的なガイドラインにはならない。"
+    },
+    "42720777": {
+      "pmid": "42720777",
+      "title": "The Heart-Microbiome Axis: Emerging Relevance in Pediatric Cardiology.",
+      "generatedAt": "2026-09-10T23:52:15.850Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 腸内フローラは心血管生理に多大な影響を及ぼす可能性があり、小児循環器疾患におけるその意義が注目されている。  \nPICU/CICUでの意味: 抗生物質投与や心肺停止術などの治療介入が腸内フローラに影響を与える可能性があり、心血管健康に影響を及ぼすリスクがある。  \n注意点: 抽象のみに基づくため、臨床的因果関係や治療法への直接的な適用は限定的である。"
+    },
+    "42720778": {
+      "pmid": "42720778",
+      "title": "Optimisation of an Algorithm for Fetal Strain by CMR and its Use in Suspected Coarctation of the Aorta.",
+      "generatedAt": "2026-09-10T23:52:06.937Z",
+      "model": "qwen3:8b",
+      "summary": "要点: 胎児心磁共鳴（CMR）による心室ストレイン評価が、先天性大動脈縮窄症（CoA）の診断精度向上に寄与する可能性を示唆しているが、臨床応用にはさらなる検証が必要。  \nPICU/CICUでの意味: 胎児期のCoA診断が早ければ、出生後の重症度管理に影響を与える可能性があるが、本研究は直接的なICU管理への応用は限定的。  \n注意点: 抽象のみに基づくため、検証例数が少なく（35例）、臨床実践への即時の応用は困難である。"
     }
   },
   "dailyDigests": [
+    {
+      "date": "2026-09-10",
+      "generatedAt": "2026-09-10T23:51:41.688Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 13件 / AI要約済み 9件 / 未要約 4件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.\nPMID 41870559 / Intensive Care Med / 2026 May\n- 要点: 2026年版の小児用敗血症・敗血性ショック管理ガイドラインが更新され、国際的な専門家によるエビデンスベースの推奨事項が示されている。  \n- PICU/CICUでの意味: 小児重症患者における敗血症・敗血性ショックの管理に際して、最新のエビデンスと統合的アプローチに基づく臨床ガイドラインが提供される。  \n- 注意点: 抽象のみに基づくため、詳細な実践的ガイドライン内容は論文本文を参照すること。\n\n### 3. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n## PICU/CICU重点\n\n### 1. Optimisation of an Algorithm for Fetal Strain by CMR and its Use in Suspected Coarctation of the Aorta.\nPMID 42720778 / Pediatr Cardiol / 2026 Sep 10\n要点: 胎児心磁共鳴（CMR）による心室ストレイン評価が、先天性大動脈縮窄症（CoA）の診断精度向上に寄与する可能性を示唆しているが、臨床応用にはさらなる検証が必要。  \nPICU/CICUでの意味: 胎児期のCoA診断が早ければ、出生後の重症度管理に影響を与える可能性があるが、本研究は直接的なICU管理への応用は限定的。  \n注意点: 抽象のみに基づくため、検証例数が少なく（35例）、臨床実践への即時の応用は困難である。\n\n### 2. The Heart-Microbiome Axis: Emerging Relevance in Pediatric Cardiology.\nPMID 42720777 / Pediatr Cardiol / 2026 Sep 10\n要点: 腸内フローラは心血管生理に多大な影響を及ぼす可能性があり、小児循環器疾患におけるその意義が注目されている。  \nPICU/CICUでの意味: 抗生物質投与や心肺停止術などの治療介入が腸内フローラに影響を与える可能性があり、心血管健康に影響を及ぼすリスクがある。  \n注意点: 抽象のみに基づくため、臨床的因果関係や治療法への直接的な適用は限定的である。\n\n### 3. Echogenicities in the Fetal Heart: Echocardiographic Evaluation, Differential Diagnosis and Clinical Outcomes.\nPMID 42720776 / Pediatr Cardiol / 2026 Sep 10\n要点: 胎児心臓の異常エコーゲンシティは、良性 findings か病的疾患かの区別が臨床的意義を持つ。  \nPICU/CICUでの意味: 胎児期の心臓異常が新生児期の重症疾患に繋がる可能性があるため、注意深い評価が求められる。  \n注意点: 結論は文献レビューに基づくため、臨床実践への直接的なガイドラインにはならない。\n\n### 4. Childhood Liver-Related Abnormalities After Fontan Completion: Evidence from a 20-Year Tertiary Centre Cohort.\nPMID 42720775 / Pediatr Cardiol / 2026 Sep 10\n- 要点: Fontan完了後における肝臓異常は、肝機能検査および超音波検査で頻度的に検出され、肝線維化・肝硬変などの進行リスクが示唆された。  \n- PICU/CICUでの意味: Fontan手術後の肝臓監視プロトコルにおいて、生化学的指標と超音波検査の併用が重要であり、早期異常検出のための継続的フォローアップが推奨される。  \n- 注意点: 結果は単一施設のコホートデータに基づくため、一般化には注意が必要で、臨床的影響の評価は今後の研究に依存する。\n\n## 主要誌横断\n\n### 3. The Heart-Microbiome Axis: Emerging Relevance in Pediatric Cardiology.\nPMID 42720777 / Pediatr Cardiol / 2026 Sep 10\n要点: 腸内フローラは心血管生理に多大な影響を及ぼす可能性があり、小児循環器疾患におけるその意義が注目されている。  \nPICU/CICUでの意味: 抗生物質投与や心肺停止術などの治療介入が腸内フローラに影響を与える可能性があり、心血管健康に影響を及ぼすリスクがある。  \n注意点: 抽象のみに基づくため、臨床的因果関係や治療法への直接的な適用は限定的である。\n\n### 4. Childhood Liver-Related Abnormalities After Fontan Completion: Evidence from a 20-Year Tertiary Centre Cohort.\nPMID 42720775 / Pediatr Cardiol / 2026 Sep 10\n- 要点: Fontan完了後における肝臓異常は、肝機能検査および超音波検査で頻度的に検出され、肝線維化・肝硬変などの進行リスクが示唆された。  \n- PICU/CICUでの意味: Fontan手術後の肝臓監視プロトコルにおいて、生化学的指標と超音波検査の併用が重要であり、早期異常検出のための継続的フォローアップが推奨される。  \n- 注意点: 結果は単一施設のコホートデータに基づくため、一般化には注意が必要で、臨床的影響の評価は今後の研究に依存する。",
+      "articles": [
+        {
+          "pmid": "42720778",
+          "title": "Optimisation of an Algorithm for Fetal Strain by CMR and its Use in Suspected Coarctation of the Aorta.",
+          "journal": "Pediatr Cardiol",
+          "publicationDate": "2026 Sep 10",
+          "authors": [
+            "Fricke K",
+            "Piek M",
+            "Heiberg E",
+            "Aletras A",
+            "Hedström E"
+          ],
+          "abstract": "Prenatal diagnosis of coarctation of the aorta (CoA) remains challenging, with low detection rates and high false positive rates. It is unknown whether fetuses that develop postnatal CoA (true CoA) exhibit impaired ventricular strain prenatally or whether fetal cardiac magnetic resonance (CMR)-derived strain can improve diagnostic accuracy. In addition, fetal strain assessment by CMR requires optimisation and validation. Forty-two third-trimester fetuses underwent fetal CMR at 1.5 T with Doppler ultrasound gating. Left and right ventricular four-chamber strain were assessed using feature tracking and endocardial shortening, respectively. Strain analysis was optimised by adjusting contour stiffness and tracking distance parameters and comparing results with myocardial centreline shortening. Fetal echocardiographic markers associated with true CoA were also evaluated, including the mitral-to-tricuspid valve ratio (MV/TV), aortic isthmus-to-duct ratio (I/D), the combined I/D × MV/TV ratio, and the carotid-subclavian artery index (CSAI). Strain analysis was feasible in 35 fetuses (9 true CoA, 18 false positives, and 8 controls). LV and RV strain values were significantly affected by optimization settings. Although fetuses with true CoA showed a tendency toward lower LV strain, no significant differences in LV or RV strain were observed between groups (all p > 0.05). In contrast, echocardiographic ratios differed between groups (all p < 0.05). Fetal CMR-derived strain is highly dependent on analysis methodology, and values obtained using different techniques are not interchangeable. While echocardiographic markers were associated with outcome, overlap between groups limits their predictive value. In its current form, fetal CMR-derived strain does not improve prenatal CoA diagnosis beyond established echocardiographic markers.",
+          "doi": "10.1007/s00246-026-04475-x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42720778/"
+        },
+        {
+          "pmid": "42720777",
+          "title": "The Heart-Microbiome Axis: Emerging Relevance in Pediatric Cardiology.",
+          "journal": "Pediatr Cardiol",
+          "publicationDate": "2026 Sep 10",
+          "authors": [
+            "Kelleher S",
+            "McMahon CJ"
+          ],
+          "abstract": "The gut microbiome has emerged as an important regulator of cardiovascular physiology through interconnected metabolic, immune, inflammatory, and endocrine pathways. Although the gut-heart axis has been extensively investigated in adult cardiovascular disease, its relevance in paediatric cardiology is only beginning to be recognised. The dynamic development of the gut microbiome during early life, together with the unique physiological characteristics of congenital heart disease, chronic hypoxia, altered intestinal perfusion, repeated antibiotic exposure, and perioperative stress, creates a setting in which microbial perturbations may have important consequences for cardiovascular health. This review summarises current understanding of the gut microbiome-heart axis, including microbial metabolites, intestinal barrier dysfunction, immune signalling, and host-microbe interactions, while highlighting emerging evidence from paediatric populations. We discuss microbiome alterations associated with congenital heart disease, cardiopulmonary bypass, and early-life microbial programming, and review the potential of microbiota-targeted interventions as future therapeutic strategies. While experimental and observational studies support an important role for the gut microbiome in cardiovascular health, much of the mechanistic evidence remains derived from adult populations, and paediatric data are comparatively limited. Further longitudinal and interventional studies are required to determine whether modulation of the gut microbiome can improve cardiovascular outcomes in children.",
+          "doi": "10.1007/s00246-026-04449-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42720777/"
+        },
+        {
+          "pmid": "42720776",
+          "title": "Echogenicities in the Fetal Heart: Echocardiographic Evaluation, Differential Diagnosis and Clinical Outcomes.",
+          "journal": "Pediatr Cardiol",
+          "publicationDate": "2026 Sep 10",
+          "authors": [
+            "Kirsh AJ",
+            "Miner SA",
+            "Freud LR",
+            "Nield LE"
+          ],
+          "abstract": "Intracardiac echogenicity during routine obstetric ultrasound may represent a benign finding or may indicate underlying pathology, from genetic syndromes to critical structural heart disease. Distinguishing benign intracardiac echogenic foci from pathology has important implications for parental counselling and decision-making. This review synthesizes current knowledge of the various etiologies of intracardiac echogenicity and outlines prognostic considerations to help guide clinical management.",
+          "doi": "10.1007/s00246-026-04461-3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42720776/"
+        },
+        {
+          "pmid": "42720775",
+          "title": "Childhood Liver-Related Abnormalities After Fontan Completion: Evidence from a 20-Year Tertiary Centre Cohort.",
+          "journal": "Pediatr Cardiol",
+          "publicationDate": "2026 Sep 10",
+          "authors": [
+            "Gomes D",
+            "Sadek Y",
+            "Poole E",
+            "Crucean A",
+            "Gupte G",
+            "Ramcharan T"
+          ],
+          "abstract": "Fontan-Associated Liver Disease (FALD) occurs due to increased venous pressures and reduced cardiac output that result following Fontan completion. This may eventually progress to fibrosis, cirrhosis and in some cases, hepatocellular carcinoma. There is currently no consensus regarding the age at which hepatic insult typically begins. Therefore, this study aimed to assess evidence of biochemical and ultrasound-based liver abnormalities to inform effective liver surveillance and follow-up protocols. We conducted a retrospective single-centre cohort study with serial cross-sectional analyses of 353 Fontan patients born between 2003 and 2022. Results from biochemical tests and ultrasound scans were used to assess post-Fontan liver function. Available paired comparisons between Liver tests (LTs) and platelets at pre-Fontan and at 5-, 10-, and 15-year post-Fontan were analysed, and abnormal values at each time point were recorded. Post-Fontan liver ultrasounds were also used to assess changes in liver structure. 82 liver ultrasounds (done at a median of 8 years post-Fontan) were available, with 59% exhibiting abnormal hepatic echotexture, and 3 cases of focal lesions. Pre-operative, 5-year, 10-year, and 15-year post-operative LTs were available in 155/353, 298/353, 166/353 and 51/353 patients, respectively. The proportions of abnormal LTs were 17%, 56%, 71% and 63%, respectively. Between pre-Fontan and 5 years post-Fontan, Bilirubin, ALT, and Platelets showed liver-related abnormal progressions. Biochemical and ultrasound data indicate that liver changes are detectable in childhood, but these findings should be interpreted cautiously due to incomplete data that preclude adequate longitudinal analysis. Current post-Fontan liver monitoring is limited, and our findings support the case for early structured liver surveillance in the paediatric population.",
+          "doi": "10.1007/s00246-026-04466-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42720775/"
+        },
+        {
+          "pmid": "42716990",
+          "title": "Brain injury in congenital heart disease: pathophysiology, MRI patterns, and perioperative risk factors.",
+          "journal": "Pediatr Res",
+          "publicationDate": "2026 Sep 09",
+          "authors": [
+            "Dogan YE",
+            "Vargas-Boggiano DA",
+            "Bleiweis M",
+            "Philip J",
+            "Narasimhulu SS",
+            "Tuna I"
+          ],
+          "abstract": "BACKGROUND: Congenital heart disease (CHD) affects approximately 1% of live births and remains a major cause of neonatal neurological morbidity. Despite advances in perioperative management, both pre- and postoperative brain injuries continue to occur frequently and contribute to adverse long-term neurodevelopmental outcomes. The aim of this review is to synthesize current MRI-based cohort studies to describe the prevalence and patterns of pre- and postoperative brain injury in CHD, elucidate the underlying pathophysiological mechanisms, and identify maternal-fetal, perioperative, and postoperative risk factors contributing to cerebral vulnerability. This review also aims to propose research strategies and clinical interventions that should be considered for their mitigation.\nMETHODS: This narrative review integrates evidence from 11 prospective and retrospective cohort studies published between 2016 and 2025, encompassing more than 1500 infants with CHD, to support the objectives outlined above.\nRESULTS: Preoperative brain injury is detected in 12-54% of neonates, most commonly manifesting as white matter injury (WMI), arterial ischemic stroke, or cerebral hemorrhage. Postoperative imaging reveals a predominance of WMI, focal infarctions, often thromboembolic in origin, microhemorrhages, and venous thrombosis. The underlying pathophysiology is multifactorial, involving chronic hypoxemia, impaired cerebral autoregulation, abnormal shunting physiology, hypoperfusion, ischemia-reperfusion, inflammation, and thromboembolism. Risk factors span the maternal-fetal environment (e.g., placental dysfunction, preeclampsia), perinatal and neonatal characteristics (male sex, prematurity, low birth weight), and procedural factors (surgical timing, cardiopulmonary bypass technique, hemodynamic instability, anticoagulation, and ECMO).\nCONCLUSION: Neonates with CHD are highly vulnerable to brain injury both before and after surgery, with WMI and ischemic stroke as the most frequent patterns. Advances in blood pressure management, tailored perfusion strategies, and optimized surgical timing have reduced postoperative injury rates, yet substantial risks persist. Future directions in neuroprotection for neonates with CHD include the development of antenatal interventions, individualized hemodynamic management targets, incorporation of multimodal neuromonitoring, implementation of risk-stratified anticoagulation strategies, and establishment of long-term neurodevelopmental surveillance programs to reduce cerebral morbidity and enhance overall outcomes.\nIMPACT: Brain damage in newborns with congenital heart disease often begins before surgery and continues at a high rate in the postoperative period. Contemporary MRI-based evidence reveals distinct patterns and timing of white matter injury, ischemia, and hemorrhage. This review synthesizes prenatal, perioperative, and postoperative mechanisms contributing to cerebral vulnerability. Findings support early risk stratification and precision neuroprotective strategies to improve long-term neurodevelopmental outcomes. This review integrates current MRI-based cohort data to clarify the mechanisms and risk factors in the prenatal, perioperative, and postoperative periods. It aims to provide the reader with an overview of all studies conducted on this topic in recent years.",
+          "doi": "10.1038/s41390-026-05454-x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42716990/"
+        },
+        {
+          "pmid": "42720939",
+          "title": "Digitalis Glycosides in Patients With Heart Failure-Reply.",
+          "journal": "JAMA",
+          "publicationDate": "2026 Sep 10",
+          "authors": [
+            "Damman K",
+            "van Veldhuisen DJ",
+            "van der Meer P"
+          ],
+          "abstract": "",
+          "doi": "10.1001/jama.2026.14382",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42720939/"
+        },
+        {
+          "pmid": "42720938",
+          "title": "Digitalis Glycosides in Patients With Heart Failure.",
+          "journal": "JAMA",
+          "publicationDate": "2026 Sep 10",
+          "authors": [
+            "Culic V"
+          ],
+          "abstract": "",
+          "doi": "10.1001/jama.2026.14379",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42720938/"
+        },
+        {
+          "pmid": "42720269",
+          "title": "Exercise stress echocardiography for diagnosis of heart failure with preserved ejection fraction: a multicentre study.",
+          "journal": "Eur Heart J",
+          "publicationDate": "2026 Sep 10",
+          "authors": [
+            "Harada T",
+            "Reddy YNV",
+            "Sorimachi H",
+            "Naser JA",
+            "Kazui S",
+            "Tada A"
+          ],
+          "abstract": "BACKGROUND AND AIMS: Exercise stress echocardiography is recommended as an alternative to invasive testing for diagnosing heart failure with preserved ejection fraction (HFpEF), but an evidence-based operational framework guiding its application is lacking.\nMETHODS: Patients with chronic unexplained dyspnoea underwent invasive haemodynamic exercise testing with simultaneous echocardiography to test the hypotheses that (i) the current diagnostic algorithms (H2FPEF, HFA-PEFF, and HFpEF-ABA scores) could be enhanced when combined with exercise echocardiography; and (ii) incorporating resting left atrial (LA) compliance (LA reservoir strain divided by E/e') could further improve diagnostic triage, using separate cut points optimizing sensitivity and specificity. Findings were then validated in an international multicentre cohort.\nRESULTS: Of 482 patients, HFpEF was present in 386 and non-cardiac dyspnoea in 96. Sensitivity to detect HFpEF was only 55%-60% and accuracy 61%-67% using individual diagnostic scores with currently recommended exercise echocardiography. Addition of abnormal resting LA compliance to exercise echocardiography increased sensitivity to 84%-85% but increased the false-positive rate to 31%-43%. Applying separate cut points that optimize specificity and sensitivity (either exercise E/e' ≥ 13.8 or resting LA compliance ≤1.6% to rule-in HFpEF; both exercise E/e' < 7.2 and resting LA compliance >4.4% to rule-out HFpEF, remaining patients indeterminate who require invasive testing) improved sensitivity to 95%-99% among definitively classified patients and reduced the number of patients that require invasive exercise testing from ∼60% to ∼30%. Findings were replicated in a multicentre, international validation cohort of patients undergoing rest-exercise echocardiography and invasive exercise testing.\nCONCLUSIONS: Currently used non-invasive approaches to HFpEF diagnosis have inadequate sensitivity, indicating that exercise echocardiography cannot supplant invasive testing. Addition of LA strain imaging with optimized rule-in or rule-out values improves diagnostic triage by expanding non-invasive rule-in/rule-out classifications while identifying patients who still require invasive testing in the evaluation of HFpEF.",
+          "doi": "10.1093/eurheartj/ehag716",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42720269/"
+        }
+      ],
+      "importantArticles": [
+        {
+          "pmid": "40119480",
+          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
+          "journal": "J Intensive Care",
+          "publicationDate": "2025 Mar 21",
+          "authors": [
+            "Nakamura K",
+            "Yamamoto R",
+            "Higashibeppu N",
+            "Yoshida M",
+            "Tatsumi H",
+            "Shimizu Y"
+          ],
+          "abstract": "Nutrition therapy is important in the management of critically ill patients and is continuously evolving as new evidence emerges. The Japanese Critical Care Nutrition Guideline 2024 (JCCNG 2024) is specific to Japan and is the latest set of clinical practice guidelines for nutrition therapy in critical care that was revised from JCCNG 2016 by the Japanese Society of Intensive Care Medicine. An English version of these guidelines was created based on the contents of the original Japanese version. These guidelines were developed to help health care providers understand and provide nutrition therapy that will improve the outcomes of children and adults admitted to intensive care units or requiring intensive care, regardless of the disease. The intended users of these guidelines are all healthcare professionals involved in intensive care, including those who are not familiar with nutrition therapy. JCCNG 2024 consists of 37 clinical questions and 24 recommendations, covering immunomodulation therapy, nutrition therapy for special conditions, and nutrition therapy for children. These guidelines were developed in accordance with the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) system by experts from various healthcare professionals related to nutrition therapy and/or critical care. All GRADE-based recommendations, good practice statements (GPS), future research questions, and answers to background questions were finalized by consensus using the modified Delphi method. Strong recommendations for adults include early enteral nutrition (EN) within 48 h and the provision of pre/synbiotics. Weak recommendations for adults include the use of a nutrition protocol, EN rather than parenteral nutrition, the provision of higher protein doses, post-pyloric EN, continuous EN, omega-3 fatty acid-enriched EN, the provision of probiotics, and indirect calorimetry use. Weak recommendations for children include early EN within 48 h, bolus EN, and energy/protein-dense EN formulas. A nutritional assessment is recommended by GPS for both adults and children. JCCNG 2024 will be disseminated through educational activities mainly by the JCCNG Committee at various scientific meetings and seminars. Since studies on nutritional treatment for critically ill patients are being reported worldwide, these guidelines will be revised in 4 to 6 years. We hope that these guidelines will be used in clinical practice for critically ill patients and in future research.",
+          "doi": "10.1186/s40560-025-00785-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40119480/"
+        },
+        {
+          "pmid": "41870559",
+          "title": "Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.",
+          "journal": "Intensive Care Med",
+          "publicationDate": "2026 May",
+          "authors": [
+            "Weiss SL",
+            "Peters MJ",
+            "Oczkowski SJW",
+            "Belley-Cote E",
+            "Buysse C",
+            "Choong KLM"
+          ],
+          "abstract": "OBJECTIVE: To update evidence-based management recommendations for clinicians caring for children (including infants, school-aged children, and adolescents) with sepsis or septic shock.\nDESIGN: A panel of 68 international experts, representing 13 international organizations, as well as six methodologists, was convened. A formal conflict-of-interest policy was developed at the onset of the process and applied throughout. Teleconferences and electronic-based discussion among the chairs, co-chairs, methodologists, and subgroup leads, as well as within subgroups, served as an integral part of the guideline development process.\nMETHODS: New priority topics and recommendations from the prior guideline iteration were used to identify Population, Intervention, Control, and Outcomes (PICO) questions likely to have new or updated evidence. We conducted a systematic review to identify the best available evidence, summarized the evidence, and then assessed the quality of evidence using the Grading of Recommendations, Assessment, Development, and Evaluation approach. We used the evidence-to-decision framework to formulate recommendations as strong or conditional, or as a good practice statement. \"In our practice,\" statements were included when evidence was inconclusive to issue a recommendation, but the panel felt that some guidance based on practice patterns may be appropriate.\nRESULTS: The panel provided 61 statements on the management of children with sepsis or septic shock. Overall, five were strong recommendations, 24 were conditional recommendations, and ten were good practice statements. For 22 PICO questions, no recommendations could be made, but for seven of these, \"in our practice\" statements were provided. Compared with the 2020 guidelines, 20 recommendations were new, 13 were updated for clarity and/or new evidence, six were reviewed but not changed, and 22 were carried forward based on consensus of the panel that new evidence was not available. Only three recommendations were based on high or moderate certainty of evidence.\nCONCLUSIONS: Updated management guidelines were issued by a panel of international experts for the best care of children with sepsis or septic shock, acknowledging that most aspects of care continue to have relatively low quality of evidence.",
+          "doi": "10.1007/s00134-026-08360-2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41870559/"
+        },
+        {
+          "pmid": "40668437",
+          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 Jul 16",
+          "authors": [
+            "Jourdain M",
+            "Chatti IG",
+            "Housni B",
+            "Jaquet P",
+            "Jezequel M",
+            "Kane O"
+          ],
+          "abstract": "BACKGROUND: Although largely used, the place of extracorporeal renal replacement therapy (RRT) in acute kidney injury (AKI) in intensive care unit (ICU) patients has yet to be clarified. The French Intensive Care Society (Société de Réanimation de Langue Française, SRLF) and the French Pediatric Group of Intensive Care and Emergency (Groupe Francophone de Réanimation et d'Urgence Pédiatrique, GFRUP) organized a consensus conference in November 2024.\nMETHODS: A committee, without any conflict of interest (CoI) on the subject, defined seven generic questions and drew up a list of sub questions according to the population, intervention, comparison and outcomes (PICO) model. An independent work group reviewed literature using predefined keywords. The quality of the data was assessed using the GRADE methodology. Eighteen experts in the field from both societies proposed their own answers in a public session and answered questions from the jury (a panel of 14 critical-care medicine physicians and a nurse) and the public. The jury then met for 48 h to write out and vote on its recommendations.\nRESULTS: The panel provided 45 statements addressing seven questions. In patients, adults or children, admitted to the ICU with AKI (1) What are the indications for RRT, when should it be initiated, and within what timeframe? (2) What are the advantages/disadvantages of the different RRT modalities in ICU, and based on what criteria should they be chosen? (3) Which dose of dialysis should be prescribed for ICU patients? (4) How to prescribe, adjust and monitor each RRT technique? (5) Which vascular access technique should be preferred (insertion site, catheter type and length)? (6) How to prevent circuit thrombosis? (7) What are the criteria to consider weaning from RRT and how can it be achieved?\nCONCLUSIONS: These recommendations should optimize the prescription and use of RRT during AKI in ICUs for both adult and pediatric patients.",
+          "doi": "10.1186/s13613-025-01517-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40668437/"
+        },
+        {
+          "pmid": "40665004",
+          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 Jul 15",
+          "authors": [
+            "Reignier J",
+            "Gaillard-Le Roux B",
+            "Dequin PF",
+            "Bertoni Maluf VA",
+            "Bohe J",
+            "Casaer MP"
+          ],
+          "abstract": "The objective of this work was to develop guidelines for nutritional support in critically ill adults and children (excluding neonates and burn patients) unable to maintain an adequate oral intake. We aimed to provide up-to-date recommendations based on high-level evidence including the results of recent landmark randomized controlled trials. Experts from the French Intensive Care Society (SRLF), the French Society of Clinical Nutrition and Metabolism (SFNCM), and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP) used the GRADE methodology to develop the guidelines. Twenty-four Patient Intervention Comparator Outcome (PICO) questions were identified, resulting in 34 adult and 29 pediatric recommendations. Of the 34 recommendations for adults, three were based on high-level evidence, 12 on moderate-level evidence, and 19 on expert opinion. The corresponding numbers for the 29 pediatric recommendations were one, five, and 23. All recommendations achieved strong agreement among the experts. These guidelines emphasize the importance of individualized nutritional support strategies that incorporate recent high-quality evidence to optimize the outcomes of critically ill patients.",
+          "doi": "10.1186/s13613-025-01509-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40665004/"
+        },
+        {
+          "pmid": "40439782",
+          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
+          "journal": "Ann Intensive Care",
+          "publicationDate": "2025 May 29",
+          "authors": [
+            "Mekontso Dessap A",
+            "Dauger S",
+            "Khellaf M",
+            "Agbakou M",
+            "Agut S",
+            "Angoulvant F"
+          ],
+          "abstract": "Forty-two questions were evaluated concerning management of emergencies and critical illnesses in paediatric and adult patients with sickle cell disease. The assessment covered the following areas: patient referral, vaso-occlusive crisis, acute chest syndrome, transfusion therapy, and priapism. The patient referral category included guidelines for admission to intensive care unit and management at specialized reference centers. The vaso-occlusive crisis topic encompassed pain management, hydration, incentive spirometry, and target oxygen saturation levels. For acute chest syndrome, the focus areas included imaging techniques such as lung ultrasound, computed tomography scans, and echocardiography; treatment with systemic corticosteroids; non-invasive ventilation; prophylactic and therapeutic anticoagulation; and procalcitonin and antibiotic therapy. The section on transfusion therapy addressed indications and methods of transfusion, as well as the diagnosis and prediction of delayed hemolytic transfusion reactions. A total of 45 recommendations were proposed, including 14 specific to adults, 13 specific to pediatrics, and 18 applicable to both adults and children, along with three therapeutic algorithms. The Grade of Recommendation Assessment, Development, and Evaluation (GRADE) methodology was adhered to throughout the process. Sixteen recommendations were based on a low level of evidence (GRADE 2+ or 2-), while 26 were based on evidence that could not be classified under the GRADE system and were therefore considered expert opinions. Finally, for three aspects of sickle cell disease management, the experts concluded that no reliable recommendations could be made based on the current state of knowledge. The recommendations and therapeutic algorithms received strong agreement from the experts.",
+          "doi": "10.1186/s13613-025-01479-3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40439782/"
+        }
+      ],
+      "articleSummaries": {
+        "40119480": {
+          "pmid": "40119480",
+          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
+          "generatedAt": "2026-06-11T01:17:01.751Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。"
+        },
+        "40439782": {
+          "pmid": "40439782",
+          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
+          "generatedAt": "2026-06-11T01:17:26.413Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。"
+        },
+        "40665004": {
+          "pmid": "40665004",
+          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
+          "generatedAt": "2026-06-11T01:17:13.713Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。"
+        },
+        "40668437": {
+          "pmid": "40668437",
+          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
+          "generatedAt": "2026-06-11T01:17:36.989Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。"
+        },
+        "41870559": {
+          "pmid": "41870559",
+          "title": "Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.",
+          "generatedAt": "2026-09-09T00:04:11.591Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 2026年版の小児用敗血症・敗血性ショック管理ガイドラインが更新され、国際的な専門家によるエビデンスベースの推奨事項が示されている。  \n- PICU/CICUでの意味: 小児重症患者における敗血症・敗血性ショックの管理に際して、最新のエビデンスと統合的アプローチに基づく臨床ガイドラインが提供される。  \n- 注意点: 抽象のみに基づくため、詳細な実践的ガイドライン内容は論文本文を参照すること。"
+        },
+        "42720775": {
+          "pmid": "42720775",
+          "title": "Childhood Liver-Related Abnormalities After Fontan Completion: Evidence from a 20-Year Tertiary Centre Cohort.",
+          "generatedAt": "2026-09-10T23:52:38.593Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: Fontan完了後における肝臓異常は、肝機能検査および超音波検査で頻度的に検出され、肝線維化・肝硬変などの進行リスクが示唆された。  \n- PICU/CICUでの意味: Fontan手術後の肝臓監視プロトコルにおいて、生化学的指標と超音波検査の併用が重要であり、早期異常検出のための継続的フォローアップが推奨される。  \n- 注意点: 結果は単一施設のコホートデータに基づくため、一般化には注意が必要で、臨床的影響の評価は今後の研究に依存する。"
+        },
+        "42720776": {
+          "pmid": "42720776",
+          "title": "Echogenicities in the Fetal Heart: Echocardiographic Evaluation, Differential Diagnosis and Clinical Outcomes.",
+          "generatedAt": "2026-09-10T23:52:25.528Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 胎児心臓の異常エコーゲンシティは、良性 findings か病的疾患かの区別が臨床的意義を持つ。  \nPICU/CICUでの意味: 胎児期の心臓異常が新生児期の重症疾患に繋がる可能性があるため、注意深い評価が求められる。  \n注意点: 結論は文献レビューに基づくため、臨床実践への直接的なガイドラインにはならない。"
+        },
+        "42720777": {
+          "pmid": "42720777",
+          "title": "The Heart-Microbiome Axis: Emerging Relevance in Pediatric Cardiology.",
+          "generatedAt": "2026-09-10T23:52:15.850Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 腸内フローラは心血管生理に多大な影響を及ぼす可能性があり、小児循環器疾患におけるその意義が注目されている。  \nPICU/CICUでの意味: 抗生物質投与や心肺停止術などの治療介入が腸内フローラに影響を与える可能性があり、心血管健康に影響を及ぼすリスクがある。  \n注意点: 抽象のみに基づくため、臨床的因果関係や治療法への直接的な適用は限定的である。"
+        },
+        "42720778": {
+          "pmid": "42720778",
+          "title": "Optimisation of an Algorithm for Fetal Strain by CMR and its Use in Suspected Coarctation of the Aorta.",
+          "generatedAt": "2026-09-10T23:52:06.937Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 胎児心磁共鳴（CMR）による心室ストレイン評価が、先天性大動脈縮窄症（CoA）の診断精度向上に寄与する可能性を示唆しているが、臨床応用にはさらなる検証が必要。  \nPICU/CICUでの意味: 胎児期のCoA診断が早ければ、出生後の重症度管理に影響を与える可能性があるが、本研究は直接的なICU管理への応用は限定的。  \n注意点: 抽象のみに基づくため、検証例数が少なく（35例）、臨床実践への即時の応用は困難である。"
+        }
+      }
+    },
     {
       "date": "2026-09-09",
       "generatedAt": "2026-09-09T23:55:49.667Z",
@@ -5336,376 +5629,11 @@
           "summary": "要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。"
         }
       }
-    },
-    {
-      "date": "2026-07-22",
-      "generatedAt": "2026-07-22T23:11:40.410Z",
-      "summary": "## 今日の順次AI要約\n\n取得候補 15件 / AI要約済み 15件 / 未要約 0件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n## PICU/CICU重点\n\n### 1. Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.\nPMID 42302804 / Lancet Child Adolesc Health / 2026 Aug\n要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。\n\n### 2. Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.\nPMID 42242271 / Lancet Child Adolesc Health / 2026 Aug\n要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。\n\n### 3. Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.\nPMID 42190905 / J Pediatr / 2026 Aug\n- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:\n\n### 4. Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.\nPMID 42190900 / J Pediatr / 2026 Aug\n要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。\n\n### 5. Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.\nPMID 42173429 / Resuscitation / 2026 Aug\n- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Mavacamten in Adolescents with Obstructive Hypertrophic Cardiomyopathy.\nPMID 41910394 / N Engl J Med / 2026 Jul 23\n- 要点: マバカメントは、左室流出部狭窄を伴う青少年の心室間圧力勾配を有意に低下させた。  \n- PICU/CICUでの意味: 左室流出部狭窄を有する小児患者における薬物療法選択肢としての可能性を示唆。  \n- 注意点: 抽象のみに基づくため、全結果の詳細は不明。長期的な安全性や効果の持続性については検証が必要。\n\n### 3. Socioeconomic Factors Associated with Fetal Tachyarrhythmia Management and Outcomes: A Single-Center Retrospective Review of a Consistent Protocol.\nPMID 42484686 / Pediatr Cardiol / 2026 Jul 22\n要点: 本研究では、経済的・社会的要因（人種、保険、地域貧困指数）が胎児性頻拍の管理および結果に影響を与える可能性を示唆しているが、因果関係は明確でない。  \nPICU/CICUでの意味: 胎児性頻拍の管理において一貫したプロトコルの導入が重要であり、経済的・社会的要因を考慮した包括的なケアが求められる。  \n注意点: 観察研究であり、単一施設での結果であることから一般化には注意が必要。論文の全文が必要な情報が含まれている可能性がある。\n\n### 4. Facilitating Communication for Family Members of Critically Ill Patients During and Following a Hospital Stay: A Randomized Controlled Trial.\nPMID 42484383 / Crit Care Med / 2026 Jul 22\n- 要点: ICU患者家族の抑うつ症状軽減に向けたコミュニケーションファシリテーター介入が有効性を示唆する可能性があるが、結果は未公開。  \n- PICU/CICUでの意味: 家族のケア転換時のコミュニケーション支援が、重症患者家族の精神的負担軽減に寄与する可能性を示唆。  \n- 注意点: 抽象のみに基づくため、結果の詳細や臨床実践への影響は不明。\n\n### 5. The Third Day.\nPMID 42484380 / Pediatr Crit Care Med / 2026 Jul 22\n- 要点: 2026年7月22日に発表された「The Third Day」と題する論文がPediatr Crit Care Medに掲載された。  \n- PICU/CICUでの意味: 第3日における臨床的課題や治療戦略の検討が示唆されている可能性がある。  \n- 注意点: 抽象が利用できないため、詳細な内容や臨床的意義は不明である。",
-      "articles": [
-        {
-          "pmid": "42302804",
-          "title": "Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.",
-          "journal": "Lancet Child Adolesc Health",
-          "publicationDate": "2026 Aug",
-          "authors": [
-            "Carlsen EM",
-            "Hansen BM",
-            "Dungu KHS",
-            "Lindhard MS",
-            "Gudiksen A",
-            "Aunsholt L"
-          ],
-          "abstract": "BACKGROUND: Suspicion of early-onset sepsis (EOS) is a major contributor to antibiotic use in late-preterm and term-born neonates. We aimed to evaluate whether a clinically guided, individualised approach to treatment duration could safely reduce antibiotic exposure compared with standard care.\nMETHODS: This nationwide, multicentre, open-label, randomised, controlled, non-inferiority trial included late-preterm and term-born neonates (aged 0-3 days, gestational age 35 weeks or more, birthweight 2000 g or more) with culture-negative early-onset sepsis (probable EOS), defined as continuation of antibiotic treatment beyond 36-48 h based on clinical signs of or maternal risk factors for infection in combination with elevated C-reactive protein and symptom onset less than 72 h after birth. Neonates were ineligible if they met the criteria for discontinuing antibiotics before 48 h. Participants were randomised (1:1) to individualised or standard treatment. In the individualised group, antibiotic treatment was discontinued after 24 h without clinical signs of infection, provided that C-reactive protein was declining to ≤30 mg/L. Standard treatment was 5-7 days. The coprimary outcomes were readmission due to bacterial infection (non-inferiority margin 4%) and total antibiotic duration (superiority assessment), performed on both intention-to-treat and per-protocol populations. Safety was assessed in all included neonates. This study was registered with ClinicalTrials.gov (NCT05329701) and is completed.\nFINDINGS: Between April 22, 2022, and April 5, 2025, 493 (61%) of 811 eligible neonates were randomly assigned to individualised (n=246) or standard (n=247) duration. Antibiotic therapy was initiated at a median of 22·5 h (IQR 14·4-28·0) after birth in the individualised group and 24·5 h (16·6-28·0) in the standard group. Readmission due to bacterial infection occurred in two (1%) of 246 neonates in the individualised group and one (<1%) of 247 in the standard group (risk difference 0·4% [95% CI -1·5 to 2·6]; p non-inferiority =0·0032). Median total antibiotic treatment within 28 days was 2·8 days (IQR 2·4-3·4) in the individualised group and 6·8 days (6·6-7·0) in the standard group (difference 4·0 days [95% CI 3·8-4·1]; p<0·0001). No serious adverse events occurred in the individualised group and one (<1%) occurred in the standard group (risk difference -0·4% [95% CI -2·3 to 1·1]). Per-protocol results were consistent.\nINTERPRETATION: In neonates with probable EOS, a clinically guided, individualised treatment strategy was non-inferior to standard therapy with respect to infection-related readmission and reduced treatment duration to a median of 3 days. These findings support reduced antibiotic use through individualised treatment duration strategies.\nFUNDING: Copenhagen University Hospital Rigshospitalet Research Fund, Innovation Fund Denmark, and Greater Copenhagen Health Science Partners.",
-          "doi": "10.1016/S2352-4642(26)00118-5",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42302804/"
-        },
-        {
-          "pmid": "42242271",
-          "title": "Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.",
-          "journal": "Lancet Child Adolesc Health",
-          "publicationDate": "2026 Aug",
-          "authors": [
-            "Martinez TA",
-            "Francis KL",
-            "Kamlin O",
-            "Shalish W",
-            "Sant'Anna G",
-            "Hodgson KA"
-          ],
-          "abstract": "BACKGROUND: To survive, infants born before 26 weeks' gestation require respiratory assistance immediately after birth. However, the respiratory trajectories of these most preterm infants are not well delineated. We aimed to describe the early respiratory trajectories of infants born before 26 weeks' gestation who received surfactant during their initial neonatal intensive care admission.\nMETHODS: This study was a post-hoc exploratory analysis of PLUSS, a randomised controlled trial comparing intratracheal budesonide mixed with surfactant versus surfactant alone. Infants were recruited from 21 neonatal intensive care units in Australia, New Zealand, Canada, and Singapore. Infants born before 28 weeks' gestation and aged less than 48 h were eligible if (1) they were mechanically ventilated, or (2) they were receiving non-invasive respiratory support and there was a clinical decision to treat with surfactant. For this analysis, only infants born before 26 weeks' gestation were included, and treatment and control groups were combined. We aimed to describe early respiratory trajectories, including the levels of respiratory support and oxygen administered during the first 14 days, and respiratory outcomes at 28 postnatal days and 36 weeks' and 40 weeks' postmenstrual age. The main in-hospital respiratory outcomes were the timing and success of the first extubation, the durations of respiratory support, including oxygen requirements, and outcomes at hospital discharge, such as duration of hospital stay and discharge home on oxygen. PLUSS is registered with the Australian New Zealand Clinical Trials Registry (ACTRN12617000322336), and follow-up is ongoing.\nFINDINGS: Between Jan 4, 2018, and March 27, 2023, 1062 infants were recruited to the PLUSS trial, of whom 601 were born before 26 weeks' gestation. 131 (97%) of 135 infants born at 22-23 weeks' gestation were intubated at birth, compared with 163 (74%) of 220 infants born at 24 weeks and 157 (64%) of 246 infants born at 25 weeks. The median postnatal age at first extubation ranged from 15 days (IQR 8-26) in infants born at 22-23 weeks' gestation to 6 days (2-18) in those born at 24 weeks and 3 days (1-10) in those born at 25 weeks. 54 (66%) of 82 infants born at 22-23 weeks' gestation required reintubation, compared with 80 (51%) of 158 infants born at 24 weeks and 72 (38%) of 189 infants born at 25 weeks. The median duration of mechanical ventilation in infants who survived to 36 weeks' postmenstrual age was 36 days (IQR 23-49) in those born at 22-23 weeks' gestation, 26 days (14-39) in those born at 24 weeks, and 12 days (3-27) in those born at 25 weeks. At 40 weeks' postmenstrual age, nine (11%) of 83 surviving infants born at 22-23 weeks' gestation were discharged home, and 63 (85%) of 74 infants still in the hospital were receiving oxygen or respiratory support. By contrast, 36 (23%) of 160 surviving infants born at 24 weeks and 61 (30%) of 204 born at 25 weeks were discharged home, and 97 (78%) of 124 in-hospital infants born at 24 weeks and 79 (55%) of 143 in-hospital infants born at 25 weeks required oxygen or respiratory support.\nINTERPRETATION: The most preterm infants born at the margins of viability require intensive and prolonged respiratory support. Knowledge of the respiratory trajectories in surfactant-treated infants born before 26 weeks' gestation could assist clinicians in family consultations while also guiding future randomised controlled trials.\nFUNDING: National Health and Medical Research Council, Australia; Chiesi Farmaceutici.",
-          "doi": "10.1016/S2352-4642(26)00094-5",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42242271/"
-        },
-        {
-          "pmid": "42190905",
-          "title": "Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.",
-          "journal": "J Pediatr",
-          "publicationDate": "2026 Aug",
-          "authors": [
-            "DiPrisco B",
-            "Brinker K",
-            "Coyle M",
-            "DuPont T",
-            "Hanin M",
-            "House M"
-          ],
-          "abstract": "OBJECTIVE: To evaluate neurodevelopmental care practices for patients with grade 3 bronchopulmonary dysplasia (BPD), specifically the relationships between frequency of developmental therapies and types of developmentally supportive equipment provided to patients and the patient's current level of respiratory support, while still in the neonatal intensive care unit (NICU).\nSTUDY DESIGN: Cross-sectional study of 22 NICUs in the BPD Collaborative, including all eligible infants in each NICU with grade 3 BPD who had never been discharged home. We collected data about current respiratory support, neurodevelopmental therapies, and availability of developmentally supportive equipment in patients' rooms through the medical records and interviews with bedside nurses.\nRESULTS: For this study 141 infants were included (median postmenstrual age 49 weeks, IQR 43-60 weeks). The majority (65.2%) were receiving invasive ventilation. Respiratory support was significantly associated with any physical therapy (P = .008) or speech therapy (P < .001) and total number of completed therapy sessions in the prior 48 hours (P < .001). Availability of developmentally supportive equipment in an infant's room was also significantly associated with respiratory support. Patients with tracheostomies had a notably higher count of many different types of developmentally supportive equipment in their rooms than those infants with endotracheal tubes and those receiving noninvasive respiratory support. The majority of nurses reported having time to support their patients' development (80%), but fewer than half the infants regularly experienced reading (37%) or singing (46%).\nCONCLUSIONS: Developmental supports for infants with grade 3 BPD vary based on respiratory support and across institutions. Infants with tracheostomies have more opportunities for developmentally supportive activities. These data can be used to benchmark care practices across institutions and guide prospective studies to standardize developmental care and improve outcomes in infants with grade 3 BPD.",
-          "doi": "10.1016/j.jpeds.2026.115157",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42190905/"
-        },
-        {
-          "pmid": "42190900",
-          "title": "Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.",
-          "journal": "J Pediatr",
-          "publicationDate": "2026 Aug",
-          "authors": [
-            "Sutyla RF",
-            "Young KA",
-            "Dhar S",
-            "Nanduri N",
-            "Barton SJ",
-            "Lemmon M"
-          ],
-          "abstract": "OBJECTIVE: To evaluate the language used to discuss a child's disability and understand themes related to its use.\nSTUDY DESIGN: This descriptive qualitative study was embedded in a qualitative study examining family meeting dynamics and decision-making in pediatric and neonatal intensive care units. Family meetings involved an infant 1 year old or younger and were held to discuss neurologic prognosis or goals of care. We performed a secondary, post hoc analysis of family meeting content to characterize language used to discuss current and/or future disability.\nRESULTS: A total of 68 family meetings were screened; 45 (66%) included disability language. Disability was referenced by explicitly naming disability, sharing information about disability characteristics, and using problematic language. We identified 5 themes that further characterized disability language: (1) euphemisms for disability, (2) invoking the healthy other, (3) the intersection between quality of life and disability, (4) using the medical model to contextualize disability, and (5) disability's impact on the child's family.\nCONCLUSIONS: The language used by family members and clinicians to discuss and contextualize disability provides important insight into how disability is addressed in pediatric and neonatal intensive care units. These findings emphasize the importance of including topics related to disability in medical education and can inform further work to develop training tools to aid pediatric clinicians in discussing disability effectively.",
-          "doi": "10.1016/j.jpeds.2026.115160",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42190900/"
-        },
-        {
-          "pmid": "42173429",
-          "title": "Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.",
-          "journal": "Resuscitation",
-          "publicationDate": "2026 Aug",
-          "authors": [
-            "Kolstad V",
-            "Hoven E",
-            "Buskov F",
-            "Eilevstjønn J",
-            "Meinich-Bache Ø",
-            "Engan K"
-          ],
-          "abstract": "AIMS: Newborn resuscitation guidelines recommend stimulation as a first step in non-breathing newborns to facilitate spontaneous breathing. We aimed to evaluate the extent of stimulation in the delivery room, heart rate (HR) responses to stimulation, and association between bradycardia (HR <100 beats per minute (bpm) ≥10 s) in the first minute after birth and the need for positive pressure ventilation (PPV) versus stimulation alone.\nMETHOD: A prospective observational study conducted at tertiary level Stavanger University Hospital, Norway, September 2022-July 2024 including newborns with gestational age ≥34 weeks. Stimulation was registered from thermal videos in the delivery room and visible light cameras over resuscitaires. HR was obtained using dry-electrode ECG.\nRESULTS: 449 included newborns had thermal videos ± visible light video and HR data. 70/449 (16%) newborns did not receive any resuscitative interventions, 345/449 (77%) received stimulation alone, 14/449 (3.1%) received continuous positive airway pressure, and 20/449 (4.4%) received PPV. We observed a HR increase of median 7 bpm among newborns with HR <140 bpm at start stimulation (p < 0.001). Newborns with bradycardia in the first minute after birth had four-fold likelihood of requiring PPV versus tactile stimulation alone (OR 4.81 95% CI 1.39-15.3, p = 0.009).\nCONCLUSION: Tactile stimulation is widely applied during neonatal transition. We observed an increase in HR in relation to tactile stimulation, especially among newborns with HR <140 bpm at start stimulation. Newborns with bradycardia (HR <100 bpm ≥10 s) in the first minute after birth had a four-fold likelihood of requiring PPV versus tactile stimulation alone.",
-          "doi": "10.1016/j.resuscitation.2026.111144",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42173429/"
-        },
-        {
-          "pmid": "41995635",
-          "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
-          "journal": "Ann Thorac Surg",
-          "publicationDate": "2028 Mar 23",
-          "authors": [
-            "Won D",
-            "Bolling SF",
-            "Romano MA",
-            "Johnston DR",
-            "Ailawadi G",
-            "Mehta CK"
-          ],
-          "abstract": "BACKGROUND: Although transcatheter mitral valve-in-valve replacement (mViV) is safe, long-term outcomes compared with reoperative surgical mitral valve replacement (rSMVR) remains unknown. This study compared long-term outcomes between mViV and rSMVR in patients with failing mitral bioprostheses.\nMETHODS: This retrospective, cohort study analyzed patients undergoing mViV or rSMVR for failing bioprosthetic mitral valves without active endocarditis at 2 quaternary care centers from 2004 to 2023. Primary end points included 30-day Mitral Valve Academic Research Consortium (MVARC) procedural success, 5-year cumulative incidence of death, freedom from reintervention, and cumulative incidence of heart failure. Echocardiographic evaluation of mean mitral valve gradients was assessed at baseline and 5-year follow-up.\nRESULTS: Of 229 patients (90 rSMVR, 139 mViV; mean age, 66.0 vs 68.7 years), MVARC 30-day outcomes were similar except for higher prolonged ventilation with rSMVR. At 5 years, rSMVR had significantly lower mortality (20.3% vs 40.9%; P = .01) and lower mean (standard deviation) mitral gradients (immediate postprocedure: 5.1 [2.3] mm Hg vs 7.8 [3.0] mm Hg; 5-year: 5.3 [2.0] mm Hg vs 9.8 [5.3] mm Hg; P < .001). Freedom from mitral valve reintervention (5.8% vs 6.1%; P = .97) and cumulative heart failure incidence (14.3% vs 22.9%; P = .17) were similar.\nCONCLUSIONS: Although mViV demonstrated comparable 30-day MVARC outcomes, rSMVR was associated with superior long-term survival and hemodynamic durability among patients deemed appropriate surgical candidates by a multidisciplinary heart team. Treatment decisions should balance short-term risk with long-term outcomes.",
-          "doi": "10.1016/j.athoracsur.2026.03.032",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41995635/"
-        },
-        {
-          "pmid": "41910394",
-          "title": "Mavacamten in Adolescents with Obstructive Hypertrophic Cardiomyopathy.",
-          "journal": "N Engl J Med",
-          "publicationDate": "2026 Jul 23",
-          "authors": [
-            "Rossano JW",
-            "Canter C",
-            "Wolf CM",
-            "Papez A",
-            "Gambra M",
-            "Bryant RM"
-          ],
-          "abstract": "BACKGROUND: Approved pharmacologic therapies for pediatric hypertrophic cardiomyopathy are lacking, and surgical intervention may be indicated in patients with left ventricular outflow tract obstruction. The efficacy and safety of mavacamten, a cardiac myosin inhibitor that is available for adults, warrant evaluation in adolescents.\nMETHODS: We conducted a phase 3, double-blind, randomized, placebo-controlled trial involving symptomatic adolescents (12 to <18 years of age) with New York Heart Association class II or III obstructive hypertrophic cardiomyopathy. The patients were randomly assigned in a 1:1 ratio to receive mavacamten or placebo. The primary end point was the change from baseline to week 28 in left ventricular outflow tract pressure gradient provoked by the Valsalva maneuver.\nRESULTS: A total of 44 patients underwent randomization; 23 patients (8 [35%] of whom were female) were assigned to mavacamten group, and 21 (5 [24%] of whom were female) were assigned to the placebo group. The mean (±SD) age of the patients was 14.7±1.7 years in the mavacamten group and 14.6±1.7 years in the placebo group, and the mean Valsalva left ventricular outflow tract gradient at baseline was similar in the two groups (78.4±34.1 mm Hg and 80.8±47.4 mm Hg, respectively). At week 28, the least-squares mean change in the Valsalva left ventricular outflow tract gradient was -48.5 mm Hg in the mavacamten group and -0.5 mm Hg in the placebo group (difference, -48.0 mm Hg; 95% confidence interval, -67.7 to -28.3; P<0.001). The incidence of adverse events was similar in the two groups. Two patients in each group had serious adverse events; in the mavacamten group, 1 patient had two episodes of syncope, and another had an inappropriate shock delivered by an implantable cardioverter-defibrillator; in the placebo group, 1 patient had chest pain, and another had depression with suicidal ideation. No patient had a reduction in the left ventricular ejection fraction to less than 50%. No deaths occurred during the trial.\nCONCLUSIONS: Among adolescent patients with obstructive hypertrophic cardiomyopathy, the reduction in left ventricular outflow tract obstruction was significantly greater with mavacamten than with placebo over a 28-week period. (Funded by Bristol Myers Squibb; SCOUT-HCM ClinicalTrials.gov number, NCT06253221.).",
-          "doi": "10.1056/NEJMoa2601103",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41910394/"
-        },
-        {
-          "pmid": "42484686",
-          "title": "Socioeconomic Factors Associated with Fetal Tachyarrhythmia Management and Outcomes: A Single-Center Retrospective Review of a Consistent Protocol.",
-          "journal": "Pediatr Cardiol",
-          "publicationDate": "2026 Jul 22",
-          "authors": [
-            "Churchill A",
-            "Ho M",
-            "Kulkarni A",
-            "Mitchell E",
-            "Blaufox AD"
-          ],
-          "abstract": "Data regarding fetal tachyarrhythmia outcomes are based upon observational studies without consistent protocols and without evaluating socioeconomic variables. The objective of this study is to evaluate the impact of socioeconomic variables on fetal tachyarrhythmia management and outcomes in patients managed with a consistent protocol. This is a single-center retrospective observational study including fetal patients 2014-2024. Patients without significant congenital heart disease had sustained fetal tachyarrhythmia confirmed by echocardiography and treated using the center's protocol. Socioeconomic variables included race, insurance, and area deprivation indices (ADI). Standard statistics were applied. Thirty-two patients were included. Mean gestational age was 29.6 ± 4.6 weeks. Twenty-three patients had supraventricular tachycardia (SVT) and 9 had atrial flutter (AFl). Twelve were White, 11 were Black, 2 were Asian, and 7 were multi-racial/other. Nineteen had private and 13 had government insurance. SVT was successfully treated without readmission in 18/23 or early delivery due to arrhythmia in 18/21; Afl was treated without readmission in 7/9 or early delivery in 6/9. Arrhythmia diagnosis was not related to outcome or SES. Non-white patients trended to be more likely to be delivered early for any reason compared to White patients (13/19 vs. 4/11, p = 0.08), but not for arrhythmia alone. There was a slight trend toward early deliveries being more likely to be via caesarean section in non-White patients, although not statistically significant (12/13 vs. 2/4, p = 0.12). Early deliveries for any reason were more likely to be via caesarean section in those with private insurance (10/10 vs. 4/7, p = 0.05). Socioeconomic variables impact obstetrical decisions for patients with fetal tachyarrhythmia, but not arrhythmia management.",
-          "doi": "10.1007/s00246-026-04285-1",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42484686/"
-        },
-        {
-          "pmid": "42484383",
-          "title": "Facilitating Communication for Family Members of Critically Ill Patients During and Following a Hospital Stay: A Randomized Controlled Trial.",
-          "journal": "Crit Care Med",
-          "publicationDate": "2026 Jul 22",
-          "authors": [
-            "Creutzfeldt CJ",
-            "Brumback LC",
-            "Im J",
-            "Pollak KI",
-            "Vasconcelos AG",
-            "Song Y"
-          ],
-          "abstract": "OBJECTIVES: Families of patients admitted to ICUs experience numerous care transitions, poor communication across these transitions, and emotional distress associated, in part, with the challenges of obtaining care consistent with patients' values. Specialized support from ICU to postacute setting may improve outcomes.\nDESIGN: Multicenter randomized, controlled trial of a \"communication facilitator\" intervention.\nSETTING: One healthcare system, three hospitals in Seattle, WA.\nPARTICIPANTS: ICU patients (n = 449) with chronic life-limiting illness (2-yr median survival, and/or acute, severe illness with greater than 15% hospital mortality risk) and their family members (n = 505). Patients were the unit of randomization (control, n = 224; intervention, n = 225).\nINTERVENTIONS: Nurse communication facilitators trained to support, model, and teach communication strategies to promote goal-concordant care. Facilitators engaged with participants in the ICU and for 3 months postrandomization.\nMEASUREMENT AND MAIN RESULTS: The primary outcome was family member depression, measured using the Hospital Anxiety and Depression Scale (HADS) at four time points (randomization, 1-, 3-, and 6-mo postrandomization). Among respondents, HADS-depression tended to decrease over time (mean ± sd = 7.2 ± 4.6 for control and 7.2 ± 4.2 for intervention at baseline; 5.9 ± 4.1 for control and 5.9 ± 4.5 for intervention at 6 mo). The difference in mean HADS-depression between intervention and control over 6 mo was not significantly different: -0.07 (95% CI, -0.70 to 0.55). Differences in family-reported secondary outcomes were in the expected direction, including relationship with the healthcare team (p = 0.0162) and goal concordance (p = 0.0504), but their effect sizes were small.\nCONCLUSIONS: For family members of critically ill patients facing a high likelihood of death or serious disability, involving a communication facilitator during and after an ICU stay did not lead to a reduction in depressive symptoms.",
-          "doi": "10.1097/CCM.0000000000007268",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42484383/"
-        },
-        {
-          "pmid": "42484380",
-          "title": "The Third Day.",
-          "journal": "Pediatr Crit Care Med",
-          "publicationDate": "2026 Jul 22",
-          "authors": [
-            "Pratama RK"
-          ],
-          "abstract": "",
-          "doi": "10.1097/PCC.0000000000004017",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42484380/"
-        }
-      ],
-      "importantArticles": [
-        {
-          "pmid": "40119480",
-          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
-          "journal": "J Intensive Care",
-          "publicationDate": "2025 Mar 21",
-          "authors": [
-            "Nakamura K",
-            "Yamamoto R",
-            "Higashibeppu N",
-            "Yoshida M",
-            "Tatsumi H",
-            "Shimizu Y"
-          ],
-          "abstract": "Nutrition therapy is important in the management of critically ill patients and is continuously evolving as new evidence emerges. The Japanese Critical Care Nutrition Guideline 2024 (JCCNG 2024) is specific to Japan and is the latest set of clinical practice guidelines for nutrition therapy in critical care that was revised from JCCNG 2016 by the Japanese Society of Intensive Care Medicine. An English version of these guidelines was created based on the contents of the original Japanese version. These guidelines were developed to help health care providers understand and provide nutrition therapy that will improve the outcomes of children and adults admitted to intensive care units or requiring intensive care, regardless of the disease. The intended users of these guidelines are all healthcare professionals involved in intensive care, including those who are not familiar with nutrition therapy. JCCNG 2024 consists of 37 clinical questions and 24 recommendations, covering immunomodulation therapy, nutrition therapy for special conditions, and nutrition therapy for children. These guidelines were developed in accordance with the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) system by experts from various healthcare professionals related to nutrition therapy and/or critical care. All GRADE-based recommendations, good practice statements (GPS), future research questions, and answers to background questions were finalized by consensus using the modified Delphi method. Strong recommendations for adults include early enteral nutrition (EN) within 48 h and the provision of pre/synbiotics. Weak recommendations for adults include the use of a nutrition protocol, EN rather than parenteral nutrition, the provision of higher protein doses, post-pyloric EN, continuous EN, omega-3 fatty acid-enriched EN, the provision of probiotics, and indirect calorimetry use. Weak recommendations for children include early EN within 48 h, bolus EN, and energy/protein-dense EN formulas. A nutritional assessment is recommended by GPS for both adults and children. JCCNG 2024 will be disseminated through educational activities mainly by the JCCNG Committee at various scientific meetings and seminars. Since studies on nutritional treatment for critically ill patients are being reported worldwide, these guidelines will be revised in 4 to 6 years. We hope that these guidelines will be used in clinical practice for critically ill patients and in future research.",
-          "doi": "10.1186/s40560-025-00785-z",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40119480/"
-        },
-        {
-          "pmid": "40668437",
-          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
-          "journal": "Ann Intensive Care",
-          "publicationDate": "2025 Jul 16",
-          "authors": [
-            "Jourdain M",
-            "Chatti IG",
-            "Housni B",
-            "Jaquet P",
-            "Jezequel M",
-            "Kane O"
-          ],
-          "abstract": "BACKGROUND: Although largely used, the place of extracorporeal renal replacement therapy (RRT) in acute kidney injury (AKI) in intensive care unit (ICU) patients has yet to be clarified. The French Intensive Care Society (Société de Réanimation de Langue Française, SRLF) and the French Pediatric Group of Intensive Care and Emergency (Groupe Francophone de Réanimation et d'Urgence Pédiatrique, GFRUP) organized a consensus conference in November 2024.\nMETHODS: A committee, without any conflict of interest (CoI) on the subject, defined seven generic questions and drew up a list of sub questions according to the population, intervention, comparison and outcomes (PICO) model. An independent work group reviewed literature using predefined keywords. The quality of the data was assessed using the GRADE methodology. Eighteen experts in the field from both societies proposed their own answers in a public session and answered questions from the jury (a panel of 14 critical-care medicine physicians and a nurse) and the public. The jury then met for 48 h to write out and vote on its recommendations.\nRESULTS: The panel provided 45 statements addressing seven questions. In patients, adults or children, admitted to the ICU with AKI (1) What are the indications for RRT, when should it be initiated, and within what timeframe? (2) What are the advantages/disadvantages of the different RRT modalities in ICU, and based on what criteria should they be chosen? (3) Which dose of dialysis should be prescribed for ICU patients? (4) How to prescribe, adjust and monitor each RRT technique? (5) Which vascular access technique should be preferred (insertion site, catheter type and length)? (6) How to prevent circuit thrombosis? (7) What are the criteria to consider weaning from RRT and how can it be achieved?\nCONCLUSIONS: These recommendations should optimize the prescription and use of RRT during AKI in ICUs for both adult and pediatric patients.",
-          "doi": "10.1186/s13613-025-01517-0",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40668437/"
-        },
-        {
-          "pmid": "40439782",
-          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
-          "journal": "Ann Intensive Care",
-          "publicationDate": "2025 May 29",
-          "authors": [
-            "Mekontso Dessap A",
-            "Dauger S",
-            "Khellaf M",
-            "Agbakou M",
-            "Agut S",
-            "Angoulvant F"
-          ],
-          "abstract": "Forty-two questions were evaluated concerning management of emergencies and critical illnesses in paediatric and adult patients with sickle cell disease. The assessment covered the following areas: patient referral, vaso-occlusive crisis, acute chest syndrome, transfusion therapy, and priapism. The patient referral category included guidelines for admission to intensive care unit and management at specialized reference centers. The vaso-occlusive crisis topic encompassed pain management, hydration, incentive spirometry, and target oxygen saturation levels. For acute chest syndrome, the focus areas included imaging techniques such as lung ultrasound, computed tomography scans, and echocardiography; treatment with systemic corticosteroids; non-invasive ventilation; prophylactic and therapeutic anticoagulation; and procalcitonin and antibiotic therapy. The section on transfusion therapy addressed indications and methods of transfusion, as well as the diagnosis and prediction of delayed hemolytic transfusion reactions. A total of 45 recommendations were proposed, including 14 specific to adults, 13 specific to pediatrics, and 18 applicable to both adults and children, along with three therapeutic algorithms. The Grade of Recommendation Assessment, Development, and Evaluation (GRADE) methodology was adhered to throughout the process. Sixteen recommendations were based on a low level of evidence (GRADE 2+ or 2-), while 26 were based on evidence that could not be classified under the GRADE system and were therefore considered expert opinions. Finally, for three aspects of sickle cell disease management, the experts concluded that no reliable recommendations could be made based on the current state of knowledge. The recommendations and therapeutic algorithms received strong agreement from the experts.",
-          "doi": "10.1186/s13613-025-01479-3",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40439782/"
-        },
-        {
-          "pmid": "40665004",
-          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
-          "journal": "Ann Intensive Care",
-          "publicationDate": "2025 Jul 15",
-          "authors": [
-            "Reignier J",
-            "Gaillard-Le Roux B",
-            "Dequin PF",
-            "Bertoni Maluf VA",
-            "Bohe J",
-            "Casaer MP"
-          ],
-          "abstract": "The objective of this work was to develop guidelines for nutritional support in critically ill adults and children (excluding neonates and burn patients) unable to maintain an adequate oral intake. We aimed to provide up-to-date recommendations based on high-level evidence including the results of recent landmark randomized controlled trials. Experts from the French Intensive Care Society (SRLF), the French Society of Clinical Nutrition and Metabolism (SFNCM), and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP) used the GRADE methodology to develop the guidelines. Twenty-four Patient Intervention Comparator Outcome (PICO) questions were identified, resulting in 34 adult and 29 pediatric recommendations. Of the 34 recommendations for adults, three were based on high-level evidence, 12 on moderate-level evidence, and 19 on expert opinion. The corresponding numbers for the 29 pediatric recommendations were one, five, and 23. All recommendations achieved strong agreement among the experts. These guidelines emphasize the importance of individualized nutritional support strategies that incorporate recent high-quality evidence to optimize the outcomes of critically ill patients.",
-          "doi": "10.1186/s13613-025-01509-0",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40665004/"
-        },
-        {
-          "pmid": "40198815",
-          "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
-          "journal": "Eur Heart J Acute Cardiovasc Care",
-          "publicationDate": "2025 Aug 06",
-          "authors": [
-            "Kerneis M",
-            "Ammirati E",
-            "Delmas C",
-            "Heggermont W",
-            "Heymans S",
-            "Lenz M"
-          ],
-          "abstract": "Acute Myocarditis (AM) encompasses a broad spectrum of clinical presentations and causes. Despite the recent advances in cardiovascular imaging, pathology, virology, and genetics, specific therapies are still lacking. This collaborative review aims to analyse the current evidence to answer practical questions that physicians may face during the early management of patients presenting with an acute form of the disease, complicated or not. This review analyses current evidence to address practical questions posed by acute cardiovascular physicians during the early management of acute, or potentially, myocarditis. Based on the current literature, this review provides a step-by-step approach to treat AM patients from their admission in the cardiac intensive care unit (CICU) to discharge, by answering 10 clinical questions: Might this patient be suffering from an AM? Should I hospitalize this patient and, if so, where? Which cardiac imaging exam should I perform and what can I learn from it? Is this patient requiring an EMB? What should the non-invasive aetiological work-up be? Is her/his episode of AM of viral, toxic, or other origin? Does this patient need specific treatments or mechanical circulatory support? Is there an indication for guideline-directed medical heart failure treatment? When can the patient be discharged and resume physical activity? Notably, this review highlights the need to build a multidisciplinary response team to address the many diagnostic and therapeutic challenges of AM patients. It also points out the lack of evidence to guide the treatment of these patients.",
-          "doi": "10.1093/ehjacc/zuaf057",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40198815/"
-        }
-      ],
-      "articleSummaries": {
-        "40119480": {
-          "pmid": "40119480",
-          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
-          "generatedAt": "2026-06-11T01:17:01.751Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。"
-        },
-        "40198815": {
-          "pmid": "40198815",
-          "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
-          "generatedAt": "2026-06-26T22:38:58.615Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。"
-        },
-        "40439782": {
-          "pmid": "40439782",
-          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
-          "generatedAt": "2026-06-11T01:17:26.413Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。"
-        },
-        "40665004": {
-          "pmid": "40665004",
-          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
-          "generatedAt": "2026-06-11T01:17:13.713Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。"
-        },
-        "40668437": {
-          "pmid": "40668437",
-          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
-          "generatedAt": "2026-06-11T01:17:36.989Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。"
-        },
-        "41910394": {
-          "pmid": "41910394",
-          "title": "Mavacamten in Adolescents with Obstructive Hypertrophic Cardiomyopathy.",
-          "generatedAt": "2026-07-22T23:12:08.526Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: マバカメントは、左室流出部狭窄を伴う青少年の心室間圧力勾配を有意に低下させた。  \n- PICU/CICUでの意味: 左室流出部狭窄を有する小児患者における薬物療法選択肢としての可能性を示唆。  \n- 注意点: 抽象のみに基づくため、全結果の詳細は不明。長期的な安全性や効果の持続性については検証が必要。"
-        },
-        "41995635": {
-          "pmid": "41995635",
-          "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
-          "generatedAt": "2026-06-15T23:56:51.310Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。"
-        },
-        "42173429": {
-          "pmid": "42173429",
-          "title": "Tactile stimulation and newborn heart rate responses in the delivery room: an observational video study.",
-          "generatedAt": "2026-06-26T22:39:22.763Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 新生児の出生直後の触覚刺激は心拍数を上昇させるが、刺激による改善が不十分な場合、陽性圧呼吸が必要となる可能性がある。  \n- PICU/CICUでの意味: 出生時の心拍数異常や刺激効果の評価は、急性循環不全や呼吸困難の早期検出に有用である。  \n- 注意点: 観察研究であり、長期的な臨床アウトカムや刺激の適切な指針に関するデータは限られている。"
-        },
-        "42190900": {
-          "pmid": "42190900",
-          "title": "Talking About Future Disability: Qualitative Analysis of Family Meetings in Neonatal and Pediatric Intensive Care Units.",
-          "generatedAt": "2026-07-14T03:59:25.152Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 家族会議において、児童の障害に関する語り方として5つのテーマ（ユーフェミズム、健康な他者への呼び出し、生活の質と障害の関係など）が特定された。  \nPICU/CICUでの意味: 障害に関する家族と医療チームのコミュニケーションスタイルを理解することで、医療的決定における家族の感情的・倫理的課題への配慮が可能となる。  \n注意点: 研究は要約のみに基づくため、臨床実践への直接的な影響は限定的で、今後の定量的検証が必要である。"
-        },
-        "42190905": {
-          "pmid": "42190905",
-          "title": "Developmental Care Practices for Infants with Grade 3 Bronchopulmonary Dysplasia While in the Neonatal Intensive Care Unit.",
-          "generatedAt": "2026-07-14T03:59:10.623Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 呼吸支援の種類と発達支援療法・設備の関連性が示唆された。  \n- PICU/CICUでの意味: 新生児重症ケアにおける発達支援の実践が呼吸管理と関連する可能性を示唆し、重症児の早期介入に示唆を提供。  \n- 注意点:"
-        },
-        "42242271": {
-          "pmid": "42242271",
-          "title": "Respiratory trajectories of infants born before 26 weeks of gestation from birth to discharge: an exploratory analysis of a randomised controlled trial.",
-          "generatedAt": "2026-07-14T03:58:57.937Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 26週未満早産児の出生から退院までの呼吸経路を記述し、初期14日間の呼吸支援レベルと酸素投与量の変化を分析した。  \nPICU/CICUでの意味: 早産児の呼吸管理における支援レベルと酸素療法の変化を理解するための参考となるが、臨床ガイドラインへの直接的な応用は限定的。  \n注意点: 説明は探索的分析であり、治療群と対照群を統合したため、因果関係の推定は困難で、長期的な結果は含まれていない。"
-        },
-        "42302804": {
-          "pmid": "42302804",
-          "title": "Individualised duration of antibiotic treatment in culture-negative early-onset sepsis in late-preterm and term-born neonates in Denmark (DURATION): a multicentre, open-label, randomised, controlled, non-inferiority trial.",
-          "generatedAt": "2026-07-14T03:58:42.032Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 個別化された抗生物質投与期間が、文化陰性早期-onset敗血症の新生児において標準治療と同等の安全性を保ちながら投与期間を短縮可能であることを示唆。  \nPICU/CICUでの意味: 抗生物質使用期間の短縮が可能であれば、感染症の早期制御と抗菌薬耐性リスクの軽減に寄与する可能性がある。  \n注意点: 結果は文化陰性の症例に限定され、標準治療の期間（5-7日）との非劣性を評価した非劣性試験の結果であり、臨床実践への直接的な適用には注意が必要。"
-        },
-        "42484380": {
-          "pmid": "42484380",
-          "title": "The Third Day.",
-          "generatedAt": "2026-07-22T23:12:44.136Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 2026年7月22日に発表された「The Third Day」と題する論文がPediatr Crit Care Medに掲載された。  \n- PICU/CICUでの意味: 第3日における臨床的課題や治療戦略の検討が示唆されている可能性がある。  \n- 注意点: 抽象が利用できないため、詳細な内容や臨床的意義は不明である。"
-        },
-        "42484383": {
-          "pmid": "42484383",
-          "title": "Facilitating Communication for Family Members of Critically Ill Patients During and Following a Hospital Stay: A Randomized Controlled Trial.",
-          "generatedAt": "2026-07-22T23:12:33.604Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: ICU患者家族の抑うつ症状軽減に向けたコミュニケーションファシリテーター介入が有効性を示唆する可能性があるが、結果は未公開。  \n- PICU/CICUでの意味: 家族のケア転換時のコミュニケーション支援が、重症患者家族の精神的負担軽減に寄与する可能性を示唆。  \n- 注意点: 抽象のみに基づくため、結果の詳細や臨床実践への影響は不明。"
-        },
-        "42484686": {
-          "pmid": "42484686",
-          "title": "Socioeconomic Factors Associated with Fetal Tachyarrhythmia Management and Outcomes: A Single-Center Retrospective Review of a Consistent Protocol.",
-          "generatedAt": "2026-07-22T23:12:22.292Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 本研究では、経済的・社会的要因（人種、保険、地域貧困指数）が胎児性頻拍の管理および結果に影響を与える可能性を示唆しているが、因果関係は明確でない。  \nPICU/CICUでの意味: 胎児性頻拍の管理において一貫したプロトコルの導入が重要であり、経済的・社会的要因を考慮した包括的なケアが求められる。  \n注意点: 観察研究であり、単一施設での結果であることから一般化には注意が必要。論文の全文が必要な情報が含まれている可能性がある。"
-        }
-      }
     }
   ],
-  "lastAutoRunAt": "2026-09-09T23:55:49.667Z",
-  "lastAutoRunDate": "2026-09-09",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42714881: 順次AI要約済み / PMID 42714563: 順次AI要約済み / PMID 42714453: 順次AI要約済み / PMID 42714413: 順次AI要約済み / 順次AI要約: 4件追加 / 9/14件済み",
-  "lastImportantRunAt": "2026-09-09T23:55:49.667Z",
-  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 5件"
+  "lastAutoRunAt": "2026-09-10T23:51:41.688Z",
+  "lastAutoRunDate": "2026-09-10",
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42720778: 順次AI要約済み / PMID 42720777: 順次AI要約済み / PMID 42720776: 順次AI要約済み / PMID 42720775: 順次AI要約済み / 順次AI要約: 4件追加 / 9/13件済み",
+  "lastImportantRunAt": "2026-09-10T23:51:41.688Z",
+  "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 4件"
 }
