@@ -170,8 +170,8 @@
     "broad": ""
   },
   "fetchedAtByAlert": {
-    "focused": "2026-10-13T03:41:21.718Z",
-    "broad": "2026-10-13T03:41:21.718Z"
+    "focused": "2026-10-16T03:04:34.413Z",
+    "broad": "2026-10-16T03:04:34.413Z"
   },
   "importantArticles": [
     {
@@ -256,7 +256,7 @@
     }
   ],
   "importantSummary": "## 重要候補\n\n### 1. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n### 2. Epidemiology of cardiogenic shock using the Shock Academic Research Consortium (SHARC) consensus definitions.\nPMID 39208447 / Eur Heart J Acute Cardiovasc Care / 2024 Oct 28\n要点: SHARC合意定義に基づく現代の心因性ショック（CS）の流行は、CICUで急性心筋梗塞関連CS（AMI-CS）や心不全関連CS（HF-CS）が主要な原因であり、65%が単一原因のCSを示した。  \nPICU/CICUでの意味: SHARC定義はCSの分類を統一し、臨床研究や登録データの比較に有用で、心不全の急性悪化や混合型CSの分類にも示唆を提供する。  \n注意点: 研究は登録データに基づくため、臨床現場での即時適用には注意が必要で、心外科手術後のCSは除外されている。\n\n### 3. Cardiovascular Health Among Rural and Urban US Adults-Healthcare, Lifestyle, and Social Factors.\nPMID 40163358 / JAMA Cardiol / 2025 Jun 01\n要点: 米国における農村地域の成人では、心血管疾患リスク因子（高血圧、高脂血症、肥満、糖尿病）および心血管疾患（狭心症、脳血管障害）の年齢調整後率が都市地域に比べて有意に高い。  \nPICU/CICUでの意味: 農村地域の成人における心血管リスクの格差は、小児患者の医療アクセスや社会的要因の影響を間接的に示唆する可能性がある。  \n注意点: 本研究は成人を対象とし、小児集団への直接的な影響は検討されていない。また、因果関係の明確化や臨床実践への影響は限定的である。\n\n### 4. Joint Associations of APOC3 and LDL-C-Lowering Variants With the Risk of Coronary Heart Disease.\nPMID 40105833 / JAMA Cardiol / 2025 May 01\n- 要点: APOC3遺伝子の低下とLDL-C低下遺伝子変異の組み合わせが冠動脈疾患リスクを低下させる可能性を示唆した。  \n- PICU/CICUでの意味: 成人データに基づくため、小児集団への直接的な臨床的意義は不明。  \n- 注意点: 遺伝的関連性の推定であり、臨床的実践への応用は現段階では限定的。\n\n### 5. Fontan Circulation in Complex Congenital Heart Disease: Do Early Benefits Outweigh Later Problems?\nPMID 41217984 / Circ Heart Fail / 2025 Dec\n要点: この研究は、複雑な先天性心疾患におけるフォントン循環の早期利点と後期問題のバランスを検討している。  \nPICU/CICUでの意味: フォントン手術後の長期的な合併症のリスク管理が、重症児の長期的な経過に影響を与える可能性を示唆している。  \n注意点: 抽象が利用できないため、研究の詳細な結果や臨床的意義は論文本文を参照する必要がある。",
-  "importantFetchedAt": "2026-10-13T03:41:21.718Z",
+  "importantFetchedAt": "2026-10-16T03:04:34.413Z",
   "articleSummariesByPmid": {
     "39169704": {
       "pmid": "39169704",
@@ -953,6 +953,270 @@
     }
   },
   "dailyDigests": [
+    {
+      "date": "2026-10-16",
+      "generatedAt": "2026-10-16T03:04:34.413Z",
+      "summary": "## 今日の順次AI要約\n\n取得候補 13件 / AI要約済み 6件 / 未要約 7件\n\n## 重要候補から読む\n\n### 1. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n### 2. Epidemiology of cardiogenic shock using the Shock Academic Research Consortium (SHARC) consensus definitions.\nPMID 39208447 / Eur Heart J Acute Cardiovasc Care / 2024 Oct 28\n要点: SHARC合意定義に基づく現代の心因性ショック（CS）の流行は、CICUで急性心筋梗塞関連CS（AMI-CS）や心不全関連CS（HF-CS）が主要な原因であり、65%が単一原因のCSを示した。  \nPICU/CICUでの意味: SHARC定義はCSの分類を統一し、臨床研究や登録データの比較に有用で、心不全の急性悪化や混合型CSの分類にも示唆を提供する。  \n注意点: 研究は登録データに基づくため、臨床現場での即時適用には注意が必要で、心外科手術後のCSは除外されている。\n\n### 3. Cardiovascular Health Among Rural and Urban US Adults-Healthcare, Lifestyle, and Social Factors.\nPMID 40163358 / JAMA Cardiol / 2025 Jun 01\n要点: 米国における農村地域の成人では、心血管疾患リスク因子（高血圧、高脂血症、肥満、糖尿病）および心血管疾患（狭心症、脳血管障害）の年齢調整後率が都市地域に比べて有意に高い。  \nPICU/CICUでの意味: 農村地域の成人における心血管リスクの格差は、小児患者の医療アクセスや社会的要因の影響を間接的に示唆する可能性がある。  \n注意点: 本研究は成人を対象とし、小児集団への直接的な影響は検討されていない。また、因果関係の明確化や臨床実践への影響は限定的である。\n\n### 4. Joint Associations of APOC3 and LDL-C-Lowering Variants With the Risk of Coronary Heart Disease.\nPMID 40105833 / JAMA Cardiol / 2025 May 01\n- 要点: APOC3遺伝子の低下とLDL-C低下遺伝子変異の組み合わせが冠動脈疾患リスクを低下させる可能性を示唆した。  \n- PICU/CICUでの意味: 成人データに基づくため、小児集団への直接的な臨床的意義は不明。  \n- 注意点: 遺伝的関連性の推定であり、臨床的実践への応用は現段階では限定的。\n\n### 5. Fontan Circulation in Complex Congenital Heart Disease: Do Early Benefits Outweigh Later Problems?\nPMID 41217984 / Circ Heart Fail / 2025 Dec\n要点: この研究は、複雑な先天性心疾患におけるフォントン循環の早期利点と後期問題のバランスを検討している。  \nPICU/CICUでの意味: フォントン手術後の長期的な合併症のリスク管理が、重症児の長期的な経過に影響を与える可能性を示唆している。  \n注意点: 抽象が利用できないため、研究の詳細な結果や臨床的意義は論文本文を参照する必要がある。\n\n## PICU/CICU重点\n\n### 1. Comparative effectiveness of clarithromycin and azithromycin for pertussis in hospitalised infants in Italy: a multicentre target trial emulation study.\nPMID 42692047 / Lancet Child Adolesc Health / 2026 Nov\n- 要点: 12か月以下の肺炎球菌感染症で入院した乳児において、クラリスロマイシンとアジスロマイシンの実際の効果を比較した研究。  \n- PICU/CICUでの意味: 症状の重症度評価（PSSスコア＞5）に基づく治療選択の現状を反映し、重症化リスクの評価に参考となる。  \n- 注意点: 結果の一般化が難しい可能性があり、実際の臨床現場での治療選択にはさらなる研究が必要。",
+      "articles": [
+        {
+          "pmid": "42692047",
+          "title": "Comparative effectiveness of clarithromycin and azithromycin for pertussis in hospitalised infants in Italy: a multicentre target trial emulation study.",
+          "journal": "Lancet Child Adolesc Health",
+          "publicationDate": "2026 Nov",
+          "authors": [
+            "Lo Vecchio A",
+            "Moracas C",
+            "Poeta M",
+            "Colomba C",
+            "Petrarca L",
+            "Maglione M"
+          ],
+          "abstract": "BACKGROUND: Pertussis has re-emerged in Europe, representing a major public health concern and a substantial cause of infant morbidity and mortality. The macrolide antibiotics clarithromycin and azithromycin are recommended as first-line therapy; however, their comparative effectiveness in infants remains poorly characterised. This study aimed to compare the real-world effectiveness of clarithromycin and azithromycin in infants with pertussis.\nMETHODS: This multicentre retrospective cohort study was designed and analysed using a target trial emulation framework, following the established TARGET reporting guidelines. Infants aged 12 months or younger who were hospitalised for pertussis between Nov 1, 2023, and Dec 1, 2024, at 11 Italian health centres were included. Infants with incomplete data, concomitant severe infections at the time of hospitalisation, and previous receipt of any antibiotic potentially active against Bordetella pertussis were excluded. Treatment with either clarithromycin or azithromycin was administered according to clinical judgment. The primary outcome was a severe disease course, defined as a Pertussis Severity Score (PSS) of more than 5. Secondary outcomes included intensive care unit (ICU) admission, need for oxygen therapy, complications, length of stay, 30-day readmission, and mortality. Confounding was addressed using propensity-score-weighting methods.\nFINDINGS: Among 196 infants included (90 [46%] female, 106 [54%] male; median age 86 days [IQR 47-122]), 146 (74%) received clarithromycin and 50 (26%) received azithromycin. In propensity-score-weighted analyses, azithromycin was associated with higher odds of severe disease compared with clarithromycin (PSS >5: 60% [30 of 50] vs 33% [48 of 146]; odds ratio 1·80, 95% CI 1·01-3·21). Compared with infants treated with clarithromycin, infants treated with azithromycin more frequently required oxygen therapy and had more complications and ICU admissions, although median oxygen saturation levels and 30-day readmissions were comparable between groups. Two deaths occurred, both in the azithromycin group.\nINTERPRETATION: Clarithromycin was associated with more favourable clinical outcomes than azithromycin among infants hospitalised with pertussis.\nFUNDING: EU, Next Generation PNRR Extended Partnership initiative on Emerging Infectious Diseases.",
+          "doi": "10.1016/S2352-4642(26)00186-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42692047/"
+        },
+        {
+          "pmid": "42684931",
+          "title": "William G. (\"Bill\") Williams: Tribute to Outstanding and Lasting Contributions to the Congenital Heart Surgeons' Society Research and Teaching.",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Nov",
+          "authors": [
+            "DeCampli WM"
+          ],
+          "abstract": "",
+          "doi": "10.1177/21501351261479721",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42684931/"
+        },
+        {
+          "pmid": "42648303",
+          "title": "A global policy content analysis of congenital heart disease in national health priorities.",
+          "journal": "Lancet Child Adolesc Health",
+          "publicationDate": "2026 Nov",
+          "authors": [
+            "Prothasis S",
+            "Chimsuk B",
+            "Docea E",
+            "Francis J",
+            "Stoica S",
+            "Peng E"
+          ],
+          "abstract": "Survival from congenital heart disease (CHD) strongly depends on local health system capacity and lesion complexity, yet the extent to which CHD is recognised within national health policy frameworks remains poorly understood. We aimed to assess the presence, framing, and level of policy commitment to CHD within national health priority documents across countries of different income levels. We conducted a cross-sectional policy content analysis using publicly available national health strategies, child health plans, non-communicable disease strategies, and universal health coverage roadmaps. Documents were sourced from government websites and international repositories. References to CHD were classified as explicit, implicit, or absent, and policy commitment was categorised as none or actionable. Analysis was stratified by the country's World Bank income group. Among 193 UN countries and two observer states, CHD was absent from national policy documents in 109 countries, implicitly mentioned in 48 countries, and explicitly referenced in 38 countries. Overall, 44% of countries mentioned CHD in any form within their national health policies. Actionable commitments were identified in 19% of countries; of those that referenced CHD, 42% progressed to actionable measures. Countries that have explicit reference to CHD more often had actionable commitment (79%), compared with countries with implicit framing (13%). Recognition increased with income, from 19% in low-income countries to 59% in high-income countries, yet actionable commitment did not follow a clear income gradient. CHD is inconsistently represented within national health priority frameworks despite its substantial global burden. Where explicitly recognised, CHD is more likely to be accompanied by structured commitments than when implictly referenced. Strengthening policy positioning of CHD within national strategies represents a crucial step towards coordinated congenital cardiac care systems.",
+          "doi": "10.1016/S2352-4642(26)00197-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648303/"
+        },
+        {
+          "pmid": "42272421",
+          "title": "Fontan Failure in Adult Patients: From Physiology to Solutions.",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Nov",
+          "authors": [
+            "Karev EA",
+            "Stovpyuk OF",
+            "Alekseeva DV",
+            "Malishevskaya DS",
+            "Malishevsky LM",
+            "Avramenko AA"
+          ],
+          "abstract": "The adult population with congenital heart defects of varying complexity is growing rapidly. This includes a significant number of patients over the age of 18 who underwent surgery in early childhood to correct conotruncal anomalies and septal defects. While patients with a functional single ventricle palliated with the Fontan procedure are still relatively rare in developing countries, the expertise gained from managing these patients in expert centers in Europe and the United States of America, as well as the success of pediatric cardiac surgery, has drawn increasing attention to this subject. In this review article, we aim to discuss the unique pathophysiology of Fontan circulation and clinical issues in the management of adult patients, with a particular focus on identifying specific predictors of heart failure decompensation and potential complications in this population.",
+          "doi": "10.1177/21501351261443997",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42272421/"
+        },
+        {
+          "pmid": "42217157",
+          "title": "Surgical Approaches to Coronary Arteries Crossing the Subpulmonary Infundibulum in the Setting of Tetralogy of Fallot.",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Nov",
+          "authors": [
+            "Chowdhury UK",
+            "Anderson RH",
+            "Pandey NN",
+            "George N",
+            "Gupta SK",
+            "Khan MA"
+          ],
+          "abstract": "BackgroundMultiple techniques have been described to surgically address the presence of an anomalous coronary artery crossing the subpulmonary infundibulum in patients with tetralogy of Fallot, with perioperative mortality and ventricular dysfunction both being higher than for those patients without this complication.AimsBased on our analysis of previous publications, we used our own experience to illustrate the diagnostic accuracy of computed-tomographic angiography in demonstrating the pertinent anatomical features of the complication. Based on our own surgical experience, we then assessed the efficiency and outcomes of the different surgical strategies designed to mitigate the threat posed by the anomalous coronary arteries.ResultsReported perioperative mortality for these patients continues to remain between 3% and 15%, being 3% at our center. Deaths, when occurring, have been the result of inadvertent injury to the coronary arteries, residual right ventricular outflow tract obstruction, and conduit-related problems. There are varying reports of reoperation following corrective surgery for these patients.ConclusionsComputed-tomographic interrogation is now fully capable of delineating all the pertinent anatomic details of anomalous coronary arteries crossing the subpulmonary infundibulum. With regard to treatment, we suggest that staged palliation will remain a requirement in select instances. Our experience confirms that the trans-tricuspid and trans-pulmonary surgical approach displays the best long-term outcomes by reducing the risks for infundibular obstruction. If feasible, it should be preferred to implantation of a conduit. Translocation of the pulmonary trunk is useful in patients with severely hypoplastic pulmonary ventriculoarterial junctions. In cases where this approach cannot be used, turn back of the pulmonary trunk, or Bonchek's procedure, are additional surgical options.",
+          "doi": "10.1177/21501351261436728",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42217157/"
+        },
+        {
+          "pmid": "42159270",
+          "title": "Quality Improvement in Congenital Heart Surgery Requires Data: Is This Asking too Much in Low- and Middle-Income Countries?",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Nov",
+          "authors": [
+            "Das D",
+            "Das S",
+            "Zheleva B",
+            "Sivalingam S",
+            "Croti UA",
+            "Cury B"
+          ],
+          "abstract": "Quality improvement (QI) in congenital heart surgery depends mainly on the availability of reliable, organized, and usable data. While high-income countries benefit from mature national registries and well-established benchmarking systems, low- and middle-income countries (LMICs), which carry the largest global burden of congenital heart disease, continue to face significant challenges in data collection. This narrative review examines the current evolving data landscape for congenital heart surgery in LMICs, explores the relationship between existence of data systems and QI, identifies persistent barriers to data collection, and proposes context-appropriate strategies for sustainable progress. Evidence from published outcome studies, national and regional registry reports, and some major international databases demonstrates encouraging growth in progressive maturation of data systems across LMICs. Importantly, successful models illustrate that even incremental data collection, when focused on high-impact indicators such as mortality, major morbidity, and hospital length of stay, can generate meaningful improvements when linked with local clinical leadership, simple audit mechanisms, and collaborative learning networks. Although comprehensive, high-fidelity data collection may be unrealistic in many resource-constrained environments, the pursuit of perfection should not impede progress. Stepwise, local data strategies, supported by international collaboration, capacity building, and context-sensitive implementation, offer a realistic and transformative pathway toward safer, more equitable congenital cardiac care in LMICs.",
+          "doi": "10.1177/21501351261444019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42159270/"
+        },
+        {
+          "pmid": "42153970",
+          "title": "Valve-Sparing Root Replacement Following Congenital Heart Disease Repair: Lesion-Specific Technical Considerations.",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Nov",
+          "authors": [
+            "Cao Y",
+            "Koide M",
+            "Kunii Y",
+            "Yashima M",
+            "Takahashi D",
+            "Maeda T"
+          ],
+          "abstract": "Valve-sparing root replacement (VSRR) is increasingly used for aortic root dilatation following congenital heart disease repair; however, technical differences between lesions are rarely described. Here, we present three adult cases of VSRR following prior repairs: perimembranous ventricular septal defect (VSD), annulus-sparing tetralogy of Fallot, and the Ross procedure. Unlike previous reports of subarterial VSD, in our two patients with prior VSD closure (including tetralogy of Fallot repair), the right coronary cusp (RCC) sinus was dissected without difficulty. No RCC prolapse or RCC-related repair was required, and only minor noncoronary cusp plication was performed. In the Ross case, reimplantation was performed along the autograft suture line without technical difficulty. Careful consideration of lesion-specific anatomy is essential for safe and effective VSRR following congenital repair.",
+          "doi": "10.1177/21501351261443303",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42153970/"
+        },
+        {
+          "pmid": "42089823",
+          "title": "Impact of Adjustable Pulmonary Artery Band on Outcomes of Anomalous Left Coronary Artery From the Pulmonary Artery (ALCAPA) Repair.",
+          "journal": "World J Pediatr Congenit Heart Surg",
+          "publicationDate": "2026 Nov",
+          "authors": [
+            "Bibevski S",
+            "Ruzmetov M",
+            "Dentel JN",
+            "Holtrup M",
+            "Chan KC",
+            "Bove E"
+          ],
+          "abstract": "Objective: Anomalous left coronary artery from the pulmonary artery (ALCAPA) is a rare congenital anomaly resulting in myocardial ischemia, global left ventricular (LV) dysfunction, and mitral regurgitation (MR). Surgical placement of a pulmonary artery band (PAB) at ALCAPA repair may assist with recovery of patients with severe LV dysfunction. We assessed the outcomes of patients with ALCAPA and severe dysfunction treated with, and without a PAB. Methods: We performed a retrospective analysis of cases presented to our center between January 2007 and December 2023. Baseline and follow-up data were collected from records. Ventricular function was assessed by standardized transthoracic echocardiogram. Results: Twenty-six patients underwent ALCAPA repair at a median age of 4 months (range 19 days-8 years). Surgery was performed by direct coronary reimplantation in all patients. Beginning in 2017, we have placedan adjustable PAB in 5 patients with severe LV dysfunction (<25% ejection fraction [EF]). No patients required mitral valve repair at the time of ALCAPA surgery. Two patients with EF < 25% from the non-PAB group required support with extracorporeal membrane oxygenation (ECMO). In patients with EF < 25% who received PAB, none required ECMO or transplant. Recovery of function was near normal in the patients with EF < 25% plus a PA band, but did not reach normal in those with no PA band. Conclusion: There is marked improvement of MR grade and LV function, and no mortality during a 10-year period in the group with EF > 25%. Patients with EF < 25% treated with a PAB demonstrated an improved trajectory toward EF improvement, achieving normal function earlier than those without PA band. Temporary adjustable PAB may be beneficial in ALCAPA patients with severe dysfunction.",
+          "doi": "10.1177/21501351261436747",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42089823/"
+        }
+      ],
+      "importantArticles": [
+        {
+          "pmid": "40198815",
+          "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
+          "journal": "Eur Heart J Acute Cardiovasc Care",
+          "publicationDate": "2025 Aug 06",
+          "authors": [
+            "Kerneis M",
+            "Ammirati E",
+            "Delmas C",
+            "Heggermont W",
+            "Heymans S",
+            "Lenz M"
+          ],
+          "abstract": "Acute Myocarditis (AM) encompasses a broad spectrum of clinical presentations and causes. Despite the recent advances in cardiovascular imaging, pathology, virology, and genetics, specific therapies are still lacking. This collaborative review aims to analyse the current evidence to answer practical questions that physicians may face during the early management of patients presenting with an acute form of the disease, complicated or not. This review analyses current evidence to address practical questions posed by acute cardiovascular physicians during the early management of acute, or potentially, myocarditis. Based on the current literature, this review provides a step-by-step approach to treat AM patients from their admission in the cardiac intensive care unit (CICU) to discharge, by answering 10 clinical questions: Might this patient be suffering from an AM? Should I hospitalize this patient and, if so, where? Which cardiac imaging exam should I perform and what can I learn from it? Is this patient requiring an EMB? What should the non-invasive aetiological work-up be? Is her/his episode of AM of viral, toxic, or other origin? Does this patient need specific treatments or mechanical circulatory support? Is there an indication for guideline-directed medical heart failure treatment? When can the patient be discharged and resume physical activity? Notably, this review highlights the need to build a multidisciplinary response team to address the many diagnostic and therapeutic challenges of AM patients. It also points out the lack of evidence to guide the treatment of these patients.",
+          "doi": "10.1093/ehjacc/zuaf057",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40198815/"
+        },
+        {
+          "pmid": "39208447",
+          "title": "Epidemiology of cardiogenic shock using the Shock Academic Research Consortium (SHARC) consensus definitions.",
+          "journal": "Eur Heart J Acute Cardiovasc Care",
+          "publicationDate": "2024 Oct 28",
+          "authors": [
+            "Berg DD",
+            "Bohula EA",
+            "Patel SM",
+            "Alfonso CE",
+            "Alviar CL",
+            "Baird-Zars VM"
+          ],
+          "abstract": "AIMS: The Shock Academic Research Consortium (SHARC) recently proposed pragmatic consensus definitions to standardize classification of cardiogenic shock (CS) in registries and clinical trials. We aimed to describe contemporary CS epidemiology using the SHARC definitions in a cardiac intensive care unit (CICU) population.\nMETHODS AND RESULTS: The Critical Care Cardiology Trials Network (CCCTN) is a multinational research network of advanced CICUs coordinated by the TIMI Study Group (Boston, MA). Cardiogenic shock was defined as a cardiac disorder resulting in SBP < 90 mmHg for ≥30 min [or the need for vasopressors, inotropes, or mechanical circulatory support (MCS) to maintain SBP ≥ 90 mmHg] with evidence of hypoperfusion. Primary aetiologic categories included acute myocardial infarction-related CS (AMI-CS), heart failure-related CS (HF-CS), and non-myocardial (secondary) CS. Post-cardiotomy CS was not included. Heart failure-related CS was further subcategorized as de novo vs. acute-on-chronic HF-CS. Patients with both cardiogenic and non-cardiogenic components of shock were classified separately as mixed CS. Of 8974 patients meeting shock criteria (2017-23), 65% had isolated CS and 17% had mixed shock. Among patients with CS (n = 5869), 27% had AMI-CS (65% STEMI), 59% HF-CS (72% acute-on-chronic, 28% de novo), and 14% secondary CS. Patients with AMI-CS and de novo HF-CS were most likely to have had concomitant cardiac arrest (P < 0.001). Patients with AMI-CS and mixed CS were most likely to present in more severe shock stages (SCAI D or E; P < 0.001). Temporary MCS use was highest in AMI-CS (59%). In-hospital mortality was highest in mixed CS (48%), followed by AMI-CS (41%), similar in de novo HF-CS (31%) and secondary CS (31%), and lowest in acute-on-chronic HF-CS (25%; P < 0.001).\nCONCLUSION: SHARC consensus definitions for CS classification can be pragmatically applied in contemporary registries and reveal discrete subpopulations of CS with distinct phenotypes and outcomes that may be relevant to clinical practice and future research.",
+          "doi": "10.1093/ehjacc/zuae098",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39208447/"
+        },
+        {
+          "pmid": "40163358",
+          "title": "Cardiovascular Health Among Rural and Urban US Adults-Healthcare, Lifestyle, and Social Factors.",
+          "journal": "JAMA Cardiol",
+          "publicationDate": "2025 Jun 01",
+          "authors": [
+            "Liu M",
+            "Marinacci LX",
+            "Joynt Maddox KE",
+            "Wadhera RK"
+          ],
+          "abstract": "IMPORTANCE: Improving cardiovascular health in rural areas is a national priority in the US. However, little is known about the current state of rural cardiovascular health and the underlying drivers of any rural-urban disparities.\nOBJECTIVE: To compare rates of cardiometabolic risk factors and cardiovascular diseases between rural and urban US adults and to evaluate the extent to which health care access, lifestyle factors, and social risk factors contribute to any rural-urban differences.\nDESIGN, SETTING, AND PARTICIPANTS: This nationally representative cross-sectional study analyzed data from US adults aged 20 years or older residing in rural vs urban areas using the 2022 National Health Interview Survey. Data were analyzed between August 2024 and February 2025.\nEXPOSURE: County-level rurality.\nMAIN OUTCOMES AND MEASURES: The primary outcomes were age-standardized rates of cardiometabolic risk factors (hypertension, hyperlipidemia, obesity, and diabetes) and cardiovascular diseases (coronary heart disease [CHD] and stroke).\nRESULTS: The study population consisted of 27 172 adults, including 4256 adults (14.0%) residing in rural areas, 14 741 (54.8%) in small or medium metropolitan areas, and 8175 (31.2%) in urban areas. Mean (SD) participant age was 49.1 (17.8) years, and 4399 participants (50.8%) were female. Compared with their urban counterparts, rural adults were more likely to smoke, be insufficiently physically active, and have more social risk factors. Age-standardized rates of cardiometabolic risk factors were significantly higher in rural areas, including hypertension (37.1% vs 30.9%; rate ratio [RR], 1.20; 95% CI, 1.13-1.27), hyperlipidemia (29.3% vs 26.7%; RR, 1.10; 95% CI, 1.03-1.18), obesity (41.1% vs 30.0%; RR, 1.37; 95% CI, 1.27-1.47), and diabetes (11.2% vs 9.8%; RR, 1.15; 95% CI, 1.02-1.29). The same pattern was observed for CHD (6.7% vs 4.3%; RR, 1.58; 95% CI, 1.35-1.85), but no differences were observed for stroke. The magnitude of rural-urban disparities was largest among young adults (aged 20-39 years) for hypertension (RR, 1.44; 95% CI, 1.12-1.86), obesity (RR, 1.54; 95% CI, 1.34-1.77), and diabetes (RR, 2.59; 95% CI, 1.54-4.38). Rural-urban disparities in cardiovascular health were not meaningfully attenuated after adjustment for measures of health care access (insurance coverage, usual source of care, and recent health care utilization) and lifestyle factors (smoking and physical activity). However, accounting for social risk factors (poverty, education level, food insecurity, and home ownership) completely attenuated rural-urban disparities in hypertension (adjusted RR [aRR], 0.99; 95% CI, 0.93-1.06), diabetes (aRR, 1.02; 95% CI, 0.90-1.15), and CHD (aRR, 1.08; 95% CI, 0.91-1.29), but only partially attenuated disparities in obesity (aRR, 1.29; 95% CI, 1.20-1.39).\nCONCLUSIONS AND RELEVANCE: This national cross-sectional study found substantial rural-urban disparities in cardiometabolic risk factors and cardiovascular diseases, which were largest among younger adults and almost entirely explained by social risk factors. These findings suggest that efforts to improve socioeconomic conditions in rural communities may be critical to address the rural-urban gap in cardiovascular health.",
+          "doi": "10.1001/jamacardio.2025.0538",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40163358/"
+        },
+        {
+          "pmid": "40105833",
+          "title": "Joint Associations of APOC3 and LDL-C-Lowering Variants With the Risk of Coronary Heart Disease.",
+          "journal": "JAMA Cardiol",
+          "publicationDate": "2025 May 01",
+          "authors": [
+            "Wang W",
+            "Li R",
+            "Song Z",
+            "Huang N",
+            "Huang T",
+            "Hua X"
+          ],
+          "abstract": "IMPORTANCE: Despite substantial progress in low-density lipoprotein cholesterol (LDL-C)-lowering strategies, residual cardiovascular risk remains. Apolipoprotein C3 (APOC3) has emerged as a novel target for lowering triglycerides. Multiple clinical trials of small-interfering RNA therapeutics targeting APOC3 are currently underway.\nOBJECTIVE: To investigate whether genetically predicted lower APOC3 is associated with a reduction in cardiovascular risk and if the combined exposure to APOC3 and LDL-C-lowering variants is associated with a reduction in the risk of coronary heart disease (CHD).\nDESIGN, SETTING, AND PARTICIPANTS: This was a population-based genetic association study with 2 × 2 factorial mendelian randomization. Included were participants of European ancestry in the UK Biobank. Data were analyzed from November 2023 to July 2024.\nEXPOSURES: Genetic scores were constructed to mimic the effects of APOC3, 3-hydroxy-3-methylglutaryl coenzyme A reductase (HMGCR), and proprotein convertase subtilisin-kexin type 9 (PCSK9) inhibitors.\nMAIN OUTCOMES AND MEASURES: Plasma lipid and lipoprotein levels, CHD, and type 2 diabetes (T2D).\nRESULTS: This study included 401 548 UK Biobank participants (mean [SD] age, 56.9 [8.0] years; 216 901 female [54.0%]). Genetically predicted lower APOC3 was associated with a lower risk of CHD (odds ratio [OR], 0.96; 95% CI, 0.93-0.98) and T2D (0.97; 95% CI, 0.95-0.99). Genetically lower APOC3 and PCSK9 were associated with a similar magnitude of risk reduction in CHD per 10-mg/dL decrease in apolipoprotein B (ApoB) level (APOC3: 0.70; 95% CI, 0.59-0.83; PCSK9: 0.71; 95% CI, 0.65-0.77). Combined exposure to genetically lower APOC3 and PCSK9 was associated with an additive lower risk of CHD (APOC3: 0.96; 95% CI, 0.92-0.99; PCSK9: 0.93; 95% CI, 0.90-0.97; combined: 0.90; 95% CI, 0.86-0.93). Genetically lower HMGCR was also associated with a lower risk of CHD, and the risk was further reduced when combined with APOC3 (0.93; 95% CI, 0.90-0.97).\nCONCLUSIONS AND RELEVANCE: Genetically predicted lower APOC3 was associated with a reduced risk of CHD that is comparable with that associated with lower PCSK9 per unit decrease in ApoB. Combined exposure to APOC3 and LDL-C-lowering variants was associated with an additive reduction in CHD risk. Future studies are warranted to investigate the therapeutic potential of these combined therapies, particularly among high-risk patients who cannot achieve therapeutic targets with existing lipid-lowering therapies.",
+          "doi": "10.1001/jamacardio.2025.0195",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40105833/"
+        },
+        {
+          "pmid": "41217984",
+          "title": "Fontan Circulation in Complex Congenital Heart Disease: Do Early Benefits Outweigh Later Problems?",
+          "journal": "Circ Heart Fail",
+          "publicationDate": "2025 Dec",
+          "authors": [
+            "Seckeler MD",
+            "Andrews JG",
+            "Klewer SE"
+          ],
+          "abstract": "",
+          "doi": "10.1161/CIRCHEARTFAILURE.125.013765",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41217984/"
+        }
+      ],
+      "articleSummaries": {
+        "39208447": {
+          "pmid": "39208447",
+          "title": "Epidemiology of cardiogenic shock using the Shock Academic Research Consortium (SHARC) consensus definitions.",
+          "generatedAt": "2026-06-11T01:42:25.990Z",
+          "model": "qwen3:8b",
+          "summary": "要点: SHARC合意定義に基づく現代の心因性ショック（CS）の流行は、CICUで急性心筋梗塞関連CS（AMI-CS）や心不全関連CS（HF-CS）が主要な原因であり、65%が単一原因のCSを示した。  \nPICU/CICUでの意味: SHARC定義はCSの分類を統一し、臨床研究や登録データの比較に有用で、心不全の急性悪化や混合型CSの分類にも示唆を提供する。  \n注意点: 研究は登録データに基づくため、臨床現場での即時適用には注意が必要で、心外科手術後のCSは除外されている。"
+        },
+        "40105833": {
+          "pmid": "40105833",
+          "title": "Joint Associations of APOC3 and LDL-C-Lowering Variants With the Risk of Coronary Heart Disease.",
+          "generatedAt": "2026-10-13T03:42:03.082Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: APOC3遺伝子の低下とLDL-C低下遺伝子変異の組み合わせが冠動脈疾患リスクを低下させる可能性を示唆した。  \n- PICU/CICUでの意味: 成人データに基づくため、小児集団への直接的な臨床的意義は不明。  \n- 注意点: 遺伝的関連性の推定であり、臨床的実践への応用は現段階では限定的。"
+        },
+        "40163358": {
+          "pmid": "40163358",
+          "title": "Cardiovascular Health Among Rural and Urban US Adults-Healthcare, Lifestyle, and Social Factors.",
+          "generatedAt": "2026-10-13T03:41:48.968Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 米国における農村地域の成人では、心血管疾患リスク因子（高血圧、高脂血症、肥満、糖尿病）および心血管疾患（狭心症、脳血管障害）の年齢調整後率が都市地域に比べて有意に高い。  \nPICU/CICUでの意味: 農村地域の成人における心血管リスクの格差は、小児患者の医療アクセスや社会的要因の影響を間接的に示唆する可能性がある。  \n注意点: 本研究は成人を対象とし、小児集団への直接的な影響は検討されていない。また、因果関係の明確化や臨床実践への影響は限定的である。"
+        },
+        "40198815": {
+          "pmid": "40198815",
+          "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
+          "generatedAt": "2026-06-26T22:38:58.615Z",
+          "model": "qwen3:8b",
+          "summary": "要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。"
+        },
+        "41217984": {
+          "pmid": "41217984",
+          "title": "Fontan Circulation in Complex Congenital Heart Disease: Do Early Benefits Outweigh Later Problems?",
+          "generatedAt": "2026-10-13T03:42:13.118Z",
+          "model": "qwen3:8b",
+          "summary": "要点: この研究は、複雑な先天性心疾患におけるフォントン循環の早期利点と後期問題のバランスを検討している。  \nPICU/CICUでの意味: フォントン手術後の長期的な合併症のリスク管理が、重症児の長期的な経過に影響を与える可能性を示唆している。  \n注意点: 抽象が利用できないため、研究の詳細な結果や臨床的意義は論文本文を参照する必要がある。"
+        },
+        "42692047": {
+          "pmid": "42692047",
+          "title": "Comparative effectiveness of clarithromycin and azithromycin for pertussis in hospitalised infants in Italy: a multicentre target trial emulation study.",
+          "generatedAt": "2026-10-13T03:42:33.902Z",
+          "model": "qwen3:8b",
+          "summary": "- 要点: 12か月以下の肺炎球菌感染症で入院した乳児において、クラリスロマイシンとアジスロマイシンの実際の効果を比較した研究。  \n- PICU/CICUでの意味: 症状の重症度評価（PSSスコア＞5）に基づく治療選択の現状を反映し、重症化リスクの評価に参考となる。  \n- 注意点: 結果の一般化が難しい可能性があり、実際の臨床現場での治療選択にはさらなる研究が必要。"
+        }
+      }
+    },
     {
       "date": "2026-10-13",
       "generatedAt": "2026-10-13T03:41:21.718Z",
@@ -4528,372 +4792,11 @@
           "summary": "要点: 新生児男性包皮切除術（NMC）と自閉スペクトラム障害（ASD）の関連は確認されなかった。  \nPICU/CICUでの意味: 研究はICUでの管理とは直接関係ないが、新生児期の手術と神経発達の関連性に関する知見を提供する。  \n注意点: 観察研究であり、因果関係の証明ではなく、今後の研究が求められる。"
         }
       }
-    },
-    {
-      "date": "2026-08-01",
-      "generatedAt": "2026-08-01T22:59:40.311Z",
-      "summary": "## 今日の順次AI要約\n\n取得候補 15件 / AI要約済み 14件 / 未要約 1件\n\n## 重要候補から読む\n\n### 1. The Japanese Critical Care Nutrition Guideline 2024.\nPMID 40119480 / J Intensive Care / 2025 Mar 21\n要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。\n\n### 2. Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.\nPMID 40668437 / Ann Intensive Care / 2025 Jul 16\n- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。\n\n### 3. Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.\nPMID 40439782 / Ann Intensive Care / 2025 May 29\n- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。\n\n### 4. Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).\nPMID 40665004 / Ann Intensive Care / 2025 Jul 15\n要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。\n\n### 5. Clinical management of acute myocarditis in daily practice: an expert practical view.\nPMID 40198815 / Eur Heart J Acute Cardiovasc Care / 2025 Aug 06\n要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。\n\n## PICU/CICU重点\n\n### 1. Influenza, COVID-19, and RSV Vaccinations for Immunocompromised Children and Household Contacts.\nPMID 42486492 / Pediatrics / 2026 Aug 01\n要点: 免疫不全児童はインフルエンザ・COVID-19・RSVなどの予防接種可能な呼吸器ウイルス感染症による重症化リスクが高く、予防接種の重要性が強調される。  \nPICU/CICUでの意味: 免疫不全児童は感染症によるICU入院や重症化のリスクが高く、予防接種の実施が感染制御と重症化予防に寄与する可能性がある。  \n注意点: 免疫不全児童におけるワクチン効果や免疫応答に関するデータが限られているため、接種推奨は健康児童や成人のデータに基づくが、集団免疫の低下や接種率の低さがリスクを高めている。\n\n### 2. Cardiogenic Shock in a Toddler With Rickets.\nPMID 42481020 / Pediatrics / 2026 Aug 01\n要点: ビタミンD欠乏性くる病が原因の拡張型心筋症（DCM）による心因性ショックが乳幼児に見られる。  \nPICU/CICUでの意味: 乳児の心因性ショックではビタミンD欠乏性くる病を鑑別診断に含め、ECMOやLVADなどの高度な救命措置が必要な場合がある。  \n注意点: 無症候性DCMの原因としてビタミンD欠乏性くる病を疑うべきであり、早期補正が治療成績に影響する可能性がある。\n\n### 3. Death and Cardiac Disease in Pediatric Hospitals and the Role of Subspecialty Palliative Care.\nPMID 42463152 / Pediatrics / 2026 Aug 01\n- 要点: 終末期ケアにおいて高医療強度治療や心肺蘇生が頻繁に用いられ、専門的緩和ケアの介入が68%の患者に見られた。  \n- PICU/CICUでの意味: 終末期患者の管理において緩和ケアチームの早期介入が重要であり、心疾患の種別（例：心筋症・移植）が終末期医療の強度に影響を与える可能性を示唆している。  \n- 注意点: 結果は抽象のみに基づくため、 retrospecive研究の限界やバイアスの可能性に留意する必要がある。\n\n### 4. Family Partnership in Pediatric Cardiology and Palliative Care Research.\nPMID 42463149 / Pediatrics / 2026 Aug 01\n要点: 家族との連携が小児循環器疾患および緩和ケア研究における重要性を強調している。  \nPICU/CICUでの意味: 家族の参加が患者のケア品質や心理的支援に影響を与える可能性を示唆している。  \n注意点: 抽象が提供されていないため、具体的な研究内容や臨床への影響は不明である。\n\n## 主要誌横断\n\n### 1. Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.\nPMID 41995635 / Ann Thorac Surg / 2028 Mar 23\n- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。\n\n### 2. Interleukin-6 is a mediator of therapeutic efficacy in acute lung injury.\nPMID 42150114 / Am J Respir Crit Care Med / 2026 Aug 01\n要点: IL-6はARDSやCOVID-19における治療効果の媒介因子として関与している可能性が示唆されている。  \nPICU/CICUでの意味: 急性呼吸不全の重症度評価や治療効果のメカニズム理解にIL-6の測定が関連する可能性がある。  \n注意点: 研究は成人データに基づくため、小児での適用には注意が必要であり、臨床実践への直接的な影響は限定的である。\n\n### 3. Critical illness outcomes of hospitalized pregnant women following a Texas abortion ban.\nPMID 42149703 / Am J Respir Crit Care Med / 2026 Aug 01\n要点: テキサス州の abortion 禁止法（SB8）は、入院中の妊娠婦の重症化率や敗血症、人工呼吸器使用に統計的に有意な影響を示さなかった。  \nPICU/CICUでの意味: 妊娠婦の重症リスク因子（高齢化や慢性疾患）の増加は、小児救急医療に間接的な関連性を示唆する可能性があるが、直接的な臨床影響は不明。  \n注意点: 結果は観察研究に基づくため、因果関係の推定には限界があり、小児患者への適用可能性は限定的である。\n\n### 4. Rocuronium dose and first-attempt intubation success in the critically ill: secondary analysis of two multicenter trials.\nPMID 42149702 / Am J Respir Crit Care Med / 2026 Aug 01\n- 要点: 高用量ロクロニウム（＞1.2 mg/kg）は成人の緊急気管挿管において、初回挿管成功との関連性が示唆された。  \n- PICU/CICUでの意味: 成人患者における結果は子供の臨床に直接適用できない可能性があり、子供特有の要因を考慮する必要がある。  \n- 注意点: 研究は抽象データに基づく二次分析であり、子供への適用可能性は不明。観察研究のため、臨床実践への影響は限定的。\n\n### 5. Optimal Management for Moderate Aortic Stenosis at Time of Coronary Artery Bypass Grafting.\nPMID 42134562 / Ann Thorac Surg / 2026 Aug\n- 要点: 65歳以上の中等度主動脈狭窄症患者において、冠動脈バイパス術（CABG）単独施行は、術中死亡率や術後合併症のリスクが低いことが示された。  \n- PICU/CICUでの意味: 成人患者における術前評価や術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 抽象のみに基づくため、術後合併症の詳細なリスク調整や長期結果は不明。研究対象は成人であり、小児患者の臨床に即したデータは不足している。",
-      "articles": [
-        {
-          "pmid": "42486492",
-          "title": "Influenza, COVID-19, and RSV Vaccinations for Immunocompromised Children and Household Contacts.",
-          "journal": "Pediatrics",
-          "publicationDate": "2026 Aug 01",
-          "authors": [
-            "Kao CM",
-            "Bahakel H",
-            "Heald-Sargent TA",
-            "Minniear TD",
-            "Statler VA",
-            "Thomas SJ"
-          ],
-          "abstract": "Immunocompromised pediatric patients, including hematopoietic cell and solid organ transplant recipients, those undergoing chemotherapy for malignancy, and those receiving biologic response modifiers for autoimmune or inflammatory conditions, are at risk for severe disease from vaccine-preventable respiratory viral infections such as influenza, SARS-CoV-2 (COVID-19), and respiratory syncytial virus (RSV). These children face higher rates of hospitalization, intensive care admissions, and mortality, reflecting contributions from an immature immune system, absence of immunologic memory, and/or increased environmental exposures. Immunization recommendations for immunocompromised children are largely extrapolated from studies conducted among healthy children and/or immunocompromised adults due to a paucity of primary data on immunological responses and vaccine efficacy in immunocompromised children. Trends in vaccine hesitancy in the general population, ongoing transmission of respiratory viral infections in the community, and suboptimal vaccination rates among immunocompromised children and their household contacts further compound the risk for this vulnerable population. As the number of children with immunocompromising conditions expands, it is imperative that primary care practitioners and subspecialists who care for immunocompromised children ensure appropriate immunizations are provided to these patients and their household and community contacts. We will review available data supporting the current guidelines regarding vaccine dosing, scheduling, and formulations to prevent influenza, COVID-19, and RSV infections in immunocompromised children. Furthermore, we highlight key knowledge gaps and areas of current investigation aimed at improving respiratory viral vaccine immunogenicity and optimize protection.",
-          "doi": "10.1542/peds.2026-075971",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42486492/"
-        },
-        {
-          "pmid": "42481020",
-          "title": "Cardiogenic Shock in a Toddler With Rickets.",
-          "journal": "Pediatrics",
-          "publicationDate": "2026 Aug 01",
-          "authors": [
-            "Harris WA",
-            "Mobley JF",
-            "Hook JE",
-            "Hill JG",
-            "Trezzi M",
-            "Henderson HT"
-          ],
-          "abstract": "Dilated cardiomyopathy (DCM) in pediatric patients is most commonly of idiopathic, genetic, or infectious etiology, but rare cases are reported secondary to vitamin D-deficient rickets. Mild rickets is typically associated with skeletal deformities, delayed gross motor milestones, and growth failure, while severe presentations may involve hypocalcemic seizures or DCM. We report a 16-month-old male patient presenting with lethargy, tachypnea, hypotension, and hepatomegaly who was found to have severe left ventricular dysfunction and associated cardiogenic shock. Initial management included intubation, inotropic support, and cannulation to venoarterial extracorporeal membrane oxygenation (VA ECMO). He had hypocalcemia on presentation, laboratory studies demonstrating a low vitamin D level, and radiograph findings of rachitic rosary, splaying of distal metaphyses, and generalized demineralization leading to a diagnosis of vitamin D-deficient rickets. Despite aggressive vitamin D and calcium repletion, the patient was unable to wean from VA ECMO, ultimately requiring transition to a Berlin Heart EXCOR pediatric left ventricular assist device (LVAD) on day 20 of hospitalization. The patient's hospital course was complicated by an LVAD-associated thromboembolic stroke with mild residual neurologic deficits after an unsuccessful mechanical thrombectomy. His left ventricular function gradually normalized, leading to successful explantation after 95 total days of mechanical support. The patient's left ventricular function remained normal at 1 year follow-up. This case highlights a rare but reversible cause of pediatric DCM and includes the use of LVAD support as a bridge to recovery in rickets-associated DCM.",
-          "doi": "10.1542/peds.2025-075290",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42481020/"
-        },
-        {
-          "pmid": "42463152",
-          "title": "Death and Cardiac Disease in Pediatric Hospitals and the Role of Subspecialty Palliative Care.",
-          "journal": "Pediatrics",
-          "publicationDate": "2026 Aug 01",
-          "authors": [
-            "Moynihan KM",
-            "Cashen K",
-            "Daughtrey HR",
-            "Delgado-Corcoran C",
-            "Robinson L",
-            "Ting J"
-          ],
-          "abstract": "OBJECTIVES: To characterize end-of-life (EOL) experiences of children and adults with heart disease who die in pediatric hospitals.\nMETHODS: This multicenter retrospective study included patients with heart disease who died within 31 US pediatric referral centers from July 1, 2021, to June 30, 2023. Data from terminal admissions were collected. Outcomes included high medical intensity EOL care, which was defined based on therapies used on day of death and active resuscitation (CPR) as the mode of death. Multivariable analyses, accounting for clustering by center, were performed to identify factors associated with outcomes, with adjusted odds ratios (aOR) and 95% CIs presented.\nRESULTS: We reviewed 1044 decedents. Median age at admission was 67 days (25%, 75%: 0 d, 3.2 y). Subspecialty palliative care (SPC) followed 696 (68%) patients, with initial consultation a median 20 days before death (25%, 75%: 5, 69). High medical intensity care and CPR occurred at EOL in 654 (63%) and 172 (17%) patients, respectively. In multivariable analyses, greater odds of high medical intensity EOL care were observed for patients with cardiomyopathy or transplant diagnoses (aOR 1.70; 95% CI 1.06, 2.73) or cardiac surgery (aOR 3.33; 95% CI 2.39, 4.63), and lower odds were observed in patients with genetic abnormalities (aOR 0.68; 95% CI 0.51, 0.90) or SPC involvement (aOR 0.44; 95% CI 0.32, 0.60). Odds of CPR at EOL were lower with SPC involvement (aOR 0.34; 95% CI 0.24, 0.50), inversely associated with Child Opportunity Index (per 10-point increase: aOR 0.91; 95% CI 0.85, 0.97), and higher for patients of Black race (aOR 1.94; 95% CI 1.23, 3.06).\nCONCLUSION: Patients with heart disease who die in US pediatric hospitals frequently experience high medical intensity care and CPR at EOL. Odds of these clinical outcomes were significantly lower if SPC is involved.",
-          "doi": "10.1542/peds.2025-074622",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42463152/"
-        },
-        {
-          "pmid": "42463149",
-          "title": "Family Partnership in Pediatric Cardiology and Palliative Care Research.",
-          "journal": "Pediatrics",
-          "publicationDate": "2026 Aug 01",
-          "authors": [
-            "Ochotny R",
-            "Coleman C",
-            "Friebert S"
-          ],
-          "abstract": "",
-          "doi": "10.1542/peds.2025-075374",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42463149/"
-        },
-        {
-          "pmid": "42457195",
-          "title": "Improving Race and Ethnicity Data Collection in an Academic Neonatal Intensive Care Unit.",
-          "journal": "Pediatrics",
-          "publicationDate": "2026 Aug 01",
-          "authors": [
-            "Fraiman YS",
-            "Healy HI",
-            "Malala E",
-            "Miedema D",
-            "Day M",
-            "Birch S"
-          ],
-          "abstract": "OBJECTIVE: There are significant racial and ethnic inequities in neonatal care and outcomes. Accurate race and ethnicity demographic information is the cornerstone of equity-focused quality improvement. The collection of accurate race and ethnicity demographic information is complex for neonates that cannot self-report and do not yet have personal identity formation. In a large, academic, level III neonatal intensive care unit (NICU), we implemented a quality improvement initiative aimed at increasing the completeness and accuracy of race and ethnicity demographic information in patient records.\nMETHODS: We conducted a quality improvement initiative using data from January 2021 to June 2025 among patients admitted to a large, academic, level III NICU. The primary goal was to reduce the percentage of missing or unknown racial and ethnic demographic information. Our study included a preintervention data quality assessment period followed by 3 plan-do-study-act (PDSA) cycles focused on patient registration and cross-departmental collaborations with the birth registry and the Department of Obstetrics and Gynecology.\nRESULTS: During the preintervention data quality assessment, we demonstrated a steady state with 30% of patients admitted to the NICU having missing or unknown race and ethnicity demographic information. We observed 3 shifts associated with PDSA cycles. During the last PDSA cycle, the missing or unknown demographic information was 10%.\nCONCLUSION: We decreased the proportion of missing or unknown demographic data in a large, academic, level III NICU through a multidisciplinary hospital-wide collaboration. This initiative serves as the first step to implement equity-focused quality improvement.",
-          "doi": "10.1542/peds.2026-075965",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42457195/"
-        },
-        {
-          "pmid": "41995635",
-          "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
-          "journal": "Ann Thorac Surg",
-          "publicationDate": "2028 Mar 23",
-          "authors": [
-            "Won D",
-            "Bolling SF",
-            "Romano MA",
-            "Johnston DR",
-            "Ailawadi G",
-            "Mehta CK"
-          ],
-          "abstract": "BACKGROUND: Although transcatheter mitral valve-in-valve replacement (mViV) is safe, long-term outcomes compared with reoperative surgical mitral valve replacement (rSMVR) remains unknown. This study compared long-term outcomes between mViV and rSMVR in patients with failing mitral bioprostheses.\nMETHODS: This retrospective, cohort study analyzed patients undergoing mViV or rSMVR for failing bioprosthetic mitral valves without active endocarditis at 2 quaternary care centers from 2004 to 2023. Primary end points included 30-day Mitral Valve Academic Research Consortium (MVARC) procedural success, 5-year cumulative incidence of death, freedom from reintervention, and cumulative incidence of heart failure. Echocardiographic evaluation of mean mitral valve gradients was assessed at baseline and 5-year follow-up.\nRESULTS: Of 229 patients (90 rSMVR, 139 mViV; mean age, 66.0 vs 68.7 years), MVARC 30-day outcomes were similar except for higher prolonged ventilation with rSMVR. At 5 years, rSMVR had significantly lower mortality (20.3% vs 40.9%; P = .01) and lower mean (standard deviation) mitral gradients (immediate postprocedure: 5.1 [2.3] mm Hg vs 7.8 [3.0] mm Hg; 5-year: 5.3 [2.0] mm Hg vs 9.8 [5.3] mm Hg; P < .001). Freedom from mitral valve reintervention (5.8% vs 6.1%; P = .97) and cumulative heart failure incidence (14.3% vs 22.9%; P = .17) were similar.\nCONCLUSIONS: Although mViV demonstrated comparable 30-day MVARC outcomes, rSMVR was associated with superior long-term survival and hemodynamic durability among patients deemed appropriate surgical candidates by a multidisciplinary heart team. Treatment decisions should balance short-term risk with long-term outcomes.",
-          "doi": "10.1016/j.athoracsur.2026.03.032",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41995635/"
-        },
-        {
-          "pmid": "42150114",
-          "title": "Interleukin-6 is a mediator of therapeutic efficacy in acute lung injury.",
-          "journal": "Am J Respir Crit Care Med",
-          "publicationDate": "2026 Aug 01",
-          "authors": [
-            "Kramer L",
-            "Calfee CS",
-            "McAuley DF",
-            "O'Kane C",
-            "Aman J",
-            "Duijvelaar E"
-          ],
-          "abstract": "RATIONALE: Inflammation in acute respiratory distress syndrome (ARDS) and COVID-19 causes disruption of the alveolar-capillary barrier and tissue damage, which has been associated with increased mortality. Elevated pro-inflammatory plasma biomarker (specifically IL-6) levels reflect the degree of systemic inflammation and are linked to severity of lung injury. Understanding the causal pathway between inflammation, interventions, and patient outcomes could improve clinical care.\nOBJECTIVES: To assess IL-6 as a mediator of effective interventions in ARDS and COVID-19.\nMETHODS: We leveraged individual patient data from 5 large randomized controlled trials. Interventions were imatinib, anakinra, low tidal volume ventilation, high positive end-expiratory pressure (PEEP), and simvastatin. We evaluated IL-6 as a mediator for the effectiveness of interventions on 28-day survival with joint modeling. Additionally, we analyzed the role of other pro-inflammatory markers (IL-8, tumor necrosis factor receptor 1, and C-reactive protein). The association between IL-6 and mortality was meta-analyzed using a random effects model.\nMEASUREMENTS AND MAIN RESULTS: For 2563 patients, IL-6 measures were available at baseline and at least 1 other timepoint. Interleukin-6 mediated the effects of imatinib, anakinra, and low tidal volume on mortality. Higher PEEP and simvastatin did not alter IL-6 trajectories. In all studies, there were associations between higher IL-6 concentrations and increased mortality over 28 days (pooled hazard ratio [HR] for a log10-unit increase = 4.83, 95% CI, 3.50-6.66).\nCONCLUSIONS: The mortality benefit by anakinra and imatinib in COVID-19 and low tidal volume ventilation in acute lung injury may operate through resolution of inflammation defined by a reduction in plasma IL-6 levels.",
-          "doi": "10.1093/ajrccm/aamag213",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42150114/"
-        },
-        {
-          "pmid": "42149703",
-          "title": "Critical illness outcomes of hospitalized pregnant women following a Texas abortion ban.",
-          "journal": "Am J Respir Crit Care Med",
-          "publicationDate": "2026 Aug 01",
-          "authors": [
-            "Chen C",
-            "Ashana DC",
-            "Callison K",
-            "Baker C",
-            "Burns RN",
-            "Cao J"
-          ],
-          "abstract": "IMPORTANCE: In September 2021, Texas Senate Bill 8 (SB8) banned abortion after embryonic cardiac activity.\nOBJECTIVE: To estimate the association of SB8 with critical illness rates.\nDESIGN: Interrupted time series (ITS).\nSETTING: Hospitals in Texas.\nPARTICIPANTS: Retrospective cohort of pregnant women between 10 and 54 years of age hospitalized between January 2018 and March 2024. A subgroup of patients with high-risk features, defined as age <18 or >34 years or ≥ 1 chronic illness.\nMEASUREMENTS: The primary outcome was critical illness, defined as sepsis or mechanical ventilation (MV). Secondary outcomes included sepsis, MV, and infection without organ dysfunction. ITS results are reported as the immediate step change and the sustained slope change (ie, difference in trend line slopes following vs without SB8).\nRESULTS: In the full cohort (n = 2 344 135), SB8 was not associated with rates of critical illness, sepsis, MV, or infection in adjusted analyses. Following SB8, significantly more hospitalized pregnant patients had high-risk features (slope change per quarter per 1000 hospitalizations: 0.92 [0.08, 1.77]). In the high-risk subgroup (n = 497 144), SB8 was significantly associated with sustained increases in critical illness, sepsis, and infection (slope changes per quarter per 1000 hospitalizations: 0.17 [0.02, 0.33], 0.15 [0.02, 0.28], 1.60 [1.02, 2.17], respectively), but not MV (slope change per quarter per 1000 hospitalizations: 0.05 [-0.03, 0.13]). No significant step changes were observed.\nCONCLUSION: Following SB8, hospitalized pregnant women with high-risk features experienced significant increases in rates of critical illness, sepsis, and infection. These results may inform infection prevention programs and critical illness training in abortion-restrictive states.",
-          "doi": "10.1093/ajrccm/aamag207",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42149703/"
-        },
-        {
-          "pmid": "42149702",
-          "title": "Rocuronium dose and first-attempt intubation success in the critically ill: secondary analysis of two multicenter trials.",
-          "journal": "Am J Respir Crit Care Med",
-          "publicationDate": "2026 Aug 01",
-          "authors": [
-            "April MD",
-            "Butler H",
-            "Demasi SC",
-            "Aggarwal NR",
-            "Andrea LJ",
-            "Barker AB"
-          ],
-          "abstract": "RATIONALE: The neuromuscular blockade dose may affect intubation success on the first attempt, thereby impacting outcomes for patients undergoing emergency tracheal intubation.\nOBJECTIVES: To evaluate the association between rocuronium dose and tracheal intubation outcomes among adults undergoing emergency tracheal intubation in the emergency department (ED) and intensive care unit (ICU).\nMETHODS: We conducted a secondary analysis of data from two multicenter randomized controlled trials studying airway management in the ED and ICU. We compared patient characteristics and intubation outcomes between patients receiving high-dose (>1.2 mg/kg) versus standard-dose (≤1.2 mg/kg) rocuronium. The primary outcome was successful intubation on the first attempt. We used propensity matching to account for measured potential confounders, stratified by setting.\nMEASUREMENTS AND MAIN RESULTS: Participating sites included 9 EDs and 24 ICUs in the United States. Among 2440 patients in the trial datasets, we included the 1822 (74.7%) patients who received rocuronium in the current analysis. Of these, 720 (39.5%) received high-dose rocuronium, and 1102 (60.5%) received standard-dose rocuronium. Participants receiving high-dose rocuronium had a higher probability of successful intubation on the first attempt (adjusted relative risk [RR] 1.07, 95% confidence interval [CI] 1.02-1.12). This difference in the primary outcome was not present for ED intubations (adjusted RR 0.97, 95% CI 0.89-1.04) but was present for ICU intubations (adjusted RR 1.13, 95% CI 1.06-1.20).\nCONCLUSIONS: In this secondary analysis, high-dose rocuronium (>1.2 mg/kg) was associated with higher first-attempt success. Given the potential for unmeasured confounding, these findings warrant evaluation in a randomized controlled trial.",
-          "doi": "10.1093/ajrccm/aamag203",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42149702/"
-        },
-        {
-          "pmid": "42134562",
-          "title": "Optimal Management for Moderate Aortic Stenosis at Time of Coronary Artery Bypass Grafting.",
-          "journal": "Ann Thorac Surg",
-          "publicationDate": "2026 Aug",
-          "authors": [
-            "Yu PJ",
-            "Newman J",
-            "Chang SC",
-            "Habib RH",
-            "O'Connor K",
-            "Patel N"
-          ],
-          "abstract": "BACKGROUND: Established guidelines recommend consideration of concomitant surgical aortic valve replacement (SAVR) at the time of coronary artery bypass grafting (CABG) in patients with moderate aortic stenosis (AS) to avoid future reoperation for AS progression. The advent of transcatheter aortic valve replacement allows treatment of AS without mediastinal entry. This questions the optimal treatment choice of moderate AS in patients undergoing CABG. We compared outcomes of CABG with or without SAVR in patients with moderate AS.\nMETHODS: Patients ≥65 years old with moderate AS who underwent CABG or CABG+SAVR from 2011 to 2022 were identified from The Society of Thoracic Surgeons Adult Cardiac Surgery Database. Exclusions included cardiogenic shock, endocarditis, severe aortic insufficiency, and non-sternotomy cases. Analyzed outcomes included perioperative complications, midterm mortality, and readmission for heart failure or aortic valve (AV) intervention.\nRESULTS: Of 18,247 patients, 9325 (51.1%) underwent CABG+SAVR and 8922 (48.9%) underwent isolated CABG. The isolated CABG cohort had lower operative mortality and postoperative complications. Risk-adjusted midterm outcomes showed similar all-cause mortality. Patients who underwent isolated CABG were at an increased risk for midterm readmission for heart failure and AV intervention. Rate of AV intervention at 8 years for isolated CABG patients compared with CABG+SAVR was 25.9% vs 2.4%, respectively.\nCONCLUSIONS: Deferring SAVR during CABG in patients with moderate AS may lower operative risk without affecting midterm mortality but increases heart failure readmissions and later AV interventions. Further studies are needed to determine whether delaying the AV intervention translates to reduced prosthetic valve degeneration without increasing long-term morbidity and mortality.",
-          "doi": "10.1016/j.athoracsur.2026.04.051",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42134562/"
-        }
-      ],
-      "importantArticles": [
-        {
-          "pmid": "40119480",
-          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
-          "journal": "J Intensive Care",
-          "publicationDate": "2025 Mar 21",
-          "authors": [
-            "Nakamura K",
-            "Yamamoto R",
-            "Higashibeppu N",
-            "Yoshida M",
-            "Tatsumi H",
-            "Shimizu Y"
-          ],
-          "abstract": "Nutrition therapy is important in the management of critically ill patients and is continuously evolving as new evidence emerges. The Japanese Critical Care Nutrition Guideline 2024 (JCCNG 2024) is specific to Japan and is the latest set of clinical practice guidelines for nutrition therapy in critical care that was revised from JCCNG 2016 by the Japanese Society of Intensive Care Medicine. An English version of these guidelines was created based on the contents of the original Japanese version. These guidelines were developed to help health care providers understand and provide nutrition therapy that will improve the outcomes of children and adults admitted to intensive care units or requiring intensive care, regardless of the disease. The intended users of these guidelines are all healthcare professionals involved in intensive care, including those who are not familiar with nutrition therapy. JCCNG 2024 consists of 37 clinical questions and 24 recommendations, covering immunomodulation therapy, nutrition therapy for special conditions, and nutrition therapy for children. These guidelines were developed in accordance with the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) system by experts from various healthcare professionals related to nutrition therapy and/or critical care. All GRADE-based recommendations, good practice statements (GPS), future research questions, and answers to background questions were finalized by consensus using the modified Delphi method. Strong recommendations for adults include early enteral nutrition (EN) within 48 h and the provision of pre/synbiotics. Weak recommendations for adults include the use of a nutrition protocol, EN rather than parenteral nutrition, the provision of higher protein doses, post-pyloric EN, continuous EN, omega-3 fatty acid-enriched EN, the provision of probiotics, and indirect calorimetry use. Weak recommendations for children include early EN within 48 h, bolus EN, and energy/protein-dense EN formulas. A nutritional assessment is recommended by GPS for both adults and children. JCCNG 2024 will be disseminated through educational activities mainly by the JCCNG Committee at various scientific meetings and seminars. Since studies on nutritional treatment for critically ill patients are being reported worldwide, these guidelines will be revised in 4 to 6 years. We hope that these guidelines will be used in clinical practice for critically ill patients and in future research.",
-          "doi": "10.1186/s40560-025-00785-z",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40119480/"
-        },
-        {
-          "pmid": "40668437",
-          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
-          "journal": "Ann Intensive Care",
-          "publicationDate": "2025 Jul 16",
-          "authors": [
-            "Jourdain M",
-            "Chatti IG",
-            "Housni B",
-            "Jaquet P",
-            "Jezequel M",
-            "Kane O"
-          ],
-          "abstract": "BACKGROUND: Although largely used, the place of extracorporeal renal replacement therapy (RRT) in acute kidney injury (AKI) in intensive care unit (ICU) patients has yet to be clarified. The French Intensive Care Society (Société de Réanimation de Langue Française, SRLF) and the French Pediatric Group of Intensive Care and Emergency (Groupe Francophone de Réanimation et d'Urgence Pédiatrique, GFRUP) organized a consensus conference in November 2024.\nMETHODS: A committee, without any conflict of interest (CoI) on the subject, defined seven generic questions and drew up a list of sub questions according to the population, intervention, comparison and outcomes (PICO) model. An independent work group reviewed literature using predefined keywords. The quality of the data was assessed using the GRADE methodology. Eighteen experts in the field from both societies proposed their own answers in a public session and answered questions from the jury (a panel of 14 critical-care medicine physicians and a nurse) and the public. The jury then met for 48 h to write out and vote on its recommendations.\nRESULTS: The panel provided 45 statements addressing seven questions. In patients, adults or children, admitted to the ICU with AKI (1) What are the indications for RRT, when should it be initiated, and within what timeframe? (2) What are the advantages/disadvantages of the different RRT modalities in ICU, and based on what criteria should they be chosen? (3) Which dose of dialysis should be prescribed for ICU patients? (4) How to prescribe, adjust and monitor each RRT technique? (5) Which vascular access technique should be preferred (insertion site, catheter type and length)? (6) How to prevent circuit thrombosis? (7) What are the criteria to consider weaning from RRT and how can it be achieved?\nCONCLUSIONS: These recommendations should optimize the prescription and use of RRT during AKI in ICUs for both adult and pediatric patients.",
-          "doi": "10.1186/s13613-025-01517-0",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40668437/"
-        },
-        {
-          "pmid": "40439782",
-          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
-          "journal": "Ann Intensive Care",
-          "publicationDate": "2025 May 29",
-          "authors": [
-            "Mekontso Dessap A",
-            "Dauger S",
-            "Khellaf M",
-            "Agbakou M",
-            "Agut S",
-            "Angoulvant F"
-          ],
-          "abstract": "Forty-two questions were evaluated concerning management of emergencies and critical illnesses in paediatric and adult patients with sickle cell disease. The assessment covered the following areas: patient referral, vaso-occlusive crisis, acute chest syndrome, transfusion therapy, and priapism. The patient referral category included guidelines for admission to intensive care unit and management at specialized reference centers. The vaso-occlusive crisis topic encompassed pain management, hydration, incentive spirometry, and target oxygen saturation levels. For acute chest syndrome, the focus areas included imaging techniques such as lung ultrasound, computed tomography scans, and echocardiography; treatment with systemic corticosteroids; non-invasive ventilation; prophylactic and therapeutic anticoagulation; and procalcitonin and antibiotic therapy. The section on transfusion therapy addressed indications and methods of transfusion, as well as the diagnosis and prediction of delayed hemolytic transfusion reactions. A total of 45 recommendations were proposed, including 14 specific to adults, 13 specific to pediatrics, and 18 applicable to both adults and children, along with three therapeutic algorithms. The Grade of Recommendation Assessment, Development, and Evaluation (GRADE) methodology was adhered to throughout the process. Sixteen recommendations were based on a low level of evidence (GRADE 2+ or 2-), while 26 were based on evidence that could not be classified under the GRADE system and were therefore considered expert opinions. Finally, for three aspects of sickle cell disease management, the experts concluded that no reliable recommendations could be made based on the current state of knowledge. The recommendations and therapeutic algorithms received strong agreement from the experts.",
-          "doi": "10.1186/s13613-025-01479-3",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40439782/"
-        },
-        {
-          "pmid": "40665004",
-          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
-          "journal": "Ann Intensive Care",
-          "publicationDate": "2025 Jul 15",
-          "authors": [
-            "Reignier J",
-            "Gaillard-Le Roux B",
-            "Dequin PF",
-            "Bertoni Maluf VA",
-            "Bohe J",
-            "Casaer MP"
-          ],
-          "abstract": "The objective of this work was to develop guidelines for nutritional support in critically ill adults and children (excluding neonates and burn patients) unable to maintain an adequate oral intake. We aimed to provide up-to-date recommendations based on high-level evidence including the results of recent landmark randomized controlled trials. Experts from the French Intensive Care Society (SRLF), the French Society of Clinical Nutrition and Metabolism (SFNCM), and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP) used the GRADE methodology to develop the guidelines. Twenty-four Patient Intervention Comparator Outcome (PICO) questions were identified, resulting in 34 adult and 29 pediatric recommendations. Of the 34 recommendations for adults, three were based on high-level evidence, 12 on moderate-level evidence, and 19 on expert opinion. The corresponding numbers for the 29 pediatric recommendations were one, five, and 23. All recommendations achieved strong agreement among the experts. These guidelines emphasize the importance of individualized nutritional support strategies that incorporate recent high-quality evidence to optimize the outcomes of critically ill patients.",
-          "doi": "10.1186/s13613-025-01509-0",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40665004/"
-        },
-        {
-          "pmid": "40198815",
-          "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
-          "journal": "Eur Heart J Acute Cardiovasc Care",
-          "publicationDate": "2025 Aug 06",
-          "authors": [
-            "Kerneis M",
-            "Ammirati E",
-            "Delmas C",
-            "Heggermont W",
-            "Heymans S",
-            "Lenz M"
-          ],
-          "abstract": "Acute Myocarditis (AM) encompasses a broad spectrum of clinical presentations and causes. Despite the recent advances in cardiovascular imaging, pathology, virology, and genetics, specific therapies are still lacking. This collaborative review aims to analyse the current evidence to answer practical questions that physicians may face during the early management of patients presenting with an acute form of the disease, complicated or not. This review analyses current evidence to address practical questions posed by acute cardiovascular physicians during the early management of acute, or potentially, myocarditis. Based on the current literature, this review provides a step-by-step approach to treat AM patients from their admission in the cardiac intensive care unit (CICU) to discharge, by answering 10 clinical questions: Might this patient be suffering from an AM? Should I hospitalize this patient and, if so, where? Which cardiac imaging exam should I perform and what can I learn from it? Is this patient requiring an EMB? What should the non-invasive aetiological work-up be? Is her/his episode of AM of viral, toxic, or other origin? Does this patient need specific treatments or mechanical circulatory support? Is there an indication for guideline-directed medical heart failure treatment? When can the patient be discharged and resume physical activity? Notably, this review highlights the need to build a multidisciplinary response team to address the many diagnostic and therapeutic challenges of AM patients. It also points out the lack of evidence to guide the treatment of these patients.",
-          "doi": "10.1093/ehjacc/zuaf057",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40198815/"
-        }
-      ],
-      "articleSummaries": {
-        "40119480": {
-          "pmid": "40119480",
-          "title": "The Japanese Critical Care Nutrition Guideline 2024.",
-          "generatedAt": "2026-06-11T01:17:01.751Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 2024年日本重症栄養ガイドライン（JCCNG 2024）は、重症患者の栄養療法に関する最新の臨床ガイドラインで、免疫調整療法や小児栄養療法などに焦点を当てた。  \nPICU/CICUでの意味: 小児重症患者の栄養管理において、疾患にかかわらず重症治療が必要な患者への適切な栄養療法の実践を支援する。  \n注意点: ガイドラインは日本版に基づく英語版であり、地域の実情に応じた調整が必要である。"
-        },
-        "40198815": {
-          "pmid": "40198815",
-          "title": "Clinical management of acute myocarditis in daily practice: an expert practical view.",
-          "generatedAt": "2026-06-26T22:38:58.615Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 急性心筋炎（AM）の臨床管理において、特定の治療法は未確立で、画像診断や病因検査を含む段階的アプローチが推奨される。  \nPICU/CICUでの意味: 患者の早期管理において、診断・治療の実践的ガイドラインとして有用な10の臨床的疑問点への回答が提供される。  \n注意点: 抽象には本論文の導入部と10の疑問点のみが記載されており、詳細な臨床データや実践的アプローチの具体的内容は本文に依存する。"
-        },
-        "40439782": {
-          "pmid": "40439782",
-          "title": "Guidelines for the management of emergencies and critical illness in pediatric and adult patients with sickle cell disease.",
-          "generatedAt": "2026-06-11T01:17:26.413Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 本ガイドラインでは、小児および成人のスクリーレル病患者における緊急症候群や重症疾患の管理について、42の質問に係る45の推奨事項が提示されている。  \n- PICU/CICUでの意味: ICU入院基準や専門センターでの管理、急性胸症候群の非侵襲的換気や抗凝固療法など、小児・成人共通の重症管理戦略が明記されている。  \n- 注意点: 抽象のみに基づくため、priapismや遅延性溶血性輸血反応の診断・予測に関する詳細は含まれていない。推奨事項は専門家合意に基づくものであり、ランダム化比較試験の結果ではない。"
-        },
-        "40665004": {
-          "pmid": "40665004",
-          "title": "Expert consensus‑based clinical practice guidelines for nutritional support in the intensive care unit: the French Intensive Care Society (SRLF) and the French-Speaking Group of Pediatric Emergency Physicians and Intensivists (GFRUP).",
-          "generatedAt": "2026-06-11T01:17:13.713Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 重症成人および児童（新生児・火傷患者を除く）の栄養支援に関する、最新の根拠に基づく臨床ガイドラインが作成されました。  \nPICU/CICUでの意味: これらのガイドラインは、小児重症患者における個別化された栄養支援戦略の実践を支援する重要な指針です。  \n注意点: 小児向けの推奨事項は主に専門家の意見に基づくため、根拠の強さに留意しつつ臨床に活用する必要があります。"
-        },
-        "40668437": {
-          "pmid": "40668437",
-          "title": "Renal replacement therapy in an intensive care unit: guidelines from the SRLF-GFRUP consensus conference.",
-          "generatedAt": "2026-06-11T01:17:36.989Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 本ガイドラインでは、急性腎不全（AKI）の重症患者における外来腎置換療法（RRT）の適応と実施に関する7つの質問に対する45の声明が提示された。  \n- PICU/CICUでの意味: RRTの施行において、患者の状態や治療目標に応じた個別化されたアプローチが重要であり、ガイドラインは臨床判断を支援するもの。  \n- 注意点: 抽象のみが提供されており、実際の臨床実践への直接的な影響は明示されていない。"
-        },
-        "41995635": {
-          "pmid": "41995635",
-          "title": "Long-Term Survival Advantage of Reoperative Surgical Mitral Valve Replacement Over Transcatheter Mitral Valve-in-Valve: A Multicenter Cohort.",
-          "generatedAt": "2026-06-15T23:56:51.310Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 長期生存率において、再手術的二尖弁置換（rSMVR）は経導管的二尖弁-in-Valve（mViV）よりも優位であり、5年後の死亡率が有意に低い（20.3% vs 40.9%）。  \n- PICU/CICUでの意味: 成人患者における術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 研究対象は成人で、小児患者における長期結果や手術リスクのデータは含まれていない。"
-        },
-        "42134562": {
-          "pmid": "42134562",
-          "title": "Optimal Management for Moderate Aortic Stenosis at Time of Coronary Artery Bypass Grafting.",
-          "generatedAt": "2026-07-23T23:01:40.744Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 65歳以上の中等度主動脈狭窄症患者において、冠動脈バイパス術（CABG）単独施行は、術中死亡率や術後合併症のリスクが低いことが示された。  \n- PICU/CICUでの意味: 成人患者における術前評価や術後管理の指針に参考となるが、小児患者への直接的な適用は限定的。  \n- 注意点: 抽象のみに基づくため、術後合併症の詳細なリスク調整や長期結果は不明。研究対象は成人であり、小児患者の臨床に即したデータは不足している。"
-        },
-        "42149702": {
-          "pmid": "42149702",
-          "title": "Rocuronium dose and first-attempt intubation success in the critically ill: secondary analysis of two multicenter trials.",
-          "generatedAt": "2026-07-31T23:07:16.675Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 高用量ロクロニウム（＞1.2 mg/kg）は成人の緊急気管挿管において、初回挿管成功との関連性が示唆された。  \n- PICU/CICUでの意味: 成人患者における結果は子供の臨床に直接適用できない可能性があり、子供特有の要因を考慮する必要がある。  \n- 注意点: 研究は抽象データに基づく二次分析であり、子供への適用可能性は不明。観察研究のため、臨床実践への影響は限定的。"
-        },
-        "42149703": {
-          "pmid": "42149703",
-          "title": "Critical illness outcomes of hospitalized pregnant women following a Texas abortion ban.",
-          "generatedAt": "2026-07-31T23:07:05.542Z",
-          "model": "qwen3:8b",
-          "summary": "要点: テキサス州の abortion 禁止法（SB8）は、入院中の妊娠婦の重症化率や敗血症、人工呼吸器使用に統計的に有意な影響を示さなかった。  \nPICU/CICUでの意味: 妊娠婦の重症リスク因子（高齢化や慢性疾患）の増加は、小児救急医療に間接的な関連性を示唆する可能性があるが、直接的な臨床影響は不明。  \n注意点: 結果は観察研究に基づくため、因果関係の推定には限界があり、小児患者への適用可能性は限定的である。"
-        },
-        "42150114": {
-          "pmid": "42150114",
-          "title": "Interleukin-6 is a mediator of therapeutic efficacy in acute lung injury.",
-          "generatedAt": "2026-07-31T23:06:52.552Z",
-          "model": "qwen3:8b",
-          "summary": "要点: IL-6はARDSやCOVID-19における治療効果の媒介因子として関与している可能性が示唆されている。  \nPICU/CICUでの意味: 急性呼吸不全の重症度評価や治療効果のメカニズム理解にIL-6の測定が関連する可能性がある。  \n注意点: 研究は成人データに基づくため、小児での適用には注意が必要であり、臨床実践への直接的な影響は限定的である。"
-        },
-        "42463149": {
-          "pmid": "42463149",
-          "title": "Family Partnership in Pediatric Cardiology and Palliative Care Research.",
-          "generatedAt": "2026-08-01T23:00:37.500Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 家族との連携が小児循環器疾患および緩和ケア研究における重要性を強調している。  \nPICU/CICUでの意味: 家族の参加が患者のケア品質や心理的支援に影響を与える可能性を示唆している。  \n注意点: 抽象が提供されていないため、具体的な研究内容や臨床への影響は不明である。"
-        },
-        "42463152": {
-          "pmid": "42463152",
-          "title": "Death and Cardiac Disease in Pediatric Hospitals and the Role of Subspecialty Palliative Care.",
-          "generatedAt": "2026-08-01T23:00:29.659Z",
-          "model": "qwen3:8b",
-          "summary": "- 要点: 終末期ケアにおいて高医療強度治療や心肺蘇生が頻繁に用いられ、専門的緩和ケアの介入が68%の患者に見られた。  \n- PICU/CICUでの意味: 終末期患者の管理において緩和ケアチームの早期介入が重要であり、心疾患の種別（例：心筋症・移植）が終末期医療の強度に影響を与える可能性を示唆している。  \n- 注意点: 結果は抽象のみに基づくため、 retrospecive研究の限界やバイアスの可能性に留意する必要がある。"
-        },
-        "42481020": {
-          "pmid": "42481020",
-          "title": "Cardiogenic Shock in a Toddler With Rickets.",
-          "generatedAt": "2026-08-01T23:00:16.547Z",
-          "model": "qwen3:8b",
-          "summary": "要点: ビタミンD欠乏性くる病が原因の拡張型心筋症（DCM）による心因性ショックが乳幼児に見られる。  \nPICU/CICUでの意味: 乳児の心因性ショックではビタミンD欠乏性くる病を鑑別診断に含め、ECMOやLVADなどの高度な救命措置が必要な場合がある。  \n注意点: 無症候性DCMの原因としてビタミンD欠乏性くる病を疑うべきであり、早期補正が治療成績に影響する可能性がある。"
-        },
-        "42486492": {
-          "pmid": "42486492",
-          "title": "Influenza, COVID-19, and RSV Vaccinations for Immunocompromised Children and Household Contacts.",
-          "generatedAt": "2026-08-01T23:00:05.505Z",
-          "model": "qwen3:8b",
-          "summary": "要点: 免疫不全児童はインフルエンザ・COVID-19・RSVなどの予防接種可能な呼吸器ウイルス感染症による重症化リスクが高く、予防接種の重要性が強調される。  \nPICU/CICUでの意味: 免疫不全児童は感染症によるICU入院や重症化のリスクが高く、予防接種の実施が感染制御と重症化予防に寄与する可能性がある。  \n注意点: 免疫不全児童におけるワクチン効果や免疫応答に関するデータが限られているため、接種推奨は健康児童や成人のデータに基づくが、集団免疫の低下や接種率の低さがリスクを高めている。"
-        }
-      }
     }
   ],
-  "lastAutoRunAt": "2026-10-13T03:41:21.718Z",
-  "lastAutoRunDate": "2026-10-13",
-  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 40163358: 順次AI要約済み / PMID 40105833: 順次AI要約済み / PMID 41217984: 順次AI要約済み / PMID 42692047: 順次AI要約済み / 順次AI要約: 4件追加 / 6/13件済み",
-  "lastImportantRunAt": "2026-10-13T03:41:21.718Z",
+  "lastAutoRunAt": "2026-10-16T03:04:34.413Z",
+  "lastAutoRunDate": "2026-10-16",
+  "lastAutoRunStatus": "PICU/CICU重点: 5件取得 / 主要誌横断: 5件取得 / PMID 42684931: AI要約失敗 (AI接続エラー) / PMID 42648303: AI要約失敗 (AI接続エラー) / PMID 42272421: AI要約失敗 (AI接続エラー) / PMID 42217157: AI要約失敗 (AI接続エラー) / 順次AI要約: 0件追加 / 6/13件済み",
+  "lastImportantRunAt": "2026-10-16T03:04:34.413Z",
   "lastImportantRunStatus": "重要論文候補 5件取得 / 順次AI要約 5/5件済み / 全体未要約 7件"
 }
